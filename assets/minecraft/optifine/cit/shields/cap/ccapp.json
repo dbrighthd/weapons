@@ -1,11 +1,11 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/iron_block",
-		"1": "block/blue_concrete",
-		"2": "block/brown_concrete",
-		"3": "block/red_concrete",
-		"particle": "block/iron_block"
+		"0": "./block/iron_block",
+		"1": "./block/blue_concrete",
+		"2": "./block/brown_concrete",
+		"3": "./block/red_concrete",
+		"particle": "./block/iron_block"
 	},
 	"elements": [
 		{
@@ -535,7 +535,7 @@
 		},
 		"fixed": {
 			"rotation": [0, -180, 0],
-			"translation": [0, -1, 0]
+			"translation": [0, -0.5, -0.5]
 		}
 	},
 	"groups": [
