@@ -1,7 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "block/oak_trapdoor"
+		"0": "block/oak_trapdoor",
+		"particle": "block/oak_trapdoor"
 	},
 	"elements": [
 		{
@@ -9,12 +10,12 @@
 			"to": [15.5, 17, 9],
 			"rotation": {"angle": 0, "axis": "y", "origin": [16, 16, 14]},
 			"faces": {
-				"north": {"uv": [16, 0, 0, 16], "texture": "#1"},
-				"east": {"uv": [0, 3, 16, 0], "rotation": 90, "texture": "#1"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#1"},
-				"west": {"uv": [0, 0, 16, 3], "rotation": 90, "texture": "#1"},
-				"up": {"uv": [0, 3, 16, 0], "texture": "#1"},
-				"down": {"uv": [0, 0, 16, 3], "texture": "#1"}
+				"north": {"uv": [16, 0, 0, 16], "texture": "#0"},
+				"east": {"uv": [0, 3, 16, 0], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 3], "rotation": 90, "texture": "#0"},
+				"up": {"uv": [0, 3, 16, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 3], "texture": "#0"}
 			}
 		}
 	],
@@ -25,8 +26,7 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [0, 94, -56],
-			"translation": [2.25, -5.75, 4],
-			"scale": [1, 1, 0.33]
+			"translation": [2.25, -5.75, 4]
 		},
 		"ground": {
 			"translation": [0, 0.25, 0],
