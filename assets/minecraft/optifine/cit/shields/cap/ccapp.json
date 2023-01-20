@@ -521,8 +521,7 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [0, -180, 9],
-			"translation": [-4, -4.25, 0],
-			"scale": [1, 1, 0.33]
+			"translation": [-4, -4.25, 0]
 		},
 		"ground": {
 			"translation": [0, 2.75, 0],
@@ -530,8 +529,8 @@
 		},
 		"gui": {
 			"rotation": [2, -37, -7],
-			"translation": [0, -1.5, 1],
-			"scale": [0.69, 0.69, 0.29]
+			"translation": [0, -0.5, 1],
+			"scale": [0.81, 0.81, 0.81]
 		},
 		"fixed": {
 			"rotation": [0, -180, 0],

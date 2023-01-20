@@ -453,17 +453,16 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [0, -180, -14],
-			"translation": [-4, -1.5, 0],
-			"scale": [1, 1, 0.33]
+			"translation": [-4, -1.5, 0]
 		},
 		"ground": {
 			"translation": [0, 0.25, 0],
-			"scale": [0.34, 0.34, 0.19]
+			"scale": [0.34, 0.34, 0.34]
 		},
 		"gui": {
 			"rotation": [2, -37, -7],
-			"translation": [0, -1.5, 1],
-			"scale": [0.69, 0.69, 0.29]
+			"translation": [0, -1, 1],
+			"scale": [0.96, 0.96, 0.96]
 		}
 	},
 	"groups": [
