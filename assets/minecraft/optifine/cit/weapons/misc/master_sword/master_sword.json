@@ -518,14 +518,14 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [40, 90, 0],
-			"translation": [-0.25, 8.5, 0],
-			"scale": [1.07, 1.07, 1.07]
+			"rotation": [45, 90, 0],
+			"translation": [-0.25, 10.25, 0.25],
+			"scale": [1.37, 1.37, 1.37]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [40, -90, 0],
-			"translation": [0.25, 8.5, 0],
-			"scale": [1.07, 1.07, 1.07]
+			"rotation": [45, -90, 0],
+			"translation": [0.25, 10.25, 0.25],
+			"scale": [1.37, 1.37, 1.37]
 		},
 		"firstperson_righthand": {
 			"rotation": [34, -90, 60],
