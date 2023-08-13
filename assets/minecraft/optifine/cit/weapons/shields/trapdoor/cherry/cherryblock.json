@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "./cherry_trapdoor",
-		"particle": "./cherry_trapdoor"
+		"0": "block/cherry_trapdoor",
+		"particle": "block/cherry_trapdoor"
 	},
 	"elements": [
 		{
