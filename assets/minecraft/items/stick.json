@@ -1,0 +1,44 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": [
+            "Darksaber Hilt",
+            "The Darksaber's Hilt"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/lightsabers/dark/darksaber_hilt"
+          }
+        },
+        {
+          "when": "Lightsaber Hilt",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/lightsabers/lightsaberhilt"
+          }
+        },
+        {
+          "when": "Double Lightsaber Hilt",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/lightsabers/doublelightsaberhilt"
+          }
+        },
+        {
+          "when": "Crossguard Lightsaber Hilt",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/lightsabers/xguardlightsaberhilt"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/stick"
+      }
+    }
+  }

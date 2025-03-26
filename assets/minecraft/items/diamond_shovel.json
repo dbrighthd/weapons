@@ -1,0 +1,34 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when":"Ruby Shovel",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/ruby_set/items/diamond/ruby_shovel"
+          }
+        },
+        {
+          "when":"Emerald Shovel",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/emerald_set/items/diamond/emerald_shovel"
+          }
+        },
+        {
+          "when":"Amethyst Shovel",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_shovel"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/diamond_shovel"
+      }
+    }
+  }

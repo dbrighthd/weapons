@@ -1,0 +1,90 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when":"Swordfish",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/misc/swordfish/swordfish"
+          }
+        },
+        {
+          "when":"Ruby Sword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/ruby_set/items/diamond/ruby_sword"
+          }
+        },
+        {
+          "when":"Emerald Sword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/emerald_set/items/diamond/emerald_sword"
+          }
+        },
+        {
+          "when":"Amethyst Sword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_sword"
+          }
+        },
+        {
+          "when": "Flaming Diamond Sword",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/flaming_diamond_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_sword"
+            }
+          }
+        },
+        {
+          "when":"Diamond Broadsword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/broadswords/broadswordd"
+          }
+        },
+        {
+          "when":"Diamond Claymore",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/claymores/claymored"
+          }
+        },
+        {
+          "when":"Diamond Cutlass",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/cutlasses/cutlassd"
+          }
+        },
+        {
+          "when":"Diamond Katana",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/katanas/katanad"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/diamond_sword"
+      }
+    }
+  }

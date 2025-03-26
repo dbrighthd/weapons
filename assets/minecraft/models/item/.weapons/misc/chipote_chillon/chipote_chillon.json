@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/.weapons/misc/chipote_chillon/chipote_chillon"
+  }
+}

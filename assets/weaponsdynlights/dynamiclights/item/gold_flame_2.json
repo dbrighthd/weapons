@@ -1,0 +1,15 @@
+{
+    "match": {
+      "items":"minecraft:golden_sword",
+      "predicates": {
+        "minecraft:enchantments": [
+          {
+            "minecraft:custom_name": "{\"text\":\"Flaming Golden Sword\"}",
+            "enchantments": [ "minecraft:fire_aspect" ]
+          }
+        ]
+      }
+    },
+    "luminance": 12,
+    "water_sensitive": false
+  }

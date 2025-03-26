@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/.weapons/copper_set/i/exposed/exposed_copper_hoe"
+  }
+}

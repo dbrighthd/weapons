@@ -1,0 +1,139 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when":"Oxidized Copper Axe",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/copper_set/i/oxidized/oxidized_copper_axe"
+          }
+        },
+        {
+          "when":"Weathered Copper Axe",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/copper_set/i/weathered/weathered_copper_axe"
+          }
+        },
+        {
+          "when":"Exposed Copper Axe",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/copper_set/i/exposed/exposed_copper_axe"
+          }
+        },
+        {
+          "when":"Waxed Copper Axe",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/copper_set/i/zzz/copper_axe"
+          }
+        },
+        {
+          "when": "Copper Axe",
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:damage",
+            "scale": 5,
+            "entries": [
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/i/zzz/copper_axe"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/i/exposed/exposed_copper_axe"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/i/weathered/weathered_copper_axe"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/i/oxidized/oxidized_copper_axe"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/copper_set/i/zzz/copper_axe"
+            }
+          }
+        },
+        {
+          "when":"Iron Blue Axe-olotl",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/axe-olotls/i/bluei"
+          }
+        },
+        {
+          "when":"Iron Cyan Axe-olotl",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/axe-olotls/i/cyani"
+          }
+        },
+        {
+          "when":"Iron Wild Axe-olotl",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/axe-olotls/i/wildi"
+          }
+        },
+        {
+          "when":"Iron Gold Axe-olotl",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/axe-olotls/i/goldi"
+          }
+        },
+        {
+          "when":"Iron Lucy Axe-olotl",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/axe-olotls/i/lucyi"
+          }
+        },
+        {
+          "when":"Iron Axe-olotl",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/axe-olotls/i/lucyi"
+          }
+        },
+        {
+          "when":"Iron Double Axe",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/double_axes/double_axei"
+          }
+        },
+        {
+          "when":"Iron Dungeons Axe",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_axes/dungeons_axei"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/iron_axe"
+      }
+    }
+  }

@@ -1,0 +1,10 @@
+{
+  "match": {
+  "items": "minecraft:netherite_sword",
+  "components": {
+    "minecraft:custom_name": "Yellow Double Lightsaber"
+  }
+},
+  "luminance": 10,
+  "water_sensitive": false
+}

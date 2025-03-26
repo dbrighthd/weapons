@@ -1,0 +1,62 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": "Flaming Stone Sword",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/flaming_stone_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/stone_sword"
+            }
+          }
+        },
+        {
+          "when":"Stone Broadsword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/broadswords/broadswords"
+          }
+        },
+        {
+          "when":"Stone Claymore",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/claymores/claymores"
+          }
+        },
+        {
+          "when":"Stone Cutlass",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/cutlasses/cutlasss"
+          }
+        },
+        {
+          "when":"Stone Katana",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/katanas/katanas"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/stone_sword"
+      }
+    }
+  }

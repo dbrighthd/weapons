@@ -1,0 +1,15 @@
+{
+    "match": {
+      "items":"minecraft:diamond_sword",
+      "predicates": {
+        "minecraft:enchantments": [
+          {
+            "minecraft:custom_name": "{\"text\":\"Flaming Diamond Sword\"}",
+            "enchantments": [ "minecraft:fire_aspect" ]
+          }
+        ]
+      }
+    },
+    "luminance": 12,
+    "water_sensitive": false
+  }

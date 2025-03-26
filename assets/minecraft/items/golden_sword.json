@@ -1,0 +1,126 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": [
+            "Sword of Fire", 
+            "The Sword of Fire"
+          ],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/golden_weapons_of_spinjitzu/sword_of_fire"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/netherite_sword"
+            }
+          }
+        },
+        {
+          "when": [
+            "Nunchucks of Lightning", 
+            "The Nunchucks of Lightning"
+          ],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:selected",
+            "on_true": {
+              "type": "minecraft:condition",
+              "property": "minecraft:keybind_down",
+              "keybind": "key.attack",
+              "on_true": {
+                "type": "minecraft:select",
+                "property": "minecraft:display_context",
+                "cases": [
+                  {
+                    "when": "gui",
+                    "model": {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/golden_weapons_of_spinjitzu/nunchucks_of_lightning"
+                    }
+                  }
+                ],
+                "fallback": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/golden_weapons_of_spinjitzu/nunchucks_of_lightning_swinging"
+                }
+              },
+              "on_false": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/golden_weapons_of_spinjitzu/nunchucks_of_lightning"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/golden_weapons_of_spinjitzu/nunchucks_of_lightning"
+            }
+          }
+        },
+        {
+          "when": "Flaming Golden Sword",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/flaming_golden_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_sword"
+            }
+          }
+        },
+        {
+          "when":"Golden Claymore",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/claymores/claymoreg"
+          }
+        },
+        {
+          "when":"Golden Broadsword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/broadswords/broadswordg"
+          }
+        },
+        {
+          "when":"Golden Cutlass",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/cutlasses/cutlassg"
+          }
+        },
+        {
+          "when":"Golden Katana",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/katanas/katanag"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/golden_sword"
+      }
+    }
+  }

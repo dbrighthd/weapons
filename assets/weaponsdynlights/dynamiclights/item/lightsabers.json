@@ -1,0 +1,11 @@
+{
+ "match": {
+       "items":"minecraft:netherite_sword",
+         "components": {
+         "minecraft:enchantments": {
+         "minecraft:sharpness": 5
+         }
+        } 
+    },
+    "luminance": 5
+}

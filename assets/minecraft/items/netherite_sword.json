@@ -1,0 +1,479 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when":"Pink Sword",
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/misc/pink/pink"
+        }
+      },
+      {
+        "when":"Murasama Blade",
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/misc/murasama/murasamablade"
+        }
+      },
+      {
+        "when":"Master Sword",
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/misc/master_sword/master_sword"
+        }
+      },
+      {
+        "when":"Splendor is Justice",
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/misc/justicesplendor/splendorisjustice"
+        }
+      },
+      {
+        "when":"Justice is Splendor",
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/misc/justicesplendor/justiceissplendor"
+        }
+      },
+      {
+        "when":"Meteor Sword",
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/misc/meteor_sword/meteor_sword"
+        }
+      },
+      {
+        "when":"Cocktail Stick",
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/misc/cocktail_stick/cocktail_stick"
+        }
+      },
+      {
+        "when":"Beskad",
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/misc/beskad/beskad"
+        }
+      },
+      {
+        "when":"Bat'leth",
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/misc/batleth/batleth"
+        }
+      },
+      {
+        "when":"Meowmere",
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/meowmere/meowmere"
+        }
+      },
+      {
+        "when":"Ruby Sword",
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/ruby_set/items/netherite/ruby_sword"
+        }
+      },
+      {
+        "when":"Emerald Sword",
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/emerald_set/items/netherite/emerald_sword"
+        }
+      },
+      {
+        "when":"Amethyst Sword",
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/amethyst_set/items/netherite/amethyst_sword"
+        }
+      },
+      {
+        "when":"Oxidized Copper Sword",
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/copper_set/n/oxidized/oxidized_copper_sword"
+        }
+      },
+      {
+        "when":"Weathered Copper Sword",
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/copper_set/n/weathered/weathered_copper_sword"
+        }
+      },
+      {
+        "when":"Exposed Copper Sword",
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/copper_set/n/exposed/exposed_copper_sword"
+        }
+      },
+      {
+        "when":"Waxed Copper Sword",
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/copper_set/n/zzz/copper_sword"
+        }
+      },
+      {
+        "when": "Copper Sword",
+        "model": {
+          "type": "minecraft:range_dispatch",
+          "property": "minecraft:damage",
+          "scale": 5,
+          "entries": [
+            {
+              "threshold": 1,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/copper_set/n/zzz/copper_sword"
+              }
+            },
+            {
+              "threshold": 2,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/copper_set/n/exposed/exposed_copper_sword"
+              }
+            },
+            {
+              "threshold": 3,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/copper_set/n/weathered/weathered_copper_sword"
+              }
+            },
+            {
+              "threshold": 4,
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/copper_set/n/oxidized/oxidized_copper_sword"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/copper_set/n/zzz/copper_sword"
+          }
+        }
+      },
+      {
+        "when": [
+          "Sword of Fire",
+          "The Sword of Fire"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:enchantments",
+          "value": [
+            {
+              "enchantments": "minecraft:fire_aspect"
+            }
+          ],
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/golden_weapons_of_spinjitzu/sword_of_fire"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/netherite_sword"
+          }
+        }
+      },
+      {
+        "when": [
+          "Nunchucks of Lightning",
+          "The Nunchucks of Lightning"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:selected",
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:keybind_down",
+            "keybind": "key.attack",
+            "on_true": {
+              "type": "minecraft:select",
+              "property": "minecraft:display_context",
+              "cases": [
+                {
+                  "when": "gui",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/.weapons/golden_weapons_of_spinjitzu/nunchucks_of_lightning"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/golden_weapons_of_spinjitzu/nunchucks_of_lightning_swinging"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/golden_weapons_of_spinjitzu/nunchucks_of_lightning"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/golden_weapons_of_spinjitzu/nunchucks_of_lightning"
+          }
+        }
+      },
+      {
+        "when": "Soulfire Netherite Sword",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:enchantments",
+          "value": [
+            {
+              "enchantments": "minecraft:fire_aspect"
+            }
+          ],
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/flaming_swords/soulfire_netherite_sword"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/netherite_sword"
+          }
+        }
+      },
+      {
+        "when": "Flaming Netherite Sword",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:enchantments",
+          "value": [
+            {
+              "enchantments": "minecraft:fire_aspect"
+            }
+          ],
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/flaming_swords/flaming_netherite_sword"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/netherite_sword"
+          }
+        }
+      },
+      {
+        "when": "Netherite Broadsword",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/broadswords/broadswordn"
+        }
+      },
+      {
+        "when": "Netherite Claymore",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/claymores/claymoren"
+        }
+      },
+      {
+        "when": "Netherite Cutlass",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/cutlasses/cutlassn"
+        }
+      },
+      {
+        "when": "Netherite Katana",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/katanas/katanan"
+        }
+      },
+      {
+        "when": [
+          "Darksaber",
+          "The Darksaber"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/dark/darksaber"
+        }
+      },
+      {
+        "when": "Yellow Lightsaber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/yellow/yellowlightsaber"
+        }
+      },
+      {
+        "when": [
+          "Yellow Double Lightsaber"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/yellow/yellowdoublelightsaber"
+        }
+      },
+      {
+        "when": "Yellow Crossguard Lightsaber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/yellow/yellowxguardlightsaber"
+        }
+      },
+      {
+        "when": "White Lightsaber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/white/whitelightsaber"
+        }
+      },
+      {
+        "when": [
+          "White Double Lightsaber"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/white/whitedoublelightsaber"
+        }
+      },
+      {
+        "when": "White Crossguard Lightsaber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/white/whitexguardlightsaber"
+        }
+      },
+      {
+        "when": "Red Lightsaber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/red/redlightsaber"
+        }
+      },
+      {
+        "when": [
+          "Red Double Lightsaber"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/red/reddoublelightsaber"
+        }
+      },
+      {
+        "when": "Red Crossguard Lightsaber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/red/redxguardlightsaber"
+        }
+      },
+      {
+        "when": "Purple Lightsaber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/purple/purplelightsaber"
+        }
+      },
+      {
+        "when": [
+          "Purple Double Lightsaber"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/purple/purpledoublelightsaber"
+        }
+      },
+      {
+        "when": "Purple Crossguard Lightsaber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/purple/purplexguardlightsaber"
+        }
+      },
+      {
+        "when": "Orange Lightsaber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/orange/orangelightsaber"
+        }
+      },
+      {
+        "when": [
+          "Orange Double Lightsaber"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/orange/orangedoublelightsaber"
+        }
+      },
+      {
+        "when": "Orange Crossguard Lightsaber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/orange/orangexguardlightsaber"
+        }
+      },
+      {
+        "when": "Green Lightsaber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/green/greenlightsaber"
+        }
+      },
+      {
+        "when": [
+          "Green Double Lightsaber"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/green/greendoublelightsaber"
+        }
+      },
+      {
+        "when": "Green Crossguard Lightsaber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/green/greenxguardlightsaber"
+        }
+      },
+      {
+        "when": "Blue Lightsaber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/blue/bluelightsaber"
+        }
+      },
+      {
+        "when": [
+          "Blue Double Lightsaber"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/blue/bluedoublelightsaber"
+        }
+      },
+      {
+        "when": "Blue Crossguard Lightsaber",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lightsabers/blue/bluexguardlightsaber"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_sword"
+    }
+  }
+}

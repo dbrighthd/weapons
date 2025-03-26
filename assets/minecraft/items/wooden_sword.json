@@ -1,0 +1,79 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when":"Macuahuitl",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/misc/macuahuitl/macuahuitl"
+          }
+        },
+        {
+          "when":[
+            "Bamboo Training Sword",
+            "Kendo Shinai"
+          ],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/misc/bamboo_training/bamboo_training"
+          }
+        },
+        {
+          "when": "Flaming Wooden Sword",
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/flaming_wooden_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/wooden_sword"
+            }
+          }
+        },
+        {
+          "when":"Wooden Broadsword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/broadswords/broadswordw"
+          }
+        },
+        {
+          "when":"Wooden Claymore",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/claymores/claymorew"
+          }
+        },
+        {
+          "when":"Wooden Cutlass",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/cutlasses/cutlassw"
+          }
+        },
+        {
+          "when":"Wooden Katana",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/katanas/katanaw"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/wooden_sword"
+      }
+    }
+  }

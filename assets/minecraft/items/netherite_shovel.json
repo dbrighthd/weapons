@@ -1,0 +1,104 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when":"Ruby Shovel",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/ruby_set/items/netherite/ruby_shovel"
+          }
+        },
+        {
+          "when":"Emerald Shovel",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/emerald_set/items/netherite/emerald_shovel"
+          }
+        },
+        {
+          "when":"Amethyst Shovel",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/amethyst_set/items/netherite/amethyst_shovel"
+          }
+        },
+        {
+          "when":"Oxidized Copper Shovel",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/copper_set/n/oxidized/oxidized_copper_shovel"
+          }
+        },
+        {
+          "when":"Weathered Copper Shovel",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/copper_set/n/weathered/weathered_copper_shovel"
+          }
+        },
+        {
+          "when":"Exposed Copper Shovel",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/copper_set/n/exposed/exposed_copper_shovel"
+          }
+        },
+        {
+          "when":"Waxed Copper Shovel",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/copper_set/n/zzz/copper_shovel"
+          }
+        },
+        {
+          "when": "Copper Shovel",
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:damage",
+            "scale": 5,
+            "entries": [
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/n/zzz/copper_shovel"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/n/exposed/exposed_copper_shovel"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/n/weathered/weathered_copper_shovel"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/n/oxidized/oxidized_copper_shovel"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/copper_set/n/zzz/copper_shovel"
+            }
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/netherite_shovel"
+      }
+    }
+  }

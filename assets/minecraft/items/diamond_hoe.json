@@ -1,0 +1,41 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when":"Ruby Hoe",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/ruby_set/items/diamond/ruby_hoe"
+          }
+        },
+        {
+          "when":"Emerald Hoe",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/emerald_set/items/diamond/emerald_hoe"
+          }
+        },
+        {
+          "when":"Amethyst Hoe",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_hoe"
+          }
+        },
+        {
+          "when": "Diamond Scythe",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/scythes/d/scythed"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/diamond_hoe"
+      }
+    }
+  }
