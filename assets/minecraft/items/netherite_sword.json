@@ -5,6 +5,13 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
+        "when": "J4x's Medium Sword",
+        "model": {
+          "type": "minecraft:model",
+          "model":"minecraft:item/.weapons/misc/j4x/j4xsword"
+        }
+      },
+      {
         "when":"Pink Sword",
         "model": {
           "type":"minecraft:model",
