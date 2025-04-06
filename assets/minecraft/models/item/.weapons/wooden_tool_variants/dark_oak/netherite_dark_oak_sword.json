@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/.weapons/wooden_tool_variants/dark_oak/netherite_dark_oak_sword"
+  }
+}

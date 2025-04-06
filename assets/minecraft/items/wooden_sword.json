@@ -5,6 +5,90 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":"Warped Sword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/wooden_tool_variants/warped/warped_sword"
+          }
+        },
+        {
+          "when":"Crimson Sword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/wooden_tool_variants/crimson/crimson_sword"
+          }
+        },
+        {
+          "when":"Pale Oak Sword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/wooden_tool_variants/pale_oak/pale_oak_sword"
+          }
+        },
+        {
+          "when":"Bamboo Sword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/wooden_tool_variants/bamboo/bamboo_sword"
+          }
+        },
+        {
+          "when":"Cherry Sword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/wooden_tool_variants/cherry/cherry_sword"
+          }
+        },
+        {
+          "when":"Mangrove Sword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/wooden_tool_variants/mangrove/mangrove_sword"
+          }
+        },
+        {
+          "when":"Dark Oak Sword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/wooden_tool_variants/dark_oak/dark_oak_sword"
+          }
+        },
+        {
+          "when":"Acacia Sword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/wooden_tool_variants/acacia/acacia_sword"
+          }
+        },
+        {
+          "when":"Jungle Sword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/wooden_tool_variants/jungle/jungle_sword"
+          }
+        },
+        {
+          "when":"Birch Sword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/wooden_tool_variants/birch/birch_sword"
+          }
+        },
+        {
+          "when":"Spruce Sword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/wooden_tool_variants/spruce/spruce_sword"
+          }
+        },
+        {
+          "when":"Oak Sword",
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/wooden_tool_variants/oak/oak_sword"
+          }
+        },
+        {
           "when":"Macuahuitl",
           "model": {
             "type":"minecraft:model",

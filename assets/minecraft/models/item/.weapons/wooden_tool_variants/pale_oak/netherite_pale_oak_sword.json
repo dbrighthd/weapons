@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/.weapons/wooden_tool_variants/pale_oak/netherite_pale_oak_sword"
+  }
+}
