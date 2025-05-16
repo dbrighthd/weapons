@@ -5,49 +5,49 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":"Sting",
+          "when":["Sting", "iregex:.*sting.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/misc/sting/sting"
           }
         },
         {
-          "when":"Elven Blade",
+          "when":["Elven Blade", "iregex:.*elven.*blade.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/misc/elven_blade/elven_blade"
           }
         },
         {
-          "when":"Oxidized Copper Sword",
+          "when":["Oxidized Copper Sword", "iregex:.*oxidized.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/i/oxidized/oxidized_copper_sword"
           }
         },
         {
-          "when":"Weathered Copper Sword",
+          "when":["Weathered Copper Sword", "iregex:.*weathered.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/i/weathered/weathered_copper_sword"
           }
         },
         {
-          "when":"Exposed Copper Sword",
+          "when":["Exposed Copper Sword", "iregex:.*exposed.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/i/exposed/exposed_copper_sword"
           }
         },
         {
-          "when":"Waxed Copper Sword",
+          "when":["Waxed Copper Sword", "iregex:.*waxed.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/i/zzz/copper_sword"
           }
         },
         {
-          "when": "Copper Sword",
+          "when": ["Copper Sword", "iregex:.*copper.*"],
           "model": {
             "type": "minecraft:range_dispatch",
             "property": "minecraft:damage",
@@ -89,7 +89,7 @@
           }
         },
         {
-          "when": "Flaming Iron Sword",
+          "when": ["Flaming Iron Sword", "iregex:.*flaming.*"],
           "model": {
             "type": "minecraft:condition",
             "property": "minecraft:component",
@@ -110,28 +110,28 @@
           }
         },
         {
-          "when":"Iron Broadsword",
+          "when":["Iron Broadsword", "iregex:.*broadsword.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/broadswords/broadswordi"
           }
         },
         {
-          "when":"Iron Claymore",
+          "when":["Iron Claymore", "iregex:.*claymore.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/claymores/claymorei"
           }
         },
         {
-          "when":"Iron Cutlass",
+          "when":["Iron Cutlass", "iregex:.*cutlass.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/cutlasses/cutlassi"
           }
         },
         {
-          "when":"Iron Katana",
+          "when":["Iron Katana", "iregex:.*katana.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/katanas/katanai"

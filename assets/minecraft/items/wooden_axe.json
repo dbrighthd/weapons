@@ -5,56 +5,52 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":"Wooden Blue Axe-olotl",
+          "when":[
+            "Wooden Blue Axe-olotl", 
+            "iregex:.*blue.*axe-olotl.*"
+          ],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/w/bluew"
           }
         },
         {
-          "when":"Wooden Cyan Axe-olotl",
+          "when":["Wooden Cyan Axe-olotl", "iregex:.*cyan.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/w/cyanw"
           }
         },
         {
-          "when":"Wooden Wild Axe-olotl",
+          "when":["Wooden Wild Axe-olotl", "iregex:.*wild.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/w/wildw"
           }
         },
         {
-          "when":"Wooden Gold Axe-olotl",
+          "when":["Wooden Gold Axe-olotl", "iregex:.*gold.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/w/goldw"
           }
         },
         {
-          "when":"Wooden Lucy Axe-olotl",
+          "when":["Wooden Lucy Axe-olotl", "iregex:.*lucy.*axe-olotl.*", "Wooden Axe-olotl", "iregex:.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/w/lucyw"
           }
         },
         {
-          "when":"Wooden Axe-olotl",
-          "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/axe-olotls/w/lucyw"
-          }
-        },
-        {
-          "when":"Wooden Double Axe",
+          "when":["Wooden Double Axe", "iregex:.*double.*axe.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/double_axes/double_axew"
           }
         },
         {
-          "when":"Wooden Dungeons Axe",
+          "when":["Wooden Dungeons Axe", "iregex:.*dungeons.*axe.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/dungeons_axes/dungeons_axew"

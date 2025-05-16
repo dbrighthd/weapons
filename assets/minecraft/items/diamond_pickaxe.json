@@ -5,21 +5,21 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when":"Ruby Pickaxe",
+        "when":["Ruby Pickaxe", "iregex:.*ruby.*"],
         "model": {
           "type":"minecraft:model",
           "model":"minecraft:item/.weapons/ruby_set/items/diamond/ruby_pickaxe"
         }
       },
       {
-        "when":"Emerald Pickaxe",
+        "when":["Emerald Pickaxe", "iregex:.*emerald.*"],
         "model": {
           "type":"minecraft:model",
           "model":"minecraft:item/.weapons/emerald_set/items/diamond/emerald_pickaxe"
         }
       },
       {
-        "when":"Amethyst Pickaxe",
+        "when":["Amethyst Pickaxe", "iregex:.*amethyst.*"],
         "model": {
           "type":"minecraft:model",
           "model":"minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_pickaxe"

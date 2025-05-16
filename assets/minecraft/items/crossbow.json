@@ -5,14 +5,14 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": "Shotgun",
+        "when": ["Shotgun", "iregex:.*shotgun.*"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/crossbows/shotgun"
         }
       },
       {
-        "when": "Revolver",
+        "when": ["Revolver", "iregex:.*revolver.*"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/crossbows/revolver"

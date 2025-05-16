@@ -5,56 +5,49 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":"Stone Blue Axe-olotl",
+          "when":["Stone Blue Axe-olotl", "iregex:.*blue.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/s/blues"
           }
         },
         {
-          "when":"Stone Cyan Axe-olotl",
+          "when":["Stone Cyan Axe-olotl", "iregex:.*cyan.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/s/cyans"
           }
         },
         {
-          "when":"Stone Wild Axe-olotl",
+          "when":["Stone Wild Axe-olotl", "iregex:.*wild.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/s/wilds"
           }
         },
         {
-          "when":"Stone Gold Axe-olotl",
+          "when":["Stone Gold Axe-olotl", "iregex:.*gold.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/s/golds"
           }
         },
         {
-          "when":"Stone Lucy Axe-olotl",
+          "when":["Stone Lucy Axe-olotl", "iregex:.*lucy.*axe-olotl.*", "Stone Axe-olotl", "iregex:.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/s/lucys"
           }
         },
         {
-          "when":"Stone Axe-olotl",
-          "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/axe-olotls/s/lucys"
-          }
-        },
-        {
-          "when":"Stone Double Axe",
+          "when":["Stone Double Axe", "iregex:.*double.*axe.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/double_axes/double_axes"
           }
         },
         {
-          "when":"Stone Dungeons Axe",
+          "when":["Stone Dungeons Axe", "iregex:.*dungeons.*axe.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/dungeons_axes/dungeons_axes"

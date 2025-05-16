@@ -5,7 +5,7 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": "Phaser",
+        "when": ["Phaser", "iregex:.*phaser.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:component",

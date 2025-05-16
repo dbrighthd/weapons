@@ -5,35 +5,35 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":"Oxidized Copper Axe",
+          "when":["Oxidized Copper Axe", "iregex:.*oxidized.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/i/oxidized/oxidized_copper_axe"
           }
         },
         {
-          "when":"Weathered Copper Axe",
+          "when":["Weathered Copper Axe", "iregex:.*weathered.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/i/weathered/weathered_copper_axe"
           }
         },
         {
-          "when":"Exposed Copper Axe",
+          "when":["Exposed Copper Axe", "iregex:.*exposed.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/i/exposed/exposed_copper_axe"
           }
         },
         {
-          "when":"Waxed Copper Axe",
+          "when":["Waxed Copper Axe", "iregex:.*waxed.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/i/zzz/copper_axe"
           }
         },
         {
-          "when": "Copper Axe",
+          "when": ["Copper Axe", "iregex:.*copper.*"],
           "model": {
             "type": "minecraft:range_dispatch",
             "property": "minecraft:damage",
@@ -75,56 +75,49 @@
           }
         },
         {
-          "when":"Iron Blue Axe-olotl",
+          "when":["Iron Blue Axe-olotl", "iregex:.*blue.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/i/bluei"
           }
         },
         {
-          "when":"Iron Cyan Axe-olotl",
+          "when":["Iron Cyan Axe-olotl", "iregex:.*cyan.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/i/cyani"
           }
         },
         {
-          "when":"Iron Wild Axe-olotl",
+          "when":["Iron Wild Axe-olotl", "iregex:.*wild.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/i/wildi"
           }
         },
         {
-          "when":"Iron Gold Axe-olotl",
+          "when":["Iron Gold Axe-olotl", "iregex:.*gold.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/i/goldi"
           }
         },
         {
-          "when":"Iron Lucy Axe-olotl",
+          "when":["Iron Lucy Axe-olotl", "iregex:.*lucy.*axe-olotl.*", "Iron Axe-olotl", "iregex:.*Axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/i/lucyi"
           }
         },
         {
-          "when":"Iron Axe-olotl",
-          "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/axe-olotls/i/lucyi"
-          }
-        },
-        {
-          "when":"Iron Double Axe",
+          "when":["Iron Double Axe", "iregex:.*double.*axe.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/double_axes/double_axei"
           }
         },
         {
-          "when":"Iron Dungeons Axe",
+          "when":["Iron Dungeons Axe", "iregex:.*dungeons.*axe.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/dungeons_axes/dungeons_axei"

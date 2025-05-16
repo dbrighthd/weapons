@@ -5,56 +5,56 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":"Ruby Hoe",
+          "when":["Ruby Hoe", "iregex:.*ruby.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/ruby_set/items/netherite/ruby_hoe"
           }
         },
         {
-          "when":"Emerald Hoe",
+          "when":["Emerald Hoe", "iregex:.*emerald.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/emerald_set/items/netherite/emerald_hoe"
           }
         },
         {
-          "when":"Amethyst Hoe",
+          "when":["Amethyst Hoe", "iregex:.*amethyst.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/amethyst_set/items/netherite/amethyst_hoe"
           }
         },
         {
-          "when":"Oxidized Copper Hoe",
+          "when":["Oxidized Copper Hoe", "iregex:.*oxidized.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/n/oxidized/oxidized_copper_hoe"
           }
         },
         {
-          "when":"Weathered Copper Hoe",
+          "when":["Weathered Copper Hoe", "iregex:.*weathered.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/n/weathered/weathered_copper_hoe"
           }
         },
         {
-          "when":"Exposed Copper Hoe",
+          "when":["Exposed Copper Hoe", "iregex:.*exposed.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/n/exposed/exposed_copper_hoe"
           }
         },
         {
-          "when":"Waxed Copper Hoe",
+          "when":["Waxed Copper Hoe", "iregex:.*waxed.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/n/zzz/copper_hoe"
           }
         },
         {
-          "when": "Copper Hoe",
+          "when": ["Copper Hoe", "iregex:.*copper.*"],
           "model": {
             "type": "minecraft:range_dispatch",
             "property": "minecraft:damage",
@@ -98,7 +98,8 @@
         {
           "when": [
             "Scythe of Quakes", 
-            "The Scythe of Quakes"
+            "The Scythe of Quakes",
+            "iregex:.*scythe.*of.*quakes.*"
           ],
           "model": {
           "type": "minecraft:condition",
@@ -120,35 +121,35 @@
         }
         },
         {
-          "when": "Soul Scythe",
+          "when": ["Soul Scythe", "iregex:.*soul.*scythe.*"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/scythes/_misc_scythes/soul_scythe"
           }
         },
         {
-          "when": "Jailor's Scythe",
+          "when": ["Jailor's Scythe", "iregex:.*jailor.*s.*scythe.*"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/scythes/_misc_scythes/jailors_scythe"
           }
         },
         {
-          "when": "Skull Scythe",
+          "when": ["Skull Scythe", "iregex:.*skull.*scythe.*"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/scythes/_misc_scythes/skull_scythe"
           }
         },
         {
-          "when": "Frost Scythe",
+          "when": ["Frost Scythe", "iregex:.*frost.*scythe.*"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/scythes/_misc_scythes/frost_scythe"
           }
         },
         {
-          "when": "Netherite Scythe",
+          "when": ["Netherite Scythe", "iregex:.*scythe.*"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/scythes/n/scythen"

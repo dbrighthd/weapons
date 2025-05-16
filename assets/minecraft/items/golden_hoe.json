@@ -7,7 +7,8 @@
         {
           "when": [
             "Scythe of Quakes", 
-            "The Scythe of Quakes"
+            "The Scythe of Quakes",
+            "iregex.*scythe.*of.*quakes"
           ],
           "model": {
           "type": "minecraft:condition",
@@ -29,7 +30,7 @@
         }
         },
         {
-          "when": "Golden Scythe",
+          "when": ["Golden Scythe", "iregex:.*scythe.*"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/scythes/g/scytheg"

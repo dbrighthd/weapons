@@ -5,7 +5,7 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": "Oxidized Copper Trapdoor Shield",
+        "when": ["Oxidized Copper Trapdoor Shield", "iregex:.*Oxidized.*Copper.*Trapdoor.*Shield.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -20,7 +20,7 @@
         }
       },
       {
-        "when": "Weathered Copper Trapdoor Shield",
+        "when": ["Weathered Copper Trapdoor Shield", "iregex:.*Weathered.*Copper.*Trapdoor.*Shield.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -35,7 +35,7 @@
         }
       },
       {
-        "when": "Exposed Copper Trapdoor Shield",
+        "when": ["Exposed Copper Trapdoor Shield", "iregex:.*Exposed.*Copper.*Trapdoor.*Shield.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -50,7 +50,7 @@
         }
       },
       {
-        "when": "Waxed Copper Trapdoor Shield",
+        "when": ["Waxed Copper Trapdoor Shield", "iregex:.*Waxed.*Copper.*Trapdoor.*Shield.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -65,7 +65,7 @@
         }
       },
       {
-        "when": "Copper Trapdoor Shield",
+        "when": ["Copper Trapdoor Shield", "iregex.*Copper.*Trapdoor.*Shield.*"],
         "model": {
           "type": "minecraft:select",
           "property": "minecraft:component",
@@ -132,7 +132,7 @@
         }
       },
       {
-        "when": "Bamboo Trapdoor Shield",
+        "when": ["Bamboo Trapdoor Shield", "iregex:.*Bamboo.*Trapdoor.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -147,7 +147,7 @@
         }
       },
       {
-        "when": "Pale Oak Trapdoor Shield",
+        "when": ["Pale Oak Trapdoor Shield", "iregex:.*pale.*oak.*trapdoor.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -162,7 +162,7 @@
         }
       },
       {
-        "when": "Cherry Trapdoor Shield",
+        "when": ["Cherry Trapdoor Shield", "iregex:.*Cherry.*Trapdoor.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -177,7 +177,7 @@
         }
       },
       {
-        "when": "Iron Trapdoor Shield",
+        "when": ["Iron Trapdoor Shield", "iregex:.*iron.*trapdoor.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -192,7 +192,7 @@
         }
       },
       {
-        "when": "Warped Trapdoor Shield",
+        "when": ["Warped Trapdoor Shield", "iregex:.*warped.*trapdoor.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -207,7 +207,7 @@
         }
       },
       {
-        "when": "Crimson Trapdoor Shield",
+        "when": ["Crimson Trapdoor Shield", "iregex:.*Crimson.*Trapdoor.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -222,7 +222,7 @@
         }
       },
       {
-        "when": "Mangrove Trapdoor Shield",
+        "when": ["Mangrove Trapdoor Shield", "iregex:.*Mangrove.*Trapdoor.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -237,7 +237,7 @@
         }
       },
       {
-        "when": "Dark Oak Trapdoor Shield",
+        "when": ["Dark Oak Trapdoor Shield", "iregex:.*dark.*oak.*trapdoor.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -252,7 +252,7 @@
         }
       },
       {
-        "when": "Acacia Trapdoor Shield",
+        "when": ["Acacia Trapdoor Shield", "iregex:.*Acacia.*Trapdoor.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -267,7 +267,7 @@
         }
       },
       {
-        "when": "Jungle Trapdoor Shield",
+        "when": ["Jungle Trapdoor Shield", "iregex:.*Jungle.*Trapdoor.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -282,7 +282,7 @@
         }
       },
       {
-        "when": "Birch Trapdoor Shield",
+        "when": ["Birch Trapdoor Shield", "iregex:.*Birch.*Trapdoor.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -297,7 +297,7 @@
         }
       },
       {
-        "when": "Spruce Trapdoor Shield",
+        "when": ["Spruce Trapdoor Shield", "iregex:.*Spruce.*Trapdoor.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -312,7 +312,7 @@
         }
       },
       {
-        "when": "Oak Trapdoor Shield",
+        "when": ["Oak Trapdoor Shield", "iregex:.*Oak.*Trapdoor.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -345,7 +345,7 @@
         }
       },
       {
-        "when": "Chicken Shield",
+        "when": ["Chicken Shield", "iregex:.*chicken.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -360,7 +360,7 @@
         }
       },
       {
-        "when": "Captain Carter's Shield",
+        "when": ["Captain Carter's Shield", "iregex:.*Captain.*Carter.*s.*Shield.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -375,22 +375,7 @@
         }
       },
       {
-        "when": "Captain America's Shield",
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:using_item",
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/.weapons/shield/cap/capblock"
-          },
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/.weapons/shield/cap/cap"
-          }
-        }
-      },
-      {
-        "when": "Captain America's Classic Shield",
+        "when": ["Captain America's Classic Shield", "iregex:.*Captain.*America.*s.*Classic.*Shield.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -405,7 +390,22 @@
         }
       },
       {
-        "when": "Yellow Viking Shield",
+        "when": ["Captain America's Shield", "iregex:.*Captain.*America.*s.*Shield.*"],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/cap/capblock"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/cap/cap"
+          }
+        }
+      },
+      {
+        "when": ["Yellow Viking Shield", "iregex:.*yellow.*viking.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -420,7 +420,7 @@
         }
       },
       {
-        "when": "White Viking Shield",
+        "when": ["White Viking Shield", "iregex:.*white.*viking.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -435,7 +435,7 @@
         }
       },
       {
-        "when": "Red Viking Shield",
+        "when": ["Red Viking Shield", "iregex:.*red.*viking.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -450,7 +450,7 @@
         }
       },
       {
-        "when": "Purple Viking Shield",
+        "when": ["Purple Viking Shield", "iregex:.*purple.*viking.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -465,7 +465,7 @@
         }
       },
       {
-        "when": "Pink Viking Shield",
+        "when": ["Pink Viking Shield", "iregex:.*pink.*viking.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -480,7 +480,7 @@
         }
       },
       {
-        "when": "Orange Viking Shield",
+        "when": ["Orange Viking Shield", "iregex:.*orange.*viking.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -495,7 +495,7 @@
         }
       },
       {
-        "when": "Magenta Viking Shield",
+        "when": ["Magenta Viking Shield", "iregex:.*magenta.*viking.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -510,7 +510,7 @@
         }
       },
       {
-        "when": "Lime Viking Shield",
+        "when": ["Lime Viking Shield", "iregex:.*lime.*viking.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -525,7 +525,7 @@
         }
       },
       {
-        "when": "Green Viking Shield",
+        "when": ["Green Viking Shield", "iregex:.*green.*viking.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -540,22 +540,7 @@
         }
       },
       {
-        "when": "Gray Viking Shield",
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:using_item",
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/.weapons/shield/viking/gray/vblock"
-          },
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/.weapons/shield/viking/gray/v"
-          }
-        }
-      },
-      {
-        "when": "Light Gray Viking Shield",
+        "when": ["Light Gray Viking Shield", "iregex:.*light.*gray.*iking.*", "Light Grey Viking Shield", "iregex:.*light.*grey.*viking.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -570,7 +555,22 @@
         }
       },
       {
-        "when": "Cyan Viking Shield",
+        "when": ["Gray Viking Shield", "iregex:.*gray.*viking.*", "Grey Viking Shield", "iregex:.*grey.*viking.*"],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/viking/gray/vblock"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/viking/gray/v"
+          }
+        }
+      },
+      {
+        "when": ["Cyan Viking Shield", "iregex:.*cyan.*viking.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -585,7 +585,7 @@
         }
       },
       {
-        "when": "Brown Viking Shield",
+        "when": ["Brown Viking Shield", "iregex:.*brown.*viking.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -600,22 +600,7 @@
         }
       },
       {
-        "when": "Blue Viking Shield",
-        "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:using_item",
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/.weapons/shield/viking/blue/vblock"
-          },
-          "on_false": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/.weapons/shield/viking/blue/v"
-          }
-        }
-      },
-      {
-        "when": "Light Blue Viking Shield",
+        "when": ["Light Blue Viking Shield", "iregex:.*light.*blue.*viking.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -630,7 +615,22 @@
         }
       },
       {
-        "when": "Black Viking Shield",
+        "when": ["Blue Viking Shield", "iregex:.*blue.*viking.*"],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/viking/blue/vblock"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/viking/blue/v"
+          }
+        }
+      },
+      {
+        "when": ["Black Viking Shield", "iregex:.*black.*viking.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -645,7 +645,7 @@
         }
       },
       {
-        "when": "Viking Shield",
+        "when": ["Viking Shield", "iregex:.*viking.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -660,7 +660,7 @@
         }
       },
       {
-        "when": "Iron Pointed Shield",
+        "when": ["Iron Pointed Shield", "iregex:.*iron.*pointed.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -675,7 +675,7 @@
         }
       },
       {
-        "when": "Pointed Shield",
+        "when": ["Pointed Shield", "iregex:.*pointed.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -690,7 +690,7 @@
         }
       },
       {
-        "when": "Hylian Shield",
+        "when": ["Hylian Shield", "iregex:.*hylian.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",
@@ -705,7 +705,7 @@
         }
       },
       {
-        "when": "Shield Spell",
+        "when": ["Shield Spell", "iregex:.*spell.*"],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:using_item",

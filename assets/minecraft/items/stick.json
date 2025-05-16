@@ -7,7 +7,8 @@
         {
           "when": [
             "Darksaber Hilt",
-            "The Darksaber's Hilt"
+            "The Darksaber's Hilt",
+            "iregex:.*darksaber.*"
           ],
           "model": {
             "type": "minecraft:model",
@@ -15,24 +16,24 @@
           }
         },
         {
-          "when": "Lightsaber Hilt",
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/.weapons/lightsabers/lightsaberhilt"
-          }
-        },
-        {
-          "when": "Double Lightsaber Hilt",
+          "when": ["Double Lightsaber Hilt", "iregex:.*double.*lightsaber.*hilt.*"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/lightsabers/doublelightsaberhilt"
           }
         },
         {
-          "when": "Crossguard Lightsaber Hilt",
+          "when": ["Crossguard Lightsaber Hilt", "iregex:.*crossguard.*lightsaber.*hilt.*"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/lightsabers/xguardlightsaberhilt"
+          }
+        },
+        {
+          "when": ["Lightsaber Hilt", "iregex:.*lightsaber.*hilt.*"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/lightsabers/lightsaberhilt"
           }
         }
       ],

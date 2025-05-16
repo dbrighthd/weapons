@@ -5,21 +5,21 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":"Ruby Shovel",
+          "when":["Ruby Shovel", "iregex:.*ruby.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/ruby_set/items/diamond/ruby_shovel"
           }
         },
         {
-          "when":"Emerald Shovel",
+          "when":["Emerald Shovel", "iregex:.*emerald.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/emerald_set/items/diamond/emerald_shovel"
           }
         },
         {
-          "when":"Amethyst Shovel",
+          "when":["Amethyst Shovel", "iregex:.*amethyst.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_shovel"

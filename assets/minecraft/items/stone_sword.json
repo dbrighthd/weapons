@@ -5,7 +5,7 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when": "Flaming Stone Sword",
+          "when": ["Flaming Stone Sword", "iregex:.*flaming.*"],
           "model": {
             "type": "minecraft:condition",
             "property": "minecraft:component",
@@ -26,28 +26,28 @@
           }
         },
         {
-          "when":"Stone Broadsword",
+          "when":["Stone Broadsword", "iregex:.*broadsword.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/broadswords/broadswords"
           }
         },
         {
-          "when":"Stone Claymore",
+          "when":["Stone Claymore", "iregex:.*claymore.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/claymores/claymores"
           }
         },
         {
-          "when":"Stone Cutlass",
+          "when":["Stone Cutlass", "iregex:.*cutlass.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/cutlasses/cutlasss"
           }
         },
         {
-          "when":"Stone Katana",
+          "when":["Stone Katana", "iregex:.*katana.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/katanas/katanas"

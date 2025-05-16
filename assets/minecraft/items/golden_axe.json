@@ -5,56 +5,49 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":"Golden Blue Axe-olotl",
+          "when":["Golden Blue Axe-olotl", "iregex:.*blue.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/g/blueg"
           }
         },
         {
-          "when":"Golden Cyan Axe-olotl",
+          "when":["Golden Cyan Axe-olotl", "iregex:.*cyan.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/g/cyang"
           }
         },
         {
-          "when":"Golden Wild Axe-olotl",
+          "when":["Golden Wild Axe-olotl", "iregex:.*wild.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/g/wildg"
           }
         },
         {
-          "when":"Golden Gold Axe-olotl",
+          "when":["Golden Gold Axe-olotl", "iregex:.*gold.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/g/goldg"
           }
         },
         {
-          "when":"Golden Lucy Axe-olotl",
+          "when":["Golden Lucy Axe-olotl", "iregex:.*lucy.*axe-olotl.*", "Golden Axe-olotl", "iregex:.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/g/lucyg"
           }
         },
         {
-          "when":"Golden Axe-olotl",
-          "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/axe-olotls/g/lucyg"
-          }
-        },
-        {
-          "when":"Golden Double Axe",
+          "when":["Golden Double Axe", "iregex:.*double.*axe.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/double_axes/double_axeg"
           }
         },
         {
-          "when":"Golden Dungeons Axe",
+          "when":["Golden Dungeons Axe", "iregex:.*dungeons.*axe.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/dungeons_axes/dungeons_axeg"

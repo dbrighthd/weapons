@@ -5,42 +5,42 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when": "J4x's Medium Sword",
+          "when": ["J4x's Medium Sword", "iregex:.*j4x.*s.*medium.*"],
           "model": {
             "type": "minecraft:model",
             "model":"minecraft:item/.weapons/misc/j4x/j4xsword"
           }
         },
         {
-          "when":"Swordfish",
+          "when":["Swordfish", "iregex:.*swordfish.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/misc/swordfish/swordfish"
           }
         },
         {
-          "when":"Ruby Sword",
+          "when":["Ruby Sword", "iregex:.*ruby.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/ruby_set/items/diamond/ruby_sword"
           }
         },
         {
-          "when":"Emerald Sword",
+          "when":["Emerald Sword", "iregex:.*emerald.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/emerald_set/items/diamond/emerald_sword"
           }
         },
         {
-          "when":"Amethyst Sword",
+          "when":["Amethyst Sword", "iregex:.*amethyst.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_sword"
           }
         },
         {
-          "when": "Flaming Diamond Sword",
+          "when": ["Flaming Diamond Sword", "iregex:.*flaming.*"],
           "model": {
             "type": "minecraft:condition",
             "property": "minecraft:component",
@@ -61,28 +61,28 @@
           }
         },
         {
-          "when":"Diamond Broadsword",
+          "when":["Diamond Broadsword", "iregex:.*broadsword.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/broadswords/broadswordd"
           }
         },
         {
-          "when":"Diamond Claymore",
+          "when":["Diamond Claymore", "iregex:.*claymore.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/claymores/claymored"
           }
         },
         {
-          "when":"Diamond Cutlass",
+          "when":["Diamond Cutlass", "iregex:.*cutlass.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/cutlasses/cutlassd"
           }
         },
         {
-          "when":"Diamond Katana",
+          "when":["Diamond Katana", "iregex:.*katana.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/katanas/katanad"

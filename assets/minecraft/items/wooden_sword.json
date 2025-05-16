@@ -5,91 +5,91 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":"Warped Sword",
+          "when":["Warped Sword", "iregex:.*warped.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/wooden_tool_variants/warped/warped_sword"
           }
         },
         {
-          "when":"Crimson Sword",
+          "when":["Crimson Sword", "iregex:.*crimson.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/wooden_tool_variants/crimson/crimson_sword"
           }
         },
         {
-          "when":"Pale Oak Sword",
+          "when":["Pale Oak Sword", "iregex:.*pale.*oak.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/wooden_tool_variants/pale_oak/pale_oak_sword"
           }
         },
         {
-          "when":"Bamboo Sword",
+          "when":["Bamboo Sword", "iregex:.*bamboo.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/wooden_tool_variants/bamboo/bamboo_sword"
           }
         },
         {
-          "when":"Cherry Sword",
+          "when":["Cherry Sword", "iregex:.*cherry.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/wooden_tool_variants/cherry/cherry_sword"
           }
         },
         {
-          "when":"Mangrove Sword",
+          "when":["Mangrove Sword", "iregex:.*mangrove.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/wooden_tool_variants/mangrove/mangrove_sword"
           }
         },
         {
-          "when":"Dark Oak Sword",
+          "when":["Dark Oak Sword", "iregex:.*dark.*oak.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/wooden_tool_variants/dark_oak/dark_oak_sword"
           }
         },
         {
-          "when":"Acacia Sword",
+          "when":["Acacia Sword", "iregex:.*acacia.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/wooden_tool_variants/acacia/acacia_sword"
           }
         },
         {
-          "when":"Jungle Sword",
+          "when":["Jungle Sword", "iregex:.*jungle.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/wooden_tool_variants/jungle/jungle_sword"
           }
         },
         {
-          "when":"Birch Sword",
+          "when":["Birch Sword", "iregex:.*birch.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/wooden_tool_variants/birch/birch_sword"
           }
         },
         {
-          "when":"Spruce Sword",
+          "when":["Spruce Sword", "iregex:.*spruce.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/wooden_tool_variants/spruce/spruce_sword"
           }
         },
         {
-          "when":"Oak Sword",
+          "when":["Oak Sword", "iregex:.*oak.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/wooden_tool_variants/oak/oak_sword"
           }
         },
         {
-          "when":"Macuahuitl",
+          "when":["Macuahuitl", "iregex:.*macuahuitl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/misc/macuahuitl/macuahuitl"
@@ -98,7 +98,9 @@
         {
           "when":[
             "Bamboo Training Sword",
-            "Kendo Shinai"
+            "Kendo Shinai",
+            "iregex:.*training.*",
+            "iregex:.*shinai.*"
           ],
           "model": {
             "type":"minecraft:model",
@@ -106,7 +108,7 @@
           }
         },
         {
-          "when": "Flaming Wooden Sword",
+          "when": ["Flaming Wooden Sword", "iregex:.*flaming.*"],
           "model": {
             "type": "minecraft:condition",
             "property": "minecraft:component",
@@ -127,28 +129,28 @@
           }
         },
         {
-          "when":"Wooden Broadsword",
+          "when":["Wooden Broadsword", "iregex:.*broadsword.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/broadswords/broadswordw"
           }
         },
         {
-          "when":"Wooden Claymore",
+          "when":["Wooden Claymore", "iregex:.*claymore.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/claymores/claymorew"
           }
         },
         {
-          "when":"Wooden Cutlass",
+          "when":["Wooden Cutlass", "iregex:.*cutlass.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/cutlasses/cutlassw"
           }
         },
         {
-          "when":"Wooden Katana",
+          "when":["Wooden Katana", "iregex:.*katana.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/katanas/katanaw"

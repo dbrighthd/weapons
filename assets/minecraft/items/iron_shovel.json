@@ -5,35 +5,35 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":"Oxidized Copper Shovel",
+          "when":["Oxidized Copper Shovel", "iregex:.*oxidized.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/i/oxidized/oxidized_copper_shovel"
           }
         },
         {
-          "when":"Weathered Copper Shovel",
+          "when":["Weathered Copper Shovel", "iregex:.*weathered.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/i/weathered/weathered_copper_shovel"
           }
         },
         {
-          "when":"Exposed Copper Shovel",
+          "when":["Exposed Copper Shovel", "iregex:.*exposed.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/i/exposed/exposed_copper_shovel"
           }
         },
         {
-          "when":"Waxed Copper Shovel",
+          "when":["Waxed Copper Shovel", "iregex:.*waxed.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/i/zzz/copper_shovel"
           }
         },
         {
-          "when": "Copper Shovel",
+          "when": ["Copper Shovel", "iregex:.*copper.*"],
           "model": {
             "type": "minecraft:range_dispatch",
             "property": "minecraft:damage",

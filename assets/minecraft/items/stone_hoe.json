@@ -5,7 +5,7 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when": "Stone Scythe",
+          "when": ["Stone Scythe", "iregex:.*scythe.*"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/scythes/s/scythes"

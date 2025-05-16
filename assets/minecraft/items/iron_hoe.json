@@ -5,35 +5,35 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":"Oxidized Copper Hoe",
+          "when":["Oxidized Copper Hoe", "iregex:.*oxidized.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/i/oxidized/oxidized_copper_hoe"
           }
         },
         {
-          "when":"Weathered Copper Hoe",
+          "when":["Weathered Copper Hoe", "iregex:.*weathered.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/i/weathered/weathered_copper_hoe"
           }
         },
         {
-          "when":"Exposed Copper Hoe",
+          "when":["Exposed Copper Hoe", "iregex:.*exposed.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/i/exposed/exposed_copper_hoe"
           }
         },
         {
-          "when":"Waxed Copper Hoe",
+          "when":["Waxed Copper Hoe", "iregex:.*waxed.*copper.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/copper_set/i/zzz/copper_hoe"
           }
         },
         {
-          "when": "Copper Hoe",
+          "when": ["Copper Hoe", "iregex:.*copper.*"],
           "model": {
             "type": "minecraft:range_dispatch",
             "property": "minecraft:damage",
@@ -75,21 +75,21 @@
           }
         },
         {
-          "when": "Soul Scythe",
+          "when": ["Soul Scythe", "iregex:.*soul.*scythe.*"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/scythes/_misc_scythes/soul_scythe"
           }
         },
         {
-          "when": "Jailor's Scythe",
+          "when": ["Jailor's Scythe", "iregex:.*jailor.*s.*scythe.*"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/scythes/_misc_scythes/jailors_scythe"
           }
         },
         {
-          "when": "Iron Scythe",
+          "when": ["Iron Scythe", "iregex:.*scythe.*"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/scythes/i/scythei"

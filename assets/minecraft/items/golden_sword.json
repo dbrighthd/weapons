@@ -7,7 +7,8 @@
         {
           "when": [
             "Sword of Fire", 
-            "The Sword of Fire"
+            "The Sword of Fire",
+            "iregex:.*sword.*of.*fire.*"
           ],
           "model": {
             "type": "minecraft:condition",
@@ -31,7 +32,8 @@
         {
           "when": [
             "Nunchucks of Lightning", 
-            "The Nunchucks of Lightning"
+            "The Nunchucks of Lightning",
+            "iregex:.*nunchucks.*of.*lightning.*"
           ],
           "model": {
             "type": "minecraft:condition",
@@ -69,7 +71,7 @@
           }
         },
         {
-          "when": "Flaming Golden Sword",
+          "when": ["Flaming Golden Sword", "iregex:.*flaming.*"],
           "model": {
             "type": "minecraft:condition",
             "property": "minecraft:component",
@@ -90,28 +92,28 @@
           }
         },
         {
-          "when":"Golden Claymore",
+          "when":["Golden Claymore", "iregex:.*claymore.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/claymores/claymoreg"
           }
         },
         {
-          "when":"Golden Broadsword",
+          "when":["Golden Broadsword", "iregex:.*broadsword.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/broadswords/broadswordg"
           }
         },
         {
-          "when":"Golden Cutlass",
+          "when":["Golden Cutlass", "iregex:.*cutlass.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/cutlasses/cutlassg"
           }
         },
         {
-          "when":"Golden Katana",
+          "when":["Golden Katana", "iregex:.*katana.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/katanas/katanag"

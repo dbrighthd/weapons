@@ -5,77 +5,70 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":"Ruby Axe",
+          "when":["Ruby Axe", "iregex:.*ruby.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/ruby_set/items/diamond/ruby_axe"
           }
         },
         {
-          "when":"Emerald Axe",
+          "when":["Emerald Axe", "iregex:.*emerald.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/emerald_set/items/diamond/emerald_axe"
           }
         },
         {
-          "when":"Amethyst Axe",
+          "when":["Amethyst Axe", "iregex:.*amethyst.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_axe"
           }
         },
         {
-          "when":"Diamond Blue Axe-olotl",
+          "when":["Diamond Blue Axe-olotl", "iregex:.*blue.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/d/blued"
           }
         },
         {
-          "when":"Diamond Cyan Axe-olotl",
+          "when":["Diamond Cyan Axe-olotl", "iregex:.*cyan.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/d/cyand"
           }
         },
         {
-          "when":"Diamond Wild Axe-olotl",
+          "when":["Diamond Wild Axe-olotl", "iregex:.*wild.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/d/wildd"
           }
         },
         {
-          "when":"Diamond Gold Axe-olotl",
+          "when":["Diamond Gold Axe-olotl", "iregex:.*gold.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/d/goldd"
           }
         },
         {
-          "when":"Diamond Lucy Axe-olotl",
+          "when":["Diamond Lucy Axe-olotl", "iregex:.*lucy.*axe-olotl.*", "Diamond Axe-olotl", "iregex:.*axe-olotl.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/axe-olotls/d/lucyd"
           }
         },
         {
-          "when":"Diamond Axe-olotl",
-          "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/axe-olotls/d/lucyd"
-          }
-        },
-        {
-          "when":"Diamond Double Axe",
+          "when":["Diamond Double Axe", "iregex:.*double.*axe.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/double_axes/double_axed"
           }
         },
         {
-          "when":"Diamond Dungeons Axe",
+          "when":["Diamond Dungeons Axe", "iregex:.*dungeons.*axe.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/dungeons_axes/dungeons_axed"

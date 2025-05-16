@@ -5,35 +5,35 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": "Oxidized Copper Pickaxe",
+        "when": ["Oxidized Copper Pickaxe", "iregex:.*oxidized.*copper.*"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/copper_set/i/oxidized/oxidized_copper_pickaxe"
         }
       },
       {
-        "when": "Weathered Copper Pickaxe",
+        "when": ["Weathered Copper Pickaxe", "iregex:.*weathered.*copper.*"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/copper_set/i/weathered/weathered_copper_pickaxe"
         }
       },
       {
-        "when": "Exposed Copper Pickaxe",
+        "when": ["Exposed Copper Pickaxe", "iregex:.*exposed.*copper.*"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/copper_set/i/exposed/exposed_copper_pickaxe"
         }
       },
       {
-        "when": "Waxed Copper Pickaxe",
+        "when": ["Waxed Copper Pickaxe", "iregex:.*waxed.*copper.*"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/copper_set/i/zzz/copper_pickaxe"
         }
       },
       {
-        "when": "Copper Pickaxe",
+        "when": ["Copper Pickaxe", "iregex:.*copper.*"],
         "model": {
           "type": "minecraft:range_dispatch",
           "property": "minecraft:damage",
