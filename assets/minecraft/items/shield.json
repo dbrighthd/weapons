@@ -360,6 +360,21 @@
         }
       },
       {
+        "when": ["Red Guardian's Shield", "iregex:.*Red.*Guardian.*s.*Shield.*"],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/cap/redguardianblock"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/cap/redguardian"
+          }
+        }
+      },
+      {
         "when": ["Captain Carter's Shield", "iregex:.*Captain.*Carter.*s.*Shield.*"],
         "model": {
           "type": "minecraft:condition",
