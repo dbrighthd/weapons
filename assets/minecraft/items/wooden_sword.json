@@ -4,6 +4,13 @@
       "property": "minecraft:component",
       "component": "minecraft:custom_name",
       "cases": [
+      {
+        "when":["Wooden BFS", "iregex:.*BFS.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/buster_swords/busterswordw"
+        }
+      },
         {
           "when":["Warped Sword", "iregex:.*warped.*"],
           "model": {

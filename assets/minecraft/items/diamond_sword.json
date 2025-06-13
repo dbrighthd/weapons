@@ -4,6 +4,13 @@
       "property": "minecraft:component",
       "component": "minecraft:custom_name",
       "cases": [
+      {
+        "when":["Diamond BFS", "iregex:.*BFS.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/buster_swords/busterswordd"
+        }
+      },
         {
           "when": ["J4x's Medium Sword", "iregex:.*j4x.*s.*medium.*"],
           "model": {

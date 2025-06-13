@@ -5,6 +5,21 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
+        "when": ["Invisible Woman Shield", "iregex:.*Invisible.*Woman.*"],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/invisible_woman/invisblock"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/invisible_woman/invis"
+          }
+        }
+      },
+      {
         "when": ["Oxidized Copper Trapdoor Shield", "iregex:.*Oxidized.*Copper.*Trapdoor.*Shield.*"],
         "model": {
           "type": "minecraft:condition",

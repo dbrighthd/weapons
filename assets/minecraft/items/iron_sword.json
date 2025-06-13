@@ -4,6 +4,13 @@
       "property": "minecraft:component",
       "component": "minecraft:custom_name",
       "cases": [
+      {
+        "when":["Iron BFS", "iregex:.*BFS.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/buster_swords/busterswordi"
+        }
+      },
         {
           "when":["Sting", "iregex:.*sting.*"],
           "model": {

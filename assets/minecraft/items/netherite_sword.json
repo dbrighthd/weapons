@@ -5,6 +5,56 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
+        "when": ["Retractable Wolverine Claws", "iregex:.*retractable wolverine.*"],
+        "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:keybind_down",
+            "keybind": "key.attack",
+            "on_true": {
+              "type": "minecraft:select",
+              "property": "minecraft:display_context",
+              "cases": [
+                {
+                  "when": "gui",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/.weapons/claws/wolverine"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/claws/wolverine"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/claws/wolverine_sheathed"
+            }
+        }
+      },
+      {
+        "when":["Wolverine Claws", "iregex:.*wolverine.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/claws/wolverine"
+        }
+      },
+      {
+        "when":["Buster Sword", "iregex:.*Buster.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/buster_swords/bustersword"
+        }
+      },
+      {
+        "when":["Netherite BFS", "iregex:.*BFS.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/buster_swords/busterswordn"
+        }
+      },
+      {
         "when":["Warped Sword", "iregex:.*warped.*"],
         "model": {
           "type":"minecraft:model",
