@@ -5,32 +5,35 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
+        "when":["The Crucible", "iregex:.*crucible.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/doom/crucible"
+        }
+      },
+      {
         "when": ["Retractable Wolverine Claws", "iregex:.*retractable wolverine.*"],
         "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:keybind_down",
+          "keybind": "key.use",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/claws/wolverine"
+          },
+          "on_false": {
             "type": "minecraft:condition",
             "property": "minecraft:keybind_down",
             "keybind": "key.attack",
             "on_true": {
-              "type": "minecraft:select",
-              "property": "minecraft:display_context",
-              "cases": [
-                {
-                  "when": "gui",
-                  "model": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:item/.weapons/claws/wolverine"
-                  }
-                }
-              ],
-              "fallback": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/.weapons/claws/wolverine"
-              }
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/claws/wolverine"
             },
             "on_false": {
               "type": "minecraft:model",
               "model": "minecraft:item/.weapons/claws/wolverine_sheathed"
             }
+          }
         }
       },
       {

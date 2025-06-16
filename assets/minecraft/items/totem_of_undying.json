@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": "The Sun",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/one-shot/sun"
+          }
+        },
+        {
           "when": "Fairy",
           "model": {
             "type": "minecraft:model",

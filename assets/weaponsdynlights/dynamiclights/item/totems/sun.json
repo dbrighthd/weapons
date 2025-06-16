@@ -1,0 +1,10 @@
+{
+  "match": {
+  "items": "minecraft:totem_of_undying",
+  "components": {
+    "minecraft:custom_name": "The Sun"
+  }
+},
+  "luminance": 15,
+  "water_sensitive": false
+}
