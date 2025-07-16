@@ -5,270 +5,404 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when":["The Crucible", "iregex:.*crucible.*"],
+        "when": [
+          "Energy Sword",
+          "iregex:.*energy.*sword.*"
+        ],
         "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/doom/crucible"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/energy_sword/energy_sword"
         }
       },
       {
-        "when": ["Retractable Wolverine Claws", "iregex:.*retractable wolverine.*"],
+        "when": [
+          "The Crucible",
+          "iregex:.*crucible.*"
+        ],
         "model": {
-          "type": "minecraft:condition",
-          "property": "minecraft:keybind_down",
-          "keybind": "key.use",
-          "on_true": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/.weapons/claws/wolverine"
-          },
-          "on_false": {
-            "type": "minecraft:condition",
-            "property": "minecraft:keybind_down",
-            "keybind": "key.attack",
-            "on_true": {
-              "type": "minecraft:model",
-              "model": "minecraft:item/.weapons/claws/wolverine"
-            },
-            "on_false": {
-              "type": "minecraft:model",
-              "model": "minecraft:item/.weapons/claws/wolverine_sheathed"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/doom/crucible"
+        }
+      },
+      {
+        "when": [
+          "Retractable Wolverine Claws",
+          "iregex:.*retractable wolverine.*"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:main_hand",
+          "cases": [
+            {
+              "when": [
+                "right",
+                "left"
+              ],
+              "model": {
+                "type": "minecraft:condition",
+                "property": "minecraft:keybind_down",
+                "keybind": "key.use",
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/claws/wolverine"
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:keybind_down",
+                  "keybind": "key.attack",
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/.weapons/claws/wolverine"
+                  },
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/.weapons/claws/wolverine_sheathed"
+                  }
+                }
+              }
             }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/claws/wolverine_sheathed"
           }
         }
       },
       {
-        "when":["Wolverine Claws", "iregex:.*wolverine.*"],
-        "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/claws/wolverine"
-        }
-      },
-      {
-        "when":["Buster Sword", "iregex:.*Buster.*"],
-        "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/buster_swords/bustersword"
-        }
-      },
-      {
-        "when":["Netherite BFS", "iregex:.*BFS.*"],
-        "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/buster_swords/busterswordn"
-        }
-      },
-      {
-        "when":["Warped Sword", "iregex:.*warped.*"],
-        "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/wooden_tool_variants/warped/netherite_warped_sword"
-        }
-      },
-      {
-        "when":["Crimson Sword", "iregex:.*crimson.*"],
-        "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/wooden_tool_variants/crimson/netherite_crimson_sword"
-        }
-      },
-      {
-        "when":["Pale Oak Sword", "iregex:.*pale.*oak.*"],
-        "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/wooden_tool_variants/pale_oak/netherite_pale_oak_sword"
-        }
-      },
-      {
-        "when":["Bamboo Sword", "iregex:.*bamboo.*"],
-        "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/wooden_tool_variants/bamboo/netherite_bamboo_sword"
-        }
-      },
-      {
-        "when":["Cherry Sword", "iregex:.*cherry.*"],
-        "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/wooden_tool_variants/cherry/netherite_cherry_sword"
-        }
-      },
-      {
-        "when":["Mangrove Sword", "iregex:.*mangrove.*"],
-        "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/wooden_tool_variants/mangrove/netherite_mangrove_sword"
-        }
-      },
-      {
-        "when":["Dark Oak Sword", "iregex:.*dark.*oak.*"],
-        "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/wooden_tool_variants/dark_oak/netherite_dark_oak_sword"
-        }
-      },
-      {
-        "when":["Acacia Sword", "iregex:.*acacia.*"],
-        "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/wooden_tool_variants/acacia/netherite_acacia_sword"
-        }
-      },
-      {
-        "when":["Jungle Sword", "iregex:.*jungle.*"],
-        "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/wooden_tool_variants/jungle/netherite_jungle_sword"
-        }
-      },
-      {
-        "when":["Birch Sword", "iregex:.*birch.*"],
-        "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/wooden_tool_variants/birch/netherite_birch_sword"
-        }
-      },
-      {
-        "when":["Spruce Sword", "iregex:.*spruce.*"],
-        "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/wooden_tool_variants/spruce/netherite_spruce_sword"
-        }
-      },
-      {
-        "when":["Oak Sword", "iregex:.*oak.*"],
-        "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/wooden_tool_variants/oak/netherite_oak_sword"
-        }
-      },
-      {
-        "when": ["J4x's Medium Sword", "iregex:.*j4x.*s.*medium.*"],
+        "when": [
+          "Wolverine Claws",
+          "iregex:.*wolverine.*"
+        ],
         "model": {
           "type": "minecraft:model",
-          "model":"minecraft:item/.weapons/misc/j4x/j4xsword"
+          "model": "minecraft:item/.weapons/claws/wolverine"
         }
       },
       {
-        "when":["Pink Sword", "iregex:.*pink.*"],
+        "when": [
+          "Buster Sword",
+          "iregex:.*Buster.*"
+        ],
         "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/misc/pink/pink"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/buster_swords/bustersword"
         }
       },
       {
-        "when":["Murasama Blade", "iregex:.*murasama.*blade.*"],
+        "when": [
+          "Netherite BFS",
+          "iregex:.*BFS.*"
+        ],
         "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/misc/murasama/murasamablade"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/buster_swords/busterswordn"
         }
       },
       {
-        "when":["Master Sword", "iregex:.*master.*sword.*"],
+        "when": [
+          "Warped Sword",
+          "iregex:.*warped.*"
+        ],
         "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/misc/master_sword/master_sword"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/wooden_tool_variants/warped/netherite_warped_sword"
         }
       },
       {
-        "when":["Splendor is Justice", "iregex:.*splendor.*is.*justice.*"],
+        "when": [
+          "Crimson Sword",
+          "iregex:.*crimson.*"
+        ],
         "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/misc/justicesplendor/splendorisjustice"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/wooden_tool_variants/crimson/netherite_crimson_sword"
         }
       },
       {
-        "when":["Justice is Splendor", "iregex:.*justice.*is.*splendor.*"],
+        "when": [
+          "Pale Oak Sword",
+          "iregex:.*pale.*oak.*"
+        ],
         "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/misc/justicesplendor/justiceissplendor"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/wooden_tool_variants/pale_oak/netherite_pale_oak_sword"
         }
       },
       {
-        "when":["Meteor Sword", "iregex:.*meteor.*"],
+        "when": [
+          "Bamboo Sword",
+          "iregex:.*bamboo.*"
+        ],
         "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/misc/meteor_sword/meteor_sword"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/wooden_tool_variants/bamboo/netherite_bamboo_sword"
         }
       },
       {
-        "when":["Cocktail Stick", "iregex:.*cocktail.*stick.*"],
+        "when": [
+          "Cherry Sword",
+          "iregex:.*cherry.*"
+        ],
         "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/misc/cocktail_stick/cocktail_stick"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/wooden_tool_variants/cherry/netherite_cherry_sword"
         }
       },
       {
-        "when":["Beskad", "iregex:.*beskad.*"],
+        "when": [
+          "Mangrove Sword",
+          "iregex:.*mangrove.*"
+        ],
         "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/misc/beskad/beskad"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/wooden_tool_variants/mangrove/netherite_mangrove_sword"
         }
       },
       {
-        "when":["Bat'leth", "iregex:.*Bat'leth.*"],
+        "when": [
+          "Dark Oak Sword",
+          "iregex:.*dark.*oak.*"
+        ],
         "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/misc/batleth/batleth"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/wooden_tool_variants/dark_oak/netherite_dark_oak_sword"
         }
       },
       {
-        "when":["Meowmere", "iregex:.*meowmere.*"],
+        "when": [
+          "Acacia Sword",
+          "iregex:.*acacia.*"
+        ],
         "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/meowmere/meowmere"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/wooden_tool_variants/acacia/netherite_acacia_sword"
         }
       },
       {
-        "when":["Ruby Sword", "iregex:.*ruby.*"],
+        "when": [
+          "Jungle Sword",
+          "iregex:.*jungle.*"
+        ],
         "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/ruby_set/items/netherite/ruby_sword"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/wooden_tool_variants/jungle/netherite_jungle_sword"
         }
       },
       {
-        "when":["Emerald Sword", "iregex:.*emerald.*"],
+        "when": [
+          "Birch Sword",
+          "iregex:.*birch.*"
+        ],
         "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/emerald_set/items/netherite/emerald_sword"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/wooden_tool_variants/birch/netherite_birch_sword"
         }
       },
       {
-        "when":["Amethyst Sword", "iregex:.*amethyst.*"],
+        "when": [
+          "Spruce Sword",
+          "iregex:.*spruce.*"
+        ],
         "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/amethyst_set/items/netherite/amethyst_sword"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/wooden_tool_variants/spruce/netherite_spruce_sword"
         }
       },
       {
-        "when":["Oxidized Copper Sword", "iregex:.*oxidized.*copper.*"],
+        "when": [
+          "Oak Sword",
+          "iregex:.*oak.*"
+        ],
         "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/copper_set/n/oxidized/oxidized_copper_sword"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/wooden_tool_variants/oak/netherite_oak_sword"
         }
       },
       {
-        "when":["Weathered Copper Sword", "iregex:.*weathered.*copper.*"],
+        "when": [
+          "J4x's Medium Sword",
+          "iregex:.*j4x.*s.*medium.*"
+        ],
         "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/copper_set/n/weathered/weathered_copper_sword"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/misc/j4x/j4xsword"
         }
       },
       {
-        "when":["Exposed Copper Sword", "iregex:.*exposed.*copper.*"],
+        "when": [
+          "Pink Sword",
+          "iregex:.*pink.*"
+        ],
         "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/copper_set/n/exposed/exposed_copper_sword"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/misc/pink/pink"
         }
       },
       {
-        "when":["Waxed Copper Sword", "iregex:.*waxed.*copper.*"],
+        "when": [
+          "Murasama Blade",
+          "iregex:.*murasama.*blade.*"
+        ],
         "model": {
-          "type":"minecraft:model",
-          "model":"minecraft:item/.weapons/copper_set/n/zzz/copper_sword"
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/misc/murasama/murasamablade"
         }
       },
       {
-        "when": ["Copper Sword", "iregex:.*copper.*"],
+        "when": [
+          "Master Sword",
+          "iregex:.*master.*sword.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/misc/master_sword/master_sword"
+        }
+      },
+      {
+        "when": [
+          "Splendor is Justice",
+          "iregex:.*splendor.*is.*justice.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/misc/justicesplendor/splendorisjustice"
+        }
+      },
+      {
+        "when": [
+          "Justice is Splendor",
+          "iregex:.*justice.*is.*splendor.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/misc/justicesplendor/justiceissplendor"
+        }
+      },
+      {
+        "when": [
+          "Meteor Sword",
+          "iregex:.*meteor.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/misc/meteor_sword/meteor_sword"
+        }
+      },
+      {
+        "when": [
+          "Cocktail Stick",
+          "iregex:.*cocktail.*stick.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/misc/cocktail_stick/cocktail_stick"
+        }
+      },
+      {
+        "when": [
+          "Beskad",
+          "iregex:.*beskad.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/misc/beskad/beskad"
+        }
+      },
+      {
+        "when": [
+          "Bat'leth",
+          "iregex:.*Bat'leth.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/misc/batleth/batleth"
+        }
+      },
+      {
+        "when": [
+          "Meowmere",
+          "iregex:.*meowmere.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/meowmere/meowmere"
+        }
+      },
+      {
+        "when": [
+          "Ruby Sword",
+          "iregex:.*ruby.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/ruby_set/items/netherite/ruby_sword"
+        }
+      },
+      {
+        "when": [
+          "Emerald Sword",
+          "iregex:.*emerald.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/emerald_set/items/netherite/emerald_sword"
+        }
+      },
+      {
+        "when": [
+          "Amethyst Sword",
+          "iregex:.*amethyst.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/amethyst_set/items/netherite/amethyst_sword"
+        }
+      },
+      {
+        "when": [
+          "Oxidized Copper Sword",
+          "iregex:.*oxidized.*copper.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/copper_set/n/oxidized/oxidized_copper_sword"
+        }
+      },
+      {
+        "when": [
+          "Weathered Copper Sword",
+          "iregex:.*weathered.*copper.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/copper_set/n/weathered/weathered_copper_sword"
+        }
+      },
+      {
+        "when": [
+          "Exposed Copper Sword",
+          "iregex:.*exposed.*copper.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/copper_set/n/exposed/exposed_copper_sword"
+        }
+      },
+      {
+        "when": [
+          "Waxed Copper Sword",
+          "iregex:.*waxed.*copper.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/copper_set/n/zzz/copper_sword"
+        }
+      },
+      {
+        "when": [
+          "Copper Sword",
+          "iregex:.*copper.*"
+        ],
         "model": {
           "type": "minecraft:range_dispatch",
           "property": "minecraft:damage",
@@ -376,7 +510,10 @@
         }
       },
       {
-        "when": ["Soulfire Netherite Sword", "iregex:.*soulfire.*"],
+        "when": [
+          "Soulfire Netherite Sword",
+          "iregex:.*soulfire.*"
+        ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:component",
@@ -397,7 +534,10 @@
         }
       },
       {
-        "when": ["Flaming Netherite Sword", "iregex:.*flaming.*"],
+        "when": [
+          "Flaming Netherite Sword",
+          "iregex:.*flaming.*"
+        ],
         "model": {
           "type": "minecraft:condition",
           "property": "minecraft:component",
@@ -418,28 +558,40 @@
         }
       },
       {
-        "when": ["Netherite Broadsword", "iregex:.*broadsword.*"],
+        "when": [
+          "Netherite Broadsword",
+          "iregex:.*broadsword.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/broadswords/broadswordn"
         }
       },
       {
-        "when": ["Netherite Claymore", "iregex:.*claymore.*"],
+        "when": [
+          "Netherite Claymore",
+          "iregex:.*claymore.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/claymores/claymoren"
         }
       },
       {
-        "when": ["Netherite Cutlass", "iregex:.*cutlass.*"],
+        "when": [
+          "Netherite Cutlass",
+          "iregex:.*cutlass.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/cutlasses/cutlassn"
         }
       },
       {
-        "when": ["Netherite Katana", "iregex:.*katana.*"],
+        "when": [
+          "Netherite Katana",
+          "iregex:.*katana.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/katanas/katanan"
@@ -458,7 +610,8 @@
       },
       {
         "when": [
-          "Yellow Double Lightsaber", "iregex:.*yellow.*double.*lightsaber.*"
+          "Yellow Double Lightsaber",
+          "iregex:.*yellow.*double.*lightsaber.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -466,14 +619,20 @@
         }
       },
       {
-        "when": ["Yellow Crossguard Lightsaber", "iregex:.*yellow.*crossguard.*lightsaber.*"],
+        "when": [
+          "Yellow Crossguard Lightsaber",
+          "iregex:.*yellow.*crossguard.*lightsaber.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/lightsabers/yellow/yellowxguardlightsaber"
         }
       },
       {
-        "when": ["Yellow Lightsaber", "iregex:.*yellow.*lightsaber.*"],
+        "when": [
+          "Yellow Lightsaber",
+          "iregex:.*yellow.*lightsaber.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/lightsabers/yellow/yellowlightsaber"
@@ -481,7 +640,8 @@
       },
       {
         "when": [
-          "White Double Lightsaber", "iregex:.*white.*double.*lightsaber.*"
+          "White Double Lightsaber",
+          "iregex:.*white.*double.*lightsaber.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -489,14 +649,20 @@
         }
       },
       {
-        "when": ["White Crossguard Lightsaber", "iregex:.*white.*crossguard.*lightsaber.*"],
+        "when": [
+          "White Crossguard Lightsaber",
+          "iregex:.*white.*crossguard.*lightsaber.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/lightsabers/white/whitexguardlightsaber"
         }
       },
       {
-        "when": ["White Lightsaber", "iregex:.*white.*lightsaber.*"],
+        "when": [
+          "White Lightsaber",
+          "iregex:.*white.*lightsaber.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/lightsabers/white/whitelightsaber"
@@ -504,7 +670,8 @@
       },
       {
         "when": [
-          "Red Double Lightsaber", "iregex:.*red.*double.*lightsaber.*"
+          "Red Double Lightsaber",
+          "iregex:.*red.*double.*lightsaber.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -512,14 +679,20 @@
         }
       },
       {
-        "when": ["Red Crossguard Lightsaber", "iregex:.*red.*crossguard.*lightsaber.*"],
+        "when": [
+          "Red Crossguard Lightsaber",
+          "iregex:.*red.*crossguard.*lightsaber.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/lightsabers/red/redxguardlightsaber"
         }
       },
       {
-        "when": ["Red Lightsaber", "iregex:.*red.*lightsaber.*"],
+        "when": [
+          "Red Lightsaber",
+          "iregex:.*red.*lightsaber.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/lightsabers/red/redlightsaber"
@@ -527,7 +700,8 @@
       },
       {
         "when": [
-          "Purple Double Lightsaber", "iregex:.*purple.*double.*lightsaber.*"
+          "Purple Double Lightsaber",
+          "iregex:.*purple.*double.*lightsaber.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -535,14 +709,20 @@
         }
       },
       {
-        "when": ["Purple Crossguard Lightsaber", "iregex:.*purple.*crossguard.*lightsaber.*"],
+        "when": [
+          "Purple Crossguard Lightsaber",
+          "iregex:.*purple.*crossguard.*lightsaber.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/lightsabers/purple/purplexguardlightsaber"
         }
       },
       {
-        "when": ["Purple Lightsaber", "iregex:.*purple.*lightsaber.*"],
+        "when": [
+          "Purple Lightsaber",
+          "iregex:.*purple.*lightsaber.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/lightsabers/purple/purplelightsaber"
@@ -550,7 +730,8 @@
       },
       {
         "when": [
-          "Orange Double Lightsaber", "iregex:.*orange.*double.*lightsaber.*"
+          "Orange Double Lightsaber",
+          "iregex:.*orange.*double.*lightsaber.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -558,14 +739,20 @@
         }
       },
       {
-        "when": ["Orange Crossguard Lightsaber", "iregex:.*orange.*crossguard.*lightsaber.*"],
+        "when": [
+          "Orange Crossguard Lightsaber",
+          "iregex:.*orange.*crossguard.*lightsaber.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/lightsabers/orange/orangexguardlightsaber"
         }
       },
       {
-        "when": ["Orange Lightsaber", "iregex:.*orange.*lightsaber.*"],
+        "when": [
+          "Orange Lightsaber",
+          "iregex:.*orange.*lightsaber.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/lightsabers/orange/orangelightsaber"
@@ -573,7 +760,8 @@
       },
       {
         "when": [
-          "Green Double Lightsaber", "iregex:.*green.*double.*lightsaber.*"
+          "Green Double Lightsaber",
+          "iregex:.*green.*double.*lightsaber.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -581,14 +769,20 @@
         }
       },
       {
-        "when": ["Green Crossguard Lightsaber", "iregex:.*green.*crossguard.*lightsaber.*"],
+        "when": [
+          "Green Crossguard Lightsaber",
+          "iregex:.*green.*crossguard.*lightsaber.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/lightsabers/green/greenxguardlightsaber"
         }
       },
       {
-        "when": ["Green Lightsaber", "iregex:.*green.*lightsaber.*"],
+        "when": [
+          "Green Lightsaber",
+          "iregex:.*green.*lightsaber.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/lightsabers/green/greenlightsaber"
@@ -596,7 +790,8 @@
       },
       {
         "when": [
-          "Blue Double Lightsaber", "iregex:.*blue.*double.*lightsaber.*"
+          "Blue Double Lightsaber",
+          "iregex:.*blue.*double.*lightsaber.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -604,14 +799,20 @@
         }
       },
       {
-        "when": ["Blue Crossguard Lightsaber", "iregex:.*blue.*crossguard.*lightsaber.*"],
+        "when": [
+          "Blue Crossguard Lightsaber",
+          "iregex:.*blue.*crossguard.*lightsaber.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/lightsabers/blue/bluexguardlightsaber"
         }
       },
       {
-        "when": ["Blue Lightsaber", "iregex:.*blue.*lightsaber.*"],
+        "when": [
+          "Blue Lightsaber",
+          "iregex:.*blue.*lightsaber.*"
+        ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/lightsabers/blue/bluelightsaber"
