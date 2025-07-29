@@ -6,6 +6,17 @@
     "cases": [
       {
         "when": [
+          "Kris Knife",
+          "Kris' Knife",
+          "iregex:.*kris.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/utdr/kris_knife/kris_knife"
+        }
+      },
+      {
+        "when": [
           "Energy Sword",
           "iregex:.*energy.*sword.*"
         ],
