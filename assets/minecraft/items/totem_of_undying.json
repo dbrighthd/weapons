@@ -5,6 +5,55 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": [ "Blue Soul", "Integrity"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/utdr/soul/blue"
+          }
+        },
+        {
+          "when": [ "Green Soul", "Kindness"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/utdr/soul/green"
+          }
+        },
+        {
+          "when": [ "Purple Soul", "Perserverance"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/utdr/soul/purple"
+          }
+        },
+        {
+          "when": [ "Cyan Soul", "Patience"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/utdr/soul/cyan"
+          }
+        },
+        {
+          "when": [ "Yellow Soul", "Justice"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/utdr/soul/yellow"
+          }
+        },
+        {
+          "when": [ "Orange Soul", "Bravery"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/utdr/soul/orange"
+          }
+        },
+        {
+          "when": [ "Soul", "Red Soul", "BALL GAME", "iregex:.*Soul.*"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/utdr/soul/red"
+          }
+        },
+        {
           "when": "The Sun",
           "model": {
             "type": "minecraft:model",

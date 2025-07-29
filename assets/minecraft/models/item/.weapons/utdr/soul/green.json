@@ -1,0 +1,20 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "item/.weapons/utdr/soul/green"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0.25, 3.25, 0.75],
+			"scale": [0.69, 0.69, 0.69]
+		},
+		"gui": {
+			"translation": [0.25, 0, 0]
+		},
+		"fixed": {
+			"translation": [0.5, 0, 0]
+		}
+	}
+}
