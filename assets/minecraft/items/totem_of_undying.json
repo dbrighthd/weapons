@@ -11,6 +11,13 @@
             "model": "minecraft:item/.weapons/utdr/soul/monster"
           }
         },
+          {
+          "when": [ "fuckinidk"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/golden_carrot"
+          }
+        },
         {
           "when": [ "Blue Soul", "Integrity"],
           "model": {
