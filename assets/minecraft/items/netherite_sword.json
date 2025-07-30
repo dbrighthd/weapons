@@ -6,6 +6,16 @@
     "cases": [
       {
         "when": [
+          "Black Knife",
+          "iregex:.*black knife.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/utdr/black_knife/black_knife"
+        }
+      },
+      {
+        "when": [
           "Kris Knife",
           "Kris' Knife",
           "iregex:.*kris.*"
