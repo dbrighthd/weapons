@@ -6,6 +6,26 @@
     "cases": [
       {
         "when": [
+          "Netherite Dancer's Sword",
+          "iregex:.*Dancer.*s.*Sword.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/dancers_swords/netherite_dancers_sword"
+        }
+      },
+      {
+        "when": [
+          "Netherite Soul Knife",
+          "iregex:.*Soul.*Knife.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/soul_knives/netherite_soul_knife"
+        }
+      },
+      {
+        "when": [
           "Black Knife",
           "iregex:.*black knife.*"
         ],

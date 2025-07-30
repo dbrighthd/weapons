@@ -5,6 +5,26 @@
       "component": "minecraft:custom_name",
       "cases": [
       {
+        "when": [
+          "Iron Dancer's Sword",
+          "iregex:.*Dancer.*s.*Sword.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/dancers_swords/iron_dancers_sword"
+        }
+      },
+      {
+        "when": [
+          "Iron Soul Knife",
+          "iregex:.*Soul.*Knife.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/soul_knives/iron_soul_knife"
+        }
+      },
+      {
         "when":["Iron BFS", "iregex:.*BFS.*"],
         "model": {
           "type":"minecraft:model",
