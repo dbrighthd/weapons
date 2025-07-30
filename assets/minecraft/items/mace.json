@@ -1,0 +1,53 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": [
+          "Bonehead Hammer",
+          "iregex:.*bonehead.*hammer.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/dungeons_hammers/bonehead_hammer"
+        }
+      },
+      {
+        "when": [
+          "Hammer of Gravity",
+          "iregex:.*hammer.*Gravity.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/dungeons_hammers/hammer_of_gravity"
+        }
+      },
+      {
+        "when": [
+          "Stormlander",
+          "iregex:.*stormlander.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/dungeons_hammers/stormlander"
+        }
+      },
+      {
+        "when": [
+          "Great Hammer",
+          "iregex:.*great.*hammer.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/dungeons_hammers/great_hammer"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/mace"
+    }
+  }
+}
