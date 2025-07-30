@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Netherite Halberd", "iregex:.*halberd.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/halberds/netherite_halberd"
+          }
+        },
+        {
           "when":"Mane Ax",
           "model": {
             "type":"minecraft:model",

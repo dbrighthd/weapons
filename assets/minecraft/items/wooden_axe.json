@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Wooden Halberd", "iregex:.*halberd.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/halberds/wooden_halberd"
+          }
+        },
+        {
           "when":[
             "Wooden Blue Axe-olotl", 
             "iregex:.*blue.*axe-olotl.*"

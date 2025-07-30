@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Diamond Halberd", "iregex:.*halberd.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/halberds/diamond_halberd"
+          }
+        },
+        {
           "when":["Ruby Axe", "iregex:.*ruby.*"],
           "model": {
             "type":"minecraft:model",

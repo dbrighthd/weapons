@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Iron Halberd", "iregex:.*halberd.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/halberds/iron_halberd"
+          }
+        },
+        {
           "when":["Oxidized Copper Axe", "iregex:.*oxidized.*copper.*"],
           "model": {
             "type":"minecraft:model",
