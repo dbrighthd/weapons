@@ -26,7 +26,7 @@
           }
         },
         {
-          "when": [ "Purple Soul", "Perserverance"],
+          "when": [ "Purple Soul", "Perserverance", "iregex:.*j4x.*soul.*"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/utdr/soul/purple"
