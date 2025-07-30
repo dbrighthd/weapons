@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": [ "fuckinidk"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/golden_carrot"
+          }
+        },
+        {
           "when": [ "Blue Soul", "Integrity"],
           "model": {
             "type": "minecraft:model",
