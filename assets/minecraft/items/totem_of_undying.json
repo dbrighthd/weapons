@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": [ "Monster Soul", "White Soul"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/utdr/soul/monster"
+          }
+        },
+        {
           "when": [ "Blue Soul", "Integrity"],
           "model": {
             "type": "minecraft:model",
@@ -33,7 +40,7 @@
           }
         },
         {
-          "when": [ "Yellow Soul", "Justice"],
+          "when": [ "Yellow Soul", "Justice", "iregex:.*hide.*Soul.*"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/utdr/soul/yellow"
