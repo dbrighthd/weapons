@@ -26,6 +26,26 @@
       },
       {
         "when": [
+          "knight sword",
+          "iregex:.*knight sword.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/utdr/knight_sword/knight_sword"
+        }
+      },
+      {
+        "when": [
+          "Black Shard",
+          "iregex:.*black shard.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/utdr/black_shard/black_shard"
+        }
+      },
+      {
+        "when": [
           "Black Knife",
           "iregex:.*black knife.*"
         ],

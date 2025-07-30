@@ -1,0 +1,44 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/.weapons/utdr/knight_sword/knight_sword"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [95, 90, -45],
+			"translation": [0, 34.5, 5.5],
+			"scale": [4, 4, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [95, -90, 45],
+			"translation": [0, 34.5, 5.5],
+			"scale": [4, 4, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [48, 89, 16],
+			"translation": [9, 7.5, -6],
+			"scale": [2, 2, 0.77]
+		},
+		"firstperson_lefthand": {
+			"rotation": [48, -89, -16],
+			"translation": [9, 7.5, -6],
+			"scale": [2, 2, 0.77]
+		},
+		"ground": {
+			"translation": [0, 5.5, 0],
+			"scale": [1, 1, 0.5]
+		},
+		"gui": {
+			"translation": [4.75, 4.75, 0],
+			"scale": [1.6, 1.6, 1]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [-9.5, 9.75, 0],
+			"scale": [3, 3, 1.2]
+		}
+	}
+}

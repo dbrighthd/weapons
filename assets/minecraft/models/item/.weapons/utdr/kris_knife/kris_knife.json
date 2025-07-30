@@ -15,10 +15,12 @@
 			"translation": [0, 7.75, 1.5]
 		},
 		"gui": {
-			"rotation": [0, 180, 90]
+			"rotation": [0, -180, 90],
+			"translation": [2.5, 1, 0]
 		},
 		"fixed": {
-			"rotation": [0, 0, 90]
+			"rotation": [0, 0, 90],
+			"translation": [-2.75, 1.25, 0]
 		}
 	}
 }
