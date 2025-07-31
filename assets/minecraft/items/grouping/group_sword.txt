@@ -7,3 +7,5 @@
 .*purple.*lightsaber.*
 .*white.*lightsaber.*
 .*darksaber.*
+.*wolverine.*
+(.*splendor is justice.*)|(.*justice is splendor.*)

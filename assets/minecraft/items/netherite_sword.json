@@ -26,8 +26,8 @@
       },
       {
         "when": [
-          "knight sword",
-          "iregex:.*knight sword.*"
+          "Roaring Knight Sword",
+          "iregex:.*roaring knight.*"
         ],
         "model": {
           "type": "minecraft:model",
