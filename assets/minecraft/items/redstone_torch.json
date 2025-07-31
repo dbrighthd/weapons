@@ -4,6 +4,7 @@
     "property": "minecraft:component",
     "component": "minecraft:custom_name",
     "cases": [
+      
       {
         "when": "Logitech Controller",
         "model": {
