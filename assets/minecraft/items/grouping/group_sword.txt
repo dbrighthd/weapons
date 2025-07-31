@@ -1,0 +1,9 @@
+.*flaming.*sword.*
+.*green.*lightsaber.*
+.*blue.*lightsaber.*
+.*yellow.*lightsaber.*
+.*orange.*lightsaber.*
+.*red.*lightsaber.*
+.*purple.*lightsaber.*
+.*white.*lightsaber.*
+.*darksaber.*
