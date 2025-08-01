@@ -47,7 +47,7 @@
           }
         },
         {
-          "when": [ "Orange Soul", "Bravery"],
+          "when": [ "Orange Soul", "Bravery", "iregex:.*GrizzLor02.*Soul.*"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/utdr/soul/orange"
