@@ -1,9 +1,10 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "minecraft:item/.weapons/misc/j4x/j4xsword",
-		"particle": "minecraft:item/.weapons/misc/j4x/j4xsword"
+		"0": "item/.weapons/misc/j4x/j4xsword",
+		"particle": "item/.weapons/misc/j4x/j4xsword"
 	},
 	"elements": [
 		{
@@ -345,6 +346,7 @@
 			}
 		}
 	],
+	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
 			"rotation": [-170.3, 1.33, -180],
@@ -352,17 +354,17 @@
 			"scale": [1.1, 1.1, 1.1]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [-170.3, -1.33, 180],
+			"rotation": [-170.3, -1.33, -180],
 			"translation": [0, 0, 0.5],
 			"scale": [1.1, 1.1, 1.1]
 		},
 		"firstperson_righthand": {
-			"rotation": [180, 0, 180],
+			"rotation": [-180, 0, -180],
 			"translation": [0, 3.5, 3],
 			"scale": [0.4, 0.4, 0.4]
 		},
 		"firstperson_lefthand": {
-			"rotation": [180, 0, 180],
+			"rotation": [-180, 0, -180],
 			"translation": [0, 3.5, 3],
 			"scale": [0.4, 0.4, 0.4]
 		},
