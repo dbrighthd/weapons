@@ -6,6 +6,46 @@
     "cases": [
       {
         "when": [
+          "Rebellion",
+          "iregex:.*rebellion.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/rebellion/rebellion"
+        }
+      },
+      {
+        "when": [
+          "Alucard's Sword",
+          "iregex:.*alucard.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/alucard/alucard"
+        }
+      },
+      {
+        "when": [
+          "Moonlight Greatsword",
+          "iregex:.*moonlight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/moonlight/moonlight"
+        }
+      },
+      {
+        "when": [
+          "Yamato",
+          "iregex:.*yamato.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/yamato/yamato"
+        }
+      },
+      {
+        "when": [
           "Netherite Dancer's Sword",
           "iregex:.*Dancer.*s.*Sword.*"
         ],

@@ -5,6 +5,26 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+        "when": [
+          "Rickenbacker 4001",
+          "iregex:.*rickenbacker.*"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/rickenbacker/rickenbacker"
+          }
+        },
+        {
+          "when": [
+            "Gibson EB-0",
+            "iregex:.*gibson.*"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/gibson/gibson"
+          }
+        },
+        {
           "when":["Netherite Halberd", "iregex:.*halberd.*"],
           "model": {
             "type":"minecraft:model",
