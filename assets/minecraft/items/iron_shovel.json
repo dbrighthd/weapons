@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Iron Comically Large Spoon", "Comically Large Spoon", "iregex:.*Large.*Spoon.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_spoons/iron_comically_large_spoon"
+          }
+        },
+        {
           "when":["Oxidized Copper Shovel", "iregex:.*oxidized.*copper.*"],
           "model": {
             "type":"minecraft:model",
