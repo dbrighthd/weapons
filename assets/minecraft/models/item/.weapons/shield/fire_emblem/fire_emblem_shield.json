@@ -1,0 +1,154 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "item/.weapons/shield/fire_emblem/fire_emblem_shield",
+		"particle": "item/.weapons/shield/fire_emblem/fire_emblem_shield"
+	},
+	"elements": [
+		{
+			"name": "fire_emblem_shield - Copy_0",
+			"from": [4.5, 0, 6],
+			"to": [10.5, 18, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.5, -13, 6]},
+			"faces": {
+				"north": {"uv": [13, 0.5, 10, 9.5], "texture": "#0"},
+				"east": {"uv": [7.5, 0.5, 8, 9.5], "texture": "#0"},
+				"south": {"uv": [2.5, 0.5, 5.5, 9.5], "texture": "#0"},
+				"west": {"uv": [0, 0.5, 0.5, 9.5], "texture": "#0"},
+				"up": {"uv": [2.5, 0, 5.5, 0.5], "texture": "#0"},
+				"down": {"uv": [2.5, 10, 5.5, 10.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "fire_emblem_shield - Copy_1",
+			"from": [1.5, 2, 6],
+			"to": [4.5, 17, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.5, -13, 6]},
+			"faces": {
+				"north": {"uv": [10, 1, 8.5, 8.5], "texture": "#0"},
+				"east": {"uv": [7.5, 1, 8, 8.5], "texture": "#0"},
+				"south": {"uv": [1, 1, 2.5, 8.5], "texture": "#0"},
+				"west": {"uv": [0, 1, 0.5, 8.5], "texture": "#0"},
+				"up": {"uv": [1, 0, 2.5, 0.5], "texture": "#0"},
+				"down": {"uv": [1, 10, 2.5, 10.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "fire_emblem_shield - Copy_2",
+			"from": [10.5, 2, 6],
+			"to": [13.5, 17, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.5, -13, 6]},
+			"faces": {
+				"north": {"uv": [14.5, 1, 13, 8.5], "texture": "#0"},
+				"east": {"uv": [7.5, 1, 8, 8.5], "texture": "#0"},
+				"south": {"uv": [5.5, 1, 7, 8.5], "texture": "#0"},
+				"west": {"uv": [0, 1, 0.5, 8.5], "texture": "#0"},
+				"up": {"uv": [5.5, 0, 7, 0.5], "texture": "#0"},
+				"down": {"uv": [5.5, 10, 7, 10.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "fire_emblem_shield - Copy_3",
+			"from": [0.5, 8, 6],
+			"to": [1.5, 16, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.5, -13, 6]},
+			"faces": {
+				"north": {"uv": [8.5, 1.5, 8, 5.5], "texture": "#0"},
+				"east": {"uv": [7.5, 1.5, 8, 5.5], "texture": "#0"},
+				"south": {"uv": [0.5, 1.5, 1, 5.5], "texture": "#0"},
+				"west": {"uv": [0, 1.5, 0.5, 5.5], "texture": "#0"},
+				"up": {"uv": [0.5, 0, 1, 0.5], "texture": "#0"},
+				"down": {"uv": [0.5, 10, 1, 10.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "fire_emblem_shield - Copy_4",
+			"from": [13.5, 8, 6],
+			"to": [14.5, 16, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.5, -13, 6]},
+			"faces": {
+				"north": {"uv": [15, 1.5, 14.5, 5.5], "texture": "#0"},
+				"east": {"uv": [7.5, 1.5, 8, 5.5], "texture": "#0"},
+				"south": {"uv": [7, 1.5, 7.5, 5.5], "texture": "#0"},
+				"west": {"uv": [0, 1.5, 0.5, 5.5], "texture": "#0"},
+				"up": {"uv": [7, 0, 7.5, 0.5], "texture": "#0"},
+				"down": {"uv": [7, 10, 7.5, 10.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "fire_emblem_shield - Copy_5",
+			"from": [2.5, 1, 6],
+			"to": [4.5, 2, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.5, -13, 6]},
+			"faces": {
+				"north": {"uv": [10, 8.5, 9, 9], "texture": "#0"},
+				"east": {"uv": [7.5, 8.5, 8, 9], "texture": "#0"},
+				"south": {"uv": [1.5, 8.5, 2.5, 9], "texture": "#0"},
+				"west": {"uv": [0, 8.5, 0.5, 9], "texture": "#0"},
+				"up": {"uv": [1.5, 0, 2.5, 0.5], "texture": "#0"},
+				"down": {"uv": [1.5, 10, 2.5, 10.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "fire_emblem_shield - Copy_6",
+			"from": [10.5, 1, 6],
+			"to": [12.5, 2, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.5, -13, 6]},
+			"faces": {
+				"north": {"uv": [14, 8.5, 13, 9], "texture": "#0"},
+				"east": {"uv": [7.5, 8.5, 8, 9], "texture": "#0"},
+				"south": {"uv": [5.5, 8.5, 6.5, 9], "texture": "#0"},
+				"west": {"uv": [0, 8.5, 0.5, 9], "texture": "#0"},
+				"up": {"uv": [5.5, 0, 6.5, 0.5], "texture": "#0"},
+				"down": {"uv": [5.5, 10, 6.5, 10.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "fire_emblem_shield - Copy_7",
+			"from": [6.5, -1, 6],
+			"to": [8.5, 0, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.5, -13, 6]},
+			"faces": {
+				"north": {"uv": [12, 9.5, 11, 10], "texture": "#0"},
+				"east": {"uv": [7.5, 9.5, 8, 10], "texture": "#0"},
+				"south": {"uv": [3.5, 9.5, 4.5, 10], "texture": "#0"},
+				"west": {"uv": [0, 9.5, 0.5, 10], "texture": "#0"},
+				"up": {"uv": [3.5, 0, 4.5, 0.5], "texture": "#0"},
+				"down": {"uv": [3.5, 10, 4.5, 10.5], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [4, -3, 3.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -180, 9],
+			"translation": [-4, -4.25, 0]
+		},
+		"ground": {
+			"translation": [0, 2.75, 0],
+			"scale": [0.46, 0.46, 0.46]
+		},
+		"gui": {
+			"rotation": [2, -37, -7],
+			"translation": [0, -0.5, 1],
+			"scale": [0.81, 0.81, 0.81]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 0, -2]
+		}
+	},
+	"groups": [
+		{
+			"name": "fire_emblem_shield - Copy",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7]
+		}
+	]
+}
