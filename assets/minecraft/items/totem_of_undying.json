@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": [ "ts pmo", "The Original Starwalker","Starwalker","iregex:.*Starwalker.*"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/utdr/pmo/pmo"
+          }
+        },
+        {
           "when": [ "Monster Soul", "White Soul"],
           "model": {
             "type": "minecraft:model",
