@@ -31,31 +31,31 @@
           "model":"minecraft:item/.weapons/buster_swords/busterswordg"
         }
       },
-        {
-          "when": [
-            "Sword of Fire", 
-            "The Sword of Fire",
-            "iregex:.*sword.*of.*fire.*"
-          ],
-          "model": {
-            "type": "minecraft:condition",
-            "property": "minecraft:component",
-            "predicate": "minecraft:enchantments",
-            "value": [
-              {
-                "enchantments": "minecraft:fire_aspect"
-              }
-            ],
-            "on_true": {
-              "type": "minecraft:model",
-              "model": "minecraft:item/.weapons/golden_weapons_of_spinjitzu/sword_of_fire"
-            },
-            "on_false": {
-              "type": "minecraft:model",
-              "model": "minecraft:item/goldend"
+      {
+        "when": [
+          "Sword of Fire",
+          "The Sword of Fire",
+          "iregex:.*sword.*of.*fire.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:enchantments",
+          "value": [
+            {
+              "enchantments": "minecraft:fire_aspect"
             }
+          ],
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/golden_weapons_of_spinjitzu/sword_of_fire"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/golden_sword"
           }
-        },
+        }
+      },
         {
           "when": [
             "Nunchucks of Lightning", 
