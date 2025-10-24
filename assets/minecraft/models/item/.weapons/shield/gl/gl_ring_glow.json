@@ -1,0 +1,83 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "item/.weapons/shield/gl/gl_item",
+		"particle": "item/.weapons/shield/gl/gl"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [1, 1, 1],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [3, 9, 4, 10], "texture": "#0"},
+				"east": {"uv": [3, 9, 4, 10], "texture": "#0"},
+				"south": {"uv": [3, 9, 4, 10], "texture": "#0"},
+				"west": {"uv": [3, 9, 4, 10], "texture": "#0"},
+				"up": {"uv": [3, 9, 4, 10], "texture": "#0"},
+				"down": {"uv": [3, 9, 4, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-0.25, -0.25, 0.48],
+			"to": [1.25, 1.25, -0.268],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8.5]},
+			"faces": {
+				"north": {"uv": [2, 0, 3, 1], "texture": "#particle"},
+				"east": {"uv": [2, 0, 3, 1], "texture": "#particle"},
+				"south": {"uv": [2, 0, 3, 1], "texture": "#particle"},
+				"west": {"uv": [2, 0, 3, 1], "texture": "#particle"},
+				"up": {"uv": [2, 0, 3, 1], "texture": "#particle"},
+				"down": {"uv": [2, 0, 3, 1], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [-0.5, -0.5, 0.49],
+			"to": [1.5, 1.5, -0.5],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8.4]},
+			"faces": {
+				"north": {"uv": [0, 0, 1, 1], "texture": "#particle"},
+				"east": {"uv": [0, 0, 1, 1], "texture": "#particle"},
+				"south": {"uv": [0, 0, 1, 1], "texture": "#particle"},
+				"west": {"uv": [0, 0, 1, 1], "texture": "#particle"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#particle"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#particle"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [8, 6, 7.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-7, 6, 7.5]
+		},
+		"firstperson_righthand": {
+			"scale": [0, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"scale": [0, 0, 0]
+		},
+		"ground": {
+			"translation": [0, 0.25, 0],
+			"scale": [0.34, 0.34, 0.34]
+		},
+		"gui": {
+			"rotation": [2, -37, -7],
+			"translation": [0, -1, 1],
+			"scale": [0.96, 0.96, 0.96]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0],
+			"translation": [0, -1, -2]
+		}
+	}
+}

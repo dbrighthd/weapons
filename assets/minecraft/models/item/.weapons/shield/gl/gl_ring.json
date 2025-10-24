@@ -3,32 +3,37 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "item/.weapons/shield/gl/gl",
-		"particle": "item/.weapons/shield/gl/gl"
+		"0": "item/.weapons/shield/gl/gl_item",
+		"particle": "item/.weapons/shield/gl/gl_item"
 	},
 	"elements": [
 		{
-			"from": [6, 6, 10],
-			"to": [10, 10, 6],
-			"light_emission": 15,
+			"from": [0, 0, 0],
+			"to": [1, 1, 1],
+			"light_emission": 10,
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
 			"faces": {
 				"north": {"uv": [3, 9, 4, 10], "texture": "#0"},
-				"east": {"uv": [3, 9, 4, 10], "texture": "#0"},
-				"south": {"uv": [3, 9, 4, 10], "texture": "#0"},
-				"west": {"uv": [3, 9, 4, 10], "texture": "#0"},
-				"up": {"uv": [3, 9, 4, 10], "texture": "#0"},
-				"down": {"uv": [3, 9, 4, 10], "texture": "#0"}
+				"east": {"uv": [6, 9, 7, 10], "texture": "#0"},
+				"south": {"uv": [6, 9, 7, 10], "texture": "#0"},
+				"west": {"uv": [6, 9, 7, 10], "texture": "#0"},
+				"up": {"uv": [6, 9, 7, 10], "texture": "#0"},
+				"down": {"uv": [6, 9, 7, 10], "texture": "#0"}
 			}
 		}
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"translation": [0, -2, 6]
+			"translation": [8, 6, 7.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [-7, 6, 7.5]
 		},
 		"firstperson_righthand": {
-			"rotation": [0, 94, -56],
-			"translation": [2.25, -5.75, 4]
+			"scale": [0, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"scale": [0, 0, 0]
 		},
 		"ground": {
 			"translation": [0, 0.25, 0],
