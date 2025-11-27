@@ -83,7 +83,7 @@
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "minecraft:item/.weapons/claws/wolverine_sheathed"
+            "model": "minecraft:item/.weapons/shield/gl/gl_ring"
           }
         }
             }
@@ -173,7 +173,7 @@
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "minecraft:item/.weapons/claws/wolverine_sheathed"
+            "model": "minecraft:item/.weapons/shield/gl/gl_ring"
           }
         }
             }

@@ -6,6 +6,150 @@
     "cases": [
       {
         "when": [
+          "Green Lantern Fist",
+          "iregex:.*green.*lantern.*fist.*"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:display_context",
+          "cases": [
+            {
+              "when": [
+                "firstperson_righthand",
+                "thirdperson_righthand"
+              ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:main_hand",
+          "cases": [
+            {
+              "when": [
+                "right",
+                "left"
+              ],
+              "model": {
+                "type": "minecraft:condition",
+                "property": "minecraft:keybind_down",
+                "keybind": "key.use",
+                "on_true": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
+                      "tints": []
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_fist_right"
+                    }
+                  ]
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:keybind_down",
+                  "keybind": "key.attack",
+                  "on_true": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
+                      "tints": []
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_fist_right"
+                    }
+                  ]
+                  },
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/.weapons/shield/gl/gl_ring"
+                  }
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/gl/gl_ring"
+          }
+        }
+            },
+            {
+              "when": [
+                "firstperson_lefthand",
+                "thirdperson_lefthand"
+              ],
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:main_hand",
+          "cases": [
+            {
+              "when": [
+                "right",
+                "left"
+              ],
+              "model": {
+                "type": "minecraft:condition",
+                "property": "minecraft:keybind_down",
+                "keybind": "key.use",
+                "on_true": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
+                      "tints": []
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_fist_left"
+                    }
+                  ]
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:keybind_down",
+                  "keybind": "key.attack",
+                  "on_true": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
+                      "tints": []
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_fist_left"
+                    }
+                  ]
+                  },
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/.weapons/shield/gl/gl_ring"
+                  }
+                }
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/gl/gl_ring"
+          }
+        }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/gl/gl_item"
+          }
+        }
+      },
+      {
+        "when": [
           "Rebellion",
           "iregex:.*rebellion.*"
         ],
