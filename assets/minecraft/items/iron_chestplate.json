@@ -6,12 +6,155 @@
     "cases": [
       {
         "when": [
-          "Purple Iron Knight Chestplate",
-          "iregex:(.*Purple.*Knight.*|.*Knight.*Purple.*)"
+          "Blue Iron Knight Chestplate"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/i/blue/i_blue_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Light Blue Iron Knight Chestplate"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/i/light_blue/i_light_blue_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Cyan Iron Knight Chestplate"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/i/cyan/i_cyan_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Green Iron Knight Chestplate"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/i/green/i_green_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Lime Iron Knight Chestplate"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/i/lime/i_lime_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Yellow Iron Knight Chestplate"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/i/yellow/i_yellow_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Orange Iron Knight Chestplate"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/i/orange/i_orange_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Brown Iron Knight Chestplate"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/i/brown/i_brown_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Red Iron Knight Chestplate"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/i/red/i_red_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Pink Iron Knight Chestplate"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/i/pink/i_pink_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Magenta Iron Knight Chestplate"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/i/magenta/i_magenta_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Purple Iron Knight Chestplate"
         ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/knight_armor/i/purple/i_purple_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "White Iron Knight Chestplate"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/i/white/i_white_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Light Gray Iron Knight Chestplate"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/i/light_gray/i_light_gray_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Gray Iron Knight Chestplate"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/i/gray/i_gray_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Black Iron Knight Chestplate"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/i/black/i_black_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Iron Knight Chestplate"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/i/zzz/i_knight_chestplate"
         }
       }
     ],
