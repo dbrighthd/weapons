@@ -1,0 +1,8 @@
+{
+	"context": "equippable",
+	"type": "custom_name",
+	"items": [
+		"minecraft:iron_helmet"
+	],
+	"modelPrefix": ".weapons/knight_armor/i/zzz/"
+}
