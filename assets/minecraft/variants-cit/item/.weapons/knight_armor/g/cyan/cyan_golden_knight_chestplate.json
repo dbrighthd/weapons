@@ -1,0 +1,8 @@
+{
+	"context": "equippable",
+	"type": "custom_name",
+	"items": [
+		"minecraft:golden_chestplate"
+	],
+	"modelPrefix": ".weapons/knight_armor/g/cyan/"
+}
