@@ -1,0 +1,8 @@
+{
+	"context": "equippable",
+	"type": "custom_name",
+	"items": [
+		"minecraft:netherite_boots"
+	],
+	"modelPrefix": ".weapons/knight_armor/n/zzz/"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/.weapons/knight_armor/n/pink/n_pink_knight_chestplate"
+  }
+}

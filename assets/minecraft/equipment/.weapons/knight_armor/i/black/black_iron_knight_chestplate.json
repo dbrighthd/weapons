@@ -2,7 +2,7 @@
     "layers": {
         "humanoid": [
             {
-                "texture": "minecraft:.weapons/knight_armor/i/black/i_black_knight_layer_1"
+                "texture": "minecraft:.weapons/knight_armor/i/i_black_knight_layer_1"
             }
         ]
     }

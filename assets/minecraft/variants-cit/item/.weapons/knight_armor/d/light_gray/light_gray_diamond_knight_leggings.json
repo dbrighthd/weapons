@@ -1,0 +1,8 @@
+{
+	"context": "equippable",
+	"type": "custom_name",
+	"items": [
+		"minecraft:diamond_leggings"
+	],
+	"modelPrefix": ".weapons/knight_armor/d/light_gray/"
+}

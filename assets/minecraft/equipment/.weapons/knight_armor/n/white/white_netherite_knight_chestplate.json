@@ -1,0 +1,9 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "minecraft:.weapons/knight_armor/n/n_white_knight_layer_1"
+            }
+        ]
+    }
+}

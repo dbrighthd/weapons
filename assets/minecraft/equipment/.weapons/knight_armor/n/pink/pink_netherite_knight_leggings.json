@@ -1,0 +1,9 @@
+{
+    "layers": {
+        "humanoid_leggings": [
+            {
+                "texture": "minecraft:.weapons/knight_armor/n/n_pink_knight_layer_2"
+            }
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+{
+	"context": "equippable",
+	"type": "custom_name",
+	"items": [
+		"minecraft:diamond_boots"
+	],
+	"modelPrefix": ".weapons/knight_armor/d/zzz/"
+}

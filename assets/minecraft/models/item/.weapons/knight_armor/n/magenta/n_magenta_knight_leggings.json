@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/.weapons/knight_armor/n/magenta/n_magenta_knight_leggings"
+  }
+}
