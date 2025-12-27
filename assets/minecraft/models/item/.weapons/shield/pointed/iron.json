@@ -1,8 +1,9 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "block/iron_block",
-		"1": "minecraft:item/.weapons/shield/pointed/pshield",
+		"1": "block/mojangwhywouldyoumakemedothis",
 		"particle": "block/iron_block"
 	},
 	"elements": [
