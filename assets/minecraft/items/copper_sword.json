@@ -1,0 +1,89 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+      {
+        "when": [
+          "Copper Dancer's Sword",
+          "iregex:.*Dancer.*s.*Sword.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/dancers_swords/copper_dancers_sword"
+        }
+      },
+      {
+        "when": [
+          "Copper Soul Knife",
+          "iregex:.*Soul.*Knife.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/soul_knives/copper_soul_knife"
+        }
+      },
+      {
+        "when":["Copper BFS", "iregex:.*BFS.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/buster_swords/busterswordc"
+        }
+      },
+        {
+          "when": ["Flaming Copper Sword", "iregex:.*flaming.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/flaming_copper_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/copper_sword"
+            }
+          }
+        },
+        {
+          "when":["Copper Broadsword", "iregex:.*broadsword.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/broadswords/broadswordc"
+          }
+        },
+        {
+          "when":["Copper Claymore", "iregex:.*claymore.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/claymores/claymorec"
+          }
+        },
+        {
+          "when":["Copper Cutlass", "iregex:.*cutlass.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/cutlasses/cutlassc"
+          }
+        },
+        {
+          "when":["Copper Katana", "iregex:.*katana.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/katanas/katanac"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/copper_sword"
+      }
+    }
+  }

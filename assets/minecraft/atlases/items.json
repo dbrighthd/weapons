@@ -1,9 +1,0 @@
-{
-  "sources": [
-    {
-      "type": "minecraft:single",
-      "resource": "minecraft:block/iron_block",
-      "sprite": "your_namespace:block/vanilla_iron_block"
-    }
-  ]
-}
