@@ -14,7 +14,8 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "minecraft:item/C"
+        "model": "minecraft:item/copper_shovel"
       }
     }
   }
+  
