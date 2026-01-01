@@ -5,10 +5,28 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":["Iron Halberd", "iregex:.*halberd.*"],
+          "when": ["Iron Halberd", "iregex:.*halberd.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/halberds/iron_halberd"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/halberds/iron_halberd"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/halberds/iron_halberd_in_hand"
+    }
           }
         },
         {

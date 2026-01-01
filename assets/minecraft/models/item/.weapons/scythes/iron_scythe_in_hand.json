@@ -3,8 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "minecraft:item/.weapons/scythes/i/scythei",
-		"particle": "minecraft:item/.weapons/scythes/i/scythei"
+		"0": "minecraft:item/.weapons/scythes/iron_scythe_in_hand",
+		"particle": "minecraft:item/.weapons/scythes/iron_scythe_in_hand"
 	},
 	"elements": [
 		{
