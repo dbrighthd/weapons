@@ -5,13 +5,6 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":["Copper Comically Large Spoon", "Comically Large Spoon", "iregex:.*Large.*Spoon.*"],
-          "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/comically_large_spoons/copper_comically_large_spoon"
-          }
-        },
-        {
           "when":["Oxidized Copper Pickaxe", "iregex:.*oxidized.*"],
           "model": {
             "type":"minecraft:model",
@@ -40,7 +33,7 @@
           }
         },
         {
-          "when": ["Copper Sword", "iregex:.*copper.*"],
+          "when": ["Copper Pickaxe", "iregex:.*copper.*"],
           "model": {
             "type": "minecraft:range_dispatch",
             "property": "minecraft:damage",

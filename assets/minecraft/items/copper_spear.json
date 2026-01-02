@@ -28,15 +28,16 @@
       "model": "minecraft:item/.weapons/tridents/copper_trident_in_hand"
     }
           }
-        }
-      ],
-      "fallback": {
+        },
+        {
+          "when":["Oxidized Copper Spear", "iregex:.*oxidized.*"],
+          "model": {
     "type": "minecraft:select",
     "cases": [
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/copper_spear"
+          "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_spear"
         },
         "when": [
           "gui",
@@ -48,10 +49,149 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/copper_spear_in_hand"
+      "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_spear_in_hand"
     },
     "property": "minecraft:display_context"
+          }
+        },
+        {
+          "when":["Weathered Copper Spear", "iregex:.*weathered.*"],
+          "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
       }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_spear_in_hand"
     },
-  "swap_animation_scale": 1.95
+    "property": "minecraft:display_context"
+          }
+        },
+        {
+          "when":["Exposed Copper Spear", "iregex:.*exposed.*"],
+          "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+          }
+        },
+        {
+          "when":["Waxed Copper Spear", "iregex:.*waxed.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/copper_spear"
+          }
+        },
+        {
+          "when": ["Copper Spear", "iregex:.*copper.*"],
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:damage",
+            "scale": 5,
+            "entries": [
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/copper_spear"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_spear"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_spear"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/copper_spear"
+            }
+          }
+        }
+      ],
+      "fallback": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:damage",
+            "scale": 5,
+            "entries": [
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/copper_spear"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_spear"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_spear"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_spear"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/copper_spear"
+            }
+      }
+    }
   }

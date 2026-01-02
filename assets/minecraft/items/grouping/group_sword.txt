@@ -1,4 +1,5 @@
 ((?!green).)*flaming.*sword.*
+(Green Flaming Copper Sword|Soulfire netherite Sword)
 .*green.*lightsaber.*
 .*blue.*lightsaber.*
 .*yellow.*lightsaber.*

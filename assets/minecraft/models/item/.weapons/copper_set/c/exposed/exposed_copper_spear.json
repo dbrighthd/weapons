@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_spear"
+  }
+}
