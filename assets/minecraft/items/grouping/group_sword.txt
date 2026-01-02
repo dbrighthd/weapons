@@ -1,4 +1,4 @@
-.*flaming.*sword.*
+((?!green).)*flaming.*sword.*
 .*green.*lightsaber.*
 .*blue.*lightsaber.*
 .*yellow.*lightsaber.*

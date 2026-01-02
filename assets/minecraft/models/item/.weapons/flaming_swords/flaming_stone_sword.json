@@ -1,7 +1,7 @@
 {
-  "parent": "minecraft:item/handheld",
+  "parent": "minecraft:item/.weapons/flaming_swords/emissive_layered_tool",
   "textures": {
-    "layer0": "minecraft:item/stone_sword",
-    "layer1":"minecraft:item/.weapons/flaming_swords/flames"
+    "base": "minecraft:item/stone_sword",
+    "glow":"minecraft:item/.weapons/flaming_swords/flames"
   }
 }

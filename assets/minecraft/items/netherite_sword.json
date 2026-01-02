@@ -465,6 +465,18 @@
       },
       {
         "when": [
+          "J4x's Original Medium Sword",
+          "J4x's 3D Medium Sword",
+          "J4x's Classic Medium Sword",
+          "iregex:.*j4x.*s.*(Original|3D|Classic).*medium.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/misc/j4x/j4xswordog"
+        }
+      },
+      {
+        "when": [
           "J4x's Medium Sword",
           "iregex:.*j4x.*s.*medium.*"
         ],

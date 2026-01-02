@@ -10,12 +10,116 @@
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/comically_large_spoons/copper_comically_large_spoon"
           }
+        },
+        {
+          "when":["Oxidized Copper Shovel", "iregex:.*oxidized.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_shovel"
+          }
+        },
+        {
+          "when":["Weathered Copper Shovel", "iregex:.*weathered.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_shovel"
+          }
+        },
+        {
+          "when":["Exposed Copper Shovel", "iregex:.*exposed.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_shovel"
+          }
+        },
+        {
+          "when":["Waxed Copper Shovel", "iregex:.*waxed.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/copper_shovel"
+          }
+        },
+        {
+          "when": ["Copper Sword", "iregex:.*copper.*"],
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:damage",
+            "scale": 5,
+            "entries": [
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/copper_shovel"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_shovel"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_shovel"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_shovel"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/copper_shovel"
+            }
+          }
         }
       ],
       "fallback": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/copper_shovel"
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:damage",
+            "scale": 5,
+            "entries": [
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/copper_shovel"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_shovel"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_shovel"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_shovel"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/copper_shovel"
+            }
       }
     }
   }
-  

@@ -77,11 +77,116 @@
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/dungeons_axes/dungeons_axec"
           }
+        },
+        {
+          "when":["Oxidized Copper Axe", "iregex:.*oxidized.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_axe"
+          }
+        },
+        {
+          "when":["Weathered Copper Axe", "iregex:.*weathered.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_axe"
+          }
+        },
+        {
+          "when":["Exposed Copper Axe", "iregex:.*exposed.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_axe"
+          }
+        },
+        {
+          "when":["Waxed Copper Axe", "iregex:.*waxed.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/copper_axe"
+          }
+        },
+        {
+          "when": ["Copper Sword", "iregex:.*copper.*"],
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:damage",
+            "scale": 5,
+            "entries": [
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/copper_axe"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_axe"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_axe"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_axe"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/copper_axe"
+            }
+          }
         }
       ],
       "fallback": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/copper_axe"
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:damage",
+            "scale": 5,
+            "entries": [
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/copper_axe"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_axe"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_axe"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_axe"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/copper_axe"
+            }
       }
     }
   }

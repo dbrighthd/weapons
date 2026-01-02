@@ -5,56 +5,38 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when": ["Copper Scythe", "iregex:.*scythe.*"],
+          "when":["Copper Comically Large Spoon", "Comically Large Spoon", "iregex:.*Large.*Spoon.*"],
           "model": {
-    "type": "minecraft:select",
-    "property": "minecraft:display_context",
-    "cases": [
-      {
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/scythes/copper_scythe"
-        },
-        "when": [
-          "gui",
-          "ground",
-          "fixed",
-          "on_shelf"
-        ]
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/scythes/copper_scythe_in_hand"
-    }
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_spoons/copper_comically_large_spoon"
           }
         },
         {
-          "when":["Oxidized Copper Hoe", "iregex:.*oxidized.*"],
+          "when":["Oxidized Copper Pickaxe", "iregex:.*oxidized.*"],
           "model": {
             "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_hoe"
+            "model":"minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_pickaxe"
           }
         },
         {
-          "when":["Weathered Copper Hoe", "iregex:.*weathered.*"],
+          "when":["Weathered Copper Pickaxe", "iregex:.*weathered.*"],
           "model": {
             "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_hoe"
+            "model":"minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_pickaxe"
           }
         },
         {
-          "when":["Exposed Copper Hoe", "iregex:.*exposed.*"],
+          "when":["Exposed Copper Pickaxe", "iregex:.*exposed.*"],
           "model": {
             "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_hoe"
+            "model":"minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_pickaxe"
           }
         },
         {
-          "when":["Waxed Copper Hoe", "iregex:.*waxed.*"],
+          "when":["Waxed Copper Pickaxe", "iregex:.*waxed.*"],
           "model": {
             "type":"minecraft:model",
-            "model":"minecraft:item/copper_hoe"
+            "model":"minecraft:item/copper_pickaxe"
           }
         },
         {
@@ -68,34 +50,34 @@
                 "threshold": 1,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/copper_hoe"
+                  "model": "minecraft:item/copper_pickaxe"
                 }
               },
               {
                 "threshold": 2,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_hoe"
+                  "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_pickaxe"
                 }
               },
               {
                 "threshold": 3,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_hoe"
+                  "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_pickaxe"
                 }
               },
               {
                 "threshold": 4,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_hoe"
+                  "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_pickaxe"
                 }
               }
             ],
             "fallback": {
               "type": "minecraft:model",
-              "model": "minecraft:item/copper_hoe"
+              "model": "minecraft:item/copper_pickaxe"
             }
           }
         }
@@ -109,34 +91,34 @@
                 "threshold": 1,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/copper_hoe"
+                  "model": "minecraft:item/copper_pickaxe"
                 }
               },
               {
                 "threshold": 2,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_hoe"
+                  "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_pickaxe"
                 }
               },
               {
                 "threshold": 3,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_hoe"
+                  "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_pickaxe"
                 }
               },
               {
                 "threshold": 4,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_hoe"
+                  "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_pickaxe"
                 }
               }
             ],
             "fallback": {
               "type": "minecraft:model",
-              "model": "minecraft:item/copper_hoe"
+              "model": "minecraft:item/copper_pickaxe"
             }
       }
     }
