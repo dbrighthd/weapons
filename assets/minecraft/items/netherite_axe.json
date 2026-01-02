@@ -33,7 +33,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/utdr/halberdly/halberdly"
+          "model": "minecraft:item/.weapons/halberds/netherite_halberd"
         },
         "when": [
           "gui",
@@ -45,7 +45,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/utdr/halberdly/halberdly_in_hand"
+      "model": "minecraft:item/.weapons/halberds/netherite_halberd_in_hand"
     }
           }
         },
@@ -71,49 +71,13 @@
               "property": "minecraft:keybind_down",
               "keybind": "key.attack",
               "on_true": {
-    "type": "minecraft:select",
-    "property": "minecraft:display_context",
-    "cases": [
-      {
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/utdr/halberdly/halberdly_active_in_hand"
-        },
-        "when": [
-          "gui",
-          "ground",
-          "fixed",
-          "on_shelf"
-        ]
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/utdr/halberdly/halberdly_active_in_hand"
-    }
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/utdr/halberdly/halberdly_active_in_hand"
               },
               "on_false": {
-    "type": "minecraft:select",
-    "property": "minecraft:display_context",
-    "cases": [
-      {
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/utdr/halberdly/halberdly_in_hand"
-        },
-        "when": [
-          "gui",
-          "ground",
-          "fixed",
-          "on_shelf"
-        ]
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/utdr/halberdly/halberdly_in_hand"
-    }
-          }
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/utdr/halberdly/halberdly_in_hand"
+              }
             },
             "on_false": {
               "type": "minecraft:model",
