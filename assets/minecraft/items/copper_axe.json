@@ -107,7 +107,7 @@
           }
         },
         {
-          "when": ["Copper Sword", "iregex:.*copper.*"],
+          "when": ["Copper Axe", "iregex:.*copper.*"],
           "model": {
             "type": "minecraft:range_dispatch",
             "property": "minecraft:damage",

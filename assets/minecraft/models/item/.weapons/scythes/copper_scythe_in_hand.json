@@ -3,8 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "minecraft:item/.weapons/scythes/c/scythec",
-		"particle": "minecraft:item/.weapons/scythes/c/scythec"
+		"0": "minecraft:item/.weapons/scythes/copper_scythe_in_hand",
+		"particle": "minecraft:item/.weapons/scythes/copper_scythe_in_hand"
 	},
 	"elements": [
 		{

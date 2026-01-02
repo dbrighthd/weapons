@@ -5,6 +5,31 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": ["Diamond lance", "Lance", "iregex:.*lance.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lances/diamond_lance"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/lances/diamond_lance_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Diamond Trident", "Trident", "iregex:.*trident.*"],
           "model": {
     "type": "minecraft:select",

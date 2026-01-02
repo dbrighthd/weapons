@@ -3,8 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "minecraft:item/.weapons/scythes/n/scythen",
-		"particle": "minecraft:item/.weapons/scythes/n/scythen"
+		"0": "minecraft:item/.weapons/scythes/netherite_scythe_in_hand",
+		"particle": "minecraft:item/.weapons/scythes/netherite_scythe_in_hand"
 	},
 	"elements": [
 		{

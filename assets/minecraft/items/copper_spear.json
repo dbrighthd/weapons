@@ -5,6 +5,31 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": ["Copper lance", "Lance", "iregex:.*lance.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lances/copper_lance"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/lances/copper_lance_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Copper Trident", "Trident", "iregex:.*trident.*"],
           "model": {
     "type": "minecraft:select",

@@ -5,6 +5,31 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": ["Netherite lance", "Lance", "iregex:.*lance.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lances/netherite_lance"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/lances/netherite_lance_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Netherite Trident", "Trident", "iregex:.*trident.*"],
           "model": {
     "type": "minecraft:select",
