@@ -29,7 +29,7 @@
         "when": ["Waxed Copper Pickaxe", "iregex:.*waxed.*copper.*"],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/copper_set/i/zzz/copper_pickaxe"
+          "model": "minecraft:item/copper_pickaxe"
         }
       },
       {
@@ -43,7 +43,7 @@
               "threshold": 1,
               "model": {
                 "type": "minecraft:model",
-                "model": "minecraft:item/.weapons/copper_set/i/zzz/copper_pickaxe"
+                "model": "minecraft:item/copper_pickaxe"
               }
             },
             {
@@ -70,7 +70,7 @@
           ],
           "fallback": {
             "type": "minecraft:model",
-            "model": "minecraft:item/.weapons/copper_set/i/zzz/copper_pickaxe"
+            "model": "minecraft:item/copper_pickaxe"
           }
         }
       }

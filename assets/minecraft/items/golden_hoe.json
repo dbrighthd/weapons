@@ -32,8 +32,26 @@
         {
           "when": ["Golden Scythe", "iregex:.*scythe.*"],
           "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/.weapons/scythes/g/scytheg"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/golden_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/golden_scythe_in_hand"
+    }
           }
         }
       ],

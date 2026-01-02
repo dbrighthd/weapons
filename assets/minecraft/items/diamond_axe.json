@@ -5,10 +5,28 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":["Diamond Halberd", "iregex:.*halberd.*"],
+          "when": ["Diamond Halberd", "iregex:.*halberd.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/halberds/diamond_halberd"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/halberds/diamond_halberd"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/halberds/diamond_halberd_in_hand"
+    }
           }
         },
         {

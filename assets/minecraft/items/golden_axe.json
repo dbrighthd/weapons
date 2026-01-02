@@ -5,10 +5,28 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":["Golden Halberd", "iregex:.*halberd.*"],
+          "when": ["Golden Halberd", "iregex:.*halberd.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/halberds/golden_halberd"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/halberds/golden_halberd"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/halberds/golden_halberd_in_hand"
+    }
           }
         },
         {

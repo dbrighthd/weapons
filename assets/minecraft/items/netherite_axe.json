@@ -25,10 +25,28 @@
           }
         },
         {
-          "when":["Netherite Halberd", "iregex:.*halberd.*"],
+          "when": ["Netherite Halberd", "iregex:.*halberd.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/halberds/netherite_halberd"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/utdr/halberdly/halberdly"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/utdr/halberdly/halberdly_in_hand"
+    }
           }
         },
         {
@@ -53,17 +71,53 @@
               "property": "minecraft:keybind_down",
               "keybind": "key.attack",
               "on_true": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/.weapons/utdr/halberdly/halberdly_active"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/utdr/halberdly/halberdly_active_in_hand"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/utdr/halberdly/halberdly_active_in_hand"
+    }
               },
               "on_false": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/.weapons/utdr/halberdly/halberdly"
-              }
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/utdr/halberdly/halberdly_in_hand"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/utdr/halberdly/halberdly_in_hand"
+    }
+          }
             },
             "on_false": {
               "type": "minecraft:model",
-              "model": "minecraft:item/.weapons/utdr/halberdly/halberdly"
+              "model": "minecraft:item/.weapons/utdr/halberdly/halberdly_in_hand"
             }
           }
         },

@@ -1,38 +1,7 @@
+
 {
-	"format_version": "1.21.6",
-	"credit": "Made with Blockbench",
-	"parent": "minecraft:item/handheld",
-	"textures": {
-		"layer0": "item/.weapons/utdr/haldberdly/halberdly"
-	},
-	"gui_light": "front",
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [0, -90, -45],
-			"translation": [0, 6.25, 1.5],
-			"scale": [2, 2, 1]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [0, 90, 45],
-			"translation": [0, 6.25, 1.5],
-			"scale": [2, 2, 1]
-		},
-		"firstperson_righthand": {
-			"rotation": [0, -83, -51],
-			"translation": [6.5, 0, -3.25],
-			"scale": [1.2, 1.2, 0.64]
-		},
-		"firstperson_lefthand": {
-			"rotation": [0, 83, 51],
-			"translation": [6.5, 0, -3.25],
-			"scale": [1.2, 1.2, 0.64]
-		},
-		"gui": {
-			"rotation": [0, 0, -90]
-		},
-		"fixed": {
-			"rotation": [0, -180, -90],
-			"scale": [1.25, 1.25, 1.25]
-		}
-	}
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/.weapons/utdr/haldberdly/halberdly"
+  }
 }

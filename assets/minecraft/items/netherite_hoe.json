@@ -151,8 +151,26 @@
         {
           "when": ["Netherite Scythe", "iregex:.*scythe.*"],
           "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/.weapons/scythes/n/scythen"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/netherite_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/netherite_scythe_in_hand"
+    }
           }
         }
       ],

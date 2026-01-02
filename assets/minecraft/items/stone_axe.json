@@ -5,10 +5,28 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":["Stone Halberd", "iregex:.*halberd.*"],
+          "when": ["Stone Halberd", "iregex:.*halberd.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/halberds/stone_halberd"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/halberds/stone_halberd"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/halberds/stone_halberd_in_hand"
+    }
           }
         },
         {

@@ -5,10 +5,28 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":["Copper Halberd", "iregex:.*halberd.*"],
+          "when": ["Copper Halberd", "iregex:.*halberd.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/halberds/copper_halberd"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/halberds/copper_halberd"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/halberds/copper_halberd_in_hand"
+    }
           }
         },
         {

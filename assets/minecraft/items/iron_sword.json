@@ -70,7 +70,7 @@
           "when":["Waxed Copper Sword", "iregex:.*waxed.*copper.*"],
           "model": {
             "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/copper_set/i/zzz/copper_sword"
+            "model":"minecraft:item/copper_sword"
           }
         },
         {
@@ -84,7 +84,7 @@
                 "threshold": 1,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/i/zzz/copper_sword"
+                  "model": "minecraft:item/copper_sword"
                 }
               },
               {
@@ -111,7 +111,7 @@
             ],
             "fallback": {
               "type": "minecraft:model",
-              "model": "minecraft:item/.weapons/copper_set/i/zzz/copper_sword"
+              "model": "minecraft:item/copper_sword"
             }
           }
         },
