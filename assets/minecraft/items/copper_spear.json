@@ -132,8 +132,26 @@
         {
           "when":["Waxed Copper Spear", "iregex:.*waxed.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/copper_spear"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/copper_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/copper_spear_in_hand"
+    }
           }
         },
         {
@@ -146,35 +164,125 @@
               {
                 "threshold": 1,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/copper_spear"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/copper_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/copper_spear_in_hand"
+    }
                 }
               },
               {
                 "threshold": 2,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_spear"
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
                 }
               },
               {
                 "threshold": 3,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_spear"
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
                 }
               },
               {
                 "threshold": 4,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_spear"
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
                 }
               }
             ],
             "fallback": {
-              "type": "minecraft:model",
-              "model": "minecraft:item/copper_spear"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/copper_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/copper_spear_in_hand"
+    }
             }
           }
         }
@@ -187,35 +295,125 @@
               {
                 "threshold": 1,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/copper_spear"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/copper_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/copper_spear_in_hand"
+    }
                 }
               },
               {
                 "threshold": 2,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_spear"
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
                 }
               },
               {
                 "threshold": 3,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_spear"
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
                 }
               },
               {
                 "threshold": 4,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_spear"
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
                 }
               }
             ],
             "fallback": {
-              "type": "minecraft:model",
-              "model": "minecraft:item/copper_spear"
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/copper_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/copper_spear_in_hand"
+    }
             }
       }
     }
