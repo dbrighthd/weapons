@@ -8,7 +8,7 @@
           "when": [
             "Scythe of Quakes", 
             "The Scythe of Quakes",
-            "iregex.*scythe.*of.*quakes"
+            "iregex:.*scythe.*of.*quakes.*"
           ],
           "model": {
           "type": "minecraft:condition",

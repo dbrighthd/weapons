@@ -1216,8 +1216,8 @@
       },
       {
         "when": [
-          "Netherite Pointed Shield",
-          "iregex:.*netherite.*pointed.*"
+          "Pointed Netherite Shield",
+          "iregex:(.*netherite.*pointed.*|.*pointed.*netherite.*)"
         ],
         "model": {
           "type": "minecraft:condition",
@@ -1234,8 +1234,8 @@
       },
       {
         "when": [
-          "Diamond Pointed Shield",
-          "iregex:.*diamond.*pointed.*"
+          "Pointed Diamond Shield",
+          "iregex:(.*diamond.*pointed.*|.*pointed.*diamond.*)"
         ],
         "model": {
           "type": "minecraft:condition",
@@ -1252,8 +1252,8 @@
       },
       {
         "when": [
-          "Golden Pointed Shield",
-          "iregex:.*golden.*pointed.*"
+          "Pointed Golden Shield",
+          "iregex:(.*golden.*pointed.*|.*pointed.*golden.*)"
         ],
         "model": {
           "type": "minecraft:condition",
@@ -1270,8 +1270,8 @@
       },
       {
         "when": [
-          "Copper Pointed Shield",
-          "iregex:.*copper.*pointed.*"
+          "Pointed Copper Shield",
+          "iregex:(.*copper.*pointed.*|.*pointed.*copper.*)"
         ],
         "model": {
           "type": "minecraft:condition",
@@ -1288,8 +1288,8 @@
       },
       {
         "when": [
-          "Iron Pointed Shield",
-          "iregex:.*iron.*pointed.*"
+          "Pointed Iron Shield",
+          "iregex:(.*iron.*pointed.*|.*pointed.*iron.*)"
         ],
         "model": {
           "type": "minecraft:condition",
@@ -1307,6 +1307,7 @@
       {
         "when": [
           "Pointed Shield",
+          "Pointed Wooden Shield",
           "iregex:.*pointed.*"
         ],
         "model": {
