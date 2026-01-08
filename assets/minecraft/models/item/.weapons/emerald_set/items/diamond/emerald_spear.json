@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/.weapons/emerald_set/items/diamond/emerald_spear"
+  }
+}
