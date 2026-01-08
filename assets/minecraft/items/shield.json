@@ -1216,6 +1216,78 @@
       },
       {
         "when": [
+          "Netherite Pointed Shield",
+          "iregex:.*netherite.*pointed.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/netheriteblock"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/netherite"
+          }
+        }
+      },
+      {
+        "when": [
+          "Diamond Pointed Shield",
+          "iregex:.*diamond.*pointed.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/diamondblock"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/diamond"
+          }
+        }
+      },
+      {
+        "when": [
+          "Golden Pointed Shield",
+          "iregex:.*golden.*pointed.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/goldblock"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/gold"
+          }
+        }
+      },
+      {
+        "when": [
+          "Copper Pointed Shield",
+          "iregex:.*copper.*pointed.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/copperblock"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/copper"
+          }
+        }
+      },
+      {
+        "when": [
           "Iron Pointed Shield",
           "iregex:.*iron.*pointed.*"
         ],
