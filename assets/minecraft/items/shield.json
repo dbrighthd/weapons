@@ -6,6 +6,96 @@
     "cases": [
       {
         "when": [
+          "Netherite Shield",
+          "iregex:.*netherite.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/netherite_blocking"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/netherite"
+          }
+        }
+      },
+      {
+        "when": [
+          "Diamond Shield",
+          "iregex:.*diamond.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/diamond_blocking"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/diamond"
+          }
+        }
+      },
+      {
+        "when": [
+          "Golden Shield",
+          "iregex:.*gold.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/gold_blocking"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/gold"
+          }
+        }
+      },
+      {
+        "when": [
+          "Copper Shield",
+          "iregex:.*copper.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/copper_blocking"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/copper"
+          }
+        }
+      },
+      {
+        "when": [
+          "Iron Shield",
+          "iregex:.*iron.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/iron_blocking"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/iron"
+          }
+        }
+      },
+      {
+        "when": [
           "Green Lantern Shield",
           "iregex:.*green.*lantern.*shield.*"
         ],
