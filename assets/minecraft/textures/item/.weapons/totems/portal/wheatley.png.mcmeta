@@ -1,0 +1,167 @@
+{
+	"animation": {
+		"frametime": 1,
+		"frames":[
+			{"index":0, "time":50},
+
+			{"index":7, "comment":"blink1"},
+			8,
+			{"index":9, "time":2},
+			8,
+			7,
+			
+			{"index":0, "time":50},
+
+			{"index":25, "comment":"eyeroll"},
+			{"index":26, "time":25},
+			26,
+			27,
+			{"index":28, "time":2},
+			{"index":29, "time":3},
+			{"index":30, "time":4},
+			{"index":31, "time":10},
+			32,
+			33,
+			{"index":26, "time":25},
+			25,
+
+			{"index":0, "time":25},
+
+			{"index":7, "comment":"blink2"},
+			8,
+			{"index":9, "time":2},
+			8,
+			7,
+			{"index":0, "time":2},
+			7,
+			8,
+			{"index":9, "time":2},
+			8,
+			7,
+
+			{"index":0, "time":50},
+
+			{"index":1, "comment":"lookright"},
+			2,
+			{"index":3, "time":25},
+			2,
+			1,
+
+			{"index":0, "time":50},
+
+			{"index":7, "comment":"blink1"},
+			8,
+			{"index":9, "time":2},
+			8,
+			7,
+
+			{"index":0, "time":50},
+
+			{"index":7, "comment":"suspcious"},
+			{"index":8, "time":2},
+			10,
+			11,
+			{"index":12, "time":25},
+			11,
+			10,
+			8,
+			13,
+			14,
+			{"index":15, "time":25},
+			14,
+			13,
+			{"index":8, "time":25},
+			8,
+			7,
+
+			{"index":0, "time":50},
+
+			{"index":7, "comment":"blink2"},
+			8,
+			{"index":9, "time":2},
+			8,
+			7,
+			{"index":0, "time":2},
+			7,
+			8,
+			{"index":9, "time":2},
+			8,
+			7,
+			
+			{"index":0, "time":50},
+
+			{"index":4, "comment":"lookleft"},
+			5,
+			{"index":6, "time":25},
+			5,
+			4,
+			
+			{"index":0, "time":50},
+
+			{"index":16, "comment":"happy"},
+			17,
+			{"index":18, "time":25},
+			17,
+			16,
+			
+			{"index":0, "time":50},
+
+			{"index":19, "comment":"meanderinglookdown"},
+			{"index":20, "time":25},
+			21,
+			{"index":22, "time":25},
+			{"index":21, "time":25},
+			20,
+			{"index":23, "time":25},
+			20,
+			19,
+			
+			{"index":0, "time":50},
+
+			{"index":7, "comment":"blink1"},
+			8,
+			{"index":9, "time":2},
+			8,
+			7,
+			
+			{"index":0, "time":50},
+
+			{"index":34, "comment":"yes"},
+			0,
+			35,
+			{"index":37, "time":2},
+			35,
+			0,
+			34,
+			{"index":36, "time":2},
+			34,
+			0,
+			35,
+			{"index":37, "time":2},
+			35,
+			0,
+			34,
+			{"index":36, "time":2},
+			34,
+			
+			{"index":0, "time":50},
+
+			{"index":38, "comment":"scared"},
+			{"index":39, "time":10},
+			40,
+			41,
+			{"index":42, "time":15},
+			{"index":43, "time":15},
+			42,
+			{"index":44, "time":15},
+			42,
+			41,
+			40,
+			45,
+			{"index":46, "time":25},
+			45,
+			{"index":39, "time":10},
+			38
+		]
+	}
+}
