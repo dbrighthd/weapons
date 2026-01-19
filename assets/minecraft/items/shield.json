@@ -7,7 +7,9 @@
       {
         "when": [
           "Shield Saw",
-          "iregex:.*shield.*saw.*"
+          "Saw Shield",
+          "iregex:.*shield.*saw.*",
+          "iregex:.*saw.*shield.*"
         ],
         "model": {
           "type": "minecraft:condition",
