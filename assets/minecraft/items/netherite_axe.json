@@ -7,7 +7,8 @@
         {
         "when": [
           "Pochita",
-          "iregex:.*pochita.*"
+          "iregex:.*pochita.*",
+          "iregex:.*chainsaw.*heart.*"
           ],
           "model": {
             "type": "minecraft:model",
