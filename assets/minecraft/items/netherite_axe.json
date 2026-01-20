@@ -6,6 +6,16 @@
       "cases": [
         {
         "when": [
+          "Pochita",
+          "iregex:.*pochita.*"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/csm/pochita/pochita"
+          }
+        },
+        {
+        "when": [
           "Rickenbacker 4001",
           "iregex:.*rickenbacker.*"
           ],
