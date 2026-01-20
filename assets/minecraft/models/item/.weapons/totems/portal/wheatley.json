@@ -4,6 +4,8 @@
 	"texture_size": [128, 128],
 	"textures": {
 		"2": "item/.weapons/totems/portal/wheatley",
+		"3": "item/.weapons/totems/portal/wheatley_eyelids",
+		"4": "item/.weapons/totems/portal/wheatley_eye",
 		"particle": "item/.weapons/totems/portal/wheatley"
 	},
 	"elements": [
@@ -48,15 +50,6 @@
 			}
 		},
 		{
-			"name": "eye",
-			"from": [3, 3, 3],
-			"to": [13, 13, 4],
-			"light_emission": 15,
-			"faces": {
-				"north": {"uv": [0, 6.25, 1.25, 7.5], "texture": "#2"}
-			}
-		},
-		{
 			"name": "void",
 			"from": [1, 1, 4],
 			"to": [15, 15, 1],
@@ -71,11 +64,20 @@
 			}
 		},
 		{
+			"name": "eye",
+			"from": [3, 3, 3],
+			"to": [13, 13, 4],
+			"light_emission": 15,
+			"faces": {
+				"north": {"uv": [0, 0, 10, 10], "texture": "#4"}
+			}
+		},
+		{
 			"name": "top",
 			"from": [2, 11, 2],
 			"to": [14, 15, 3],
 			"faces": {
-				"north": {"uv": [6.625, 4, 8.125, 4.5], "texture": "#2"}
+				"north": {"uv": [6.625, 4, 8.125, 4.5], "texture": "#3"}
 			}
 		},
 		{
@@ -83,7 +85,7 @@
 			"from": [2, 1, 2],
 			"to": [14, 5, 3],
 			"faces": {
-				"north": {"uv": [6.625, 4.625, 8.125, 5.125], "texture": "#2"}
+				"north": {"uv": [6.625, 4.625, 8.125, 5.125], "texture": "#3"}
 			}
 		},
 		{
@@ -92,7 +94,7 @@
 			"to": [14, 14, 3],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1, 0]},
 			"faces": {
-				"north": {"uv": [6.625, 5.25, 8.125, 5.75], "texture": "#2"}
+				"north": {"uv": [6.625, 5.25, 8.125, 5.75], "texture": "#3"}
 			}
 		},
 		{
@@ -101,7 +103,7 @@
 			"to": [14, 6, 3],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 1, 0]},
 			"faces": {
-				"north": {"uv": [6.625, 5.875, 8.125, 6.375], "texture": "#2"}
+				"north": {"uv": [6.625, 5.875, 8.125, 6.375], "texture": "#3"}
 			}
 		},
 		{
@@ -110,7 +112,7 @@
 			"to": [14, 13, 3],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, -2, 0]},
 			"faces": {
-				"north": {"uv": [6.625, 6.5, 8.125, 7], "texture": "#2"}
+				"north": {"uv": [6.625, 6.5, 8.125, 7], "texture": "#3"}
 			}
 		},
 		{
@@ -119,7 +121,7 @@
 			"to": [14, 7, 3],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 2, 0]},
 			"faces": {
-				"north": {"uv": [6.625, 7.125, 8.125, 7.625], "texture": "#2"}
+				"north": {"uv": [6.625, 7.125, 8.125, 7.625], "texture": "#3"}
 			}
 		},
 		{
@@ -128,7 +130,7 @@
 			"to": [14, 12, 3],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, -3, 0]},
 			"faces": {
-				"north": {"uv": [6.625, 7.75, 8.125, 8.25], "texture": "#2"}
+				"north": {"uv": [6.625, 7.75, 8.125, 8.25], "texture": "#3"}
 			}
 		},
 		{
@@ -137,7 +139,7 @@
 			"to": [14, 8, 3],
 			"rotation": {"angle": 0, "axis": "y", "origin": [0, 3, 0]},
 			"faces": {
-				"north": {"uv": [6.625, 8.375, 8.125, 8.875], "texture": "#2"}
+				"north": {"uv": [6.625, 8.375, 8.125, 8.875], "texture": "#3"}
 			}
 		},
 		{
@@ -257,11 +259,12 @@
 		0,
 		1,
 		2,
+		3,
 		{
 			"name": "eye",
 			"origin": [0, 0, 0],
 			"color": 0,
-			"children": [3, 4]
+			"children": [4]
 		},
 		{
 			"name": "eyelids",
