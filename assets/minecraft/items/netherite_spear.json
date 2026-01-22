@@ -5,6 +5,31 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": ["Needle", "iregex:.*Needle.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/hollow_knight/needle/needle"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/hollow_knight/needle/needle_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Emerald Spear", "Emerald", "iregex:.*Emerald.*"],
           "model": {
     "type": "minecraft:select",
