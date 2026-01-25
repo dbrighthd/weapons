@@ -1,0 +1,4 @@
+.*Diamond Knight.*,Diamond Knight Boots,Diamond Knight Leggings,Diamond Knight Chestplate,Diamond Knight Helmet
+.*Netherite Knight.*,Netherite Knight Boots,Netherite Knight Leggings,Netherite Knight Chestplate,Netherite Knight Helmet
+.*Iron Knight.*,Iron Knight Boots,Iron Knight Leggings,Iron Knight Chestplate,Iron Knight Helmet
+.*Golden Knight.*,Golden Knight Boots,Golden Knight Leggings,Golden Knight Chestplate,Golden Knight Helmet
