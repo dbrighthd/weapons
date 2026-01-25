@@ -1,0 +1,6 @@
+{
+    "required_dependencies": [],
+    "optional_dependencies": [
+        "variants-cit", "dbrighthd_regex_mod"
+    ]
+}
