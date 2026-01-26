@@ -1,0 +1,8 @@
+.*wooden.*,oak_planks
+.*diamond.*,diamond_block
+.*copper.*,waxed_copper_block
+.*iron.*,iron_block
+.*golden.*,gold_block
+.*redstone.*,none
+.*stone.*,stone
+.*netherite.*,netherite_block
