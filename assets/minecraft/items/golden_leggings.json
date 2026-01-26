@@ -6,7 +6,8 @@
     "cases": [
       {
         "when": [
-          "Blue Golden Knight Leggings"
+          "Blue Golden Knight Leggings",
+          "iregex:.*blue.*knight.*leggings.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -15,7 +16,8 @@
       },
       {
         "when": [
-          "Light Blue Golden Knight Leggings"
+          "Light Blue Golden Knight Leggings",
+          "iregex:.*light blue.*knight.*leggings.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -24,7 +26,8 @@
       },
       {
         "when": [
-          "Cyan Golden Knight Leggings"
+          "Cyan Golden Knight Leggings",
+          "iregex:.*cyan.*knight.*leggings.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -33,7 +36,8 @@
       },
       {
         "when": [
-          "Green Golden Knight Leggings"
+          "Green Golden Knight Leggings",
+          "iregex:.*green.*knight.*leggings.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -42,7 +46,8 @@
       },
       {
         "when": [
-          "Lime Golden Knight Leggings"
+          "Lime Golden Knight Leggings",
+          "iregex:.*lime.*knight.*leggings.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -51,7 +56,8 @@
       },
       {
         "when": [
-          "Yellow Golden Knight Leggings"
+          "Yellow Golden Knight Leggings",
+          "iregex:.*yellow.*knight.*leggings.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -60,7 +66,8 @@
       },
       {
         "when": [
-          "Orange Golden Knight Leggings"
+          "Orange Golden Knight Leggings",
+          "iregex:.*orange.*knight.*leggings.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -69,7 +76,8 @@
       },
       {
         "when": [
-          "Brown Golden Knight Leggings"
+          "Brown Golden Knight Leggings",
+          "iregex:.*brown.*knight.*leggings.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -78,7 +86,8 @@
       },
       {
         "when": [
-          "Red Golden Knight Leggings"
+          "Red Golden Knight Leggings",
+          "iregex:.*red.*knight.*leggings.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -87,7 +96,8 @@
       },
       {
         "when": [
-          "Pink Golden Knight Leggings"
+          "Pink Golden Knight Leggings",
+          "iregex:.*pink.*knight.*leggings.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -96,7 +106,8 @@
       },
       {
         "when": [
-          "Magenta Golden Knight Leggings"
+          "Magenta Golden Knight Leggings",
+          "iregex:.*magenta.*knight.*leggings.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -105,7 +116,8 @@
       },
       {
         "when": [
-          "Purple Golden Knight Leggings"
+          "Purple Golden Knight Leggings",
+          "iregex:.*purple.*knight.*leggings.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -114,7 +126,8 @@
       },
       {
         "when": [
-          "White Golden Knight Leggings"
+          "White Golden Knight Leggings",
+          "iregex:.*white.*knight.*leggings.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -123,7 +136,8 @@
       },
       {
         "when": [
-          "Light Gray Golden Knight Leggings"
+          "Light Gray Golden Knight Leggings",
+          "iregex:.*light gray.*knight.*leggings.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -132,7 +146,8 @@
       },
       {
         "when": [
-          "Gray Golden Knight Leggings"
+          "Gray Golden Knight Leggings",
+          "iregex:.*gray.*knight.*leggings.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -141,7 +156,8 @@
       },
       {
         "when": [
-          "Black Golden Knight Leggings"
+          "Black Golden Knight Leggings",
+          "iregex:.*black.*knight.*leggings.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -150,7 +166,8 @@
       },
       {
         "when": [
-          "Golden Knight Leggings"
+          "Golden Knight Leggings",
+          "iregex:.*knight.*leggings.*"
         ],
         "model": {
           "type": "minecraft:model",

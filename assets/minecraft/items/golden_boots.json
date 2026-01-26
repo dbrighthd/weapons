@@ -6,7 +6,7 @@
     "cases": [
       {
         "when": [
-          "Golden Knight Boots"
+          "Golden Knight Boots" , "iregex:.*knight.*boots.*"
         ],
         "model": {
           "type": "minecraft:model",

@@ -1,8 +1,0 @@
-{
-	"context": "equippable",
-	"type": "custom_name",
-	"items": [
-		"minecraft:netherite_leggings"
-	],
-	"modelPrefix": ".weapons/knight_armor/n/blue/"
-}

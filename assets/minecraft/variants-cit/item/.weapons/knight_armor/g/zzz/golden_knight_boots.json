@@ -1,8 +1,0 @@
-{
-	"context": "equippable",
-	"type": "custom_name",
-	"items": [
-		"minecraft:golden_boots"
-	],
-	"modelPrefix": ".weapons/knight_armor/g/zzz/"
-}

@@ -1,8 +1,0 @@
-{
-	"context": "equippable",
-	"type": "custom_name",
-	"items": [
-		"minecraft:diamond_chestplate"
-	],
-	"modelPrefix": ".weapons/knight_armor/d/cyan/"
-}

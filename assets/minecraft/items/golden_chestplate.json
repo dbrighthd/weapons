@@ -6,7 +6,8 @@
     "cases": [
       {
         "when": [
-          "Blue Golden Knight Chestplate"
+          "Blue Golden Knight Chestplate",
+          "iregex:.*blue.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -15,7 +16,8 @@
       },
       {
         "when": [
-          "Light Blue Golden Knight Chestplate"
+          "Light Blue Golden Knight Chestplate",
+          "iregex:.*light blue.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -24,7 +26,8 @@
       },
       {
         "when": [
-          "Cyan Golden Knight Chestplate"
+          "Cyan Golden Knight Chestplate",
+          "iregex:.*cyan.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -33,7 +36,8 @@
       },
       {
         "when": [
-          "Green Golden Knight Chestplate"
+          "Green Golden Knight Chestplate",
+          "iregex:.*green.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -42,7 +46,8 @@
       },
       {
         "when": [
-          "Lime Golden Knight Chestplate"
+          "Lime Golden Knight Chestplate",
+          "iregex:.*lime.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -51,7 +56,8 @@
       },
       {
         "when": [
-          "Yellow Golden Knight Chestplate"
+          "Yellow Golden Knight Chestplate",
+          "iregex:.*yellow.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -60,7 +66,8 @@
       },
       {
         "when": [
-          "Orange Golden Knight Chestplate"
+          "Orange Golden Knight Chestplate",
+          "iregex:.*orange.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -69,7 +76,8 @@
       },
       {
         "when": [
-          "Brown Golden Knight Chestplate"
+          "Brown Golden Knight Chestplate",
+          "iregex:.*brown.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -78,7 +86,8 @@
       },
       {
         "when": [
-          "Red Golden Knight Chestplate"
+          "Red Golden Knight Chestplate",
+          "iregex:.*red.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -87,7 +96,8 @@
       },
       {
         "when": [
-          "Pink Golden Knight Chestplate"
+          "Pink Golden Knight Chestplate",
+          "iregex:.*pink.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -96,7 +106,8 @@
       },
       {
         "when": [
-          "Magenta Golden Knight Chestplate"
+          "Magenta Golden Knight Chestplate",
+          "iregex:.*magenta.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -105,7 +116,8 @@
       },
       {
         "when": [
-          "Purple Golden Knight Chestplate"
+          "Purple Golden Knight Chestplate",
+          "iregex:.*purple.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -114,7 +126,8 @@
       },
       {
         "when": [
-          "White Golden Knight Chestplate"
+          "White Golden Knight Chestplate",
+          "iregex:.*white.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -123,7 +136,8 @@
       },
       {
         "when": [
-          "Light Gray Golden Knight Chestplate"
+          "Light Gray Golden Knight Chestplate",
+          "iregex:.*light gray.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -132,7 +146,8 @@
       },
       {
         "when": [
-          "Gray Golden Knight Chestplate"
+          "Gray Golden Knight Chestplate",
+          "iregex:.*gray.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -141,7 +156,8 @@
       },
       {
         "when": [
-          "Black Golden Knight Chestplate"
+          "Black Golden Knight Chestplate",
+          "iregex:.*black.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -150,7 +166,8 @@
       },
       {
         "when": [
-          "Golden Knight Chestplate"
+          "Golden Knight Chestplate",
+          "iregex:.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",

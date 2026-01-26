@@ -6,7 +6,8 @@
     "cases": [
       {
         "when": [
-          "Blue Netherite Knight Chestplate"
+          "Blue Netherite Knight Chestplate",
+          "iregex:.*blue.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -15,7 +16,8 @@
       },
       {
         "when": [
-          "Light Blue Netherite Knight Chestplate"
+          "Light Blue Netherite Knight Chestplate",
+          "iregex:.*light blue.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -24,7 +26,8 @@
       },
       {
         "when": [
-          "Cyan Netherite Knight Chestplate"
+          "Cyan Netherite Knight Chestplate",
+          "iregex:.*cyan.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -33,7 +36,8 @@
       },
       {
         "when": [
-          "Green Netherite Knight Chestplate"
+          "Green Netherite Knight Chestplate",
+          "iregex:.*green.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -42,7 +46,8 @@
       },
       {
         "when": [
-          "Lime Netherite Knight Chestplate"
+          "Lime Netherite Knight Chestplate",
+          "iregex:.*lime.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -51,7 +56,8 @@
       },
       {
         "when": [
-          "Yellow Netherite Knight Chestplate"
+          "Yellow Netherite Knight Chestplate",
+          "iregex:.*yellow.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -60,7 +66,8 @@
       },
       {
         "when": [
-          "Orange Netherite Knight Chestplate"
+          "Orange Netherite Knight Chestplate",
+          "iregex:.*orange.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -69,7 +76,8 @@
       },
       {
         "when": [
-          "Brown Netherite Knight Chestplate"
+          "Brown Netherite Knight Chestplate",
+          "iregex:.*brown.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -78,7 +86,8 @@
       },
       {
         "when": [
-          "Red Netherite Knight Chestplate"
+          "Red Netherite Knight Chestplate",
+          "iregex:.*red.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -87,7 +96,8 @@
       },
       {
         "when": [
-          "Pink Netherite Knight Chestplate"
+          "Pink Netherite Knight Chestplate",
+          "iregex:.*pink.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -96,7 +106,8 @@
       },
       {
         "when": [
-          "Magenta Netherite Knight Chestplate"
+          "Magenta Netherite Knight Chestplate",
+          "iregex:.*magenta.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -105,7 +116,8 @@
       },
       {
         "when": [
-          "Purple Netherite Knight Chestplate"
+          "Purple Netherite Knight Chestplate",
+          "iregex:.*purple.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -114,7 +126,8 @@
       },
       {
         "when": [
-          "White Netherite Knight Chestplate"
+          "White Netherite Knight Chestplate",
+          "iregex:.*white.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -123,7 +136,8 @@
       },
       {
         "when": [
-          "Light Gray Netherite Knight Chestplate"
+          "Light Gray Netherite Knight Chestplate",
+          "iregex:.*light gray.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -132,7 +146,8 @@
       },
       {
         "when": [
-          "Gray Netherite Knight Chestplate"
+          "Gray Netherite Knight Chestplate",
+          "iregex:.*gray.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -141,7 +156,8 @@
       },
       {
         "when": [
-          "Black Netherite Knight Chestplate"
+          "Black Netherite Knight Chestplate",
+          "iregex:.*black.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -150,7 +166,8 @@
       },
       {
         "when": [
-          "Netherite Knight Chestplate"
+          "Netherite Knight Chestplate",
+          "iregex:.*knight.*chestplate.*"
         ],
         "model": {
           "type": "minecraft:model",
