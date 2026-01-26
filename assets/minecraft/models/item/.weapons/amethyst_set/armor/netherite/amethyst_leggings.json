@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/.weapons/amythest_set/armor/netherite/amethyst_leggings"
+  }
+}

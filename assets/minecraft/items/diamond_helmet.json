@@ -6,6 +6,33 @@
     "cases": [
       {
         "when": [
+          "Amethyst Helmet", "iregex:.*amethyst.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/amethyst_set/armor/diamond/amethyst_helmet"
+        }
+      },
+      {
+        "when": [
+          "Emerald Helmet", "iregex:.*emerald.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/emerald_set/armor/diamond/emerald_helmet"
+        }
+      },
+      {
+        "when": [
+          "Ruby Helmet", "iregex:.*ruby.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/ruby_set/armor/diamond/ruby_helmet"
+        }
+      },
+      {
+        "when": [
           "Diamond Knight Helmet", "iregex:.*knight.*helmet.*"
         ],
         "model": {

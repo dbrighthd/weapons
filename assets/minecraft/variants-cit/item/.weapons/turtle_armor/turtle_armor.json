@@ -1,0 +1,42 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:iron_boots", "minecraft:iron_leggings", "minecraft:iron_chestplate"
+	],
+	"modelPrefix": ".weapons/turtle/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+			
+				"function": "alternative",
+				"alternatives" : [
+					{
+						"regex": "(?i).*(brown).*(turtle).*",
+						"substitution": "brown/turtle",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*blue.*turtle.*",
+						"substitution": "blue/turtle",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*green.*turtle.*",
+						"substitution": "green/turtle",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*leatherback.*turtle.*",
+						"substitution": "black/turtle",
+						"matchAll": true
+					}
+				]
+			},
+			"sanitize_path"
+		]
+	}
+}

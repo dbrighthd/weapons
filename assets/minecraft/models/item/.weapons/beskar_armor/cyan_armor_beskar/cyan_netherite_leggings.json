@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/.weapons/beskar_armor/cyan_armor_beskar/cyan_netherite_leggings"
+  }
+}

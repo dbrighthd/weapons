@@ -6,6 +6,42 @@
     "cases": [
       {
         "when": [
+          "Leatherback Turtle Chestplate", "iregex:.*leatherback.*turtle.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/turtle/black/turtle_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Blue Turtle Chestplate", "iregex:.*blue.*turtle.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/turtle/blue/turtle_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Brown Turtle Chestplate", "iregex:.*brown.*turtle.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/turtle/brown/turtle_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Green Turtle Chestplate", "iregex:.*green.*turtle.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/turtle/green/turtle_chestplate"
+        }
+      },
+      {
+        "when": [
           "Blue Iron Knight Chestplate",
           "iregex:.*blue.*knight.*chestplate.*"
         ],

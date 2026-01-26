@@ -1,0 +1,14 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "minecraft:.weapons/amethyst_set/diamond/amethyst_layer_1"
+            }
+        ],
+        "humanoid_leggings": [
+            {
+                "texture": "minecraft:.weapons/amethyst_set/diamond/amethyst_layer_2"
+            }
+        ]
+    }
+}

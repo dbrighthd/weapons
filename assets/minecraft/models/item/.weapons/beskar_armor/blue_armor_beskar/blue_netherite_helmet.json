@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/.weapons/beskar_armor/blue_armor_beskar/blue_netherite_helmet"
+  }
+}

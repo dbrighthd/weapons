@@ -6,7 +6,34 @@
     "cases": [
       {
         "when": [
-          "Diamond Knight Boots", "iregex:.*knight.*boots"
+          "Amethyst Boots", "iregex:.*amethyst.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/amethyst_set/armor/diamond/amethyst_boots"
+        }
+      },
+      {
+        "when": [
+          "Emerald Boots", "iregex:.*emerald.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/emerald_set/armor/diamond/emerald_boots"
+        }
+      },
+      {
+        "when": [
+          "Ruby Boots", "iregex:.*ruby.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/ruby_set/armor/diamond/ruby_boots"
+        }
+      },
+      {
+        "when": [
+          "Diamond Knight Boots", "iregex:.*knight.*boots.*"
         ],
         "model": {
           "type": "minecraft:model",

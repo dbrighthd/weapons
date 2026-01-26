@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/.weapons/beskar_armor/pink_armor_beskar/pink_netherite_leggings"
+  }
+}

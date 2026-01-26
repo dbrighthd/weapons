@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/.weapons/beskar_armor/brown_armor_beskar/brown_netherite_chestplate"
+  }
+}

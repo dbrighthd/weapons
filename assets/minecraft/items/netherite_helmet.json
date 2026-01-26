@@ -6,6 +6,33 @@
     "cases": [
       {
         "when": [
+          "Netherite Emerald Helmet", "iregex:.*emerald.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/emerald_set/armor/netherite/emerald_helmet"
+        }
+      },
+      {
+        "when": [
+          "Netherite Ruby Helmet", "iregex:.*ruby.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/ruby_set/armor/netherite/ruby_helmet"
+        }
+      },
+      {
+        "when": [
+          "Netherite Amethyst Helmet", "iregex:.*amethyst.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/amethyst_set/armor/netherite/amethyst_helmet"
+        }
+      },
+      {
+        "when": [
           "Netherite Knight Helmet", "iregex:.*knight.*helmet.*"
         ],
         "model": {

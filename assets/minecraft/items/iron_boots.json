@@ -6,6 +6,42 @@
     "cases": [
       {
         "when": [
+          "Leatherback Turtle Boots", "iregex:.*leatherback.*turtle.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/turtle/black/turtle_boots"
+        }
+      },
+      {
+        "when": [
+          "Blue Turtle Boots", "iregex:.*blue.*turtle.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/turtle/blue/turtle_boots"
+        }
+      },
+      {
+        "when": [
+          "Brown Turtle Boots", "iregex:.*brown.*turtle.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/turtle/brown/turtle_boots"
+        }
+      },
+      {
+        "when": [
+          "Green Turtle Boots", "iregex:.*green.*turtle.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/turtle/green/turtle_boots"
+        }
+      },
+      {
+        "when": [
           "Iron Knight Boots", "iregex:.*knight.*boots.*"
         ],
         "model": {

@@ -6,6 +6,42 @@
     "cases": [
       {
         "when": [
+          "Leatherback Turtle Leggings", "iregex:.*leatherback.*turtle.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/turtle/black/turtle_leggings"
+        }
+      },
+      {
+        "when": [
+          "Blue Turtle Leggings", "iregex:.*blue.*turtle.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/turtle/blue/turtle_leggings"
+        }
+      },
+      {
+        "when": [
+          "Brown Turtle Leggings", "iregex:.*brown.*turtle.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/turtle/brown/turtle_leggings"
+        }
+      },
+      {
+        "when": [
+          "Green Turtle Leggings", "iregex:.*green.*turtle.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/turtle/green/turtle_leggings"
+        }
+      },
+      {
+        "when": [
           "Blue Iron Knight Leggings",
           "iregex:.*blue.*knight.*leggings.*"
         ],

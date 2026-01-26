@@ -1,0 +1,14 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "minecraft:.weapons/turtle/green/turtle_layer_1"
+            }
+        ],
+        "humanoid_leggings": [
+            {
+                "texture": "minecraft:.weapons/turtle/green/turtle_layer_2"
+            }
+        ]
+    }
+}

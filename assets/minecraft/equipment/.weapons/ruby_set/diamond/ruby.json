@@ -1,0 +1,14 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "minecraft:.weapons/ruby_set/diamond/ruby_layer_1"
+            }
+        ],
+        "humanoid_leggings": [
+            {
+                "texture": "minecraft:.weapons/ruby_set/diamond/ruby_layer_2"
+            }
+        ]
+    }
+}

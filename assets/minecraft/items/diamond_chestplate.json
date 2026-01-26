@@ -6,6 +6,33 @@
     "cases": [
       {
         "when": [
+          "Amethyst Chestplate", "iregex:.*amethyst.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/amethyst_set/armor/diamond/amethyst_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Emerald Chestplate", "iregex:.*emerald.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/emerald_set/armor/diamond/emerald_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Ruby Chestplate", "iregex:.*ruby.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/ruby_set/armor/diamond/ruby_chestplate"
+        }
+      },
+      {
+        "when": [
           "Blue Diamond Knight Chestplate",
           "iregex:.*blue.*knight.*chestplate.*"
         ],

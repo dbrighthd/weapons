@@ -6,6 +6,33 @@
     "cases": [
       {
         "when": [
+          "Netherite Emerald Leggings", "iregex:.*emerald.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/emerald_set/armor/netherite/emerald_leggings"
+        }
+      },
+      {
+        "when": [
+          "Netherite Ruby Leggings", "iregex:.*ruby.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/ruby_set/armor/netherite/ruby_leggings"
+        }
+      },
+      {
+        "when": [
+          "Netherite Amethyst Leggings", "iregex:.*amethyst.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/amethyst_set/armor/netherite/amethyst_leggings"
+        }
+      },
+      {
+        "when": [
           "Blue Netherite Knight Leggings",
           "iregex:.*blue.*knight.*leggings.*"
         ],

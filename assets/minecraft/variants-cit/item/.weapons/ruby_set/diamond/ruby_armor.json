@@ -1,0 +1,21 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:diamond_boots", "minecraft:diamond_leggings", "minecraft:diamond_helmet", "minecraft:diamond_chestplate"
+	],
+	"modelPrefix": ".weapons/ruby_set/diamond/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"regex": "(?i).*(Ruby).*",
+				"substitution": "ruby",
+				"matchAll": true
+			},
+			"sanitize_path"
+		]
+	}
+}

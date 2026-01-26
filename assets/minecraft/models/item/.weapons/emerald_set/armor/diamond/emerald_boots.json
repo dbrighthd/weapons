@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/.weapons/emerald_set/armor/diamond/emerald_boots"
+  }
+}

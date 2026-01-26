@@ -6,6 +6,33 @@
     "cases": [
       {
         "when": [
+          "Amethyst Leggings", "iregex:.*amethyst.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/amethyst_set/armor/diamond/amethyst_leggings"
+        }
+      },
+      {
+        "when": [
+          "Emerald Leggings", "iregex:.*emerald.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/emerald_set/armor/diamond/emerald_leggings"
+        }
+      },
+      {
+        "when": [
+          "Ruby Leggings", "iregex:.*ruby.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/ruby_set/armor/diamond/ruby_leggings"
+        }
+      },
+      {
+        "when": [
           "Blue Diamond Knight Leggings",
           "iregex:.*blue.*knight.*leggings.*"
         ],
