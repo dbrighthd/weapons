@@ -1,0 +1,22 @@
+chest,.*Light Blue.*Knight.*
+chest,.*Blue.*Knight.*
+chest,.*Cyan.*Knight.*
+chest,.*Green.*Knight.*
+chest,.*Lime.*Knight.*
+chest,.*Yellow.*Knight.*
+chest,.*Orange.*Knight.*
+chest,.*Brown.*Knight.*
+chest,.*Red.*Knight.*
+chest,.*Pink.*Knight.*
+chest,.*Magenta.*Knight.*
+chest,.*Purple.*Knight.*
+chest,.*White.*Knight.*
+chest,.*Light Gray.*Knight.*
+chest,.*Gray.*Knight.*
+chest,.*Black.*Knight.*
+chest,.*Knight.*
+chest,.*Turtle.*
+chest,.*Ruby.*
+chest,.*Emerald.*
+chest,.*Amethyst.*
+
