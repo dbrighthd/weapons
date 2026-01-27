@@ -34,7 +34,7 @@
       {
         "when": [
           "Blue Diamond Knight Leggings",
-          "iregex:.*blue.*knight.*leggings.*"
+          "iregex:.*blue.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -44,7 +44,7 @@
       {
         "when": [
           "Light Blue Diamond Knight Leggings",
-          "iregex:.*light blue.*knight.*leggings.*"
+          "iregex:.*light blue.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -54,7 +54,7 @@
       {
         "when": [
           "Cyan Diamond Knight Leggings",
-          "iregex:.*cyan.*knight.*leggings.*"
+          "iregex:.*cyan.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -64,7 +64,7 @@
       {
         "when": [
           "Green Diamond Knight Leggings",
-          "iregex:.*green.*knight.*leggings.*"
+          "iregex:.*green.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -74,7 +74,7 @@
       {
         "when": [
           "Lime Diamond Knight Leggings",
-          "iregex:.*lime.*knight.*leggings.*"
+          "iregex:.*lime.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -84,7 +84,7 @@
       {
         "when": [
           "Yellow Diamond Knight Leggings",
-          "iregex:.*yellow.*knight.*leggings.*"
+          "iregex:.*yellow.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -94,7 +94,7 @@
       {
         "when": [
           "Orange Diamond Knight Leggings",
-          "iregex:.*orange.*knight.*leggings.*"
+          "iregex:.*orange.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -104,7 +104,7 @@
       {
         "when": [
           "Brown Diamond Knight Leggings",
-          "iregex:.*brown.*knight.*leggings.*"
+          "iregex:.*brown.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -114,7 +114,7 @@
       {
         "when": [
           "Red Diamond Knight Leggings",
-          "iregex:.*red.*knight.*leggings.*"
+          "iregex:.*red.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -124,7 +124,7 @@
       {
         "when": [
           "Pink Diamond Knight Leggings",
-          "iregex:.*pink.*knight.*leggings.*"
+          "iregex:.*pink.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -134,7 +134,7 @@
       {
         "when": [
           "Magenta Diamond Knight Leggings",
-          "iregex:.*magenta.*knight.*leggings.*"
+          "iregex:.*magenta.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -144,7 +144,7 @@
       {
         "when": [
           "Purple Diamond Knight Leggings",
-          "iregex:.*purple.*knight.*leggings.*"
+          "iregex:.*purple.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -154,7 +154,7 @@
       {
         "when": [
           "White Diamond Knight Leggings",
-          "iregex:.*white.*knight.*leggings.*"
+          "iregex:.*white.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -164,7 +164,7 @@
       {
         "when": [
           "Light Gray Diamond Knight Leggings",
-          "iregex:.*light gray.*knight.*leggings.*"
+          "iregex:.*light gray.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -174,7 +174,7 @@
       {
         "when": [
           "Gray Diamond Knight Leggings",
-          "iregex:.*gray.*knight.*leggings.*"
+          "iregex:.*gray.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -184,7 +184,7 @@
       {
         "when": [
           "Black Diamond Knight Leggings",
-          "iregex:.*black.*knight.*leggings.*"
+          "iregex:.*black.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -194,7 +194,7 @@
       {
         "when": [
           "Diamond Knight Leggings",
-          "iregex:.*knight.*leggings.*"
+          "iregex:.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",

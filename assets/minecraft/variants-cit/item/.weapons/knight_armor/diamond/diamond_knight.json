@@ -1,0 +1,106 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:diamond_chestplate", "minecraft:diamond_leggings"
+	],
+	"modelPrefix": ".weapons/knight_armor/diamond/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"function": "alternative",
+				"alternatives" : [
+					{
+						"regex": "(?i).*(light blue).*(knight).*",
+						"substitution": "light_blue_diamond_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(light gray).*(knight).*",
+						"substitution": "light_gray_diamond_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(blue).*(knight).*",
+						"substitution": "blue_diamond_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(cyan).*(knight).*",
+						"substitution": "cyan_diamond_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(green).*(knight).*",
+						"substitution": "green_diamond_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(lime).*(knight).*",
+						"substitution": "lime_diamond_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(yellow).*(knight).*",
+						"substitution": "yellow_diamond_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(orange).*(knight).*",
+						"substitution": "orange_diamond_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(brown).*(knight).*",
+						"substitution": "brown_diamond_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(red).*(knight).*",
+						"substitution": "red_diamond_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(pink).*(knight).*",
+						"substitution": "pink_diamond_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(magenta).*(knight).*",
+						"substitution": "magenta_diamond_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(purple).*(knight).*",
+						"substitution": "purple_diamond_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(white).*(knight).*",
+						"substitution": "white_diamond_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(gray).*(knight).*",
+						"substitution": "gray_diamond_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(black).*(knight).*",
+						"substitution": "black_diamond_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(knight).*",
+						"substitution": "diamond_knight",
+						"matchAll": true
+					}
+				]
+			},
+			"sanitize_path"
+		]
+	}
+}

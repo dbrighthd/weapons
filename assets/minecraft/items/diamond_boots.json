@@ -33,7 +33,7 @@
       },
       {
         "when": [
-          "Diamond Knight Boots", "iregex:.*knight.*boots.*"
+          "Diamond Knight Boots", "iregex:.*"
         ],
         "model": {
           "type": "minecraft:model",

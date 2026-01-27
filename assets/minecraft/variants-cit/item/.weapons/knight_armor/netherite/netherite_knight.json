@@ -1,0 +1,106 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:netherite_chestplate", "minecraft:netherite_leggings"
+	],
+	"modelPrefix": ".weapons/knight_armor/netherite/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"function": "alternative",
+				"alternatives" : [
+					{
+						"regex": "(?i).*(light blue).*(knight).*",
+						"substitution": "light_blue_netherite_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(light gray).*(knight).*",
+						"substitution": "light_gray_netherite_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(blue).*(knight).*",
+						"substitution": "blue_netherite_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(cyan).*(knight).*",
+						"substitution": "cyan_netherite_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(green).*(knight).*",
+						"substitution": "green_netherite_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(lime).*(knight).*",
+						"substitution": "lime_netherite_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(yellow).*(knight).*",
+						"substitution": "yellow_netherite_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(orange).*(knight).*",
+						"substitution": "orange_netherite_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(brown).*(knight).*",
+						"substitution": "brown_netherite_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(red).*(knight).*",
+						"substitution": "red_netherite_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(pink).*(knight).*",
+						"substitution": "pink_netherite_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(magenta).*(knight).*",
+						"substitution": "magenta_netherite_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(purple).*(knight).*",
+						"substitution": "purple_netherite_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(white).*(knight).*",
+						"substitution": "white_netherite_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(gray).*(knight).*",
+						"substitution": "gray_netherite_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(black).*(knight).*",
+						"substitution": "black_netherite_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(knight).*",
+						"substitution": "netherite_knight",
+						"matchAll": true
+					}
+				]
+			},
+			"sanitize_path"
+		]
+	}
+}

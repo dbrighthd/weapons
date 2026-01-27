@@ -1,0 +1,21 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:diamond_helmet", "minecraft:diamond_boots"
+	],
+	"modelPrefix": ".weapons/knight_armor/diamond/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"regex": "(?i).*(Knight).*",
+				"substitution": "diamond_knight",
+				"matchAll": true
+			},
+			"sanitize_path"
+		]
+	}
+}

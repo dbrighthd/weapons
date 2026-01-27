@@ -33,7 +33,7 @@
       },
       {
         "when": [
-          "Netherite Knight Boots","iregex:.*knight.*boots.*"
+          "Netherite Knight Boots","iregex:.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",

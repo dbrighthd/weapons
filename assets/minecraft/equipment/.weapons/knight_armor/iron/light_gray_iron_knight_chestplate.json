@@ -1,9 +1,0 @@
-{
-    "layers": {
-        "humanoid": [
-            {
-                "texture": "minecraft:.weapons/knight_armor/i/i_light_gray_knight_layer_1"
-            }
-        ]
-    }
-}

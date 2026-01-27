@@ -1,0 +1,21 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:iron_helmet", "minecraft:iron_boots"
+	],
+	"modelPrefix": ".weapons/knight_armor/iron/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"regex": "(?i).*(Knight).*",
+				"substitution": "iron_knight",
+				"matchAll": true
+			},
+			"sanitize_path"
+		]
+	}
+}

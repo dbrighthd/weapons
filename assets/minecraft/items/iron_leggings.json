@@ -43,7 +43,7 @@
       {
         "when": [
           "Blue Iron Knight Leggings",
-          "iregex:.*blue.*knight.*leggings.*"
+          "iregex:.*blue.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -53,7 +53,7 @@
       {
         "when": [
           "Light Blue Iron Knight Leggings",
-          "iregex:.*light blue.*knight.*leggings.*"
+          "iregex:.*light blue.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -63,7 +63,7 @@
       {
         "when": [
           "Cyan Iron Knight Leggings",
-          "iregex:.*cyan.*knight.*leggings.*"
+          "iregex:.*cyan.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -73,7 +73,7 @@
       {
         "when": [
           "Green Iron Knight Leggings",
-          "iregex:.*green.*knight.*leggings.*"
+          "iregex:.*green.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -83,7 +83,7 @@
       {
         "when": [
           "Lime Iron Knight Leggings",
-          "iregex:.*lime.*knight.*leggings.*"
+          "iregex:.*lime.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -93,7 +93,7 @@
       {
         "when": [
           "Yellow Iron Knight Leggings",
-          "iregex:.*yellow.*knight.*leggings.*"
+          "iregex:.*yellow.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -103,7 +103,7 @@
       {
         "when": [
           "Orange Iron Knight Leggings",
-          "iregex:.*orange.*knight.*leggings.*"
+          "iregex:.*orange.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -113,7 +113,7 @@
       {
         "when": [
           "Brown Iron Knight Leggings",
-          "iregex:.*brown.*knight.*leggings.*"
+          "iregex:.*brown.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -123,7 +123,7 @@
       {
         "when": [
           "Red Iron Knight Leggings",
-          "iregex:.*red.*knight.*leggings.*"
+          "iregex:.*red.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -133,7 +133,7 @@
       {
         "when": [
           "Pink Iron Knight Leggings",
-          "iregex:.*pink.*knight.*leggings.*"
+          "iregex:.*pink.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -143,7 +143,7 @@
       {
         "when": [
           "Magenta Iron Knight Leggings",
-          "iregex:.*magenta.*knight.*leggings.*"
+          "iregex:.*magenta.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -153,7 +153,7 @@
       {
         "when": [
           "Purple Iron Knight Leggings",
-          "iregex:.*purple.*knight.*leggings.*"
+          "iregex:.*purple.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -163,7 +163,7 @@
       {
         "when": [
           "White Iron Knight Leggings",
-          "iregex:.*white.*knight.*leggings.*"
+          "iregex:.*white.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -173,7 +173,7 @@
       {
         "when": [
           "Light Gray Iron Knight Leggings",
-          "iregex:.*light gray.*knight.*leggings.*"
+          "iregex:.*light gray.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -183,7 +183,7 @@
       {
         "when": [
           "Gray Iron Knight Leggings",
-          "iregex:.*gray.*knight.*leggings.*"
+          "iregex:.*gray.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -193,7 +193,7 @@
       {
         "when": [
           "Black Iron Knight Leggings",
-          "iregex:.*black.*knight.*leggings.*"
+          "iregex:.*black.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
@@ -203,7 +203,7 @@
       {
         "when": [
           "Iron Knight Leggings",
-          "iregex:.*knight.*leggings.*"
+          "iregex:.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
