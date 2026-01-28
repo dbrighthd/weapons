@@ -6,6 +6,15 @@
     "cases": [
       {
         "when": [
+          "Minimal Boots", "iregex:.*minimal.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/minimal/iron/boots"
+        }
+      },
+      {
+        "when": [
           "Leatherback Turtle Boots", "iregex:.*leatherback.*turtle.*"
         ],
         "model": {

@@ -1,0 +1,21 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:netherite_boots", "minecraft:netherite_leggings", "minecraft:netherite_helmet", "minecraft:netherite_chestplate"
+	],
+	"modelPrefix": ".weapons/minimal/netherite/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"regex": "(?i).*(Minimal).*",
+				"substitution": "netherite",
+				"matchAll": true
+			},
+			"sanitize_path"
+		]
+	}
+}

@@ -10,16 +10,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/minimal/gold/helmet"
-        }
-      },
-      {
-        "when": [
-          "Golden Knight Helmet", "iregex:.*knight.*"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/g/zzz/g_knight_helmet"
+          "model": "minecraft:item/.weapons/minimal/chainmail/helmet"
         }
       }
     ],
@@ -29,84 +20,84 @@
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/golden_helmet_quartz_trim"
+            "model": "minecraft:item/chainmail_helmet_quartz_trim"
           },
           "when": "minecraft:quartz"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/golden_helmet_iron_trim"
+            "model": "minecraft:item/chainmail_helmet_iron_trim"
           },
           "when": "minecraft:iron"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/golden_helmet_netherite_trim"
+            "model": "minecraft:item/chainmail_helmet_chainmail_trim"
           },
-          "when": "minecraft:netherite"
+          "when": "minecraft:chainmail"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/golden_helmet_redstone_trim"
+            "model": "minecraft:item/chainmail_helmet_redstone_trim"
           },
           "when": "minecraft:redstone"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/golden_helmet_copper_trim"
+            "model": "minecraft:item/chainmail_helmet_copper_trim"
           },
           "when": "minecraft:copper"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/golden_helmet_gold_trim"
+            "model": "minecraft:item/chainmail_helmet_gold_trim"
           },
           "when": "minecraft:gold"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/golden_helmet_emerald_trim"
+            "model": "minecraft:item/chainmail_helmet_emerald_trim"
           },
           "when": "minecraft:emerald"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/golden_helmet_diamond_trim"
+            "model": "minecraft:item/chainmail_helmet_diamond_trim"
           },
           "when": "minecraft:diamond"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/golden_helmet_lapis_trim"
+            "model": "minecraft:item/chainmail_helmet_lapis_trim"
           },
           "when": "minecraft:lapis"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/golden_helmet_amethyst_trim"
+            "model": "minecraft:item/chainmail_helmet_amethyst_trim"
           },
           "when": "minecraft:amethyst"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/golden_helmet_resin_trim"
+            "model": "minecraft:item/chainmail_helmet_resin_trim"
           },
           "when": "minecraft:resin"
         }
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "minecraft:item/golden_helmet"
+        "model": "minecraft:item/chainmail_helmet"
       },
       "property": "minecraft:trim_material"
     }

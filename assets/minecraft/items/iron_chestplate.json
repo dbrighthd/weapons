@@ -6,6 +6,15 @@
     "cases": [
       {
         "when": [
+          "Minimal Chestplate", "iregex:.*minimal.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/minimal/iron/chestplate"
+        }
+      },
+      {
+        "when": [
           "Leatherback Turtle Chestplate", "iregex:.*leatherback.*turtle.*"
         ],
         "model": {

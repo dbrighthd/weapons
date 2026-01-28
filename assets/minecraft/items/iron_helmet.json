@@ -6,6 +6,15 @@
     "cases": [
       {
         "when": [
+          "Minimal Helmet", "iregex:.*minimal.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/minimal/iron/helmet"
+        }
+      },
+      {
+        "when": [
           "Iron Knight Helmet","iregex:.*knight.*"
         ],
         "model": {

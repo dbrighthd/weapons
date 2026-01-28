@@ -19,3 +19,4 @@
 .*Ruby.*,chest
 .*Emerald.*,chest
 .*Amethyst.*,chest
+.*Minimal.*,chest

@@ -6,6 +6,15 @@
     "cases": [
       {
         "when": [
+          "Minimal Chestplate", "iregex:.*minimal.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/minimal/gold/chestplate"
+        }
+      },
+      {
+        "when": [
           "Blue Golden Knight Chestplate",
           "iregex:.*blue.*knight.*"
         ],

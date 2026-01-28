@@ -6,6 +6,15 @@
     "cases": [
       {
         "when": [
+          "Minimal Leggings", "iregex:.*minimal.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/minimal/netherite/leggings"
+        }
+      },
+      {
+        "when": [
           "Netherite Emerald Leggings", "iregex:.*emerald.*"
         ],
         "model": {

@@ -1,0 +1,21 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:golden_boots", "minecraft:golden_leggings", "minecraft:golden_helmet", "minecraft:golden_chestplate"
+	],
+	"modelPrefix": ".weapons/minimal/gold/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"regex": "(?i).*(Minimal).*",
+				"substitution": "gold",
+				"matchAll": true
+			},
+			"sanitize_path"
+		]
+	}
+}

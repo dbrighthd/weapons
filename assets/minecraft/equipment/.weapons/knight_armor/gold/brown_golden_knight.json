@@ -4,6 +4,11 @@
             {
                 "texture": "minecraft:.weapons/knight_armor/g/g_brown_knight_layer_1"
             }
+        ],
+        "humanoid_leggings": [
+            {
+                "texture": "minecraft:.weapons/knight_armor/g/g_brown_knight_layer_2"
+            }
         ]
     }
 }

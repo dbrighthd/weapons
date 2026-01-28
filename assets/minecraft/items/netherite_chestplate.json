@@ -6,6 +6,15 @@
     "cases": [
       {
         "when": [
+          "Minimal Chestplate", "iregex:.*minimal.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/minimal/netherite/chestplate"
+        }
+      },
+      {
+        "when": [
           "Netherite Emerald Chestplate", "iregex:.*emerald.*"
         ],
         "model": {

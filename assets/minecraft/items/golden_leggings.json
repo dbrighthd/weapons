@@ -6,6 +6,15 @@
     "cases": [
       {
         "when": [
+          "Minimal Leggings", "iregex:.*minimal.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/minimal/gold/leggings"
+        }
+      },
+      {
+        "when": [
           "Blue Golden Knight Leggings",
           "iregex:.*blue.*knight.*"
         ],
