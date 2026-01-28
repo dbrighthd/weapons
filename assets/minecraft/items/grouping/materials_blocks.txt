@@ -6,3 +6,5 @@
 .*redstone.*,none
 .*stone.*,stone
 .*netherite.*,netherite_block
+.*turtle.*,lime_glazed_terracotta
+.*chainmail.*,smooth_stone
