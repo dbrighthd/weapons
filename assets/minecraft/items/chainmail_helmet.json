@@ -34,9 +34,9 @@
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/chainmail_helmet_chainmail_trim"
+            "model": "minecraft:item/chainmail_helmet_netherite_trim"
           },
-          "when": "minecraft:chainmail"
+          "when": "minecraft:netherite"
         },
         {
           "model": {
