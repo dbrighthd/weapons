@@ -5,6 +5,132 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": "YlgrtheCrab",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/ylgrthecrab"
+          }
+        },
+        {
+          "when": "XNPH",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/xnph"
+          }
+        },
+        {
+          "when": "Tumbleboi",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/tumbleboi"
+          }
+        },
+        {
+          "when": "tr0utTHEc4t",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/tr0utthec4t"
+          }
+        },
+        {
+          "when": "TheLovingJevil",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/thelovingjevil"
+          }
+        },
+        {
+          "when": "Teighter",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/teighter"
+          }
+        },
+        {
+          "when": "SonoYume",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/sonoyume"
+          }
+        },
+        {
+          "when": "SCPBongoCat",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/scpbongocat"
+          }
+        },
+        {
+          "when": "RubbishNotTrash",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/rubbishnottrash"
+          }
+        },
+        {
+          "when": "R3dCrims0n",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/r3dcrims0n"
+          }
+        },
+        {
+          "when": "Nindrag",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/nindrag"
+          }
+        },
+        {
+          "when": "MelodyTheCatt",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/melodythecatt"
+          }
+        },
+        {
+          "when": "j4x_is_odd",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/j4x_is_odd"
+          }
+        },
+        {
+          "when": "hhide",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/hhide"
+          }
+        },
+        {
+          "when": "Flamgop",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/flamgop"
+          }
+        },
+        {
+          "when": "Ash_Teh_Arsonist",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/ash_teh_arsonist"
+          }
+        },
+        {
+          "when": "AnglerFG",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/anglerfg"
+          }
+        },
+        {
+          "when": "1cbear71",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/1cbear71"
+          }
+        },
+        {
           "when": ["Kasane Teto","iregex:.*teto.*"],
           "model": {
             "type": "minecraft:model",
