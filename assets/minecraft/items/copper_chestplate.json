@@ -12,6 +12,176 @@
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/minimal/copper/chestplate"
         }
+      },
+      {
+        "when": [
+          "Blue Copper Knight Chestplate",
+          "iregex:.*blue.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/blue/c_blue_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Light Blue Copper Knight Chestplate",
+          "iregex:.*light blue.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/light_blue/c_light_blue_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Cyan Copper Knight Chestplate",
+          "iregex:.*cyan.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/cyan/c_cyan_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Green Copper Knight Chestplate",
+          "iregex:.*green.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/green/c_green_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Lime Copper Knight Chestplate",
+          "iregex:.*lime.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/lime/c_lime_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Yellow Copper Knight Chestplate",
+          "iregex:.*yellow.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/yellow/c_yellow_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Orange Copper Knight Chestplate",
+          "iregex:.*orange.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/orange/c_orange_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Brown Copper Knight Chestplate",
+          "iregex:.*brown.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/brown/c_brown_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Red Copper Knight Chestplate",
+          "iregex:.*red.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/red/c_red_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Pink Copper Knight Chestplate",
+          "iregex:.*pink.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/pink/c_pink_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Magenta Copper Knight Chestplate",
+          "iregex:.*magenta.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/magenta/c_magenta_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Purple Copper Knight Chestplate",
+          "iregex:.*purple.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/purple/c_purple_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "White Copper Knight Chestplate",
+          "iregex:.*white.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/white/c_white_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Light Gray Copper Knight Chestplate",
+          "iregex:.*light gray.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/light_gray/c_light_gray_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Gray Copper Knight Chestplate",
+          "iregex:.*gray.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/gray/c_gray_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Black Copper Knight Chestplate",
+          "iregex:.*black.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/black/c_black_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Copper Knight Chestplate",
+          "iregex:.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/zzz/c_knight_chestplate"
+        }
       }
     ],
     "fallback": {
@@ -20,84 +190,84 @@
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_chestplate_quartz_trim"
+            "model": "minecraft:item/iron_chestplate_quartz_trim"
           },
           "when": "minecraft:quartz"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_chestplate_iron_trim"
+            "model": "minecraft:item/iron_chestplate_iron_trim"
           },
           "when": "minecraft:iron"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_chestplate_netherite_trim"
+            "model": "minecraft:item/iron_chestplate_netherite_trim"
           },
           "when": "minecraft:netherite"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_chestplate_redstone_trim"
+            "model": "minecraft:item/iron_chestplate_redstone_trim"
           },
           "when": "minecraft:redstone"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_chestplate_copper_trim"
+            "model": "minecraft:item/iron_chestplate_copper_trim"
           },
           "when": "minecraft:copper"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_chestplate_gold_trim"
+            "model": "minecraft:item/iron_chestplate_gold_trim"
           },
           "when": "minecraft:gold"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_chestplate_emerald_trim"
+            "model": "minecraft:item/iron_chestplate_emerald_trim"
           },
           "when": "minecraft:emerald"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_chestplate_diamond_trim"
+            "model": "minecraft:item/iron_chestplate_diamond_trim"
           },
           "when": "minecraft:diamond"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_chestplate_lapis_trim"
+            "model": "minecraft:item/iron_chestplate_lapis_trim"
           },
           "when": "minecraft:lapis"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_chestplate_amethyst_trim"
+            "model": "minecraft:item/iron_chestplate_amethyst_trim"
           },
           "when": "minecraft:amethyst"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_chestplate_resin_trim"
+            "model": "minecraft:item/iron_chestplate_resin_trim"
           },
           "when": "minecraft:resin"
         }
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "minecraft:item/copper_chestplate"
+        "model": "minecraft:item/iron_chestplate"
       },
       "property": "minecraft:trim_material"
     }

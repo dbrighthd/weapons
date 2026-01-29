@@ -1,0 +1,21 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:copper_helmet", "minecraft:copper_boots"
+	],
+	"modelPrefix": ".weapons/knight_armor/copper/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"regex": "(?i).*(Knight).*",
+				"substitution": "copper_knight",
+				"matchAll": true
+			},
+			"sanitize_path"
+		]
+	}
+}

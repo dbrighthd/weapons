@@ -12,6 +12,176 @@
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/minimal/copper/leggings"
         }
+      },
+      {
+        "when": [
+          "Blue Copper Knight Leggings",
+          "iregex:.*blue.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/blue/c_blue_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Light Blue Copper Knight Leggings",
+          "iregex:.*light blue.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/light_blue/c_light_blue_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Cyan Copper Knight Leggings",
+          "iregex:.*cyan.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/cyan/c_cyan_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Green Copper Knight Leggings",
+          "iregex:.*green.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/green/c_green_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Lime Copper Knight Leggings",
+          "iregex:.*lime.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/lime/c_lime_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Yellow Copper Knight Leggings",
+          "iregex:.*yellow.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/yellow/c_yellow_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Orange Copper Knight Leggings",
+          "iregex:.*orange.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/orange/c_orange_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Brown Copper Knight Leggings",
+          "iregex:.*brown.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/brown/c_brown_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Red Copper Knight Leggings",
+          "iregex:.*red.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/red/c_red_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Pink Copper Knight Leggings",
+          "iregex:.*pink.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/pink/c_pink_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Magenta Copper Knight Leggings",
+          "iregex:.*magenta.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/magenta/c_magenta_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Purple Copper Knight Leggings",
+          "iregex:.*purple.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/purple/c_purple_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "White Copper Knight Leggings",
+          "iregex:.*white.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/white/c_white_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Light Gray Copper Knight Leggings",
+          "iregex:.*light gray.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/light_gray/c_light_gray_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Gray Copper Knight Leggings",
+          "iregex:.*gray.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/gray/c_gray_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Black Copper Knight Leggings",
+          "iregex:.*black.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/black/c_black_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Copper Knight Leggings",
+          "iregex:.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/c/zzz/c_knight_leggings"
+        }
       }
     ],
     "fallback": {
@@ -20,84 +190,84 @@
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_leggings_quartz_trim"
+            "model": "minecraft:item/iron_leggings_quartz_trim"
           },
           "when": "minecraft:quartz"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_leggings_iron_trim"
+            "model": "minecraft:item/iron_leggings_iron_trim"
           },
           "when": "minecraft:iron"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_leggings_netherite_trim"
+            "model": "minecraft:item/iron_leggings_netherite_trim"
           },
           "when": "minecraft:netherite"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_leggings_redstone_trim"
+            "model": "minecraft:item/iron_leggings_redstone_trim"
           },
           "when": "minecraft:redstone"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_leggings_copper_trim"
+            "model": "minecraft:item/iron_leggings_copper_trim"
           },
           "when": "minecraft:copper"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_leggings_gold_trim"
+            "model": "minecraft:item/iron_leggings_gold_trim"
           },
           "when": "minecraft:gold"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_leggings_emerald_trim"
+            "model": "minecraft:item/iron_leggings_emerald_trim"
           },
           "when": "minecraft:emerald"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_leggings_diamond_trim"
+            "model": "minecraft:item/iron_leggings_diamond_trim"
           },
           "when": "minecraft:diamond"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_leggings_lapis_trim"
+            "model": "minecraft:item/iron_leggings_lapis_trim"
           },
           "when": "minecraft:lapis"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_leggings_amethyst_trim"
+            "model": "minecraft:item/iron_leggings_amethyst_trim"
           },
           "when": "minecraft:amethyst"
         },
         {
           "model": {
             "type": "minecraft:model",
-            "model": "minecraft:item/copper_leggings_resin_trim"
+            "model": "minecraft:item/iron_leggings_resin_trim"
           },
           "when": "minecraft:resin"
         }
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "minecraft:item/copper_leggings"
+        "model": "minecraft:item/iron_leggings"
       },
       "property": "minecraft:trim_material"
     }
