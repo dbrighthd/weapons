@@ -6,6 +6,24 @@
     "cases": [
       {
         "when": [
+          "Technoblade", "iregex:.*technoblade.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/crowns/atechno/technocrowni"
+        }
+      },
+      {
+        "when": [
+          "Crown", "iregex:.*crown.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/crowns/g/gcrowni"
+        }
+      },
+      {
+        "when": [
           "Minimal Helmet", "iregex:.*minimal.*"
         ],
         "model": {

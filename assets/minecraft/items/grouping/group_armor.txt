@@ -20,3 +20,5 @@
 .*Emerald.*,chest
 .*Amethyst.*,chest
 .*Minimal.*,chest
+.*technoblade.*,head
+.*crown.*,head

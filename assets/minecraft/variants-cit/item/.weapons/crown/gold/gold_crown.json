@@ -1,0 +1,32 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:golden_helmet"
+	],
+	"modelPrefix": ".weapons/crown/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+			
+				"function": "alternative",
+				"alternatives" : [
+					{
+						"regex": "(?i).*technoblade.*",
+						"substitution": "technoblade/crown",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*crown.*",
+						"substitution": "gold/crown",
+						"matchAll": true
+					}
+				]
+			},
+			"sanitize_path"
+		]
+	}
+}
