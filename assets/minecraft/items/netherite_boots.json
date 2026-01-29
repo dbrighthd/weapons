@@ -6,6 +6,150 @@
     "cases": [
       {
         "when": [
+          "Black Beskar Boots", "iregex:.*black.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/black_armor_beskar/black_netherite_boots"
+        }
+      },
+      {
+        "when": [
+          "Blue Beskar Boots", "iregex:.*blue.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/blue_armor_beskar/blue_netherite_boots"
+        }
+      },
+      {
+        "when": [
+          "Brown Beskar Boots", "iregex:.*brown.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/brown_armor_beskar/brown_netherite_boots"
+        }
+      },
+      {
+        "when": [
+          "Cyan Beskar Boots", "iregex:.*cyan.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/cyan_armor_beskar/cyan_netherite_boots"
+        }
+      },
+      {
+        "when": [
+          "Green Beskar Boots", "iregex:.*green.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/green_armor_beskar/green_netherite_boots"
+        }
+      },
+      {
+        "when": [
+          "Light Blue Beskar Boots", "iregex:.*light blue.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/light_blue_armor_beskar/light_blue_netherite_boots"
+        }
+      },
+      {
+        "when": [
+          "Light Gray Beskar Boots", "iregex:.*light gray.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/light_gray_armor_beskar/light_gray_netherite_boots"
+        }
+      },
+      {
+        "when": [
+          "Lime Beskar Boots", "iregex:.*lime.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/lime_armor_beskar/lime_netherite_boots"
+        }
+      },
+      {
+        "when": [
+          "Magenta Beskar Boots", "iregex:.*magenta.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/magenta_armor_beskar/magenta_netherite_boots"
+        }
+      },
+      {
+        "when": [
+          "Orange Beskar Boots", "iregex:.*orange.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/orange_armor_beskar/orange_netherite_boots"
+        }
+      },
+      {
+        "when": [
+          "Pink Beskar Boots", "iregex:.*pink.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/pink_armor_beskar/pink_netherite_boots"
+        }
+      },
+      {
+        "when": [
+          "Purple Beskar Boots", "iregex:.*purple.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/purple_armor_beskar/purple_netherite_boots"
+        }
+      },
+      {
+        "when": [
+          "Red Beskar Boots", "iregex:.*red.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/red_armor_beskar/red_netherite_boots"
+        }
+      },
+      {
+        "when": [
+          "White Beskar Boots", "iregex:.*white.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/white_armor_beskar/white_netherite_boots"
+        }
+      },
+      {
+        "when": [
+          "Yellow Beskar Boots", "iregex:.*yellow.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/yellow_armor_beskar/yellow_netherite_boots"
+        }
+      },
+      {
+        "when": [
+          "Beskar Boots", "iregex:.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/zzzzz/beskar_boots"
+        }
+      },
+      {
+        "when": [
           "Maid Boots", "iregex:.*maid.*"
         ],
         "model": {

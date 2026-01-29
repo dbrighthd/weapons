@@ -1,0 +1,14 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "minecraft:.weapons/beskar_armor/white_armor_beskar/white_netherite_layer_1"
+            }
+        ],
+        "humanoid_leggings": [
+            {
+                "texture": "minecraft:.weapons/beskar_armor/white_armor_beskar/white_netherite_layer_2"
+            }
+        ]
+    }
+}

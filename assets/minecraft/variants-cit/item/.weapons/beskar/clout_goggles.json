@@ -1,0 +1,107 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:netherite_helmet","minecraft:netherite_leggings","minecraft:netherite_chestplate","minecraft:netherite_boots"
+	],
+	"modelPrefix": ".weapons/beskar_armor/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+			
+				"function": "alternative",
+				"alternatives" : [
+					{
+						"regex": "(?i).*black.*beskar.*",
+						"substitution": "black",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*light blue.*beskar.*",
+						"substitution": "light_blue",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*blue.*beskar.*",
+						"substitution": "blue",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*brown.*beskar.*",
+						"substitution": "brown",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*cyan.*beskar.*",
+						"substitution": "cyan",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*light gray.*beskar.*",
+						"substitution": "light_gray",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*green.*beskar.*",
+						"substitution": "green",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*gray.*beskar.*",
+						"substitution": "gray",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*lime.*beskar.*",
+						"substitution": "lime",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*magenta.*beskar.*",
+						"substitution": "magenta",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*orange.*beskar.*",
+						"substitution": "orange",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*pink.*beskar.*",
+						"substitution": "pink",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*purple.*beskar.*",
+						"substitution": "purple",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*red.*beskar.*",
+						"substitution": "red",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*yellow.*beskar.*",
+						"substitution": "yellow",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*white.*beskar.*",
+						"substitution": "white",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*beskar.*",
+						"substitution": "default",
+						"matchAll": true
+					}
+				]
+			},
+			"sanitize_path"
+		]
+	}
+}

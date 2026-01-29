@@ -6,6 +6,150 @@
     "cases": [
       {
         "when": [
+          "Black Beskar Leggings", "iregex:.*black.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/black_armor_beskar/black_netherite_leggings"
+        }
+      },
+      {
+        "when": [
+          "Blue Beskar Leggings", "iregex:.*blue.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/blue_armor_beskar/blue_netherite_leggings"
+        }
+      },
+      {
+        "when": [
+          "Brown Beskar Leggings", "iregex:.*brown.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/brown_armor_beskar/brown_netherite_leggings"
+        }
+      },
+      {
+        "when": [
+          "Cyan Beskar Leggings", "iregex:.*cyan.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/cyan_armor_beskar/cyan_netherite_leggings"
+        }
+      },
+      {
+        "when": [
+          "Green Beskar Leggings", "iregex:.*green.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/green_armor_beskar/green_netherite_leggings"
+        }
+      },
+      {
+        "when": [
+          "Light Blue Beskar Leggings", "iregex:.*light blue.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/light_blue_armor_beskar/light_blue_netherite_leggings"
+        }
+      },
+      {
+        "when": [
+          "Light Gray Beskar Leggings", "iregex:.*light gray.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/light_gray_armor_beskar/light_gray_netherite_leggings"
+        }
+      },
+      {
+        "when": [
+          "Lime Beskar Leggings", "iregex:.*lime.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/lime_armor_beskar/lime_netherite_leggings"
+        }
+      },
+      {
+        "when": [
+          "Magenta Beskar Leggings", "iregex:.*magenta.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/magenta_armor_beskar/magenta_netherite_leggings"
+        }
+      },
+      {
+        "when": [
+          "Orange Beskar Leggings", "iregex:.*orange.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/orange_armor_beskar/orange_netherite_leggings"
+        }
+      },
+      {
+        "when": [
+          "Pink Beskar Leggings", "iregex:.*pink.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/pink_armor_beskar/pink_netherite_leggings"
+        }
+      },
+      {
+        "when": [
+          "Purple Beskar Leggings", "iregex:.*purple.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/purple_armor_beskar/purple_netherite_leggings"
+        }
+      },
+      {
+        "when": [
+          "Red Beskar Leggings", "iregex:.*red.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/red_armor_beskar/red_netherite_leggings"
+        }
+      },
+      {
+        "when": [
+          "White Beskar Leggings", "iregex:.*white.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/white_armor_beskar/white_netherite_leggings"
+        }
+      },
+      {
+        "when": [
+          "Yellow Beskar Leggings", "iregex:.*yellow.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/yellow_armor_beskar/yellow_netherite_leggings"
+        }
+      },
+      {
+        "when": [
+          "Beskar Leggings", "iregex:.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/zzzzz/beskar_leggings"
+        }
+      },
+      {
+        "when": [
           "Maid Leggings", "iregex:.*maid.*"
         ],
         "model": {

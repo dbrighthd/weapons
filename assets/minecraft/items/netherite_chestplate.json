@@ -6,6 +6,150 @@
     "cases": [
       {
         "when": [
+          "Black Beskar Chestplate", "iregex:.*black.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/black_armor_beskar/black_netherite_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Blue Beskar Chestplate", "iregex:.*blue.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/blue_armor_beskar/blue_netherite_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Brown Beskar Chestplate", "iregex:.*brown.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/brown_armor_beskar/brown_netherite_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Cyan Beskar Chestplate", "iregex:.*cyan.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/cyan_armor_beskar/cyan_netherite_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Green Beskar Chestplate", "iregex:.*green.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/green_armor_beskar/green_netherite_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Light Blue Beskar Chestplate", "iregex:.*light blue.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/light_blue_armor_beskar/light_blue_netherite_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Light Gray Beskar Chestplate", "iregex:.*light gray.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/light_gray_armor_beskar/light_gray_netherite_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Lime Beskar Chestplate", "iregex:.*lime.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/lime_armor_beskar/lime_netherite_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Magenta Beskar Chestplate", "iregex:.*magenta.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/magenta_armor_beskar/magenta_netherite_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Orange Beskar Chestplate", "iregex:.*orange.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/orange_armor_beskar/orange_netherite_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Pink Beskar Chestplate", "iregex:.*pink.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/pink_armor_beskar/pink_netherite_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Purple Beskar Chestplate", "iregex:.*purple.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/purple_armor_beskar/purple_netherite_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Red Beskar Chestplate", "iregex:.*red.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/red_armor_beskar/red_netherite_chestplate"
+        }
+      },
+      {
+        "when": [
+          "White Beskar Chestplate", "iregex:.*white.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/white_armor_beskar/white_netherite_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Yellow Beskar Chestplate", "iregex:.*yellow.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/yellow_armor_beskar/yellow_netherite_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Beskar Chestplate", "iregex:.*beskar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/beskar_armor/zzzzz/beskar_chestplate"
+        }
+      },
+      {
+        "when": [
           "Maid Chestplate", "iregex:.*maid.*"
         ],
         "model": {
