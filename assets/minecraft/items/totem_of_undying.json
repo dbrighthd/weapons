@@ -5,6 +5,27 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": ["Kasane Teto","iregex:.*teto.*"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/miscskins/teto/teto"
+          }
+        },
+        {
+          "when": ["GUMI","iregex:.*gumi.*"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/miscskins/gumi/gumi"
+          }
+        },
+        {
+          "when": "dgreenhd",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/dev_totems/dgreenhd"
+          }
+        },
+        {
           "when": [ "Wheatley","iregex:.*wheatley.*"],
           "model": {
             "type": "minecraft:model",

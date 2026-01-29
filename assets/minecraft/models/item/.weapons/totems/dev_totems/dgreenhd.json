@@ -1,9 +1,10 @@
 {
+	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "item/.weapons/totems/dev_totems/fishysalmon02",
-		"particle": "item/.weapons/totems/dev_totems/fishysalmon02"
+		"0": "item/.weapons/totems/dev_totems/dgreenhd",
+		"particle": "item/.weapons/totems/dev_totems/dgreenhd"
 	},
 	"elements": [
 		{
@@ -115,8 +116,8 @@
 			}
 		},
 		{
-			"from": [5.875, 5.875, 6.875],
-			"to": [10.125, 12.125, 9.125],
+			"from": [5.865, 5.865, 6.865],
+			"to": [10.135, 12.135, 9.135],
 			"faces": {
 				"north": {"uv": [5, 9, 7, 12], "texture": "#0"},
 				"east": {"uv": [4, 9, 5, 12], "texture": "#0"},
