@@ -1,0 +1,102 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:netherite_helmet"
+	],
+	"modelPrefix": ".weapons/clout_goggles/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+			
+				"function": "alternative",
+				"alternatives" : [
+					{
+						"regex": "(?i).*black.*clout.*goggles.*",
+						"substitution": "black/clout_goggles",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*light blue.*clout.*goggles.*",
+						"substitution": "light_blue/clout_goggles",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*blue.*clout.*goggles.*",
+						"substitution": "blue/clout_goggles",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*brown.*clout.*goggles.*",
+						"substitution": "brown/clout_goggles",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*cyan.*clout.*goggles.*",
+						"substitution": "cyan/clout_goggles",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*light gray.*clout.*goggles.*",
+						"substitution": "light_gray/clout_goggles",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*green.*clout.*goggles.*",
+						"substitution": "green/clout_goggles",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*gray.*clout.*goggles.*",
+						"substitution": "gray/clout_goggles",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*lime.*clout.*goggles.*",
+						"substitution": "lime/clout_goggles",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*magenta.*clout.*goggles.*",
+						"substitution": "magenta/clout_goggles",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*orange.*clout.*goggles.*",
+						"substitution": "orange/clout_goggles",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*pink.*clout.*goggles.*",
+						"substitution": "pink/clout_goggles",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*purple.*",
+						"substitution": "purple/clout_goggles",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*red.*clout.*goggles.*",
+						"substitution": "red/clout_goggles",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*yellow.*clout.*goggles.*",
+						"substitution": "yellow/clout_goggles",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*clout.*goggles.*",
+						"substitution": "white/clout_goggles",
+						"matchAll": true
+					}
+				]
+			},
+			"sanitize_path"
+		]
+	}
+}

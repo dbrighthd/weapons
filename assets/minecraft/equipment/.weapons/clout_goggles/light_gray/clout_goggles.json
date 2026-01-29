@@ -1,0 +1,9 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "minecraft:.weapons/clout_goggles/light_gray/lgray_clout_goggles"
+            }
+        ]
+    }
+}

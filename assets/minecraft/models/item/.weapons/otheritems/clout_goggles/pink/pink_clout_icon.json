@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/.weapons/otheritems/clout_goggles/pink/pink_clout_icon"
+  }
+}

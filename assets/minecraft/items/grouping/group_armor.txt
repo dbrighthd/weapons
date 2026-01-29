@@ -22,3 +22,4 @@
 .*Minimal.*,chest
 .*Technoblade.*,head	
 .*Crown.*,head
+.*Clout.*,head

@@ -6,6 +6,15 @@
     "cases": [
       {
         "when": [
+          "Maid Chestplate", "iregex:.*maid.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/otheritems/maid/maid_chestplate"
+        }
+      },
+      {
+        "when": [
           "Minimal Chestplate", "iregex:.*minimal.*"
         ],
         "model": {

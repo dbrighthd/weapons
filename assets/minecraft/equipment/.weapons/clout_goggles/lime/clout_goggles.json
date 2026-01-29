@@ -1,0 +1,9 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "minecraft:.weapons/clout_goggles/lime/lime_clout_goggles"
+            }
+        ]
+    }
+}

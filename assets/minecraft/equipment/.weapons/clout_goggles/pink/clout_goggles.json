@@ -1,0 +1,9 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "minecraft:.weapons/clout_goggles/pink/pink_clout_goggles"
+            }
+        ]
+    }
+}

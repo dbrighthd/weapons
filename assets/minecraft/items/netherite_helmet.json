@@ -6,6 +6,159 @@
     "cases": [
       {
         "when": [
+          "Maid Helmet", "iregex:.*maid.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/otheritems/maid/maid_helmet"
+        }
+      },
+      {
+        "when": [
+          "Black Clout Goggles", "iregex:.*black.*clout.*goggles.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/otheritems/clout_goggles/black/black_clout_icon"
+        }
+      },
+      {
+        "when": [
+          "Brown Clout Goggles", "iregex:.*Brown.*clout.*goggles.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/otheritems/clout_goggles/brown/brown_clout_icon"
+        }
+      },
+      {
+        "when": [
+          "Cyan Clout Goggles", "iregex:.*cyan.*clout.*goggles.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/otheritems/clout_goggles/cyan/cyan_clout_icon"
+        }
+      },
+      {
+        "when": [
+          "Green Clout Goggles", "iregex:.*green.*clout.*goggles.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/otheritems/clout_goggles/green/green_clout_icon"
+        }
+      },
+      {
+        "when": [
+          "Light Blue Clout Goggles", "iregex:.*light blue.*clout.*goggles.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/otheritems/clout_goggles/lblue/lblue_clout_icon"
+        }
+      },
+      {
+        "when": [
+          "Light Gray Clout Goggles", "iregex:.*light gray.*clout.*goggles.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/otheritems/clout_goggles/lgray/lgray_clout_icon"
+        }
+      },
+      {
+        "when": [
+          "Lime Clout Goggles", "iregex:.*lime.*clout.*goggles.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/otheritems/clout_goggles/lime/lime_clout_icon"
+        }
+      },
+      {
+        "when": [
+          "Magenta Clout Goggles", "iregex:.*magenta.*clout.*goggles.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/otheritems/clout_goggles/magenta/magenta_clout_icon"
+        }
+      },
+      {
+        "when": [
+          "Blue Clout Goggles", "iregex:.*blue.*clout.*goggles.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/otheritems/clout_goggles/mblue/blue_clout_icon"
+        }
+      },
+      {
+        "when": [
+          "Gray Clout Goggles", "iregex:.*gray.*clout.*goggles.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/otheritems/clout_goggles/mgray/gray_clout_icon"
+        }
+      },
+      {
+        "when": [
+          "Orange Clout Goggles", "iregex:.*orange.*clout.*goggles.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/otheritems/clout_goggles/orange/orange_clout_icon"
+        }
+      },
+      {
+        "when": [
+          "Pink Clout Goggles", "iregex:.*pink.*clout.*goggles.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/otheritems/clout_goggles/pink/pink_clout_icon"
+        }
+      },
+      {
+        "when": [
+          "Purple Clout Goggles", "iregex:.*purple.*clout.*goggles.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/otheritems/clout_goggles/purple/purple_clout_icon"
+        }
+      },
+      {
+        "when": [
+          "Red Clout Goggles", "iregex:.*red.*clout.*goggles.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/otheritems/clout_goggles/red/red_clout_icon"
+        }
+      },
+      {
+        "when": [
+          "Yellow Clout Goggles", "iregex:.*yellow.*clout.*goggles.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/otheritems/clout_goggles/yellow/yellow_clout_icon"
+        }
+      },
+      {
+        "when": [
+          "Clout Goggles", "iregex:.*clout.*goggles.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/otheritems/clout_goggles/zwhite/white_clout_icon"
+        }
+      },
+      {
+        "when": [
           "Technoblade", "iregex:.*technoblade.*"
         ],
         "model": {
