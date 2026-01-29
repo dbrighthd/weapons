@@ -75,7 +75,7 @@
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*purple.*",
+						"regex": "(?i).*purple.*clout.*goggles.*",
 						"substitution": "purple/clout_goggles",
 						"matchAll": true
 					},
