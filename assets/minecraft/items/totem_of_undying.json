@@ -26,6 +26,20 @@
           }
         },
         {
+          "when": "tronkstaa",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/tronkstaa"
+          }
+        },
+        {
+          "when": "TUDAD",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/tudad"
+          }
+        },
+        {
           "when": "tr0utTHEc4t",
           "model": {
             "type": "minecraft:model",
@@ -54,10 +68,24 @@
           }
         },
         {
+          "when": "SenpapiYapi",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/senpapiyapi"
+          }
+        },
+        {
           "when": "SCPBongoCat",
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/totems/qa_members/scpbongocat"
+          }
+        },
+        {
+          "when": "RubyKittenLover",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/rubykittenlover"
           }
         },
         {
@@ -89,6 +117,13 @@
           }
         },
         {
+          "when": "marwws",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/marwws"
+          }
+        },
+        {
           "when": "j4x_is_odd",
           "model": {
             "type": "minecraft:model",
@@ -100,6 +135,13 @@
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/totems/qa_members/hhide"
+          }
+        },
+        {
+          "when": "GrizzLor02",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/grizzlor02"
           }
         },
         {
