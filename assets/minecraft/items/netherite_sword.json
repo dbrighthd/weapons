@@ -6,6 +6,16 @@
     "cases": [
       {
         "when": [
+          "Monado",
+          "iregex:.*monado.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/misc/monado/monado"
+        }
+      },
+      {
+        "when": [
           "Green Lantern Fist",
           "iregex:.*green.*lantern.*fist.*"
         ],
