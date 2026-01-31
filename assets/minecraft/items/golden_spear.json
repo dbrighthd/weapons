@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Golden Comically Large Fork", "Comically Large Fork", "iregex:.*Large.*Butter.*Knife.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/golden_comically_large_fork"
+          }
+        },
+        {
           "when": ["Golden lance", "Lance", "iregex:.*lance.*"],
           "model": {
     "type": "minecraft:select",
