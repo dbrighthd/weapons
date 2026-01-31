@@ -4,6 +4,13 @@
       "property": "minecraft:component",
       "component": "minecraft:custom_name",
       "cases": [
+        {
+          "when":["Diamond Comically Large Fork", "Comically Large Fork", "iregex:.*Large.*Butter.*Knife.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/diamond_comically_large_fork"
+          }
+        },
          {
           "when": ["Emerald Spear", "Emerald", "iregex:.*Emerald.*"],
           "model": {

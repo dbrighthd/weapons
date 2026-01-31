@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Netherite Comically Large Fork", "Comically Large Fork", "iregex:.*Large.*Butter.*Knife.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/netherite_comically_large_fork"
+          }
+        },
+        {
           "when": ["Needle", "iregex:.*Needle.*"],
           "model": {
     "type": "minecraft:select",
