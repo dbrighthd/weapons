@@ -8,7 +8,7 @@
           "when":["Stone Comically Large Spoon", "Comically Large Spoon", "iregex:.*Large.*Spoon.*"],
           "model": {
             "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/comically_large_spoons/stone_comically_large_spoon"
+            "model":"minecraft:item/.weapons/comically_large_utensils/stone_comically_large_spoon"
           }
         }
       ],

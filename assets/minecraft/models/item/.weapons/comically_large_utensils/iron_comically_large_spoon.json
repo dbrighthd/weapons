@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"1": "item/.weapons/comically_large_spoons/iron_comically_large_spoon",
-		"particle": "item/.weapons/comically_large_spoons/iron_comically_large_spoon"
+		"1": "item/.weapons/comically_large_utensils/iron_comically_large_spoon",
+		"particle": "item/.weapons/comically_large_utensils/iron_comically_large_spoon"
 	},
 	"elements": [
 		{
