@@ -4,6 +4,13 @@
       "property": "minecraft:component",
       "component": "minecraft:custom_name",
       "cases": [
+        {
+          "when":["Copper Comically Large Butter Knife", "Comically Large Butter Knife", "iregex:.*Large.*Butter.*Knife.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/copper_comically_large_butter_knife"
+          }
+        },
       {
         "when": [
           "Copper Dancer's Sword",
