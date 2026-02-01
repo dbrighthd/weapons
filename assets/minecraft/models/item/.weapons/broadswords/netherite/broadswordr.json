@@ -3,8 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "minecraft:item/.weapons/broadswords/broadswordr",
-		"particle": "minecraft:item/.weapons/broadswords/broadswordr"
+		"0": "minecraft:item/.weapons/broadswords/netherite/broadswordr",
+		"particle": "minecraft:item/.weapons/broadswords/netherite/broadswordr"
 	},
 	"elements": [
 		{
