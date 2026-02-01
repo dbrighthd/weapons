@@ -141,26 +141,7 @@
 			{"index":0, "time":1},
 			{"index":0, "time":1},
 			{"index":0, "time":2},
-			{"index":0, "time":1},
-			
-			{"index":0, "time":50},
-
-			{"index":8, "time":1, "comment":"scared"},
-			{"index":8, "time":10},
-			{"index":8, "time":1},
-			{"index":8, "time":1},
-			{"index":8, "time":15},
-			{"index":8, "time":15},
-			{"index":8, "time":1},
-			{"index":8, "time":15},
-			{"index":8, "time":1},
-			{"index":8, "time":1},
-			{"index":8, "time":1},
-			{"index":8, "time":1},
-			{"index":8, "time":25},
-			{"index":8, "time":1},
-			{"index":8, "time":10},
-			{"index":8, "time":1}
+			{"index":0, "time":1}
 		]
 	}
 }
