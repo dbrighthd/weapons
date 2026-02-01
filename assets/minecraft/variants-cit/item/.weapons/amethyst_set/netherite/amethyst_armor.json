@@ -11,7 +11,7 @@
 		"expect": "rich_text",
 		"transform": [
 			{
-				"regex": "(?i).*(Amethyst).*",
+				"regex": "(?i).*(Amethyst)(?!(.*Knight.*)).*",
 				"substitution": "amethyst",
 				"matchAll": true
 			},

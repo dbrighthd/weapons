@@ -11,7 +11,7 @@
 		"expect": "rich_text",
 		"transform": [
 			{
-				"regex": "(?i).*(Emerald).*",
+				"regex": "(?i).*(Emerald)(?!(.*Knight.*)).*",
 				"substitution": "emerald",
 				"matchAll": true
 			},
