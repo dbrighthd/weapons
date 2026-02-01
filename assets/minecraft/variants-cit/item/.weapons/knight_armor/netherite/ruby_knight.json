@@ -1,0 +1,106 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:netherite_chestplate", "minecraft:netherite_leggings"
+	],
+	"modelPrefix": ".weapons/knight_armor/netherite/ruby/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"function": "alternative",
+				"alternatives" : [
+					{
+						"regex": "(?i).*(light blue).*ruby.*(knight).*",
+						"substitution": "light_blue_ruby_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(light gray).*ruby.*(knight).*",
+						"substitution": "light_gray_ruby_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(blue).*ruby.*(knight).*",
+						"substitution": "blue_ruby_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(cyan).*ruby.*(knight).*",
+						"substitution": "cyan_ruby_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(green).*ruby.*(knight).*",
+						"substitution": "green_ruby_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(lime).*ruby.*(knight).*",
+						"substitution": "lime_ruby_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(yellow).*ruby.*(knight).*",
+						"substitution": "yellow_ruby_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(orange).*ruby.*(knight).*",
+						"substitution": "orange_ruby_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(brown).*ruby.*(knight).*",
+						"substitution": "brown_ruby_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(red).*ruby.*(knight).*",
+						"substitution": "red_ruby_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(pink).*ruby.*(knight).*",
+						"substitution": "pink_ruby_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(magenta).*ruby.*(knight).*",
+						"substitution": "magenta_ruby_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(purple).*ruby.*(knight).*",
+						"substitution": "purple_ruby_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(white).*ruby.*(knight).*",
+						"substitution": "white_ruby_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(gray).*ruby.*(knight).*",
+						"substitution": "gray_ruby_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(black).*ruby.*(knight).*",
+						"substitution": "black_ruby_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*ruby.*(knight).*",
+						"substitution": "ruby_knight",
+						"matchAll": true
+					}
+				]
+			},
+			"sanitize_path"
+		]
+	}
+}

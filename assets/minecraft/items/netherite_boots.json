@@ -168,6 +168,42 @@
       },
       {
         "when": [
+          "Netherite Amethyst Knight Boots", "Amethyst Knight Boots", "iregex:.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_knight_boots"
+        }
+      },
+      {
+        "when": [
+          "Netherite Emerald Knight Boots", "Emerald Knight Boots", "iregex:.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_knight_boots"
+        }
+      },
+      {
+        "when": [
+          "Netherite Ruby Knight Boots", "Ruby Knight Boots", "iregex:.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_knight_boots"
+        }
+      },
+      {
+        "when": [
+          "Netherite Knight Boots","iregex:.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/n_knight_boots"
+        }
+      },
+      {
+        "when": [
           "Netherite Emerald Boots", "iregex:.*emerald.*"
         ],
         "model": {
@@ -440,15 +476,6 @@
             "model": "minecraft:item/.weapons/amethyst_set/armor/netherite/amethyst_boots"
           },
           "property": "minecraft:trim_material"
-        }
-      },
-      {
-        "when": [
-          "Netherite Knight Boots","iregex:.*knight.*"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/n/n_knight_boots"
         }
       }
     ],

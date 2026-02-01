@@ -15,6 +15,42 @@
       },
       {
         "when": [
+          "Amethyst Knight Boots", "iregex:.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_knight_boots"
+        }
+      },
+      {
+        "when": [
+          "Emerald Knight Boots", "iregex:.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_knight_boots"
+        }
+      },
+      {
+        "when": [
+          "Ruby Knight Boots", "iregex:.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_knight_boots"
+        }
+      },
+      {
+        "when": [
+          "Diamond Knight Boots", "iregex:.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/d/d_knight_boots"
+        }
+      },
+      {
+        "when": [
           "Amethyst Boots", "iregex:.*amethyst.*"
         ],
         "model": {
@@ -103,33 +139,6 @@
             "model": "minecraft:item/.weapons/amethyst_set/armor/diamond/amethyst_boots"
           },
           "property": "minecraft:trim_material"
-        }
-      },
-      {
-        "when": [
-          "Emerald Knight Boots", "iregex:.*emerald.*knight.*"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/e/e_knight_boots"
-        }
-      },
-      {
-        "when": [
-          "Ruby Knight Boots", "iregex:.*ruby.*knight.*"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/r/r_knight_boots"
-        }
-      },
-      {
-        "when": [
-          "Diamond Knight Boots", "iregex:.*knight.*"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/d/d_knight_boots"
         }
       },
       {
@@ -314,15 +323,6 @@
             "model": "minecraft:item/.weapons/ruby_set/armor/diamond/ruby_boots"
           },
           "property": "minecraft:trim_material"
-        }
-      },
-      {
-        "when": [
-          "Amethyst Knight Boots", "iregex:.*amethyst.*knight.*"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/a/a_knight_boots"
         }
       }
     ],

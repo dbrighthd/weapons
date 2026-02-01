@@ -330,6 +330,42 @@
       },
       {
         "when": [
+          "Netherite Amethyst Knight Helmet", "Amethyst Knight Helmet", "iregex:.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_knight_helmet"
+        }
+      },
+      {
+        "when": [
+          "Netherite Emerald Knight Helmet", "Emerald Knight Helmet", "iregex:.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_knight_helmet"
+        }
+      },
+      {
+        "when": [
+          "Netherite Ruby Knight Helmet", "Ruby Knight Helmet", "iregex:.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_knight_helmet"
+        }
+      },
+      {
+        "when": [
+          "Netherite Knight Helmet", "iregex:.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/n_knight_helmet"
+        }
+      },
+      {
+        "when": [
           "Netherite Emerald Helmet", "iregex:.*emerald.*"
         ],
         "model": {
@@ -602,15 +638,6 @@
             "model": "minecraft:item/.weapons/amethyst_set/armor/netherite/amethyst_helmet"
           },
           "property": "minecraft:trim_material"
-        }
-      },
-      {
-        "when": [
-          "Netherite Knight Helmet", "iregex:.*knight.*"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/n/n_knight_helmet"
         }
       }
     ],

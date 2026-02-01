@@ -168,6 +168,567 @@
       },
       {
         "when": [
+          "Blue Netherite Amethyst Knight Chestplate",
+          "Blue Amethyst Knight Chestplate",
+          "iregex:.*blue.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_blue_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Netherite Amethyst Knight Chestplate",
+          "Light Blue Light Blue Amethyst Knight Chestplate",
+          "iregex:.*light blue.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_light_blue_knight_chestplate"
+        }
+      },
+      {
+        "whCyan en": [
+          "Cyan Cyan Netherite Amethyst Knight Chestplate",
+          "Cyan Amethyst Knight Chestplate",
+          "iregex:.*cyan.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_cyan_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Green Netherite Amethyst Knight Chestplate",
+          "Green Amethyst Knight Chestplate",
+          "iregex:.*green.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_green_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Lime Netherite Amethyst Knight Chestplate",
+          "Lime Amethyst Knight Chestplate",
+          "iregex:.*lime.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_lime_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Yellow Netherite Amethyst Knight Chestplate",
+          "Yellow Amethyst Knight Chestplate",
+          "iregex:.*yellow.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_yellow_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Orange Netherite Amethyst Knight Chestplate",
+          "Orange Amethyst Knight Chestplate",
+          "iregex:.*orange.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_orange_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Brown Netherite Amethyst Knight Chestplate",
+          "Brown Amethyst Knight Chestplate",
+          "iregex:.*brown.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_brown_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Red Netherite Amethyst Knight Chestplate",
+          "Red Amethyst Knight Chestplate",
+          "iregex:.*red.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_red_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Pink Netherite Amethyst Knight Chestplate",
+          "Pink Amethyst Knight Chestplate",
+          "iregex:.*pink.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_pink_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Magenta Netherite Amethyst Knight Chestplate",
+          "Magenta Amethyst Knight Chestplate",
+          "iregex:.*magenta.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_magenta_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Purple Netherite Amethyst Knight Chestplate",
+          "Purple Amethyst Knight Chestplate",
+          "iregex:.*purple.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_purple_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "White Netherite Amethyst Knight Chestplate",
+          "White Amethyst Knight Chestplate",
+          "iregex:.*white.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_white_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Light Gray Netherite Amethyst Knight Chestplate",
+          "Light Gray Amethyst Knight Chestplate",
+          "iregex:.*light gray.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_light_gray_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Gray Netherite Amethyst Knight Chestplate",
+          "Gray Amethyst Knight Chestplate",
+          "iregex:.*gray.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_gray_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Black Netherite Amethyst Knight Chestplate",
+          "Black Amethyst Knight Chestplate",
+          "iregex:.*black.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_black_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Netherite Amethyst Knight Chestplate",
+          "Amethyst Knight Chestplate",
+          "iregex:.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Blue Netherite Emerald Knight Chestplate",
+          "Blue Emerald Knight Chestplate",
+          "iregex:.*blue.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_blue_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Light Blue Netherite Emerald Knight Chestplate",
+          "Light Blue Emerald Knight Chestplate",
+          "iregex:.*light blue.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_light_blue_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Cyan Netherite Emerald Knight Chestplate",
+          "Cyan Emerald Knight Chestplate",
+          "iregex:.*cyan.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_cyan_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Green Netherite Emerald Knight Chestplate",
+          "Green Emerald Knight Chestplate",
+          "iregex:.*green.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_green_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Lime Netherite Emerald Knight Chestplate",
+          "Lime Emerald Knight Chestplate",
+          "iregex:.*lime.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_lime_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Yellow Netherite Emerald Knight Chestplate",
+          "Yellow Emerald Knight Chestplate",
+          "iregex:.*yellow.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_yellow_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Orange Netherite Emerald Knight Chestplate",
+          "Orange Emerald Knight Chestplate",
+          "iregex:.*orange.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_orange_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Brown Netherite Emerald Knight Chestplate",
+          "Brown Emerald Knight Chestplate",
+          "iregex:.*brown.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_brown_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Red Netherite Emerald Knight Chestplate",
+          "Red Emerald Knight Chestplate",
+          "iregex:.*red.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_red_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Pink Netherite Emerald Knight Chestplate",
+          "Pink Emerald Knight Chestplate",
+          "iregex:.*pink.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_pink_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Magenta Netherite Emerald Knight Chestplate",
+          "Magenta Emerald Knight Chestplate",
+          "iregex:.*magenta.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_magenta_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Purple Netherite Emerald Knight Chestplate",
+          "Purple Emerald Knight Chestplate",
+          "iregex:.*purple.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_purple_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "White Netherite Emerald Knight Chestplate",
+          "White Emerald Knight Chestplate",
+          "iregex:.*white.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_white_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Light Gray Netherite Emerald Knight Chestplate",
+          "Light Gray Emerald Knight Chestplate",
+          "iregex:.*light gray.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_light_gray_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Gray Netherite Emerald Knight Chestplate",
+          "Gray Emerald Knight Chestplate",
+          "iregex:.*gray.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_gray_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Black Netherite Emerald Knight Chestplate",
+          "Black Emerald Knight Chestplate",
+          "iregex:.*black.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_black_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Netherite Emerald Knight Chestplate",
+          "Emerald Knight Chestplate",
+          "iregex:.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Blue Netherite Ruby Knight Chestplate",
+          "Blue Ruby Knight Chestplate",
+          "iregex:.*blue.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_blue_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Light Blue Netherite Ruby Knight Chestplate",
+          "Light Blue Ruby Knight Chestplate",
+          "iregex:.*light blue.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_light_blue_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Cyan Netherite Ruby Knight Chestplate",
+          "Cyan Ruby Knight Chestplate",
+          "iregex:.*cyan.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_cyan_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Green Netherite Ruby Knight Chestplate",
+          "Green Ruby Knight Chestplate",
+          "iregex:.*green.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_green_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Lime Netherite Ruby Knight Chestplate",
+          "Lime Ruby Knight Chestplate",
+          "iregex:.*lime.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_lime_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Yellow Netherite Ruby Knight Chestplate",
+          "Yellow Ruby Knight Chestplate",
+          "iregex:.*yellow.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_yellow_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Orange Netherite Ruby Knight Chestplate",
+          "Orange Ruby Knight Chestplate",
+          "iregex:.*orange.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_orange_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Brown Netherite Ruby Knight Chestplate",
+          "Brown Ruby Knight Chestplate",
+          "iregex:.*brown.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_brown_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Red Netherite Ruby Knight Chestplate",
+          "Red Ruby Knight Chestplate",
+          "iregex:.*red.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_red_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Pink Netherite Ruby Knight Chestplate",
+          "Pink Ruby Knight Chestplate",
+          "iregex:.*pink.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_pink_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Magenta Netherite Ruby Knight Chestplate",
+          "Magenta Ruby Knight Chestplate",
+          "iregex:.*magenta.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_magenta_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Purple Netherite Ruby Knight Chestplate",
+          "Purple Ruby Knight Chestplate",
+          "iregex:.*purple.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_purple_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "White Netherite Ruby Knight Chestplate",
+          "White Ruby Knight Chestplate",
+          "iregex:.*white.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_white_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Light Gray Netherite Ruby Knight Chestplate",
+          "Light Gray Ruby Knight Chestplate",
+          "iregex:.*light gray.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_light_gray_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Gray Netherite Ruby Knight Chestplate",
+          "Gray Ruby Knight Chestplate",
+          "iregex:.*gray.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_gray_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Black Netherite Ruby Knight Chestplate",
+          "Black Ruby Knight Chestplate",
+          "iregex:.*black.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_black_knight_chestplate"
+        }
+      },
+      {
+        "when": [
+          "Netherite Ruby Knight Chestplate",
+          "Ruby Knight Chestplate",
+          "iregex:.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_knight_chestplate"
+        }
+      },
+      {
+        "when": [
           "Netherite Emerald Chestplate", "iregex:.*emerald.*"
         ],
         "model": {

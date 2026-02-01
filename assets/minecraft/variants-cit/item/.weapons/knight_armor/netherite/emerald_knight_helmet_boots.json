@@ -1,0 +1,21 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:netherite_helmet", "minecraft:netherite_boots"
+	],
+	"modelPrefix": ".weapons/knight_armor/netherite/emerald/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"regex": "(?i).*(emerald).*(Knight).*",
+				"substitution": "emerald_knight",
+				"matchAll": true
+			},
+			"sanitize_path"
+		]
+	}
+}

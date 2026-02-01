@@ -168,6 +168,659 @@
       },
       {
         "when": [
+          "Blue Netherite Amethyst Knight leggings",
+          "Blue Amethyst Knight leggings",
+          "iregex:.*blue.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_blue_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Netherite Amethyst Knight leggings",
+          "Light Blue Light Blue Amethyst Knight leggings",
+          "iregex:.*light blue.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_light_blue_knight_leggings"
+        }
+      },
+      {
+        "whCyan en": [
+          "Cyan Cyan Netherite Amethyst Knight leggings",
+          "Cyan Amethyst Knight leggings",
+          "iregex:.*cyan.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_cyan_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Green Netherite Amethyst Knight leggings",
+          "Green Amethyst Knight leggings",
+          "iregex:.*green.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_green_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Lime Netherite Amethyst Knight leggings",
+          "Lime Amethyst Knight leggings",
+          "iregex:.*lime.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_lime_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Yellow Netherite Amethyst Knight leggings",
+          "Yellow Amethyst Knight leggings",
+          "iregex:.*yellow.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_yellow_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Orange Netherite Amethyst Knight leggings",
+          "Orange Amethyst Knight leggings",
+          "iregex:.*orange.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_orange_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Brown Netherite Amethyst Knight leggings",
+          "Brown Amethyst Knight leggings",
+          "iregex:.*brown.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_brown_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Red Netherite Amethyst Knight leggings",
+          "Red Amethyst Knight leggings",
+          "iregex:.*red.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_red_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Pink Netherite Amethyst Knight leggings",
+          "Pink Amethyst Knight leggings",
+          "iregex:.*pink.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_pink_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Magenta Netherite Amethyst Knight leggings",
+          "Magenta Amethyst Knight leggings",
+          "iregex:.*magenta.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_magenta_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Purple Netherite Amethyst Knight leggings",
+          "Purple Amethyst Knight leggings",
+          "iregex:.*purple.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_purple_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "White Netherite Amethyst Knight leggings",
+          "White Amethyst Knight leggings",
+          "iregex:.*white.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_white_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Light Gray Netherite Amethyst Knight leggings",
+          "Light Gray Amethyst Knight leggings",
+          "iregex:.*light gray.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_light_gray_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Gray Netherite Amethyst Knight leggings",
+          "Gray Amethyst Knight leggings",
+          "iregex:.*gray.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_gray_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Black Netherite Amethyst Knight leggings",
+          "Black Amethyst Knight leggings",
+          "iregex:.*black.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_black_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Netherite Amethyst Knight leggings",
+          "Amethyst Knight leggings",
+          "iregex:.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/a/a_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Blue Netherite Emerald Knight leggings",
+          "Blue Emerald Knight leggings",
+          "iregex:.*blue.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_blue_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Light Blue Netherite Emerald Knight leggings",
+          "Light Blue Emerald Knight leggings",
+          "iregex:.*light blue.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_light_blue_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Cyan Netherite Emerald Knight leggings",
+          "Cyan Emerald Knight leggings",
+          "iregex:.*cyan.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_cyan_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Green Netherite Emerald Knight leggings",
+          "Green Emerald Knight leggings",
+          "iregex:.*green.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_green_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Lime Netherite Emerald Knight leggings",
+          "Lime Emerald Knight leggings",
+          "iregex:.*lime.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_lime_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Yellow Netherite Emerald Knight leggings",
+          "Yellow Emerald Knight leggings",
+          "iregex:.*yellow.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_yellow_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Orange Netherite Emerald Knight leggings",
+          "Orange Emerald Knight leggings",
+          "iregex:.*orange.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_orange_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Brown Netherite Emerald Knight leggings",
+          "Brown Emerald Knight leggings",
+          "iregex:.*brown.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_brown_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Red Netherite Emerald Knight leggings",
+          "Red Emerald Knight leggings",
+          "iregex:.*red.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_red_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Pink Netherite Emerald Knight leggings",
+          "Pink Emerald Knight leggings",
+          "iregex:.*pink.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_pink_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Magenta Netherite Emerald Knight leggings",
+          "Magenta Emerald Knight leggings",
+          "iregex:.*magenta.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_magenta_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Purple Netherite Emerald Knight leggings",
+          "Purple Emerald Knight leggings",
+          "iregex:.*purple.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_purple_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "White Netherite Emerald Knight leggings",
+          "White Emerald Knight leggings",
+          "iregex:.*white.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_white_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Light Gray Netherite Emerald Knight leggings",
+          "Light Gray Emerald Knight leggings",
+          "iregex:.*light gray.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_light_gray_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Gray Netherite Emerald Knight leggings",
+          "Gray Emerald Knight leggings",
+          "iregex:.*gray.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_gray_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Black Netherite Emerald Knight leggings",
+          "Black Emerald Knight leggings",
+          "iregex:.*black.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_black_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Netherite Emerald Knight leggings",
+          "Emerald Knight leggings",
+          "iregex:.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/e/e_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Blue Netherite Ruby Knight leggings",
+          "Blue Ruby Knight leggings",
+          "iregex:.*blue.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_blue_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Light Blue Netherite Ruby Knight leggings",
+          "Light Blue Ruby Knight leggings",
+          "iregex:.*light blue.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_light_blue_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Cyan Netherite Ruby Knight leggings",
+          "Cyan Ruby Knight leggings",
+          "iregex:.*cyan.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_cyan_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Green Netherite Ruby Knight leggings",
+          "Green Ruby Knight leggings",
+          "iregex:.*green.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_green_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Lime Netherite Ruby Knight leggings",
+          "Lime Ruby Knight leggings",
+          "iregex:.*lime.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_lime_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Yellow Netherite Ruby Knight leggings",
+          "Yellow Ruby Knight leggings",
+          "iregex:.*yellow.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_yellow_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Orange Netherite Ruby Knight leggings",
+          "Orange Ruby Knight leggings",
+          "iregex:.*orange.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_orange_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Brown Netherite Ruby Knight leggings",
+          "Brown Ruby Knight leggings",
+          "iregex:.*brown.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_brown_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Red Netherite Ruby Knight leggings",
+          "Red Ruby Knight leggings",
+          "iregex:.*red.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_red_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Pink Netherite Ruby Knight leggings",
+          "Pink Ruby Knight leggings",
+          "iregex:.*pink.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_pink_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Magenta Netherite Ruby Knight leggings",
+          "Magenta Ruby Knight leggings",
+          "iregex:.*magenta.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_magenta_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Purple Netherite Ruby Knight leggings",
+          "Purple Ruby Knight leggings",
+          "iregex:.*purple.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_purple_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "White Netherite Ruby Knight leggings",
+          "White Ruby Knight leggings",
+          "iregex:.*white.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_white_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Light Gray Netherite Ruby Knight leggings",
+          "Light Gray Ruby Knight leggings",
+          "iregex:.*light gray.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_light_gray_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Gray Netherite Ruby Knight leggings",
+          "Gray Ruby Knight leggings",
+          "iregex:.*gray.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_gray_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Black Netherite Ruby Knight leggings",
+          "Black Ruby Knight leggings",
+          "iregex:.*black.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_black_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Netherite Ruby Knight leggings",
+          "Ruby Knight leggings",
+          "iregex:.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/n/r/r_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Netherite Emerald leggings", "iregex:.*emerald.*"
+        ],
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_quartz_trim"
+              },
+              "when": "minecraft:quartz"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_iron_trim"
+              },
+              "when": "minecraft:iron"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_netherite_trim"
+              },
+              "when": "minecraft:netherite"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_redstone_trim"
+              },
+              "when": "minecraft:redstone"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_copper_trim"
+              },
+              "when": "minecraft:copper"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_gold_trim"
+              },
+              "when": "minecraft:gold"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_emerald_trim"
+              },
+              "when": "minecraft:emerald"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_diamond_trim"
+              },
+              "when": "minecraft:diamond"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_lapis_trim"
+              },
+              "when": "minecraft:lapis"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_amethyst_trim"
+              },
+              "when": "minecraft:amethyst"
+            },
+            {
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_resin_trim"
+              },
+              "when": "minecraft:resin"
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/emerald_set/armor/netherite/emerald_leggings"
+          },
+          "property": "minecraft:trim_material"
+        }
+      },
+      {
+        "when": [
           "Netherite Emerald Leggings", "iregex:.*emerald.*"
         ],
         "model": {
