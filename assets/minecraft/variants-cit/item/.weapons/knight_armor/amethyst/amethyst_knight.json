@@ -1,0 +1,106 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:diamond_chestplate", "minecraft:diamond_leggings"
+	],
+	"modelPrefix": ".weapons/knight_armor/amethyst/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"function": "alternative",
+				"alternatives" : [
+					{
+						"regex": "(?i).*(amethyst).*(light blue).*(knight).*",
+						"substitution": "light_blue_amethyst_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(amethyst).*(light gray).*(knight).*",
+						"substitution": "light_gray_amethyst_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(amethyst).*(blue).*(knight).*",
+						"substitution": "blue_amethyst_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(amethyst).*(cyan).*(knight).*",
+						"substitution": "cyan_amethyst_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(amethyst).*(green).*(knight).*",
+						"substitution": "green_amethyst_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(amethyst).*(lime).*(knight).*",
+						"substitution": "lime_amethyst_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(amethyst).*(yellow).*(knight).*",
+						"substitution": "yellow_amethyst_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(amethyst).*(orange).*(knight).*",
+						"substitution": "orange_amethyst_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(amethyst).*(brown).*(knight).*",
+						"substitution": "brown_amethyst_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(amethyst).*(red).*(knight).*",
+						"substitution": "red_amethyst_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(amethyst).*(pink).*(knight).*",
+						"substitution": "pink_amethyst_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(amethyst).*(magenta).*(knight).*",
+						"substitution": "magenta_amethyst_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(amethyst).*(purple).*(knight).*",
+						"substitution": "purple_amethyst_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(amethyst).*(white).*(knight).*",
+						"substitution": "white_amethyst_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(amethyst).*(gray).*(knight).*",
+						"substitution": "gray_amethyst_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(amethyst).*(black).*(knight).*",
+						"substitution": "black_amethyst_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(amethyst).*(knight).*",
+						"substitution": "amethyst_knight",
+						"matchAll": true
+					}
+				]
+			},
+			"sanitize_path"
+		]
+	}
+}

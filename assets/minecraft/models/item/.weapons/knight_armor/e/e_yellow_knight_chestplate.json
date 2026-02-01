@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/.weapons/knight_armore/e_surcoat_knight_chestplate",
+    "layer0": "minecraft:item/.weapons/knight_armor/e/e_surcoat_knight_chestplate",
     "layer1": "minecraft:item/.weapons/knight_armor/yellow_chestplate"
   }
 }

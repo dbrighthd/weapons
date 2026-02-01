@@ -1,0 +1,14 @@
+{
+    "layers": {
+        "humanoid": [
+            {
+                "texture": "minecraft:.weapons/knight_armor/e/e_light_gray_knight_layer_1"
+            }
+        ],
+        "humanoid_leggings": [
+            {
+                "texture": "minecraft:.weapons/knight_armor/e/e_light_gray_knight_layer_2"
+            }
+        ]
+    }
+}

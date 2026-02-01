@@ -291,7 +291,34 @@
       },
       {
         "when": [
-          "Diamond Knight Boots", "iregex:.*"
+          "Amethyst Knight Boots", "iregex:.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_knight_boots"
+        }
+      },
+      {
+        "when": [
+          "Emerald Knight Boots", "iregex:.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_knight_boots"
+        }
+      },
+      {
+        "when": [
+          "Ruby Knight Boots", "iregex:.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_knight_boots"
+        }
+      },
+      {
+        "when": [
+          "Diamond Knight Boots", "iregex:.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",

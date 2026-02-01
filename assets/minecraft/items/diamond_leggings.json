@@ -291,6 +291,516 @@
       },
       {
         "when": [
+          "Blue Amethyst Knight Leggings",
+          "iregex:.*blue.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_blue_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Light Blue Amethyst Knight Leggings",
+          "iregex:.*light blue.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_light_blue_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Cyan Amethyst Knight Leggings",
+          "iregex:.*cyan.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_cyan_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Green Amethyst Knight Leggings",
+          "iregex:.*green.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_green_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Lime Amethyst Knight Leggings",
+          "iregex:.*lime.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_lime_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Yellow Amethyst Knight Leggings",
+          "iregex:.*yellow.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_yellow_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Orange Amethyst Knight Leggings",
+          "iregex:.*orange.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_orange_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Brown Amethyst Knight Leggings",
+          "iregex:.*brown.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_brown_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Red Amethyst Knight Leggings",
+          "iregex:.*red.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_red_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Pink Amethyst Knight Leggings",
+          "iregex:.*pink.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_pink_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Magenta Amethyst Knight Leggings",
+          "iregex:.*magenta.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_magenta_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Purple Amethyst Knight Leggings",
+          "iregex:.*purple.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_purple_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "White Amethyst Knight Leggings",
+          "iregex:.*white.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_white_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Light Gray Amethyst Knight Leggings",
+          "iregex:.*light gray.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_light_gray_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Gray Amethyst Knight Leggings",
+          "iregex:.*gray.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_gray_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Black Amethyst Knight Leggings",
+          "iregex:.*black.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_black_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Amethyst Knight Leggings",
+          "iregex:.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Blue Emerald Knight Leggings",
+          "iregex:.*blue.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_blue_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Light Blue Emerald Knight Leggings",
+          "iregex:.*light blue.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_light_blue_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Cyan Emerald Knight Leggings",
+          "iregex:.*cyan.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_cyan_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Green Emerald Knight Leggings",
+          "iregex:.*green.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_green_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Lime Emerald Knight Leggings",
+          "iregex:.*lime.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_lime_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Yellow Emerald Knight Leggings",
+          "iregex:.*yellow.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_yellow_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Orange Emerald Knight Leggings",
+          "iregex:.*orange.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_orange_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Brown Emerald Knight Leggings",
+          "iregex:.*brown.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_brown_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Red Emerald Knight Leggings",
+          "iregex:.*red.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_red_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Pink Emerald Knight Leggings",
+          "iregex:.*pink.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_pink_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Magenta Emerald Knight Leggings",
+          "iregex:.*magenta.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_magenta_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Purple Emerald Knight Leggings",
+          "iregex:.*purple.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_purple_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "White Emerald Knight Leggings",
+          "iregex:.*white.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_white_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Light Gray Emerald Knight Leggings",
+          "iregex:.*light gray.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_light_gray_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Gray Emerald Knight Leggings",
+          "iregex:.*gray.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_gray_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Black Emerald Knight Leggings",
+          "iregex:.*black.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_black_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Emerald Knight Leggings",
+          "iregex:.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Blue Ruby Knight Leggings",
+          "iregex:.*blue.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_blue_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Light Blue Ruby Knight Leggings",
+          "iregex:.*light blue.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_light_blue_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Cyan Ruby Knight Leggings",
+          "iregex:.*cyan.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_cyan_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Green Ruby Knight Leggings",
+          "iregex:.*green.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_green_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Lime Ruby Knight Leggings",
+          "iregex:.*lime.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_lime_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Yellow Ruby Knight Leggings",
+          "iregex:.*yellow.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_yellow_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Orange Ruby Knight Leggings",
+          "iregex:.*orange.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_orange_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Brown Ruby Knight Leggings",
+          "iregex:.*brown.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_brown_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Red Ruby Knight Leggings",
+          "iregex:.*red.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_red_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Pink Ruby Knight Leggings",
+          "iregex:.*pink.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_pink_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Magenta Ruby Knight Leggings",
+          "iregex:.*magenta.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_magenta_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Purple Ruby Knight Leggings",
+          "iregex:.*purple.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_purple_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "White Ruby Knight Leggings",
+          "iregex:.*white.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_white_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Light Gray Ruby Knight Leggings",
+          "iregex:.*light gray.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_light_gray_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Gray Ruby Knight Leggings",
+          "iregex:.*gray.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_gray_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Black Ruby Knight Leggings",
+          "iregex:.*black.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_black_knight_leggings"
+        }
+      },
+      {
+        "when": [
+          "Ruby Knight Leggings",
+          "iregex:.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_knight_leggings"
+        }
+      },
+      {
+        "when": [
           "Blue Diamond Knight Leggings",
           "iregex:.*blue.*knight.*"
         ],

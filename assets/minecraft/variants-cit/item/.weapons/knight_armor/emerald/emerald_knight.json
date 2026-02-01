@@ -1,0 +1,106 @@
+{
+	"context": "equippable",
+	"items": [
+		"minecraft:diamond_chestplate", "minecraft:diamond_leggings"
+	],
+	"modelPrefix": ".weapons/knight_armor/emerald/",
+	"type": "component_data",
+	"parameters": 
+	{
+		"componentType": "custom_name",
+		"expect": "rich_text",
+		"transform": [
+			{
+				"function": "alternative",
+				"alternatives" : [
+					{
+						"regex": "(?i).*(emerald).*(light blue).*(knight).*",
+						"substitution": "light_blue_emerald_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(emerald).*(light gray).*(knight).*",
+						"substitution": "light_gray_emerald_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(emerald).*(blue).*(knight).*",
+						"substitution": "blue_emerald_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(emerald).*(cyan).*(knight).*",
+						"substitution": "cyan_emerald_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(emerald).*(green).*(knight).*",
+						"substitution": "green_emerald_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(emerald).*(lime).*(knight).*",
+						"substitution": "lime_emerald_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(emerald).*(yellow).*(knight).*",
+						"substitution": "yellow_emerald_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(emerald).*(orange).*(knight).*",
+						"substitution": "orange_emerald_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(emerald).*(brown).*(knight).*",
+						"substitution": "brown_emerald_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(emerald).*(red).*(knight).*",
+						"substitution": "red_emerald_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(emerald).*(pink).*(knight).*",
+						"substitution": "pink_emerald_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(emerald).*(magenta).*(knight).*",
+						"substitution": "magenta_emerald_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(emerald).*(purple).*(knight).*",
+						"substitution": "purple_emerald_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(emerald).*(white).*(knight).*",
+						"substitution": "white_emerald_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(emerald).*(gray).*(knight).*",
+						"substitution": "gray_emerald_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(emerald).*(black).*(knight).*",
+						"substitution": "black_emerald_knight",
+						"matchAll": true
+					},
+					{
+						"regex": "(?i).*(emerald).*(knight).*",
+						"substitution": "emerald_knight",
+						"matchAll": true
+					}
+				]
+			},
+			"sanitize_path"
+		]
+	}
+}

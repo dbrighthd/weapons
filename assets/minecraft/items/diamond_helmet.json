@@ -291,6 +291,33 @@
       },
       {
         "when": [
+          "Amethyst Knight Helmet", "iregex:.*amethyst.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/a/a_knight_helmet"
+        }
+      },
+      {
+        "when": [
+          "Emerald Knight Helmet", "iregex:.*emerald.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/e/e_knight_helmet"
+        }
+      },
+      {
+        "when": [
+          "Ruby Knight Helmet", "iregex:.*ruby.*knight.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/knight_armor/r/r_knight_helmet"
+        }
+      },
+      {
+        "when": [
           "Diamond Knight Helmet", "iregex:.*knight.*"
         ],
         "model": {

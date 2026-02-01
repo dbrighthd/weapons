@@ -3,3 +3,6 @@
 .*Iron Knight.*,Iron Knight Boots,Iron Knight Leggings,Iron Knight Chestplate,Iron Knight Helmet
 .*Golden Knight.*,Golden Knight Boots,Golden Knight Leggings,Golden Knight Chestplate,Golden Knight Helmet
 .*Copper Knight.*,Copper Knight Boots,Copper Knight Leggings,Copper Knight Chestplate,Copper Knight Helmet
+.*Ruby Knight.*,Ruby Knight Boots,Ruby Knight Leggings,Ruby Knight Chestplate,Ruby Knight Helmet
+.*Emerald Knight.*,Emerald Knight Boots,Emerald Knight Leggings,Emerald Knight Chestplate,Emerald Knight Helmet
+.*Amethyst Knight.*,Amethyst Knight Boots,Amethyst Knight Leggings,Amethyst Knight Chestplate,Amethyst Knight Helmet
