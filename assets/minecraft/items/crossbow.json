@@ -12,6 +12,13 @@
         }
       },
       {
+        "when": ["Duchess Revolver", "iregex:.*duchess.*revolver.*"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/crossbows/duchess_revolver"
+        }
+      },
+      {
         "when": ["Revolver", "iregex:.*revolver.*"],
         "model": {
           "type": "minecraft:model",
