@@ -33,28 +33,55 @@
           }
         },
         {
-          "when": ["Needle", "iregex:.*Needle.*"],
-          "model": {
-    "type": "minecraft:select",
-    "property": "minecraft:display_context",
-    "cases": [
-      {
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/hollow_knight/needle/needle"
+          "when": ["Undyne Spear", "Spear of Justice", "iregex:.*spear.*of.*justice.*", "iregex:.*undyne.*"],
+          "model": 
+          {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/utdr/undyne_spear/undyne_spear"
+                },
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ]
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/utdr/undyne_spear/undyne_spear_in_hand"
+            }
+          }
         },
-        "when": [
-          "gui",
-          "ground",
-          "fixed",
-          "on_shelf"
-        ]
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/hollow_knight/needle/needle_in_hand"
-    }
+        {
+          "when": ["Needle", "iregex:.*Needle.*"],
+          "model": 
+          {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/hollow_knight/needle/needle"
+                },
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ]
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/hollow_knight/needle/needle_in_hand"
+            }
           }
         },
         {
