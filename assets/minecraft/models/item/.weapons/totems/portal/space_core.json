@@ -4,8 +4,8 @@
 	"texture_size": [128, 128],
 	"textures": {
 		"2": "item/.weapons/totems/portal/core",
-		"3": "item/.weapons/totems/portal/wheatley_eye_lids",
-		"4": "item/.weapons/totems/portal/wheatley_eye",
+		"3": "item/.weapons/totems/portal/space_core_eye_lids",
+		"4": "item/.weapons/totems/portal/space_core_eye",
 		"particle": "item/.weapons/totems/portal/core"
 	},
 	"elements": [

@@ -194,7 +194,28 @@
           }
         },
         {
-          "when": [ "Wheatley","iregex:.*wheatley.*"],
+          "when": [ "Adventure Core","Rick","iregex:.*adventure.*core.*"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/portal/adventure_core"
+          }
+        },
+        {
+          "when": [ "Fact Core","iregex:.*fact.*core.*"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/portal/fact_core"
+          }
+        },
+        {
+          "when": [ "Space Core","iregex:.*space.*core.*"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/portal/space_core"
+          }
+        },
+        {
+          "when": [ "Wheatley", "Moron", "iregex:.*wheatley.*"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/totems/portal/wheatley"

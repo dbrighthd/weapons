@@ -1,0 +1,167 @@
+{
+	"animation": {
+		"frametime": 1,
+		"frames":[
+			{"index":0, "time":50},
+
+			{"index":0, "time":1, "comment":"blink1"},
+			{"index":0, "time":1},
+			{"index":0, "time":2},
+			{"index":0, "time":1},
+			{"index":0, "time":1},
+			
+			{"index":0, "time":50},
+
+			{"index":0, "time":1, "comment":"eyeroll"},
+			{"index":0, "time":25},
+			{"index":0, "time":1},
+			{"index":4, "time":1},
+			{"index":14, "time":2},
+			{"index":7, "time":3},
+			{"index":15, "time":4},
+			{"index":16, "time":10},
+			{"index":2, "time":1},
+			{"index":1, "time":1},
+			{"index":0, "time":25},
+			{"index":0, "time":1},
+
+			{"index":0, "time":25},
+
+			{"index":0, "time":1, "comment":"blink2"},
+			{"index":0, "time":1},
+			{"index":0, "time":2},
+			{"index":0, "time":1},
+			{"index":0, "time":1},
+			{"index":0, "time":2},
+			{"index":0, "time":1},
+			{"index":0, "time":1},
+			{"index":0, "time":2},
+			{"index":0, "time":1},
+			{"index":0, "time":1},
+
+			{"index":0, "time":50},
+
+			{"index":1, "time":1, "comment":"lookright"},
+			{"index":2, "time":1},
+			{"index":3, "time":25},
+			{"index":2, "time":1},
+			{"index":1, "time":1},
+
+			{"index":0, "time":50},
+
+			{"index":0, "time":1, "comment":"blink1"},
+			{"index":0, "time":1},
+			{"index":0, "time":2},
+			{"index":0, "time":1},
+			{"index":0, "time":1},
+
+			{"index":0, "time":50},
+
+			{"index":0, "time":1, "comment":"suspcious"},
+			{"index":0, "time":2},
+			{"index":1, "time":1},
+			{"index":2, "time":1},
+			{"index":3, "time":25},
+			{"index":2, "time":1},
+			{"index":1, "time":1},
+			{"index":0, "time":1},
+			{"index":4, "time":1},
+			{"index":5, "time":1},
+			{"index":6, "time":25},
+			{"index":5, "time":1},
+			{"index":4, "time":1},
+			{"index":0, "time":25},
+			{"index":0, "time":1},
+			{"index":0, "time":1},
+
+			{"index":0, "time":50},
+
+			{"index":0, "time":1, "comment":"blink2"},
+			{"index":0, "time":1},
+			{"index":0, "time":2},
+			{"index":0, "time":1},
+			{"index":0, "time":1},
+			{"index":0, "time":2},
+			{"index":0, "time":1},
+			{"index":0, "time":1},
+			{"index":0, "time":2},
+			{"index":0, "time":1},
+			{"index":0, "time":1},
+			
+			{"index":0, "time":50},
+
+			{"index":4, "time":1, "comment":"lookleft"},
+			{"index":5, "time":1},
+			{"index":6, "time":25},
+			{"index":5, "time":1},
+			{"index":4, "time":1},
+			
+			{"index":0, "time":50},
+
+			{"index":0, "time":1, "comment":"happy"},
+			{"index":0, "time":1},
+			{"index":7, "time":25},
+			{"index":0, "time":1},
+			{"index":0, "time":1},
+			
+			{"index":0, "time":50},
+
+			{"index":8, "time":1, "comment":"meanderinglookdown"},
+			{"index":9, "time":25},
+			{"index":10, "time":1},
+			{"index":11, "time":25},
+			{"index":10, "time":25},
+			{"index":9, "time":1},
+			{"index":12, "time":25},
+			{"index":9, "time":1},
+			{"index":8, "time":1},
+			
+			{"index":0, "time":50},
+
+			{"index":0, "time":1, "comment":"blink1"},
+			{"index":0, "time":1},
+			{"index":0, "time":2},
+			{"index":0, "time":1},
+			{"index":0, "time":1},
+			
+			{"index":0, "time":50},
+
+			{"index":7, "time":1, "comment":"yes"},
+			{"index":0, "time":1},
+			{"index":8, "time":1},
+			{"index":9, "time":2},
+			{"index":8, "time":1},
+			{"index":0, "time":1},
+			{"index":7, "time":1},
+			{"index":17, "time":2},
+			{"index":7, "time":1},
+			{"index":0, "time":1},
+			{"index":8, "time":1},
+			{"index":9, "time":2},
+			{"index":8, "time":1},
+			{"index":0, "time":1},
+			{"index":7, "time":1},
+			{"index":17, "time":2},
+			{"index":7, "time":1},
+			
+			{"index":0, "time":50},
+
+			{"index":18, "time":1, "comment":"scared"},
+			{"index":19, "time":10},
+			{"index":20, "time":1},
+			{"index":21, "time":1},
+			{"index":22, "time":15},
+			{"index":23, "time":15},
+			{"index":22, "time":1},
+			{"index":24, "time":15},
+			{"index":22, "time":1},
+			{"index":21, "time":1},
+			{"index":20, "time":1},
+			{"index":25, "time":1},
+			{"index":26, "time":25},
+			{"index":25, "time":1},
+			{"index":19, "time":10},
+			{"index":18, "time":1}
+		]
+	}
+}
