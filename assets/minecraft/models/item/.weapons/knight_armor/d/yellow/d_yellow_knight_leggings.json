@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/.weapons/knight_armor/d/yellow/d_yellow_knight_leggings"
-  }
-}

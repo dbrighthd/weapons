@@ -20,7 +20,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/g/blue/g_blue_knight_leggings"
+          "model": "minecraft:item/.weapons/knight_armor/g/g_blue_knight_leggings"
         }
       },
       {
@@ -30,7 +30,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/g/light_blue/g_light_blue_knight_leggings"
+          "model": "minecraft:item/.weapons/knight_armor/g/g_light_blue_knight_leggings"
         }
       },
       {
@@ -40,7 +40,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/g/cyan/g_cyan_knight_leggings"
+          "model": "minecraft:item/.weapons/knight_armor/g/g_cyan_knight_leggings"
         }
       },
       {
@@ -50,7 +50,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/g/green/g_green_knight_leggings"
+          "model": "minecraft:item/.weapons/knight_armor/g/g_green_knight_leggings"
         }
       },
       {
@@ -60,7 +60,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/g/lime/g_lime_knight_leggings"
+          "model": "minecraft:item/.weapons/knight_armor/g/g_lime_knight_leggings"
         }
       },
       {
@@ -70,7 +70,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/g/yellow/g_yellow_knight_leggings"
+          "model": "minecraft:item/.weapons/knight_armor/g/g_yellow_knight_leggings"
         }
       },
       {
@@ -80,7 +80,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/g/orange/g_orange_knight_leggings"
+          "model": "minecraft:item/.weapons/knight_armor/g/g_orange_knight_leggings"
         }
       },
       {
@@ -90,7 +90,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/g/brown/g_brown_knight_leggings"
+          "model": "minecraft:item/.weapons/knight_armor/g/g_brown_knight_leggings"
         }
       },
       {
@@ -100,7 +100,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/g/red/g_red_knight_leggings"
+          "model": "minecraft:item/.weapons/knight_armor/g/g_red_knight_leggings"
         }
       },
       {
@@ -110,7 +110,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/g/pink/g_pink_knight_leggings"
+          "model": "minecraft:item/.weapons/knight_armor/g/g_pink_knight_leggings"
         }
       },
       {
@@ -120,7 +120,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/g/magenta/g_magenta_knight_leggings"
+          "model": "minecraft:item/.weapons/knight_armor/g/g_magenta_knight_leggings"
         }
       },
       {
@@ -130,7 +130,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/g/purple/g_purple_knight_leggings"
+          "model": "minecraft:item/.weapons/knight_armor/g/g_purple_knight_leggings"
         }
       },
       {
@@ -140,7 +140,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/g/white/g_white_knight_leggings"
+          "model": "minecraft:item/.weapons/knight_armor/g/g_white_knight_leggings"
         }
       },
       {
@@ -150,7 +150,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/g/light_gray/g_light_gray_knight_leggings"
+          "model": "minecraft:item/.weapons/knight_armor/g/g_light_gray_knight_leggings"
         }
       },
       {
@@ -160,7 +160,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/g/gray/g_gray_knight_leggings"
+          "model": "minecraft:item/.weapons/knight_armor/g/g_gray_knight_leggings"
         }
       },
       {
@@ -170,7 +170,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/g/black/g_black_knight_leggings"
+          "model": "minecraft:item/.weapons/knight_armor/g/g_black_knight_leggings"
         }
       },
       {
@@ -180,7 +180,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/g/zzz/g_knight_leggings"
+          "model": "minecraft:item/.weapons/knight_armor/g/g_knight_leggings"
         }
       }
     ],

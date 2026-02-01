@@ -296,7 +296,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/d/blue/d_blue_knight_chestplate"
+          "model": "minecraft:item/.weapons/knight_armor/d/d_blue_knight_chestplate"
         }
       },
       {
@@ -306,7 +306,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/d/light_blue/d_light_blue_knight_chestplate"
+          "model": "minecraft:item/.weapons/knight_armor/d/d_light_blue_knight_chestplate"
         }
       },
       {
@@ -316,7 +316,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/d/cyan/d_cyan_knight_chestplate"
+          "model": "minecraft:item/.weapons/knight_armor/d/d_cyan_knight_chestplate"
         }
       },
       {
@@ -326,7 +326,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/d/green/d_green_knight_chestplate"
+          "model": "minecraft:item/.weapons/knight_armor/d/d_green_knight_chestplate"
         }
       },
       {
@@ -336,7 +336,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/d/lime/d_lime_knight_chestplate"
+          "model": "minecraft:item/.weapons/knight_armor/d/d_lime_knight_chestplate"
         }
       },
       {
@@ -346,7 +346,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/d/yellow/d_yellow_knight_chestplate"
+          "model": "minecraft:item/.weapons/knight_armor/d/d_yellow_knight_chestplate"
         }
       },
       {
@@ -356,7 +356,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/d/orange/d_orange_knight_chestplate"
+          "model": "minecraft:item/.weapons/knight_armor/d/d_orange_knight_chestplate"
         }
       },
       {
@@ -366,7 +366,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/d/brown/d_brown_knight_chestplate"
+          "model": "minecraft:item/.weapons/knight_armor/d/d_brown_knight_chestplate"
         }
       },
       {
@@ -376,7 +376,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/d/red/d_red_knight_chestplate"
+          "model": "minecraft:item/.weapons/knight_armor/d/d_red_knight_chestplate"
         }
       },
       {
@@ -386,7 +386,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/d/pink/d_pink_knight_chestplate"
+          "model": "minecraft:item/.weapons/knight_armor/d/d_pink_knight_chestplate"
         }
       },
       {
@@ -396,7 +396,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/d/magenta/d_magenta_knight_chestplate"
+          "model": "minecraft:item/.weapons/knight_armor/d/d_magenta_knight_chestplate"
         }
       },
       {
@@ -406,7 +406,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/d/purple/d_purple_knight_chestplate"
+          "model": "minecraft:item/.weapons/knight_armor/d/d_purple_knight_chestplate"
         }
       },
       {
@@ -416,7 +416,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/d/white/d_white_knight_chestplate"
+          "model": "minecraft:item/.weapons/knight_armor/d/d_white_knight_chestplate"
         }
       },
       {
@@ -426,7 +426,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/d/light_gray/d_light_gray_knight_chestplate"
+          "model": "minecraft:item/.weapons/knight_armor/d/d_light_gray_knight_chestplate"
         }
       },
       {
@@ -436,7 +436,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/d/gray/d_gray_knight_chestplate"
+          "model": "minecraft:item/.weapons/knight_armor/d/d_gray_knight_chestplate"
         }
       },
       {
@@ -446,7 +446,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/d/black/d_black_knight_chestplate"
+          "model": "minecraft:item/.weapons/knight_armor/d/d_black_knight_chestplate"
         }
       },
       {
@@ -456,7 +456,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/d/zzz/d_knight_chestplate"
+          "model": "minecraft:item/.weapons/knight_armor/d/d_knight_chestplate"
         }
       }
     ],

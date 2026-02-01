@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/.weapons/knight_armor/c/light_blue/c_light_blue_knight_chestplate"
-  }
-}

@@ -19,7 +19,7 @@
         ],
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/knight_armor/i/zzz/i_knight_helmet"
+          "model": "minecraft:item/.weapons/knight_armor/i/i_knight_helmet"
         }
       }
     ],
