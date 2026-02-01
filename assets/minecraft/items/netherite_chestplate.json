@@ -179,8 +179,8 @@
       },
       {
         "when": [
-          "Netherite Amethyst Knight Chestplate",
-          "Light Blue Light Blue Amethyst Knight Chestplate",
+          "Light Blue Netherite Amethyst Knight Chestplate",
+          "Light Blue Amethyst Knight Chestplate",
           "iregex:.*light blue.*amethyst.*knight.*"
         ],
         "model": {
@@ -189,8 +189,8 @@
         }
       },
       {
-        "whCyan en": [
-          "Cyan Cyan Netherite Amethyst Knight Chestplate",
+        "when": [
+          "Cyan Netherite Amethyst Knight Chestplate",
           "Cyan Amethyst Knight Chestplate",
           "iregex:.*cyan.*amethyst.*knight.*"
         ],

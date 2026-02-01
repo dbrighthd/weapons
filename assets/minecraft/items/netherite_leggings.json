@@ -168,8 +168,8 @@
       },
       {
         "when": [
-          "Blue Netherite Amethyst Knight leggings",
-          "Blue Amethyst Knight leggings",
+          "Blue Netherite Amethyst Knight Leggings",
+          "Blue Amethyst Knight Leggings",
           "iregex:.*blue.*amethyst.*knight.*"
         ],
         "model": {
@@ -179,8 +179,8 @@
       },
       {
         "when": [
-          "Netherite Amethyst Knight leggings",
-          "Light Blue Light Blue Amethyst Knight leggings",
+          "Light Blue Netherite Amethyst Knight Leggings",
+          "Light Blue Amethyst Knight Leggings",
           "iregex:.*light blue.*amethyst.*knight.*"
         ],
         "model": {
@@ -189,9 +189,9 @@
         }
       },
       {
-        "whCyan en": [
-          "Cyan Cyan Netherite Amethyst Knight leggings",
-          "Cyan Amethyst Knight leggings",
+        "when": [
+          "Cyan Netherite Amethyst Knight Leggings",
+          "Cyan Amethyst Knight Leggings",
           "iregex:.*cyan.*amethyst.*knight.*"
         ],
         "model": {
@@ -201,8 +201,8 @@
       },
       {
         "when": [
-          "Green Netherite Amethyst Knight leggings",
-          "Green Amethyst Knight leggings",
+          "Green Netherite Amethyst Knight Leggings",
+          "Green Amethyst Knight Leggings",
           "iregex:.*green.*amethyst.*knight.*"
         ],
         "model": {
@@ -212,8 +212,8 @@
       },
       {
         "when": [
-          "Lime Netherite Amethyst Knight leggings",
-          "Lime Amethyst Knight leggings",
+          "Lime Netherite Amethyst Knight Leggings",
+          "Lime Amethyst Knight Leggings",
           "iregex:.*lime.*amethyst.*knight.*"
         ],
         "model": {
@@ -223,8 +223,8 @@
       },
       {
         "when": [
-          "Yellow Netherite Amethyst Knight leggings",
-          "Yellow Amethyst Knight leggings",
+          "Yellow Netherite Amethyst Knight Leggings",
+          "Yellow Amethyst Knight Leggings",
           "iregex:.*yellow.*amethyst.*knight.*"
         ],
         "model": {
@@ -234,8 +234,8 @@
       },
       {
         "when": [
-          "Orange Netherite Amethyst Knight leggings",
-          "Orange Amethyst Knight leggings",
+          "Orange Netherite Amethyst Knight Leggings",
+          "Orange Amethyst Knight Leggings",
           "iregex:.*orange.*amethyst.*knight.*"
         ],
         "model": {
@@ -245,8 +245,8 @@
       },
       {
         "when": [
-          "Brown Netherite Amethyst Knight leggings",
-          "Brown Amethyst Knight leggings",
+          "Brown Netherite Amethyst Knight Leggings",
+          "Brown Amethyst Knight Leggings",
           "iregex:.*brown.*amethyst.*knight.*"
         ],
         "model": {
@@ -256,8 +256,8 @@
       },
       {
         "when": [
-          "Red Netherite Amethyst Knight leggings",
-          "Red Amethyst Knight leggings",
+          "Red Netherite Amethyst Knight Leggings",
+          "Red Amethyst Knight Leggings",
           "iregex:.*red.*amethyst.*knight.*"
         ],
         "model": {
@@ -267,8 +267,8 @@
       },
       {
         "when": [
-          "Pink Netherite Amethyst Knight leggings",
-          "Pink Amethyst Knight leggings",
+          "Pink Netherite Amethyst Knight Leggings",
+          "Pink Amethyst Knight Leggings",
           "iregex:.*pink.*amethyst.*knight.*"
         ],
         "model": {
@@ -278,8 +278,8 @@
       },
       {
         "when": [
-          "Magenta Netherite Amethyst Knight leggings",
-          "Magenta Amethyst Knight leggings",
+          "Magenta Netherite Amethyst Knight Leggings",
+          "Magenta Amethyst Knight Leggings",
           "iregex:.*magenta.*amethyst.*knight.*"
         ],
         "model": {
@@ -289,8 +289,8 @@
       },
       {
         "when": [
-          "Purple Netherite Amethyst Knight leggings",
-          "Purple Amethyst Knight leggings",
+          "Purple Netherite Amethyst Knight Leggings",
+          "Purple Amethyst Knight Leggings",
           "iregex:.*purple.*amethyst.*knight.*"
         ],
         "model": {
@@ -300,8 +300,8 @@
       },
       {
         "when": [
-          "White Netherite Amethyst Knight leggings",
-          "White Amethyst Knight leggings",
+          "White Netherite Amethyst Knight Leggings",
+          "White Amethyst Knight Leggings",
           "iregex:.*white.*amethyst.*knight.*"
         ],
         "model": {
@@ -311,19 +311,19 @@
       },
       {
         "when": [
-          "Light Gray Netherite Amethyst Knight leggings",
-          "Light Gray Amethyst Knight leggings",
+          "Light Gray Netherite Amethyst Knight Leggings",
+          "Light Gray Amethyst Knight Leggings",
           "iregex:.*light gray.*amethyst.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/knight_armor/n/a/a_light_gray_knight_leggings"
-        }
+        } 
       },
       {
         "when": [
-          "Gray Netherite Amethyst Knight leggings",
-          "Gray Amethyst Knight leggings",
+          "Gray Netherite Amethyst Knight Leggings",
+          "Gray Amethyst Knight Leggings",
           "iregex:.*gray.*amethyst.*knight.*"
         ],
         "model": {
@@ -333,8 +333,8 @@
       },
       {
         "when": [
-          "Black Netherite Amethyst Knight leggings",
-          "Black Amethyst Knight leggings",
+          "Black Netherite Amethyst Knight Leggings",
+          "Black Amethyst Knight Leggings",
           "iregex:.*black.*amethyst.*knight.*"
         ],
         "model": {
@@ -344,8 +344,8 @@
       },
       {
         "when": [
-          "Netherite Amethyst Knight leggings",
-          "Amethyst Knight leggings",
+          "Netherite Amethyst Knight Leggings",
+          "Amethyst Knight Leggings",
           "iregex:.*amethyst.*knight.*"
         ],
         "model": {
@@ -355,8 +355,8 @@
       },
       {
         "when": [
-          "Blue Netherite Emerald Knight leggings",
-          "Blue Emerald Knight leggings",
+          "Blue Netherite Emerald Knight Leggings",
+          "Blue Emerald Knight Leggings",
           "iregex:.*blue.*emerald.*knight.*"
         ],
         "model": {
@@ -366,8 +366,8 @@
       },
       {
         "when": [
-          "Light Blue Netherite Emerald Knight leggings",
-          "Light Blue Emerald Knight leggings",
+          "Light Blue Netherite Emerald Knight Leggings",
+          "Light Blue Emerald Knight Leggings",
           "iregex:.*light blue.*emerald.*knight.*"
         ],
         "model": {
@@ -377,8 +377,8 @@
       },
       {
         "when": [
-          "Cyan Netherite Emerald Knight leggings",
-          "Cyan Emerald Knight leggings",
+          "Cyan Netherite Emerald Knight Leggings",
+          "Cyan Emerald Knight Leggings",
           "iregex:.*cyan.*emerald.*knight.*"
         ],
         "model": {
@@ -388,8 +388,8 @@
       },
       {
         "when": [
-          "Green Netherite Emerald Knight leggings",
-          "Green Emerald Knight leggings",
+          "Green Netherite Emerald Knight Leggings",
+          "Green Emerald Knight Leggings",
           "iregex:.*green.*emerald.*knight.*"
         ],
         "model": {
@@ -399,8 +399,8 @@
       },
       {
         "when": [
-          "Lime Netherite Emerald Knight leggings",
-          "Lime Emerald Knight leggings",
+          "Lime Netherite Emerald Knight Leggings",
+          "Lime Emerald Knight Leggings",
           "iregex:.*lime.*emerald.*knight.*"
         ],
         "model": {
@@ -410,8 +410,8 @@
       },
       {
         "when": [
-          "Yellow Netherite Emerald Knight leggings",
-          "Yellow Emerald Knight leggings",
+          "Yellow Netherite Emerald Knight Leggings",
+          "Yellow Emerald Knight Leggings",
           "iregex:.*yellow.*emerald.*knight.*"
         ],
         "model": {
@@ -421,8 +421,8 @@
       },
       {
         "when": [
-          "Orange Netherite Emerald Knight leggings",
-          "Orange Emerald Knight leggings",
+          "Orange Netherite Emerald Knight Leggings",
+          "Orange Emerald Knight Leggings",
           "iregex:.*orange.*emerald.*knight.*"
         ],
         "model": {
@@ -432,8 +432,8 @@
       },
       {
         "when": [
-          "Brown Netherite Emerald Knight leggings",
-          "Brown Emerald Knight leggings",
+          "Brown Netherite Emerald Knight Leggings",
+          "Brown Emerald Knight Leggings",
           "iregex:.*brown.*emerald.*knight.*"
         ],
         "model": {
@@ -443,8 +443,8 @@
       },
       {
         "when": [
-          "Red Netherite Emerald Knight leggings",
-          "Red Emerald Knight leggings",
+          "Red Netherite Emerald Knight Leggings",
+          "Red Emerald Knight Leggings",
           "iregex:.*red.*emerald.*knight.*"
         ],
         "model": {
@@ -454,8 +454,8 @@
       },
       {
         "when": [
-          "Pink Netherite Emerald Knight leggings",
-          "Pink Emerald Knight leggings",
+          "Pink Netherite Emerald Knight Leggings",
+          "Pink Emerald Knight Leggings",
           "iregex:.*pink.*emerald.*knight.*"
         ],
         "model": {
@@ -465,8 +465,8 @@
       },
       {
         "when": [
-          "Magenta Netherite Emerald Knight leggings",
-          "Magenta Emerald Knight leggings",
+          "Magenta Netherite Emerald Knight Leggings",
+          "Magenta Emerald Knight Leggings",
           "iregex:.*magenta.*emerald.*knight.*"
         ],
         "model": {
@@ -476,8 +476,8 @@
       },
       {
         "when": [
-          "Purple Netherite Emerald Knight leggings",
-          "Purple Emerald Knight leggings",
+          "Purple Netherite Emerald Knight Leggings",
+          "Purple Emerald Knight Leggings",
           "iregex:.*purple.*emerald.*knight.*"
         ],
         "model": {
@@ -487,8 +487,8 @@
       },
       {
         "when": [
-          "White Netherite Emerald Knight leggings",
-          "White Emerald Knight leggings",
+          "White Netherite Emerald Knight Leggings",
+          "White Emerald Knight Leggings",
           "iregex:.*white.*emerald.*knight.*"
         ],
         "model": {
@@ -498,8 +498,8 @@
       },
       {
         "when": [
-          "Light Gray Netherite Emerald Knight leggings",
-          "Light Gray Emerald Knight leggings",
+          "Light Gray Netherite Emerald Knight Leggings",
+          "Light Gray Emerald Knight Leggings",
           "iregex:.*light gray.*emerald.*knight.*"
         ],
         "model": {
@@ -509,8 +509,8 @@
       },
       {
         "when": [
-          "Gray Netherite Emerald Knight leggings",
-          "Gray Emerald Knight leggings",
+          "Gray Netherite Emerald Knight Leggings",
+          "Gray Emerald Knight Leggings",
           "iregex:.*gray.*emerald.*knight.*"
         ],
         "model": {
@@ -520,8 +520,8 @@
       },
       {
         "when": [
-          "Black Netherite Emerald Knight leggings",
-          "Black Emerald Knight leggings",
+          "Black Netherite Emerald Knight Leggings",
+          "Black Emerald Knight Leggings",
           "iregex:.*black.*emerald.*knight.*"
         ],
         "model": {
@@ -531,8 +531,8 @@
       },
       {
         "when": [
-          "Netherite Emerald Knight leggings",
-          "Emerald Knight leggings",
+          "Netherite Emerald Knight Leggings",
+          "Emerald Knight Leggings",
           "iregex:.*emerald.*knight.*"
         ],
         "model": {
@@ -542,8 +542,8 @@
       },
       {
         "when": [
-          "Blue Netherite Ruby Knight leggings",
-          "Blue Ruby Knight leggings",
+          "Blue Netherite Ruby Knight Leggings",
+          "Blue Ruby Knight Leggings",
           "iregex:.*blue.*ruby.*knight.*"
         ],
         "model": {
@@ -553,8 +553,8 @@
       },
       {
         "when": [
-          "Light Blue Netherite Ruby Knight leggings",
-          "Light Blue Ruby Knight leggings",
+          "Light Blue Netherite Ruby Knight Leggings",
+          "Light Blue Ruby Knight Leggings",
           "iregex:.*light blue.*ruby.*knight.*"
         ],
         "model": {
@@ -564,8 +564,8 @@
       },
       {
         "when": [
-          "Cyan Netherite Ruby Knight leggings",
-          "Cyan Ruby Knight leggings",
+          "Cyan Netherite Ruby Knight Leggings",
+          "Cyan Ruby Knight Leggings",
           "iregex:.*cyan.*ruby.*knight.*"
         ],
         "model": {
@@ -575,8 +575,8 @@
       },
       {
         "when": [
-          "Green Netherite Ruby Knight leggings",
-          "Green Ruby Knight leggings",
+          "Green Netherite Ruby Knight Leggings",
+          "Green Ruby Knight Leggings",
           "iregex:.*green.*ruby.*knight.*"
         ],
         "model": {
@@ -586,8 +586,8 @@
       },
       {
         "when": [
-          "Lime Netherite Ruby Knight leggings",
-          "Lime Ruby Knight leggings",
+          "Lime Netherite Ruby Knight Leggings",
+          "Lime Ruby Knight Leggings",
           "iregex:.*lime.*ruby.*knight.*"
         ],
         "model": {
@@ -597,8 +597,8 @@
       },
       {
         "when": [
-          "Yellow Netherite Ruby Knight leggings",
-          "Yellow Ruby Knight leggings",
+          "Yellow Netherite Ruby Knight Leggings",
+          "Yellow Ruby Knight Leggings",
           "iregex:.*yellow.*ruby.*knight.*"
         ],
         "model": {
@@ -608,8 +608,8 @@
       },
       {
         "when": [
-          "Orange Netherite Ruby Knight leggings",
-          "Orange Ruby Knight leggings",
+          "Orange Netherite Ruby Knight Leggings",
+          "Orange Ruby Knight Leggings",
           "iregex:.*orange.*ruby.*knight.*"
         ],
         "model": {
@@ -619,8 +619,8 @@
       },
       {
         "when": [
-          "Brown Netherite Ruby Knight leggings",
-          "Brown Ruby Knight leggings",
+          "Brown Netherite Ruby Knight Leggings",
+          "Brown Ruby Knight Leggings",
           "iregex:.*brown.*ruby.*knight.*"
         ],
         "model": {
@@ -630,8 +630,8 @@
       },
       {
         "when": [
-          "Red Netherite Ruby Knight leggings",
-          "Red Ruby Knight leggings",
+          "Red Netherite Ruby Knight Leggings",
+          "Red Ruby Knight Leggings",
           "iregex:.*red.*ruby.*knight.*"
         ],
         "model": {
@@ -641,8 +641,8 @@
       },
       {
         "when": [
-          "Pink Netherite Ruby Knight leggings",
-          "Pink Ruby Knight leggings",
+          "Pink Netherite Ruby Knight Leggings",
+          "Pink Ruby Knight Leggings",
           "iregex:.*pink.*ruby.*knight.*"
         ],
         "model": {
@@ -652,8 +652,8 @@
       },
       {
         "when": [
-          "Magenta Netherite Ruby Knight leggings",
-          "Magenta Ruby Knight leggings",
+          "Magenta Netherite Ruby Knight Leggings",
+          "Magenta Ruby Knight Leggings",
           "iregex:.*magenta.*ruby.*knight.*"
         ],
         "model": {
@@ -663,8 +663,8 @@
       },
       {
         "when": [
-          "Purple Netherite Ruby Knight leggings",
-          "Purple Ruby Knight leggings",
+          "Purple Netherite Ruby Knight Leggings",
+          "Purple Ruby Knight Leggings",
           "iregex:.*purple.*ruby.*knight.*"
         ],
         "model": {
@@ -674,8 +674,8 @@
       },
       {
         "when": [
-          "White Netherite Ruby Knight leggings",
-          "White Ruby Knight leggings",
+          "White Netherite Ruby Knight Leggings",
+          "White Ruby Knight Leggings",
           "iregex:.*white.*ruby.*knight.*"
         ],
         "model": {
@@ -685,8 +685,8 @@
       },
       {
         "when": [
-          "Light Gray Netherite Ruby Knight leggings",
-          "Light Gray Ruby Knight leggings",
+          "Light Gray Netherite Ruby Knight Leggings",
+          "Light Gray Ruby Knight Leggings",
           "iregex:.*light gray.*ruby.*knight.*"
         ],
         "model": {
@@ -696,8 +696,8 @@
       },
       {
         "when": [
-          "Gray Netherite Ruby Knight leggings",
-          "Gray Ruby Knight leggings",
+          "Gray Netherite Ruby Knight Leggings",
+          "Gray Ruby Knight Leggings",
           "iregex:.*gray.*ruby.*knight.*"
         ],
         "model": {
@@ -707,8 +707,8 @@
       },
       {
         "when": [
-          "Black Netherite Ruby Knight leggings",
-          "Black Ruby Knight leggings",
+          "Black Netherite Ruby Knight Leggings",
+          "Black Ruby Knight Leggings",
           "iregex:.*black.*ruby.*knight.*"
         ],
         "model": {
@@ -718,105 +718,13 @@
       },
       {
         "when": [
-          "Netherite Ruby Knight leggings",
-          "Ruby Knight leggings",
+          "Netherite Ruby Knight Leggings",
+          "Ruby Knight Leggings",
           "iregex:.*ruby.*knight.*"
         ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/knight_armor/n/r/r_knight_leggings"
-        }
-      },
-      {
-        "when": [
-          "Netherite Emerald leggings", "iregex:.*emerald.*"
-        ],
-        "model": {
-          "type": "minecraft:select",
-          "cases": [
-            {
-              "model": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_quartz_trim"
-              },
-              "when": "minecraft:quartz"
-            },
-            {
-              "model": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_iron_trim"
-              },
-              "when": "minecraft:iron"
-            },
-            {
-              "model": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_netherite_trim"
-              },
-              "when": "minecraft:netherite"
-            },
-            {
-              "model": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_redstone_trim"
-              },
-              "when": "minecraft:redstone"
-            },
-            {
-              "model": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_copper_trim"
-              },
-              "when": "minecraft:copper"
-            },
-            {
-              "model": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_gold_trim"
-              },
-              "when": "minecraft:gold"
-            },
-            {
-              "model": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_emerald_trim"
-              },
-              "when": "minecraft:emerald"
-            },
-            {
-              "model": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_diamond_trim"
-              },
-              "when": "minecraft:diamond"
-            },
-            {
-              "model": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_lapis_trim"
-              },
-              "when": "minecraft:lapis"
-            },
-            {
-              "model": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_amethyst_trim"
-              },
-              "when": "minecraft:amethyst"
-            },
-            {
-              "model": {
-                "type": "minecraft:model",
-                "model": "minecraft:item/.weapons/emerald_set/armor/netherite/trims/emerald_leggings_resin_trim"
-              },
-              "when": "minecraft:resin"
-            }
-          ],
-          "fallback": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/.weapons/emerald_set/armor/netherite/emerald_leggings"
-          },
-          "property": "minecraft:trim_material"
         }
       },
       {
