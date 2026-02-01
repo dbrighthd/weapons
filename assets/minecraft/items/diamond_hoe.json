@@ -26,28 +26,103 @@
           }
         },
         {
+          "when": ["Ruby Scythe", "iregex:.*ruby.*scythe.*"],
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/scythes/ruby_scythe"
+                },
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ]
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/scythes/ruby_scythe_in_hand"
+            }
+          }
+        },
+        {
+          "when": ["Emerald Scythe", "iregex:.*emerald.*scythe.*"],
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/scythes/emerald_scythe"
+                },
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ]
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/scythes/emerald_scythe_in_hand"
+            }
+          }
+        },
+        {
+          "when": ["Amethyst Scythe", "iregex:.*amethyst.*scythe.*"],
+          "model": {
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/scythes/amethyst_scythe"
+                },
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ]
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/scythes/amethyst_scythe_in_hand"
+            }
+          }
+        },
+        {
           "when": ["Diamond Scythe", "iregex:.*scythe.*"],
           "model": {
-    "type": "minecraft:select",
-    "property": "minecraft:display_context",
-    "cases": [
-      {
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/scythes/diamond_scythe"
-        },
-        "when": [
-          "gui",
-          "ground",
-          "fixed",
-          "on_shelf"
-        ]
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/scythes/diamond_scythe_in_hand"
-    }
+            "type": "minecraft:select",
+            "property": "minecraft:display_context",
+            "cases": [
+              {
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/.weapons/scythes/diamond_scythe"
+                },
+                "when": [
+                  "gui",
+                  "ground",
+                  "fixed",
+                  "on_shelf"
+                ]
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/scythes/diamond_scythe_in_hand"
+            }
           }
         }
       ],

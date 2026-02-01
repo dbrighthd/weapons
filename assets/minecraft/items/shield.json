@@ -26,6 +26,60 @@
       },
       {
         "when": [
+          "Ruby Shield",
+          "iregex:.*ruby.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/ruby_blocking"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/ruby"
+          }
+        }
+      },
+      {
+        "when": [
+          "Emerald Shield",
+          "iregex:.*emerald.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/emerald_blocking"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/emerald"
+          }
+        }
+      },
+      {
+        "when": [
+          "Amethyst Shield",
+          "iregex:.*amethyst.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/amethyst_blocking"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/amethyst"
+          }
+        }
+      },
+      {
+        "when": [
           "Netherite Shield",
           "iregex:.*netherite.*"
         ],
@@ -1321,6 +1375,60 @@
           "on_false": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/shield/viking/z/v"
+          }
+        }
+      },
+      {
+        "when": [
+          "Pointed Ruby Shield",
+          "iregex:(.*ruby.*pointed.*|.*pointed.*ruby.*)"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/rubyblock"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/ruby"
+          }
+        }
+      },
+      {
+        "when": [
+          "Pointed Emerald Shield",
+          "iregex:(.*emerald.*pointed.*|.*pointed.*emerald.*)"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/emeraldblock"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/emerald"
+          }
+        }
+      },
+      {
+        "when": [
+          "Pointed Amethyst Shield",
+          "iregex:(.*amethyst.*pointed.*|.*pointed.*amethyst.*)"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/amethystblock"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/amethyst"
           }
         }
       },

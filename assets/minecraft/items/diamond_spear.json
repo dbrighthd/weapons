@@ -5,10 +5,56 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Ruby Comically Large Fork", "iregex:.*Ruby.*Large.*Butter.*Knife.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/ruby_comically_large_fork"
+          }
+        },
+        {
+          "when":["Emerald Comically Large Fork", "iregex:.*Emerald.*Large.*Butter.*Knife.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/emerald_comically_large_fork"
+          }
+        },
+        {
+          "when":["Amethyst Comically Large Fork", "iregex:.*Amethyst.*Large.*Butter.*Knife.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/amethyst_comically_large_fork"
+          }
+        },
+        {
           "when":["Diamond Comically Large Fork", "Comically Large Fork", "iregex:.*Large.*Butter.*Knife.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/comically_large_utensils/diamond_comically_large_fork"
+          }
+        },
+        {
+          "when": ["Ruby Spear", "Ruby", "iregex:.*Ruby.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/ruby_set/items/diamond/ruby_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/ruby_set/items/diamond/ruby_spear_in_hand"
+    }
           }
         },
          {
@@ -62,7 +108,7 @@
           }
         },
         {
-          "when": ["Ruby Spear", "Ruby", "iregex:.*Ruby.*"],
+          "when": ["Ruby Lance", "iregex:.*ruby.*lance.*"],
           "model": {
     "type": "minecraft:select",
     "property": "minecraft:display_context",
@@ -70,7 +116,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/ruby_set/items/diamond/ruby_spear"
+          "model": "minecraft:item/.weapons/lances/ruby_lance"
         },
         "when": [
           "gui",
@@ -82,12 +128,62 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/ruby_set/items/diamond/ruby_spear_in_hand"
+      "model": "minecraft:item/.weapons/lances/ruby_lance_in_hand"
     }
           }
         },
         {
-          "when": ["Diamond lance", "Lance", "iregex:.*lance.*"],
+          "when": ["Emerald Lance", "iregex:.*emerald.*lance.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lances/emerald_lance"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/lances/emerald_lance_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Amethyst Lance", "iregex:.*amethyst.*lance.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lances/amethyst_lance"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/lances/amethyst_lance_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Diamond Lance", "Lance", "iregex:.*lance.*"],
           "model": {
     "type": "minecraft:select",
     "property": "minecraft:display_context",
@@ -108,6 +204,81 @@
     "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:item/.weapons/lances/diamond_lance_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Ruby Trident", "iregex:.*ruby.*trident.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/tridents/ruby_trident"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/tridents/ruby_trident_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Emerald Trident", "iregex:.*emerald.*trident.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/tridents/emerald_trident"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/tridents/emerald_trident_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Amethyst Trident", "iregex:.*amethyst.*trident.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/tridents/amethyst_trident"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/tridents/amethyst_trident_in_hand"
     }
           }
         },

@@ -1,0 +1,5 @@
+(ruby|amethyst|emerald).*scythe
+(ruby|amethyst|emerald).*spoon
+(ruby|amethyst|emerald).*pickaxe
+(ruby|amethyst|emerald).*shovel
+(ruby|amethyst|emerald).*hoe

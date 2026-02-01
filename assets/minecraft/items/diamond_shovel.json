@@ -5,6 +5,27 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Ruby Comically Large Spoon", "iregex:.*Ruby.*Large.*Spoon.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/ruby_comically_large_spoon"
+          }
+        },
+        {
+          "when":["Emerald Comically Large Spoon", "iregex:.*Emerald.*Large.*Spoon.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/emerald_comically_large_spoon"
+          }
+        },
+        {
+          "when":["Amethyst Comically Large Spoon", "iregex:.*Amethyst.*Large.*Spoon.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/amethyst_comically_large_spoon"
+          }
+        },
+        {
           "when":["Diamond Comically Large Spoon", "Comically Large Spoon", "iregex:.*Large.*Spoon.*"],
           "model": {
             "type":"minecraft:model",

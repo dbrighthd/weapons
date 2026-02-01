@@ -1,0 +1,8 @@
+(ruby|amethyst|emerald).*halberd
+(ruby|amethyst|emerald).*double axe
+(ruby|amethyst|emerald).*dungeons axe
+(ruby|amethyst|emerald).*large.*fork
+(ruby|amethyst|emerald).*lance
+(ruby|amethyst|emerald).*trident
+(ruby|amethyst|emerald).*spear
+(ruby|amethyst|emerald).*axe

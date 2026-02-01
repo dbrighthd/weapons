@@ -5,7 +5,7 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when": ["Amethyst Halberd", "iregex:.*amethyst.*halberd.*"],
+          "when": ["Ruby Halberd", "iregex:.*ruby.*halberd.*"],
           "model": {
     "type": "minecraft:select",
     "property": "minecraft:display_context",
@@ -13,7 +13,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/halberds/amethyst_halberd"
+          "model": "minecraft:item/.weapons/halberds/ruby_halberd"
         },
         "when": [
           "gui",
@@ -29,6 +29,7 @@
     }
           }
         },
+        
         {
           "when": ["Emerald Halberd", "iregex:.*emerald.*halberd.*"],
           "model": {
@@ -55,7 +56,7 @@
           }
         },
         {
-          "when": ["Ruby Halberd", "iregex:.*ruby.*halberd.*"],
+          "when": ["Amethyst Halberd", "iregex:.*amethyst.*halberd.*"],
           "model": {
     "type": "minecraft:select",
     "property": "minecraft:display_context",
@@ -63,7 +64,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/halberds/ruby_halberd"
+          "model": "minecraft:item/.weapons/halberds/amethyst_halberd"
         },
         "when": [
           "gui",
@@ -75,7 +76,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/halberds/ruby_halberd_in_hand"
+      "model": "minecraft:item/.weapons/halberds/amethyst_halberd_in_hand"
     }
           }
         },
@@ -161,13 +162,6 @@
           }
         },
         {
-          "when":["Amethyst Double Axe", "iregex:.*amethyst.*double.*axe.*"],
-          "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/double_axes/double_axea"
-          }
-        },
-        {
           "when":["Ruby Double Axe", "iregex:.*ruby.*double.*axe.*"],
           "model": {
             "type":"minecraft:model",
@@ -181,6 +175,14 @@
             "model":"minecraft:item/.weapons/double_axes/double_axee"
           }
         },
+        
+        {
+          "when":["Amethyst Double Axe", "iregex:.*amethyst.*double.*axe.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/double_axes/double_axea"
+          }
+        },
         {
           "when":["Diamond Double Axe", "iregex:.*double.*axe.*"],
           "model": {
@@ -188,13 +190,7 @@
             "model":"minecraft:item/.weapons/double_axes/double_axed"
           }
         },
-        {
-          "when":["Amethyst Dungeons Axe", "iregex:.*amethyst.*dungeons.*axe.*"],
-          "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/dungeons_axes/dungeons_axea"
-          }
-        },
+        
         {
           "when":["Ruby Dungeons Axe", "iregex:.*ruby.*dungeons.*axe.*"],
           "model": {
@@ -202,11 +198,19 @@
             "model":"minecraft:item/.weapons/dungeons_axes/dungeons_axer"
           }
         },
+        
         {
           "when":["Emerald Dungeons Axe", "iregex:.*emerald.*dungeons.*axe.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/dungeons_axes/dungeons_axee"
+          }
+        },
+        {
+          "when":["Amethyst Dungeons Axe", "iregex:.*amethyst.*dungeons.*axe.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_axes/dungeons_axea"
           }
         },
         {

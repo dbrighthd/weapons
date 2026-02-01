@@ -1,4 +1,14 @@
-((?!green).)*flaming.*sword.*
+(ruby|amethyst|emerald).*butter.*knife
+(ruby|amethyst|emerald).*dancer.*sword
+(ruby|amethyst|emerald).*soul.*knife
+(ruby|amethyst|emerald).*bfs
+(ruby|amethyst|emerald).*broadsword
+(ruby|amethyst|emerald).*claymore
+(ruby|amethyst|emerald).*cutlass
+(ruby|amethyst|emerald).*katana
+(ruby|amethyst|emerald).*sword
+(?!(green).)*flaming(?!(.ruby.|.amethyst.|.emerald.)).*sword.*
+(?!(green).)*flaming.(ruby|amethyst|emerald).sword.*
 (Green Flaming Copper Sword|Soulfire netherite Sword)
 .*green.*lightsaber.*
 .*blue.*lightsaber.*

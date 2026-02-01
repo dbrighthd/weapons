@@ -5,6 +5,27 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Ruby Comically Large Fork", "iregex:.*Ruby.*Large.*Butter.*Knife.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/netherite/ruby_comically_large_fork"
+          }
+        },
+        {
+          "when":["Emerald Comically Large Fork", "iregex:.*Emerald.*Large.*Butter.*Knife.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/netherite/emerald_comically_large_fork"
+          }
+        },
+        {
+          "when":["Amethyst Comically Large Fork", "iregex:.*Amethyst.*Large.*Butter.*Knife.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/netherite/amethyst_comically_large_fork"
+          }
+        },
+        {
           "when":["Netherite Comically Large Fork", "Comically Large Fork", "iregex:.*Large.*Butter.*Knife.*"],
           "model": {
             "type":"minecraft:model",
@@ -112,6 +133,81 @@
           }
         },
         {
+          "when": ["Ruby Lance", "iregex:.*ruby.*lance.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lances/netherite/ruby_lance"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/lances/netherite/ruby_lance_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Emerald Lance", "iregex:.*emerald.*lance.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lances/netherite/emerald_lance"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/lances/netherite/emerald_lance_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Amethyst Lance", "iregex:.*amethyst.*lance.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lances/netherite/amethyst_lance"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/lances/netherite/amethyst_lance_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Netherite lance", "Lance", "iregex:.*lance.*"],
           "model": {
     "type": "minecraft:select",
@@ -133,6 +229,81 @@
     "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:item/.weapons/lances/netherite_lance_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Ruby Trident", "iregex:.*ruby.*trident.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/tridents/netherite/ruby_trident"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/tridents/netherite/ruby_trident_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Emerald Trident", "iregex:.*emerald.*trident.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/tridents/netherite/emerald_trident"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/tridents/netherite/emerald_trident_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Amethyst Trident", "iregex:.*amethyst.*trident.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/tridents/netherite/amethyst_trident"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/tridents/netherite/amethyst_trident_in_hand"
     }
           }
         },

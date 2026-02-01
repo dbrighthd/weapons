@@ -4,13 +4,64 @@
       "property": "minecraft:component",
       "component": "minecraft:custom_name",
       "cases": [
-        {
-          "when":["Diamond Comically Large Butter Knife", "Comically Large Butter Knife", "iregex:.*Large.*Butter.*Knife.*"],
-          "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/comically_large_utensils/diamond_comically_large_butter_knife"
-          }
-        },
+      {
+        "when":["Ruby Comically Large Butter Knife", "iregex:.*Ruby.*Large.*Butter.*Knife.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/comically_large_utensils/ruby_comically_large_butter_knife"
+        }
+      },
+      {
+        "when":["Emerald Comically Large Butter Knife", "iregex:.*Emerald.*Large.*Butter.*Knife.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/comically_large_utensils/emerald_comically_large_butter_knife"
+        }
+      },
+      {
+        "when":["Amethyst Comically Large Butter Knife", "iregex:.*Amethyst.*Large.*Butter.*Knife.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/comically_large_utensils/amethyst_comically_large_butter_knife"
+        }
+      },
+      {
+        "when":["Diamond Comically Large Butter Knife", "Comically Large Butter Knife", "iregex:.*Large.*Butter.*Knife.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/comically_large_utensils/diamond_comically_large_butter_knife"
+        }
+      },
+      {
+        "when": [
+          "Ruby Dancer's Sword",
+          "iregex:.*Ruby.*Dancer.*s.*Sword.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/dancers_swords/ruby_dancers_sword"
+        }
+      },
+      {
+        "when": [
+          "Emerald Dancer's Sword",
+          "iregex:.*Emerald.*Dancer.*s.*Sword.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/dancers_swords/emerald_dancers_sword"
+        }
+      },
+      {
+        "when": [
+          "Amethyst Dancer's Sword",
+          "iregex:.*Amethyst.*Dancer.*s.*Sword.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/dancers_swords/amethyst_dancers_sword"
+        }
+      },
       {
         "when": [
           "Diamond Dancer's Sword",
@@ -23,12 +74,63 @@
       },
       {
         "when": [
+          "Ruby Soul Knife",
+          "iregex:.*Ruby.*Soul.*Knife.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/soul_knives/ruby_soul_knife"
+        }
+      },
+      {
+        "when": [
+          "Emerald Soul Knife",
+          "iregex:.*Emerald.*Soul.*Knife.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/soul_knives/emerald_soul_knife"
+        }
+      },
+      {
+        "when": [
+          "Amethyst Soul Knife",
+          "iregex:.*Amethyst.*Soul.*Knife.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/soul_knives/amethyst_soul_knife"
+        }
+      },
+      {
+        "when": [
           "Diamond Soul Knife",
           "iregex:.*Soul.*Knife.*"
         ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/soul_knives/diamond_soul_knife"
+        }
+      },
+      {
+        "when":["Ruby BFS", "iregex:.*Ruby.*BFS.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/buster_swords/busterswordr"
+        }
+      },
+      {
+        "when":["Emerald BFS", "iregex:.*Emerald.*BFS.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/buster_swords/bustersworde"
+        }
+      },
+      {
+        "when":["Amethyst BFS", "iregex:.*Amethyst.*BFS.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/buster_swords/bustersworda"
         }
       },
       {
@@ -86,6 +188,69 @@
           }
         },
         {
+          "when": ["Flaming Ruby Sword", "iregex:.*flaming.*ruby.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/flaming_ruby_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/ruby_set/items/diamond/ruby_sword"
+            }
+          }
+        },
+        {
+          "when": ["Flaming Emerald Sword", "iregex:.*flaming.*emerald.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/flaming_emerald_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/ruby_set/items/diamond/emerald_sword"
+            }
+          }
+        },
+        {
+          "when": ["Flaming Amethyst Sword", "iregex:.*flaming.*amethyst.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/flaming_amethyst_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/ruby_set/items/diamond/amethyst_sword"
+            }
+          }
+        },
+        {
           "when": ["Flaming Diamond Sword", "iregex:.*flaming.*"],
           "model": {
             "type": "minecraft:condition",
@@ -107,10 +272,52 @@
           }
         },
         {
+          "when":["Ruby Broadsword", "iregex:.*ruby.*broadsword.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/broadswords/broadswordr"
+          }
+        },
+        {
+          "when":["Emerald Broadsword", "iregex:.*emerald.*broadsword.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/broadswords/broadsworde"
+          }
+        },
+        {
+          "when":["Amethyst Broadsword", "iregex:.*amethyst.*broadsword.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/broadswords/broadsworda"
+          }
+        },
+        {
           "when":["Diamond Broadsword", "iregex:.*broadsword.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/broadswords/broadswordd"
+          }
+        },
+        {
+          "when":["Ruby Claymore", "iregex:.*ruby.*claymore.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/claymores/claymorer"
+          }
+        },
+        {
+          "when":["Emerald Claymore", "iregex:.*emerald.*claymore.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/claymores/claymoree"
+          }
+        },
+        {
+          "when":["Amethyst Claymore", "iregex:.*amethyst.*claymore.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/claymores/claymorea"
           }
         },
         {
@@ -121,10 +328,52 @@
           }
         },
         {
+          "when":["Ruby Cutlass", "iregex:.*ruby.*cutlass.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/cutlasses/cutlassr"
+          }
+        },
+        {
+          "when":["Emerald Cutlass", "iregex:.*emerald.*cutlass.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/cutlasses/cutlasse"
+          }
+        },
+        {
+          "when":["Amethyst Cutlass", "iregex:.*amethyst.*cutlass.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/cutlasses/cutlassa"
+          }
+        },
+        {
           "when":["Diamond Cutlass", "iregex:.*cutlass.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/cutlasses/cutlassd"
+          }
+        },
+        {
+          "when":["Ruby Katana", "iregex:.*ruby.*katana.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/katanas/katanar"
+          }
+        },
+        {
+          "when":["Emerald Katana", "iregex:.*emerald.*katana.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/katanas/katanae"
+          }
+        },
+        {
+          "when":["Amethyst Katana", "iregex:.*amethyst.*katana.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/katanas/katanaa"
           }
         },
         {
