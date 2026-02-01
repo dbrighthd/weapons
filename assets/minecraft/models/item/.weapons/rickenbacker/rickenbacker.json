@@ -6,7 +6,7 @@
 	"textures": {
 		"0": "item/.weapons/rickenbacker/rickenbacker4001",
 		"1": "item/.weapons/rickenbacker/rickenbacker4001_back",
-		"particle": "rickenbacker4001"
+		"particle": "item/.weapons/rickenbacker/rickenbacker4001"
 	},
 	"elements": [
 		{

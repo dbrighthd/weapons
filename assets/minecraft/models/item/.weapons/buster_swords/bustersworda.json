@@ -3,6 +3,7 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
+		"particle": "item/.weapons/buster_swords/bustersworda",
 		"2": "item/.weapons/buster_swords/bustersworda"
 	},
 	"elements": [

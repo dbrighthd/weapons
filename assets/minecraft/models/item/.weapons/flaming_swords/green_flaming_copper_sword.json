@@ -2,6 +2,7 @@
   "parent": "minecraft:item/.weapons/flaming_swords/emissive_layered_tool",
   "textures": {
     "base": "minecraft:item/copper_sword",
+    "particle": "minecraft:item/copper_sword",
     "glow":"minecraft:item/.weapons/flaming_swords/green_flames"
   }
 }

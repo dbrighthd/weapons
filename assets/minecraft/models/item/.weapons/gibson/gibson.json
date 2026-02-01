@@ -6,7 +6,7 @@
 	"textures": {
 		"0": "item/.weapons/gibson/gibsoneb0",
 		"1": "item/.weapons/gibson/gibsoneb0_back",
-		"particle": "gibsoneb0"
+		"particle": "item/.weapons/gibson/gibsoneb0"
 	},
 	"elements": [
 		{

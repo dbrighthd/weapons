@@ -2,6 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
+		"particle": "item/.weapons/shield/cap/cap_cart",
 		"4": "item/.weapons/shield/cap/cap_cart"
 	},
 	"elements": [

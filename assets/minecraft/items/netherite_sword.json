@@ -947,7 +947,7 @@
             },
             "on_false": {
               "type": "minecraft:model",
-              "model": "minecraft:item/.weapons/ruby_set/items/netherite/emerald_sword"
+              "model": "minecraft:item/.weapons/emerald_set/items/netherite/emerald_sword"
             }
           }
         },
@@ -968,7 +968,7 @@
             },
             "on_false": {
               "type": "minecraft:model",
-              "model": "minecraft:item/.weapons/ruby_set/items/netherite/amethyst_sword"
+              "model": "minecraft:item/.weapons/amethyst_set/items/netherite/amethyst_sword"
             }
           }
         },

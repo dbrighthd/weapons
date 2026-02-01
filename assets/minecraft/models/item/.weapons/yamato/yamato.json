@@ -7,7 +7,7 @@
 		"0": "item/.weapons/yamato/yamato",
 		"1": "item/.weapons/yamato/texture",
 		"2": "item/.weapons/yamato/texture2",
-		"particle": "yamato"
+		"particle": "item/.weapons/yamato/yamato"
 	},
 	"elements": [
 		{
