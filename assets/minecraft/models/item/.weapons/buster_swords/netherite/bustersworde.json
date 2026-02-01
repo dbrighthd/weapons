@@ -3,6 +3,7 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
+		"particle": "item/.weapons/buster_swords/netherite/bustersworde",
 		"2": "item/.weapons/buster_swords/netherite/bustersworde"
 	},
 	"elements": [

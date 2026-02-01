@@ -2,6 +2,7 @@
   "parent": "minecraft:item/.weapons/flaming_swords/emissive_layered_tool",
   "textures": {
     "base": "minecraft:item/iron_sword",
+    "particle": "minecraft:item/iron_sword",
     "glow":"minecraft:item/.weapons/flaming_swords/flames"
   }
 }

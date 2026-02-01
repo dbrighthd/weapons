@@ -2,6 +2,7 @@
   "parent": "minecraft:item/.weapons/flaming_swords/emissive_layered_tool",
   "textures": {
     "base": "minecraft:item/.weapons/emerald_set/items/netherite/emerald_sword",
+    "particle": "minecraft:item/.weapons/emerald_set/items/netherite/emerald_sword",
     "glow":"minecraft:item/.weapons/flaming_swords/flames"
   }
 }
