@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/.weapons/knight_armor/n/r/r_surcoat_knight_leggings",
+    "layer1": "minecraft:item/.weapons/knight_armor/white_leggings"
+  }
+}
