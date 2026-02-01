@@ -14,87 +14,87 @@
 				"function": "alternative",
 				"alternatives" : [
 					{
-						"regex": "(?i).*(emerald).*(light blue).*(knight).*",
+						"regex": "(?i).*(light blue).*emerald.*(knight).*",
 						"substitution": "light_blue_emerald_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(emerald).*(light gray).*(knight).*",
+						"regex": "(?i).*(light gray).*emerald.*(knight).*",
 						"substitution": "light_gray_emerald_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(emerald).*(blue).*(knight).*",
+						"regex": "(?i).*(blue).*emerald.*(knight).*",
 						"substitution": "blue_emerald_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(emerald).*(cyan).*(knight).*",
+						"regex": "(?i).*(cyan).*emerald.*(knight).*",
 						"substitution": "cyan_emerald_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(emerald).*(green).*(knight).*",
+						"regex": "(?i).*(green).*emerald.*(knight).*",
 						"substitution": "green_emerald_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(emerald).*(lime).*(knight).*",
+						"regex": "(?i).*(lime).*emerald.*(knight).*",
 						"substitution": "lime_emerald_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(emerald).*(yellow).*(knight).*",
+						"regex": "(?i).*(yellow).*emerald.*(knight).*",
 						"substitution": "yellow_emerald_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(emerald).*(orange).*(knight).*",
+						"regex": "(?i).*(orange).*emerald.*(knight).*",
 						"substitution": "orange_emerald_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(emerald).*(brown).*(knight).*",
+						"regex": "(?i).*(brown).*emerald.*(knight).*",
 						"substitution": "brown_emerald_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(emerald).*(red).*(knight).*",
+						"regex": "(?i).*(red).*emerald.*(knight).*",
 						"substitution": "red_emerald_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(emerald).*(pink).*(knight).*",
+						"regex": "(?i).*(pink).*emerald.*(knight).*",
 						"substitution": "pink_emerald_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(emerald).*(magenta).*(knight).*",
+						"regex": "(?i).*(magenta).*emerald.*(knight).*",
 						"substitution": "magenta_emerald_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(emerald).*(purple).*(knight).*",
+						"regex": "(?i).*(purple).*emerald.*(knight).*",
 						"substitution": "purple_emerald_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(emerald).*(white).*(knight).*",
+						"regex": "(?i).*(white).*emerald.*(knight).*",
 						"substitution": "white_emerald_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(emerald).*(gray).*(knight).*",
+						"regex": "(?i).*(gray).*emerald.*(knight).*",
 						"substitution": "gray_emerald_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(emerald).*(black).*(knight).*",
+						"regex": "(?i).*(black).*emerald.*(knight).*",
 						"substitution": "black_emerald_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(emerald).*(knight).*",
+						"regex": "(?i).*emerald.*(knight).*",
 						"substitution": "emerald_knight",
 						"matchAll": true
 					}

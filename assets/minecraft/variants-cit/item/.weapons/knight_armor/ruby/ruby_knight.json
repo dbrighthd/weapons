@@ -14,87 +14,87 @@
 				"function": "alternative",
 				"alternatives" : [
 					{
-						"regex": "(?i).*(ruby).*(light blue).*(knight).*",
+						"regex": "(?i).*(light blue).*ruby.*(knight).*",
 						"substitution": "light_blue_ruby_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(ruby).*(light gray).*(knight).*",
+						"regex": "(?i).*(light gray).*ruby.*(knight).*",
 						"substitution": "light_gray_ruby_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(ruby).*(blue).*(knight).*",
+						"regex": "(?i).*(blue).*ruby.*(knight).*",
 						"substitution": "blue_ruby_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(ruby).*(cyan).*(knight).*",
+						"regex": "(?i).*(cyan).*ruby.*(knight).*",
 						"substitution": "cyan_ruby_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(ruby).*(green).*(knight).*",
+						"regex": "(?i).*(green).*ruby.*(knight).*",
 						"substitution": "green_ruby_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(ruby).*(lime).*(knight).*",
+						"regex": "(?i).*(lime).*ruby.*(knight).*",
 						"substitution": "lime_ruby_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(ruby).*(yellow).*(knight).*",
+						"regex": "(?i).*(yellow).*ruby.*(knight).*",
 						"substitution": "yellow_ruby_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(ruby).*(orange).*(knight).*",
+						"regex": "(?i).*(orange).*ruby.*(knight).*",
 						"substitution": "orange_ruby_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(ruby).*(brown).*(knight).*",
+						"regex": "(?i).*(brown).*ruby.*(knight).*",
 						"substitution": "brown_ruby_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(ruby).*(red).*(knight).*",
+						"regex": "(?i).*(red).*ruby.*(knight).*",
 						"substitution": "red_ruby_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(ruby).*(pink).*(knight).*",
+						"regex": "(?i).*(pink).*ruby.*(knight).*",
 						"substitution": "pink_ruby_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(ruby).*(magenta).*(knight).*",
+						"regex": "(?i).*(magenta).*ruby.*(knight).*",
 						"substitution": "magenta_ruby_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(ruby).*(purple).*(knight).*",
+						"regex": "(?i).*(purple).*ruby.*(knight).*",
 						"substitution": "purple_ruby_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(ruby).*(white).*(knight).*",
+						"regex": "(?i).*(white).*ruby.*(knight).*",
 						"substitution": "white_ruby_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(ruby).*(gray).*(knight).*",
+						"regex": "(?i).*(gray).*ruby.*(knight).*",
 						"substitution": "gray_ruby_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(ruby).*(black).*(knight).*",
+						"regex": "(?i).*(black).*ruby.*(knight).*",
 						"substitution": "black_ruby_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(ruby).*(knight).*",
+						"regex": "(?i).*ruby.*(knight).*",
 						"substitution": "ruby_knight",
 						"matchAll": true
 					}

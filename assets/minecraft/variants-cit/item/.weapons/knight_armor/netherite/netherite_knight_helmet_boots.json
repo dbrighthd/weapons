@@ -11,7 +11,7 @@
 		"expect": "rich_text",
 		"transform": [
 			{
-				"regex": "(?i).*(Knight).*",
+				"regex": "(?i)(?!(.*ruby.*|.*amethyst.*|.*emerald.*)).*(Knight).*",
 				"substitution": "netherite_knight",
 				"matchAll": true
 			},

@@ -14,87 +14,87 @@
 				"function": "alternative",
 				"alternatives" : [
 					{
-						"regex": "(?i).*(light blue).*(knight).*",
+						"regex": "(?i)(?!(.*ruby.*|.*amethyst.*|.*emerald.*)).*(light blue).*(knight).*",
 						"substitution": "light_blue_netherite_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(light gray).*(knight).*",
+						"regex": "(?i)(?!(.*ruby.*|.*amethyst.*|.*emerald.*)).*(light gray).*(knight).*",
 						"substitution": "light_gray_netherite_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(blue).*(knight).*",
+						"regex": "(?i)(?!(.*ruby.*|.*amethyst.*|.*emerald.*)).*(blue).*(knight).*",
 						"substitution": "blue_netherite_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(cyan).*(knight).*",
+						"regex": "(?i)(?!(.*ruby.*|.*amethyst.*|.*emerald.*)).*(cyan).*(knight).*",
 						"substitution": "cyan_netherite_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(green).*(knight).*",
+						"regex": "(?i)(?!(.*ruby.*|.*amethyst.*|.*emerald.*)).*(green).*(knight).*",
 						"substitution": "green_netherite_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(lime).*(knight).*",
+						"regex": "(?i)(?!(.*ruby.*|.*amethyst.*|.*emerald.*)).*(lime).*(knight).*",
 						"substitution": "lime_netherite_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(yellow).*(knight).*",
+						"regex": "(?i)(?!(.*ruby.*|.*amethyst.*|.*emerald.*)).*(yellow).*(knight).*",
 						"substitution": "yellow_netherite_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(orange).*(knight).*",
+						"regex": "(?i)(?!(.*ruby.*|.*amethyst.*|.*emerald.*)).*(orange).*(knight).*",
 						"substitution": "orange_netherite_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(brown).*(knight).*",
+						"regex": "(?i)(?!(.*ruby.*|.*amethyst.*|.*emerald.*)).*(brown).*(knight).*",
 						"substitution": "brown_netherite_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(red).*(knight).*",
+						"regex": "(?i)(?!(.*ruby.*|.*amethyst.*|.*emerald.*)).*(red).*(knight).*",
 						"substitution": "red_netherite_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(pink).*(knight).*",
+						"regex": "(?i)(?!(.*ruby.*|.*amethyst.*|.*emerald.*)).*(pink).*(knight).*",
 						"substitution": "pink_netherite_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(magenta).*(knight).*",
+						"regex": "(?i)(?!(.*ruby.*|.*amethyst.*|.*emerald.*)).*(magenta).*(knight).*",
 						"substitution": "magenta_netherite_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(purple).*(knight).*",
+						"regex": "(?i)(?!(.*ruby.*|.*amethyst.*|.*emerald.*)).*(purple).*(knight).*",
 						"substitution": "purple_netherite_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(white).*(knight).*",
+						"regex": "(?i)(?!(.*ruby.*|.*amethyst.*|.*emerald.*)).*(white).*(knight).*",
 						"substitution": "white_netherite_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(gray).*(knight).*",
+						"regex": "(?i)(?!(.*ruby.*|.*amethyst.*|.*emerald.*)).*(gray).*(knight).*",
 						"substitution": "gray_netherite_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(black).*(knight).*",
+						"regex": "(?i)(?!(.*ruby.*|.*amethyst.*|.*emerald.*)).*(black).*(knight).*",
 						"substitution": "black_netherite_knight",
 						"matchAll": true
 					},
 					{
-						"regex": "(?i).*(knight).*",
+						"regex": "(?i)(?!(.*ruby.*|.*amethyst.*|.*emerald.*)).*(knight).*",
 						"substitution": "netherite_knight",
 						"matchAll": true
 					}
