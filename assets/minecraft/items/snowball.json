@@ -5,11 +5,242 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-          "when": "hide",
+          "when": ["Throwable hide","hide"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/totems/hide/hide"
           }
+      },
+      {
+        "when": [ "Throwable SwiftShadowFox", "SwiftShadowFox"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/dev_totems/swiftshadowfox"
+        }
+      },
+      {
+        "when": [ "Throwable dbrighthd","dbrighthd"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/dev_totems/dbrighthd"
+        }
+      },
+      {
+        "when": [ "Throwable mistykitty33418", "mistykitty33418"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/dev_totems/mistykitty33418"
+        }
+      },
+      {
+        "when": [ "Throwable Fishysalmon02","Fishysalmon02"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/dev_totems/fishysalmon02"
+        }
+      },
+      {
+        "when": [ "Throwable YlgrtheCrab",  "YlgrtheCrab" ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/ylgrthecrab"
+        }
+      },
+      {
+        "when": [ "Throwable XNPH", "XNPH"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/xnph"
+        }
+      },
+      {
+        "when": [ "Throwable Tumbleboi","Tumbleboi"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/tumbleboi"
+        }
+      },
+      {
+        "when": [ "Throwable tronkstaa","tronkstaa"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/tronkstaa"
+        }
+      },
+      {
+        "when": [ "Throwable TUDAD","TUDAD"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/tudad"
+        }
+      },
+      {
+        "when": [ "Throwable tr0utTHEc4t","tr0utTHEc4t"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/tr0utthec4t"
+        }
+      },
+      {
+        "when": [ "Throwable TheLovingJevil","TheLovingJevil"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/thelovingjevil"
+        }
+      },
+      {
+        "when": [ "Throwable Teighter","Teighter"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/teighter"
+        }
+      },
+      {
+        "when": [ "Throwable SonoYume","SonoYume"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/sonoyume"
+        }
+      },
+      {
+        "when": [ "Throwable SenpapiYapi","SenpapiYapi"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/senpapiyapi"
+        }
+      },
+      {
+        "when": [ "Throwable SCPBongoCat","SCPBongoCat"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/scpbongocat"
+        }
+      },
+      {
+        "when": [ "Throwable RubyKittenLover","RubyKittenLover"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/rubykittenlover"
+        }
+      },
+      {
+        "when": [ "Throwable RubbishNotTrash","RubbishNotTrash"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/rubbishnottrash"
+        }
+      },
+      {
+        "when": [ "Throwable R3dCrims0n","R3dCrims0n"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/r3dcrims0n"
+        }
+      },
+      {
+        "when": [ "Throwable Nindrag","Nindrag"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/nindrag"
+        }
+      },
+      {
+        "when": [ "Throwable MelodyTheCatt","MelodyTheCatt"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/melodythecatt"
+        }
+      },
+      {
+        "when": [ "Throwable marwws","marwws"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/marwws"
+        }
+      },
+      {
+        "when": [ "Throwable j4x_is_odd","j4x_is_odd"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/j4x_is_odd"
+        }
+      },
+      {
+        "when": [ "Throwable hhide","hhide"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/hhide"
+        }
+      },
+      {
+        "when": [ "Throwable GrizzLor02","GrizzLor02"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/grizzlor02"
+        }
+      },
+      {
+        "when": [ "Throwable Flamgop","Flamgop"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/flamgop"
+        }
+      },
+      {
+        "when": [ "Throwable Ash_Teh_Arsonist","Ash_Teh_Arsonist"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/ash_teh_arsonist"
+        }
+      },
+      {
+        "when": [ "Throwable AnglerFG","AnglerFG"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/anglerfg"
+        }
+      },
+      {
+        "when": [ "Throwable AldousAndGilbert","AldousAndGilbert"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/aldousandgilbert"
+        }
+      },
+      {
+        "when": [ "Throwable 3outof4Apollo","3outof4Apollo"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/3outof4apollo"
+        }
+      },
+      {
+        "when": [ "Throwable 1cbear71","1cbear71"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/1cbear71"
+        }
+      },
+      {
+        "when": ["Throwable Kasane Teto","iregex:.*teto.*","Kasane Teto"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/miscskins/teto/teto"
+        }
+      },
+      {
+        "when": ["Throwable GUMI","GUMI","iregex:.*gumi.*"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/miscskins/gumi/gumi"
+        }
+      },
+      {
+        "when": ["Throwable dgreenhd", "dgreenhd"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/dev_totems/dgreenhd"
+        }
       },
       {
         "when": ["Throwable Book", "Book", "iregex:.*book.*"],

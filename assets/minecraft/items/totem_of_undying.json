@@ -173,6 +173,20 @@
           }
         },
         {
+          "when": "AldousAndGilbert",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/aldousandgilbert"
+          }
+        },
+        {
+          "when": "3outof4Apollo",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/3outof4apollo"
+          }
+        },
+        {
           "when": "1cbear71",
           "model": {
             "type": "minecraft:model",

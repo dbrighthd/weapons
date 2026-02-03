@@ -1,2 +1,3 @@
 .* hilt.*
 (.*hammer.*)|(.*stormlander.*)
+Throwable (TheLovingJevil|Teighter|SonoYume|SCPBongoCat|RubbishNotTrash|R3dCrims0n|MelodyTheCatt|Flamgop|Ash_Teh_Arsonist|1cbear71|AnglerFG|Nindrag|Tumbleboi|XNPH|j4x_is_odd|hhide|tr0utTHEc4t|ylgrthecrab|tudad|tronkstaa|marwws|rubykittenlover|grizzlor02|senpapiyapi|3outof4apollo|aldousandgilbert|dbrighthd|kasane teto|gumi|fishysalmon02|mistykitty33418|swiftshadowfox|dgreenhd)
