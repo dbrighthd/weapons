@@ -5,6 +5,125 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
+          "when": ["Throwable Bell","Bell"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/bell"
+          }
+      },
+      {
+          "when": ["Throwable Cocoa Beans","Cocoa Beans"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cocoa_beans"
+          }
+      },
+      {
+          "when": ["Throwable Glass Bottle","Glass Bottle"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/glass_bottle"
+          }
+      },
+      {
+          "when": ["Throwable Honey Bottle","Honey Bottle"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/honey_bottle"
+          }
+      },
+      {
+          "when": ["Throwable Turtle Egg","Turtle Egg"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/turtle_egg"
+          }
+      },
+      {
+          "when": ["Throwable Dragon Egg","Dragon Egg"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/dragon_egg"
+          }
+      },
+      {
+          "when": ["Throwable Sniffer Egg Block","Sniffer Egg Block"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/sniffer_egg_not_cracked"
+          }
+      },
+      {
+          "when": ["Throwable Sniffer Egg","Sniffer Egg"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/sniffer_egg"
+          }
+      },
+      {
+          "when": ["Throwable Dried Ghast","Dried Ghast"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/dried_ghast_hydration_0"
+          }
+      },
+      {
+          "when": ["Throwable Ender Pearl","Ender Pearl"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/ender_pearl"
+          }
+      },
+      {
+          "when": ["Throwable Eye of Ender","Eye of Ender"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/ender_eye"
+          }
+      },
+      {
+          "when": ["Throwable Magma Cream","Magma Cream"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/magma_cream"
+          }
+      },
+      {
+          "when": ["Throwable Bundle","Bundle"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/bundle"
+          }
+      },
+      {
+          "when": ["Throwable Sand","Sand"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/sand"
+          }
+      },
+      {
+          "when": ["Throwable Dirt","Dirt"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:block/dirt"
+          }
+      },
+      {
+          "when": ["Throwable Cake","Cake"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/cake"
+          }
+      },
+      {
+          "when": ["Throwable Pumpkin Pie","Pumpkin Pie"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/pumpkin_pie"
+          }
+      },
+      {
           "when": ["Throwable hide","hide"],
           "model": {
             "type": "minecraft:model",
@@ -47,7 +166,7 @@
         }
       },
       {
-        "when": [ "Throwable XNPH", "XNPH"],
+        "when": [ "Throwable XNPH", "XNPH", ")XNPH", "X"],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/totems/qa_members/xnph"
@@ -186,6 +305,13 @@
           "model": "minecraft:item/.weapons/totems/qa_members/flamgop"
         }
       },
+      {
+          "when": [ "Throwable dragone_hoi", "dragone_hoi", "dragone"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/dragone_hoi"
+          }
+        },
       {
         "when": [ "Throwable Ash_Teh_Arsonist","Ash_Teh_Arsonist"],
         "model": {

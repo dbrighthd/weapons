@@ -19,7 +19,7 @@
           }
         },
         {
-          "when": "XNPH",
+          "when": ["XNPH", ")XNPH", "X"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/totems/qa_members/xnph"
@@ -156,6 +156,13 @@
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/totems/qa_members/flamgop"
+          }
+        },
+        {
+          "when": ["dragone_hoi", "dragone"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/dragone_hoi"
           }
         },
         {
