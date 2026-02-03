@@ -5,6 +5,48 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
+          "when": "hide",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/hide/hide"
+          }
+      },
+      {
+        "when": ["Throwable Book", "Book", "iregex:.*book.*"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/book"
+        }
+      },
+      {
+        "when": ["Throwable Pufferfish", "Pufferfish", "iregex:.*pufferfish.*"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/pufferfish"
+        }
+      },
+      {
+        "when": ["Throwable Clownfish", "Clownfish", "iregex:.*clownfish.*"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/tropical_fish"
+        }
+      },
+      {
+        "when": ["Throwable Cod", "Cod", "iregex:.*cod.*"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/cod"
+        }
+      },
+      {
+        "when": ["Throwable Salmon", "Salmon", "iregex:.*salmon.*"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/salmon"
+        }
+      },
+      {
         "when": ["Throwable Stone", "Stone", "iregex:.*stone.*"],
         "model": {
           "type": "minecraft:model",
@@ -16,6 +58,13 @@
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:block/tnt"
+        }
+      },
+      {
+        "when": ["Throwable Nether Brick", "Nether Brick", "iregex:.*nether.*brick.*"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/nether_brick"
         }
       },
       {

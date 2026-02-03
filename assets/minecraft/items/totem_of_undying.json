@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": "hide",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/hide/hide"
+          }
+        },
+        {
           "when": "YlgrtheCrab",
           "model": {
             "type": "minecraft:model",
