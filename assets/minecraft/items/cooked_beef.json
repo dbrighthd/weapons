@@ -1,0 +1,41 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": ["Edible MonochroMenace Plush (ugly child)", "MonochroMenace Plush (ugly child)"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/misc/menace/menace_plush_16x"
+        }
+      },
+      {
+        "when": ["Edible MonochroMenace Plush", "MonochroMenace Plush"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/misc/menace/menace_plush_32x"
+        }
+      },
+      {
+          "when": ["Edible MonochroMenace Plush (Ah! So Retro!)", "MonochroMenace Plush (Ah! So Retro!)"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/misc/menace/menace_plush_ah_so_retro"
+          }
+        },
+      {
+          "when": ["Edible hide","hide"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/hide/hide"
+          }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/cooked_beef"
+    }
+  }
+}

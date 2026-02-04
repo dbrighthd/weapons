@@ -5,6 +5,27 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": "MonochroMenace Plush (Ah! So Retro!)",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/misc/menace/menace_plush_ah_so_retro"
+          }
+        },
+        {
+          "when": "MonochroMenace Plush (ugly child)",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/misc/menace/menace_plush_16x"
+          }
+        },
+        {
+          "when": "MonochroMenace Plush",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/misc/menace/menace_plush_32x"
+          }
+        },
+        {
           "when": "hide",
           "model": {
             "type": "minecraft:model",
