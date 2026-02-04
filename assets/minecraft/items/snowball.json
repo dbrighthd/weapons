@@ -222,6 +222,13 @@
         }
       },
       {
+        "when": [ "Throwable ShianOberon","ShianOberon"],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/totems/qa_members/shianoberon"
+        }
+      },
+      {
         "when": [ "Throwable SenpapiYapi","SenpapiYapi"],
         "model": {
           "type": "minecraft:model",

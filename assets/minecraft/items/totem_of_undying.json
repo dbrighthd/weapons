@@ -75,6 +75,13 @@
           }
         },
         {
+          "when": "ShianOberon",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/qa_members/shianoberon"
+          }
+        },
+        {
           "when": "SenpapiYapi",
           "model": {
             "type": "minecraft:model",
