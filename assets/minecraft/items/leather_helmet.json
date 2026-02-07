@@ -5,7 +5,7 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": ["Harness", "iregex:.*Harness.*"],
+        "when": ["Harness", "iregex:.*Harness.*", "Pilot Hat", "iregex:.*pilot.*"],
         "model": {
         "type": "minecraft:model",
         "model": "minecraft:item/.weapons/misc/harness_helmet",
