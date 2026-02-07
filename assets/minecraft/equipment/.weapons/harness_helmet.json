@@ -1,0 +1,15 @@
+{
+    "layers": {
+    "humanoid": [
+      {
+        "dyeable": {
+          "color_when_undyed": -6265536
+        },
+        "texture": "minecraft:.weapons/harness_helmet"
+      },
+      {
+        "texture": "minecraft:.weapons/harness_helmet_overlay"
+      }
+    ]
+    }
+}
