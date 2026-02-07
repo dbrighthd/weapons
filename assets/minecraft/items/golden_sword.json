@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Golden Scimitar", "iregex:.*scimitar.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/scimitars/golden_scimitar"
+          }
+        },
+        {
           "when":["Golden Comically Large Butter Knife", "Comically Large Butter Knife", "iregex:.*Large.*Butter.*Knife.*"],
           "model": {
             "type":"minecraft:model",

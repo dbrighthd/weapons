@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Wooden Scimitar", "iregex:.*scimitar.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/scimitars/wooden_scimitar"
+          }
+        },
+        {
           "when":["Wooden Comically Large Butter Knife", "Comically Large Butter Knife", "iregex:.*Large.*Butter.*Knife.*"],
           "model": {
             "type":"minecraft:model",

@@ -4,6 +4,34 @@
       "property": "minecraft:component",
       "component": "minecraft:custom_name",
       "cases": [
+        {
+          "when":["Ruby Scimitar", "iregex:.*ruby.*scimitar.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/scimitars/ruby_scimitar"
+          }
+        },
+        {
+          "when":["Emerald Scimitar", "iregex:.*emerald.*scimitar.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/scimitars/emerald_scimitar"
+          }
+        },
+        {
+          "when":["Amethyst Scimitar", "iregex:.*amethyst.*scimitar.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/scimitars/amethyst_scimitar"
+          }
+        },
+        {
+          "when":["Diamond Scimitar", "iregex:.*scimitar.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/scimitars/diamond_scimitar"
+          }
+        },
       {
         "when":["Ruby Comically Large Butter Knife", "iregex:.*Ruby.*Large.*Butter.*Knife.*"],
         "model": {
