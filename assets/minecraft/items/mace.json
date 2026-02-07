@@ -6,6 +6,16 @@
     "cases": [
       {
         "when": [
+          "Frying Pan",
+          "iregex:.*pan.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/maces/pan/pan"
+        }
+      },
+      {
+        "when": [
           "Green Lantern Bat",
           "iregex:.*green.*lantern.*bat.*"
         ],
