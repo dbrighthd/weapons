@@ -5,6 +5,31 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": ["Diamond Guan Dao", "Guan Dao", "iregex:.*guan.*dao.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/guan_daos/diamond_guan_dao"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/guan_daos/diamond_guan_dao_in_hand"
+    }
+          }
+        },
+        {
           "when":["Ruby Comically Large Fork", "iregex:.*Ruby.*Large.*Butter.*Knife.*"],
           "model": {
             "type":"minecraft:model",
