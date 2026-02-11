@@ -5,6 +5,31 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": ["Copper Guan Dao", "Guan Dao", "iregex:.*guan.*dao.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/guan_daos/copper_guan_dao"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/guan_daos/copper_guan_dao_in_hand"
+    }
+          }
+        },
+        {
           "when":["Copper Comically Large Fork", "Comically Large Fork", "iregex:.*Large.*Butter.*Knife.*"],
           "model": {
             "type":"minecraft:model",
@@ -12,7 +37,7 @@
           }
         },
         {
-          "when": ["Copper lance", "Lance", "iregex:.*lance.*"],
+          "when": ["Copper Lance", "Lance", "iregex:.*lance.*"],
           "model": {
     "type": "minecraft:select",
     "property": "minecraft:display_context",
