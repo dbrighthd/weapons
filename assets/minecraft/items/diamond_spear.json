@@ -5,6 +5,81 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": ["Amethyst Guan Dao", "iregex:.*amethyst.*guan.*dao.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/guan_daos/amethyst_guan_dao"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/guan_daos/amethyst_guan_dao_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Emerald Guan Dao", "iregex:.*emerald.*guan.*dao.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/guan_daos/emerald_guan_dao"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/guan_daos/emerald_guan_dao_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Ruby Guan Dao", "iregex:.*ruby.*guan.*dao.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/guan_daos/ruby_guan_dao"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/guan_daos/ruby_guan_dao_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Diamond Guan Dao", "Guan Dao", "iregex:.*guan.*dao.*"],
           "model": {
     "type": "minecraft:select",
