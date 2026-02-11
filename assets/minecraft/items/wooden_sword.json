@@ -5,6 +5,31 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": ["Wooden Scythe", "iregex:.*scythe.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/wooden_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/sword/wooden_scythe_in_hand"
+    }
+          }
+        },
+        {
           "when":["Wooden Scimitar", "iregex:.*scimitar.*"],
           "model": {
             "type":"minecraft:model",

@@ -1,5 +1,5 @@
 {
-	"parent":"minecraft:item/.weapons/scythes/scythe_in_hand",
+	"parent":"minecraft:item/.weapons/scythes/sword/scythe_in_hand",
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,

@@ -5,6 +5,159 @@
     "component": "minecraft:custom_name",
     "cases": [
         {
+          "when": ["Soul Scythe", "iregex:.*soul.*scythe.*"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/scythes/sword/_misc_scythes/soul_scythe"
+          }
+        },
+        {
+          "when": ["Jailor's Scythe", "iregex:.*jailor.*s.*scythe.*"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/scythes/sword/_misc_scythes/jailors_scythe"
+          }
+        },
+        {
+          "when": ["Skull Scythe", "iregex:.*skull.*scythe.*"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/scythes/sword/_misc_scythes/skull_scythe"
+          }
+        },
+        {
+          "when": ["Frost Scythe", "iregex:.*frost.*scythe.*"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/scythes/sword/_misc_scythes/frost_scythe"
+          }
+        },
+        {
+          "when": [
+            "Scythe of Quakes", 
+            "The Scythe of Quakes",
+            "iregex:.*scythe.*of.*quakes.*"
+          ],
+          "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:enchantments",
+          "value": [
+            {
+              "enchantments": "minecraft:unbreaking"
+            }
+          ],
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/golden_weapons_of_spinjitzu/scythe_of_quakes"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/netherite_hoe"
+          }
+        }
+        },
+        {
+          "when": ["Amethyst Scythe", "iregex:.*amethyst.*scythe.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/netherite/amethyst_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/sword/netherite/amethyst_scythe_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Emerald Scythe", "iregex:.*emerald.*scythe.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/netherite/emerald_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/sword/netherite/emerald_scythe_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Ruby Scythe", "iregex:.*ruby.*scythe.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/netherite/ruby_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/sword/netherite/ruby_scythe_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Netherite Scythe", "iregex:.*scythe.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/netherite_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/sword/netherite_scythe_in_hand"
+    }
+          }
+        },
+        {
           "when":["Ruby Scimitar", "iregex:.*ruby.*scimitar.*"],
           "model": {
             "type":"minecraft:model",

@@ -5,6 +5,31 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": ["Copper Scythe", "iregex:.*scythe.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/copper_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/sword/copper_scythe_in_hand"
+    }
+          }
+        },
+        {
           "when":["Copper Scimitar", "iregex:.*scimitar.*"],
           "model": {
             "type":"minecraft:model",

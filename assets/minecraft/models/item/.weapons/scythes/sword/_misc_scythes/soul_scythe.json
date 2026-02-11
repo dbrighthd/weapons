@@ -1,4 +1,5 @@
 {
+	"parent":"minecraft:item/.weapons/scythes/sword/scythe_in_hand",
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
@@ -414,44 +415,6 @@
 			}
 		}
 	],
-	"gui_light": "front",
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [0, -90, 45],
-			"translation": [0, -0.5, 1.25],
-			"scale": [0.85, 0.85, 0.85]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [-45, 90, 0],
-			"translation": [0, -0.5, 1.25],
-			"scale": [0.85, 0.85, 0.85]
-		},
-		"firstperson_righthand": {
-			"rotation": [0, -100, 53],
-			"translation": [0.25, 3.5, 4.25],
-			"scale": [0.38, 0.38, 0.38]
-		},
-		"firstperson_lefthand": {
-			"rotation": [0, 65, -53],
-			"translation": [0.25, 3.5, 4.25],
-			"scale": [0.38, 0.38, 0.38]
-		},
-		"ground": {
-			"scale": [0.5, 0.5, 0.5]
-		},
-		"gui": {
-			"translation": [-2, -2.75, -0.25],
-			"scale": [0.63, 0.63, 0.63]
-		},
-		"head": {
-			"translation": [-0.75, -15.75, 3.75]
-		},
-		"fixed": {
-			"rotation": [0, 180, 0],
-			"translation": [3.5, -3.75, 0],
-			"scale": [0.71, 0.71, 0.71]
-		}
-	},
 	"groups": [
 		{
 			"name": "soul_scythe",

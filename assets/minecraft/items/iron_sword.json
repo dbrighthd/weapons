@@ -5,6 +5,45 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": ["Soul Scythe", "iregex:.*soul.*scythe.*"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/scythes/sword/_misc_scythes/soul_scythe"
+          }
+        },
+        {
+          "when": ["Jailor's Scythe", "iregex:.*jailor.*s.*scythe.*"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/scythes/sword/_misc_scythes/jailors_scythe"
+          }
+        },
+        {
+          "when": ["Iron Scythe", "iregex:.*scythe.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/iron_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/sword/sword/iron_scythe_in_hand"
+    }
+          }
+        },
+        {
           "when":["Iron Scimitar", "iregex:.*scimitar.*"],
           "model": {
             "type":"minecraft:model",

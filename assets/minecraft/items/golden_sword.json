@@ -5,6 +5,56 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": [
+            "Scythe of Quakes", 
+            "The Scythe of Quakes",
+            "iregex:.*scythe.*of.*quakes.*"
+          ],
+          "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:enchantments",
+          "value": [
+            {
+              "enchantments": "minecraft:unbreaking"
+            }
+          ],
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/golden_weapons_of_spinjitzu/scythe_of_quakes"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/golden_hoe"
+          }
+        }
+        },
+        {
+          "when": ["Golden Scythe", "iregex:.*scythe.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/golden_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/sword/golden_scythe_in_hand"
+    }
+          }
+        },
+        {
           "when":["Golden Scimitar", "iregex:.*scimitar.*"],
           "model": {
             "type":"minecraft:model",
