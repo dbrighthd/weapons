@@ -5,6 +5,13 @@
     "component": "minecraft:custom_name",
     "cases": [
       {
+          "when": ["Shuriken of Ice","iregex:.*shuriken.*of.*ice.*"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/golden_weapons_of_spinjitzu/shuriken_of_ice"
+          }
+      },
+      {
           "when": ["Throwable Bell","Bell"],
           "model": {
             "type": "minecraft:model",
