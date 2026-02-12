@@ -250,6 +250,13 @@
           }
         },
         {
+          "when": [ "Potatos","GLADOS","iregex:(.*glados.*|.*potatos.*)"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/portal/potatos"
+          }
+        },
+        {
           "when": [ "Adventure Core","Rick","iregex:.*adventure.*core.*"],
           "model": {
             "type": "minecraft:model",
