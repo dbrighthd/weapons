@@ -1,4 +1,5 @@
 (ruby|amethyst|emerald).*scythe
+(ruby|amethyst|emerald).*truthseeker
 (ruby|amethyst|emerald).*scimitar
 (ruby|amethyst|emerald).*butter.*knife
 (ruby|amethyst|emerald).*dancer.*sword

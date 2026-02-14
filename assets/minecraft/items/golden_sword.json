@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Golden Truthseeker", "iregex:.*truthseeker.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/truthseekers/truthseekerg"
+          }
+        },
+        {
           "when": [
             "Scythe of Quakes", 
             "The Scythe of Quakes",

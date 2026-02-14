@@ -1,0 +1,9 @@
+{
+	"parent":"minecraft:item/.weapons/truthseekers/truthseeker",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "minecraft:item/.weapons/truthseekers/diamond_truthseeker",
+		"particle": "minecraft:item/.weapons/truthseekers/diamond_truthseeker"
+	}
+}

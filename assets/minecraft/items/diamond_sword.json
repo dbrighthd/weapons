@@ -5,6 +5,34 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Ruby Truthseeker", "iregex:.*ruby.*truthseeker.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/truthseekers/truthseekerr"
+          }
+        },
+        {
+          "when":["Emerald Truthseeker", "iregex:.*emerald.*truthseeker.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/truthseekers/truthseekere"
+          }
+        },
+        {
+          "when":["Amethyst Truthseeker", "iregex:.*amethyst.*truthseeker.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/truthseekers/truthseekera"
+          }
+        },
+        {
+          "when":["Diamond Truthseeker", "iregex:.*truthseeker.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/truthseekers/truthseekerd"
+          }
+        },
+        {
           "when": ["Amethyst Scythe", "iregex:.*amethyst.*scythe.*"],
           "model": {
     "type": "minecraft:select",

@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Stone Truthseeker", "iregex:.*truthseeker.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/truthseekers/truthseekers"
+          }
+        },
+        {
           "when": ["Stone Scythe", "iregex:.*scythe.*"],
           "model": {
     "type": "minecraft:select",

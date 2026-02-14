@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Copper Truthseeker", "iregex:.*truthseeker.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/truthseekers/truthseekerc"
+          }
+        },
+        {
           "when": ["Copper Scythe", "iregex:.*scythe.*"],
           "model": {
     "type": "minecraft:select",
