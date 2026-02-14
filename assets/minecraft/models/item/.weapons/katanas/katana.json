@@ -294,15 +294,19 @@
 			"scale": [0.68, 0.68, 0.68]
 		},
 		"ground": {
+			"translation": [0, 2, 0],
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"translation": [-1, -0.75, 0.1],
-			"scale": [0.9, 0.9, 1]
+			"translation": [-1.5, -1.5, 0.1],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"fixed": {
 			"rotation": [0, -180, 0],
-			"translation": [1, -0.5, -0.5]
+			"translation": [2, -1, -0.5]
+		},
+		"on_shelf": {
+			"translation": [-2.25, 0, -2.5]
 		}
 	},
 	"groups": [

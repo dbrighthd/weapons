@@ -1,7 +1,11 @@
 {
 	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
+	"textures": {
+		"particle": "item/.weapons/cutlasses/cutlassi"
+	},
 	"elements": [
 		{
 			"name": "cutlassi_0",
@@ -321,15 +325,17 @@
 			"scale": [0.68, 0.68, 0.68]
 		},
 		"ground": {
+			"translation": [0, 2.75, 0],
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"gui": {
-			"translation": [-0.5, -0.5, 0.1],
-			"scale": [0.935, 0.935, 1]
+			"translation": [-0.75, -0.75, 0.1],
+			"scale": [0.8, 0.8, 0.8]
 		},
 		"fixed": {
 			"rotation": [0, -180, 0],
-			"translation": [0.5, 1, -0.5]
+			"translation": [1, 1, -0.5],
+			"scale": [0.95, 0.95, 0.95]
 		}
 	},
 	"groups": [
