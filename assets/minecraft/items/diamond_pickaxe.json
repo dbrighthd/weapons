@@ -4,6 +4,13 @@
     "property": "minecraft:component",
     "component": "minecraft:custom_name",
     "cases": [
+        {
+          "when":["Obsidian Pickaxe", "iregex:.*obsidian.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_pickaxe"
+          }
+        },
       {
         "when":["Ruby Pickaxe", "iregex:.*ruby.*"],
         "model": {

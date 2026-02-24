@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/.weapons/obsidian_set/armor/diamond/obsidian_leggings"
+  }
+}

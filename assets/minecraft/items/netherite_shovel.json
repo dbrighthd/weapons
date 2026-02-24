@@ -33,6 +33,13 @@
           }
         },
         {
+          "when":["Obsidian Shovel", "iregex:.*obsidian.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/obsidian_set/items/netherite/obsidian_shovel"
+          }
+        },
+        {
           "when":["Ruby Shovel", "iregex:.*ruby.*"],
           "model": {
             "type":"minecraft:model",

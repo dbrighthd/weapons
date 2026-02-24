@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Obsidian Shovel", "iregex:.*obsidian.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_shovel"
+          }
+        },
+        {
           "when":["Ruby Comically Large Spoon", "iregex:.*Ruby.*Large.*Spoon.*"],
           "model": {
             "type":"minecraft:model",

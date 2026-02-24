@@ -360,6 +360,13 @@
           }
         },
         {
+          "when":["Obsidian Axe", "iregex:.*obsidian.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/obsidian_set/items/netherite/obsidian_axe"
+          }
+        },
+        {
           "when":["Ruby Axe", "iregex:.*ruby.*"],
           "model": {
             "type":"minecraft:model",

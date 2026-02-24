@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Obsidian Hoe", "iregex:.*obsidian.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_hoe"
+          }
+        },
+        {
           "when":["Ruby Hoe", "iregex:.*ruby.*"],
           "model": {
             "type":"minecraft:model",

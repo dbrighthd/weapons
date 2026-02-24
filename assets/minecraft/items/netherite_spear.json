@@ -235,6 +235,31 @@
           }
         },
         {
+          "when": ["Obsidian Spear", "Obsidian", "iregex:.*Obsidian.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/obsidian_set/items/netherite/obsidian_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/obsidian_set/items/netherite/obsidian_spear_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Ruby Spear", "Ruby", "iregex:.*Ruby.*"],
           "model": {
     "type": "minecraft:select",

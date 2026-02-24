@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Obsidian Truthseeker", "iregex:.*obsidian.*truthseeker.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/truthseekers/truthseekero"
+          }
+        },
+        {
           "when":["Ruby Truthseeker", "iregex:.*ruby.*truthseeker.*"],
           "model": {
             "type":"minecraft:model",
@@ -133,6 +140,13 @@
           }
         },
         {
+          "when":["Obsidian Scimitar", "iregex:.*obsidian.*scimitar.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/scimitars/obsidian_scimitar"
+          }
+        },
+        {
           "when":["Ruby Scimitar", "iregex:.*ruby.*scimitar.*"],
           "model": {
             "type":"minecraft:model",
@@ -161,6 +175,13 @@
           }
         },
       {
+        "when":["Obsidian Comically Large Butter Knife", "iregex:.*Obsidian.*Large.*Butter.*Knife.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/comically_large_utensils/obsidian_comically_large_butter_knife"
+        }
+      },
+      {
         "when":["Ruby Comically Large Butter Knife", "iregex:.*Ruby.*Large.*Butter.*Knife.*"],
         "model": {
           "type":"minecraft:model",
@@ -186,6 +207,16 @@
         "model": {
           "type":"minecraft:model",
           "model":"minecraft:item/.weapons/comically_large_utensils/diamond_comically_large_butter_knife"
+        }
+      },
+      {
+        "when": [
+          "Obsidian Dancer's Sword",
+          "iregex:.*Obsidian.*Dancer.*s.*Sword.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/dancers_swords/obsidian_dancers_sword"
         }
       },
       {
@@ -230,6 +261,16 @@
       },
       {
         "when": [
+          "Obsidian Soul Knife",
+          "iregex:.*Obsidian.*Soul.*Knife.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/soul_knives/obsidian_soul_knife"
+        }
+      },
+      {
+        "when": [
           "Ruby Soul Knife",
           "iregex:.*Ruby.*Soul.*Knife.*"
         ],
@@ -266,6 +307,13 @@
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/soul_knives/diamond_soul_knife"
+        }
+      },
+      {
+        "when":["Obsidian BFS", "iregex:.*Obsidian.*BFS.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/buster_swords/busterswordo"
         }
       },
       {
@@ -323,6 +371,13 @@
           }
         },
         {
+          "when":["Obsidian Sword", "iregex:.*obsidian.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_sword"
+          }
+        },
+        {
           "when":["Ruby Sword", "iregex:.*ruby.*"],
           "model": {
             "type":"minecraft:model",
@@ -341,6 +396,27 @@
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_sword"
+          }
+        },
+        {
+          "when": ["Flaming Obsidian Sword", "iregex:.*flaming.*obsidian.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/flaming_obsidian_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_sword"
+            }
           }
         },
         {
@@ -428,6 +504,13 @@
           }
         },
         {
+          "when":["Obsidian Broadsword", "iregex:.*obsidian.*broadsword.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/broadswords/broadswordo"
+          }
+        },
+        {
           "when":["Ruby Broadsword", "iregex:.*ruby.*broadsword.*"],
           "model": {
             "type":"minecraft:model",
@@ -453,6 +536,13 @@
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/broadswords/broadswordd"
+          }
+        },
+        {
+          "when":["Obsidian Claymore", "iregex:.*obsidian.*claymore.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/claymores/claymoreo"
           }
         },
         {
@@ -484,6 +574,13 @@
           }
         },
         {
+          "when":["Obsidian Cutlass", "iregex:.*obsidian.*cutlass.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/cutlasses/cutlasso"
+          }
+        },
+        {
           "when":["Ruby Cutlass", "iregex:.*ruby.*cutlass.*"],
           "model": {
             "type":"minecraft:model",
@@ -509,6 +606,13 @@
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/cutlasses/cutlassd"
+          }
+        },
+        {
+          "when":["Obsidian Katana", "iregex:.*obsidian.*katana.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/katanas/katanao"
           }
         },
         {

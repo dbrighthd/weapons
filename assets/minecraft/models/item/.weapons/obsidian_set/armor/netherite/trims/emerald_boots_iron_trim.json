@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/.weapons/obsidian_set/armor/netherite/obsidian_boots",
+    "layer1": "minecraft:trims/items/boots_trim_iron"
+  }
+}
