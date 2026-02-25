@@ -5,10 +5,10 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":["Obsidian Shovel", "iregex:.*obsidian.*"],
+          "when":["Obsidian Comically Large Spoon", "iregex:.*Obsidian.*Large.*Spoon.*"],
           "model": {
             "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_shovel"
+            "model":"minecraft:item/.weapons/comically_large_utensils/obsidian_comically_large_spoon"
           }
         },
         {
@@ -37,6 +37,13 @@
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/comically_large_utensils/diamond_comically_large_spoon"
+          }
+        },
+        {
+          "when":["Obsidian Shovel", "iregex:.*obsidian.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_shovel"
           }
         },
         {

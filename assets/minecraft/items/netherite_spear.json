@@ -55,6 +55,31 @@
           }
         },
         {
+          "when": ["Obsidian Guan Dao", "iregex:.*obsidian.*guan.*dao.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/guan_daos/netherite/obsidian_guan_dao"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/guan_daos/netherite/obsidian_guan_dao_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Ruby Guan Dao", "iregex:.*ruby.*guan.*dao.*"],
           "model": {
     "type": "minecraft:select",
@@ -102,6 +127,13 @@
       "type": "minecraft:model",
       "model": "minecraft:item/.weapons/guan_daos/netherite_guan_dao_in_hand"
     }
+          }
+        },
+        {
+          "when":["Obsidian Comically Large Fork", "iregex:.*Obsidian.*Large.*Butter.*Knife.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/netherite/obsidian_comically_large_fork"
           }
         },
         {
@@ -285,6 +317,31 @@
           }
         },
         {
+          "when": ["Obsidian Lance", "iregex:.*obsidian.*lance.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lances/netherite/obsidian_lance"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/lances/netherite/obsidian_lance_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Ruby Lance", "iregex:.*ruby.*lance.*"],
           "model": {
     "type": "minecraft:select",
@@ -381,6 +438,31 @@
     "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:item/.weapons/lances/netherite_lance_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Obsidian Trident", "iregex:.*obsidian.*trident.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/tridents/netherite/obsidian_trident"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/tridents/netherite/obsidian_trident_in_hand"
     }
           }
         },

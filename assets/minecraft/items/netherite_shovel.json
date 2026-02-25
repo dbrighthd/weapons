@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Obsidian Comically Large Spoon", "iregex:.*Obsidian.*Large.*Spoon.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/netherite/obsidian_comically_large_spoon"
+          }
+        },
+        {
           "when":["Ruby Comically Large Spoon", "iregex:.*Ruby.*Large.*Spoon.*"],
           "model": {
             "type":"minecraft:model",
