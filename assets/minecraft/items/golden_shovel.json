@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Glass Shovel", "iregex:.*glass.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/glass_set/gold/glass_shovel"
+          }
+        },
+        {
           "when":["Golden Comically Large Spoon", "Comically Large Spoon", "iregex:.*Large.*Spoon.*"],
           "model": {
             "type":"minecraft:model",

@@ -5,6 +5,13 @@
     "component": "minecraft:custom_name",
     "cases": [
         {
+          "when":["Glass Pickaxe", "iregex:.*glass.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/glass_set/netherite/glass_pickaxe"
+          }
+        },
+        {
           "when":["Rainbow Pickaxe", "iregex:.*rainbow.*"],
           "model": {
             "type":"minecraft:model",

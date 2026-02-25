@@ -267,6 +267,31 @@
           }
         },
         {
+          "when": ["Glass Spear", "Glass", "iregex:.*glass.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/glass_set/netherite/glass_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/glass_set/netherite/glass_spear_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Rainbow Spear", "Rainbow", "iregex:.*Rainbow.*"],
           "model": {
     "type": "minecraft:select",

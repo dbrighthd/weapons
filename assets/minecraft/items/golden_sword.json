@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Glass Sword", "iregex:.*glass.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/glass_set/gold/glass_sword"
+          }
+        },
+        {
           "when":["Golden Truthseeker", "iregex:.*truthseeker.*"],
           "model": {
             "type":"minecraft:model",

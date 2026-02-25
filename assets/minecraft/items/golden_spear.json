@@ -5,6 +5,31 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": ["Glass Spear", "iregex:.*glass.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/glass_set/gold/glass_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/glass_set/gold/glass_spear_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Golden Guan Dao", "Guan Dao", "iregex:.*guan.*dao.*"],
           "model": {
     "type": "minecraft:select",

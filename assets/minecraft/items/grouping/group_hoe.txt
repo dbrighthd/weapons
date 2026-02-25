@@ -1,5 +1,5 @@
-(ruby|amethyst|emerald|obsidian|rainbow).*scythe
-(ruby|amethyst|emerald|obsidian|rainbow).*spoon
-(ruby|amethyst|emerald|obsidian|rainbow).*pickaxe
-(ruby|amethyst|emerald|obsidian|rainbow).*shovel
-(ruby|amethyst|emerald|obsidian|rainbow).*hoe
+(ruby|amethyst|emerald|obsidian|rainbow|glass).*scythe
+(ruby|amethyst|emerald|obsidian|rainbow|glass).*spoon
+(ruby|amethyst|emerald|obsidian|rainbow|glass).*pickaxe
+(ruby|amethyst|emerald|obsidian|rainbow|glass).*shovel
+(ruby|amethyst|emerald|obsidian|rainbow|glass).*hoe

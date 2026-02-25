@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Glass Axe", "iregex:.*glass.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/glass_set/gold/glass_axe"
+          }
+        },
+        {
           "when": ["Golden Halberd", "iregex:.*halberd.*"],
           "model": {
     "type": "minecraft:select",
