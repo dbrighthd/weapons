@@ -5,17 +5,10 @@
     "component": "minecraft:custom_name",
     "cases": [
         {
-          "when":["Glass Sword", "iregex:.*glass.*"],
+          "when":["Rainbow Truthseeker", "iregex:.*rainbow.*truthseeker.*"],
           "model": {
             "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/glass_set/netherite/glass_sword"
-          }
-        },
-        {
-          "when":["Rainbow Sword", "iregex:.*rainbow.*"],
-          "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/rainbow_set/rainbow_sword"
+            "model":"minecraft:item/.weapons/truthseekers/rainbow_truthseeker"
           }
         },
         {
@@ -232,6 +225,13 @@
           }
         },
         {
+          "when":["Rainbow Scimitar", "iregex:.*rainbow.*scimitar.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/scimitars/rainbow_scimitar"
+          }
+        },
+        {
           "when":["Obsidian Scimitar", "iregex:.*obsidian.*scimitar.*"],
           "model": {
             "type":"minecraft:model",
@@ -266,6 +266,13 @@
             "model":"minecraft:item/.weapons/scimitars/netherite_scimitar"
           }
         },
+      {
+        "when":["Rainbow Comically Large Butter Knife", "iregex:.*Rainbow.*Large.*Butter.*Knife.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/comically_large_utensils/rainbow_comically_large_butter_knife"
+        }
+      },
       {
         "when":["Obsidian Comically Large Butter Knife", "iregex:.*Obsidian.*Large.*Butter.*Knife.*"],
         "model": {
@@ -505,6 +512,16 @@
       },
       {
         "when": [
+          "Rainbow Dancer's Sword",
+          "iregex:.*Rainbow.*Dancer.*s.*Sword.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/dancers_swords/rainbow_dancers_sword"
+        }
+      },
+      {
+        "when": [
           "Obsidian Dancer's Sword",
           "iregex:.*Obsidian.*Dancer.*s.*Sword.*"
         ],
@@ -551,6 +568,16 @@
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/dancers_swords/netherite_dancers_sword"
+        }
+      },
+      {
+        "when": [
+          "Rainbow Soul Knife",
+          "iregex:.*Rainbow.*Soul.*Knife.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/soul_knives/rainbow_soul_knife"
         }
       },
       {
@@ -726,6 +753,13 @@
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/buster_swords/bustersword"
+        }
+      },
+      {
+        "when":["Rainbow BFS", "iregex:.*Rainbow.*BFS.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/buster_swords/rainbow_buster_sword"
         }
       },
       {
@@ -1438,6 +1472,20 @@
             "model":"minecraft:item/.weapons/obsidian_set/items/netherite/obsidian_sword"
           }
         },
+        {
+          "when":["Glass Sword", "iregex:.*glass.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/glass_set/netherite/glass_sword"
+          }
+        },
+        {
+          "when":["Rainbow Sword", "iregex:.*rainbow.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/rainbow_set/rainbow_sword"
+          }
+        },
       {
         "when": [
           "Ruby Sword",
@@ -1554,6 +1602,13 @@
         }
       },
       {
+          "when":["Rainbow Broadsword", "iregex:.*rainbow.*broadsword.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/broadswords/rainbow_broadsword"
+          }
+        },
+      {
           "when":["Obsidian Broadsword", "iregex:.*obsidian.*broadsword.*"],
           "model": {
             "type":"minecraft:model",
@@ -1591,6 +1646,13 @@
           "model": "minecraft:item/.weapons/broadswords/broadswordn"
         }
       },
+      {
+          "when":["Rainbow Claymore", "iregex:.*rainbow.*claymore.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/claymores/rainbow_claymore"
+          }
+        },
       {
           "when":["Obsidian Claymore", "iregex:.*obsidian.*claymore.*"],
           "model": {
@@ -1630,6 +1692,13 @@
         }
       },
       {
+          "when":["Rainbow Cutlass", "iregex:.*rainbow.*cutlass.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/cutlasses/rainbow_cutlass"
+          }
+        },
+      {
           "when":["Obsidian Cutlass", "iregex:.*obsidian.*cutlass.*"],
           "model": {
             "type":"minecraft:model",
@@ -1667,6 +1736,13 @@
           "model": "minecraft:item/.weapons/cutlasses/cutlassn"
         }
       },
+      {
+          "when":["Rainbow Katana", "iregex:.*rainbow.*katana.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/katanas/rainbow_katana"
+          }
+        },
       {
           "when":["Obsidian Katana", "iregex:.*obsidian.*katana.*"],
           "model": {
