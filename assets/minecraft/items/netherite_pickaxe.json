@@ -5,6 +5,13 @@
     "component": "minecraft:custom_name",
     "cases": [
         {
+          "when":["Rainbow Pickaxe", "iregex:.*rainbow.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/rainbow_set/rainbow_pickaxe"
+          }
+        },
+        {
           "when":["Obsidian Pickaxe", "iregex:.*obsidian.*"],
           "model": {
             "type":"minecraft:model",

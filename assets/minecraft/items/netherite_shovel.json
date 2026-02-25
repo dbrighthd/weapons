@@ -40,6 +40,13 @@
           }
         },
         {
+          "when":["Rainbow Shovel", "iregex:.*rainbow.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/rainbow_set/rainbow_shovel"
+          }
+        },
+        {
           "when":["Obsidian Shovel", "iregex:.*obsidian.*"],
           "model": {
             "type":"minecraft:model",

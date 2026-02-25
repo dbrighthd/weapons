@@ -424,6 +424,27 @@
           }
         },
         {
+          "when": ["Purple Flaming Obsidian Sword", "iregex:.*purple.*flaming.*obsidian.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/purple_flaming_obsidian_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_sword"
+            }
+          }
+        },
+        {
           "when": ["Flaming Obsidian Sword", "iregex:.*flaming.*obsidian.*"],
           "model": {
             "type": "minecraft:condition",

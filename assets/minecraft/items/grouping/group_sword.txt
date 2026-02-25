@@ -1,18 +1,18 @@
-(ruby|amethyst|emerald|obsidian).*scythe
-(ruby|amethyst|emerald|obsidian).*truthseeker
-(ruby|amethyst|emerald|obsidian).*scimitar
-(ruby|amethyst|emerald|obsidian).*butter.*knife
-(ruby|amethyst|emerald|obsidian).*dancer.*sword
-(ruby|amethyst|emerald|obsidian).*soul.*knife
-(ruby|amethyst|emerald|obsidian).*bfs
-(ruby|amethyst|emerald|obsidian).*broadsword
-(ruby|amethyst|emerald|obsidian).*claymore
-(ruby|amethyst|emerald|obsidian).*cutlass
-(ruby|amethyst|emerald|obsidian).*katana
-(ruby|amethyst|emerald|obsidian).*sword
-(?!(green).)*flaming(?!(.ruby.|.amethyst.|.emerald.|.obsidian.)).*sword.*
-(?!(green).)*flaming.(ruby|amethyst|emerald|obsidian).sword.*
-(Green Flaming Copper Sword|Soulfire netherite Sword)
+(ruby|amethyst|emerald|obsidian|rainbow).*scythe
+(ruby|amethyst|emerald|obsidian|rainbow).*truthseeker
+(ruby|amethyst|emerald|obsidian|rainbow).*scimitar
+(ruby|amethyst|emerald|obsidian|rainbow).*butter.*knife
+(ruby|amethyst|emerald|obsidian|rainbow).*dancer.*sword
+(ruby|amethyst|emerald|obsidian|rainbow).*soul.*knife
+(ruby|amethyst|emerald|obsidian|rainbow).*bfs
+(ruby|amethyst|emerald|obsidian|rainbow).*broadsword
+(ruby|amethyst|emerald|obsidian|rainbow).*claymore
+(ruby|amethyst|emerald|obsidian|rainbow).*cutlass
+(ruby|amethyst|emerald|obsidian|rainbow).*katana
+(ruby|amethyst|emerald|obsidian|rainbow).*sword
+(?!(green|purple).)*flaming(?!(.ruby.|.amethyst.|.emerald.|.obsidian.|.rainbow.)).*sword.*
+(?!(green|purple).)*flaming.(ruby|amethyst|emerald|obsidian|rainbow).sword.*
+(.*(Green|Purple) Flaming.*|.*Soulfire.*)
 .*green.*lightsaber.*
 .*blue.*lightsaber.*
 .*yellow.*lightsaber.*
