@@ -5,6 +5,13 @@
     "component": "minecraft:custom_name",
     "cases": [
         {
+          "when":["Rainbow Sword", "iregex:.*rainbow.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/rainbow_set/rainbow_sword"
+          }
+        },
+        {
           "when":["Obsidian Truthseeker", "iregex:.*obsidian.*truthseeker.*"],
           "model": {
             "type":"minecraft:model",
