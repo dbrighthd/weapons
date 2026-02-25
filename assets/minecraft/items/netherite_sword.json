@@ -100,7 +100,7 @@
         }
         },
         {
-          "when": ["Amethyst Scythe", "iregex:.*amethyst.*scythe.*"],
+          "when": ["Rainbow Scythe", "iregex:.*rainbow.*scythe.*"],
           "model": {
     "type": "minecraft:select",
     "property": "minecraft:display_context",
@@ -108,7 +108,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/scythes/netherite/amethyst_scythe"
+          "model": "minecraft:item/.weapons/scythes/rainbow_scythe"
         },
         "when": [
           "gui",
@@ -120,32 +120,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/scythes/sword/netherite/amethyst_scythe_in_hand"
-    }
-          }
-        },
-        {
-          "when": ["Emerald Scythe", "iregex:.*emerald.*scythe.*"],
-          "model": {
-    "type": "minecraft:select",
-    "property": "minecraft:display_context",
-    "cases": [
-      {
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/scythes/netherite/emerald_scythe"
-        },
-        "when": [
-          "gui",
-          "ground",
-          "fixed",
-          "on_shelf"
-        ]
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/scythes/sword/netherite/emerald_scythe_in_hand"
+      "model": "minecraft:item/.weapons/scythes/sword/rainbow_scythe_in_hand"
     }
           }
         },
@@ -196,6 +171,56 @@
     "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:item/.weapons/scythes/sword/netherite/ruby_scythe_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Emerald Scythe", "iregex:.*emerald.*scythe.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/netherite/emerald_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/sword/netherite/emerald_scythe_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Amethyst Scythe", "iregex:.*amethyst.*scythe.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/netherite/amethyst_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/sword/netherite/amethyst_scythe_in_hand"
     }
           }
         },
