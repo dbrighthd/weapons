@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "minecraft:item/.weapons/double_axes/netherite/double_axea"
+    "layer0": "minecraft:item/.weapons/double_axes/netherite/double_axea",
+    "particle": "minecraft:item/.weapons/double_axes/netherite/double_axea"
   }
 }

@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "minecraft:item/.weapons/dungeons_axes/dungeons_axes"
+    "layer0": "minecraft:item/.weapons/dungeons_axes/dungeons_axes",
+    "particle": "minecraft:item/.weapons/dungeons_axes/dungeons_axes"
   }
 }

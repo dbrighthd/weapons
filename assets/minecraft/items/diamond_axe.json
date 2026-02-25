@@ -169,6 +169,13 @@
           }
         },
         {
+          "when":["Obsidian Double Axe", "iregex:.*obsidian.*double.*axe.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/double_axes/double_axeo"
+          }
+        },
+        {
           "when":["Ruby Double Axe", "iregex:.*ruby.*double.*axe.*"],
           "model": {
             "type":"minecraft:model",
@@ -197,7 +204,13 @@
             "model":"minecraft:item/.weapons/double_axes/double_axed"
           }
         },
-        
+        {
+          "when":["Obsidian Dungeons Axe", "iregex:.*obsidian.*dungeons.*axe.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_axes/dungeons_axeo"
+          }
+        },
         {
           "when":["Ruby Dungeons Axe", "iregex:.*ruby.*dungeons.*axe.*"],
           "model": {

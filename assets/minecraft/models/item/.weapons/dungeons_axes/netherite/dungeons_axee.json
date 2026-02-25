@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "minecraft:item/.weapons/dungeons_axes/netherite/dungeons_axee"
+    "layer0": "minecraft:item/.weapons/dungeons_axes/netherite/dungeons_axee",
+    "particle": "minecraft:item/.weapons/dungeons_axes/netherite/dungeons_axee"
   }
 }

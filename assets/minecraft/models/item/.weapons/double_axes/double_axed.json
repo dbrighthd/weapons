@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "minecraft:item/.weapons/double_axes/double_axed"
+    "layer0": "minecraft:item/.weapons/double_axes/double_axed",
+    "particle": "minecraft:item/.weapons/double_axes/double_axed"
   }
 }

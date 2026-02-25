@@ -46,7 +46,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/scythes/sword/sword/iron_scythe_in_hand"
+      "model": "minecraft:item/.weapons/scythes/sword/iron_scythe_in_hand"
     }
           }
         },
