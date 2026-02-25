@@ -1,0 +1,8 @@
+{
+	"format_version": "1.21.6",
+	"parent":"item/.weapons/dancers_swords/dancers_sword",
+	"textures": {
+		"0": "item/.weapons/dancers_swords/netherite/glass_dancers_sword",
+		"particle": "item/.weapons/dancers_swords/netherite/glass_dancers_sword"
+	}
+}

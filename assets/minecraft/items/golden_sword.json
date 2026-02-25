@@ -5,10 +5,10 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":["Glass Sword", "iregex:.*glass.*"],
+          "when":["Glass Truthseeker", "iregex:.*glass.*truthseeker.*"],
           "model": {
             "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/glass_set/gold/glass_sword"
+            "model":"minecraft:item/.weapons/truthseekers/glass_truthseeker"
           }
         },
         {
@@ -69,6 +69,13 @@
           }
         },
         {
+          "when":["Glass Scimitar", "iregex:.*glass.*scimitar.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/scimitars/glass_scimitar"
+          }
+        },
+        {
           "when":["Golden Scimitar", "iregex:.*scimitar.*"],
           "model": {
             "type":"minecraft:model",
@@ -84,6 +91,16 @@
         },
       {
         "when": [
+          "Glass Dancer's Sword",
+          "iregex:.*glass.*Dancer.*s.*Sword.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/dancers_swords/glass_dancers_sword"
+        }
+      },
+      {
+        "when": [
           "Golden Dancer's Sword",
           "iregex:.*Dancer.*s.*Sword.*"
         ],
@@ -94,12 +111,29 @@
       },
       {
         "when": [
+          "Glass Soul Knife",
+          "iregex:.*glass.*Soul.*Knife.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/soul_knives/glass_soul_knife"
+        }
+      },
+      {
+        "when": [
           "Golden Soul Knife",
           "iregex:.*Soul.*Knife.*"
         ],
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/soul_knives/golden_soul_knife"
+        }
+      },
+      {
+        "when":["Glass BFS", "iregex:.*glass.*BFS.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/buster_swords/glass_buster_sword"
         }
       },
       {
@@ -218,10 +252,24 @@
           }
         },
         {
+          "when":["Glass Claymore", "iregex:.*glass.*claymore.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/claymores/glass_claymore"
+          }
+        },
+        {
           "when":["Golden Claymore", "iregex:.*claymore.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/claymores/claymoreg"
+          }
+        },
+        {
+          "when":["Glass Broadsword", "iregex:.*glass.*broadsword.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/broadswords/glass_broadsword"
           }
         },
         {
@@ -232,6 +280,13 @@
           }
         },
         {
+          "when":["Glass Cutlass", "iregex:.*glass.*cutlass.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/cutlasses/glass_cutlass"
+          }
+        },
+        {
           "when":["Golden Cutlass", "iregex:.*cutlass.*"],
           "model": {
             "type":"minecraft:model",
@@ -239,10 +294,24 @@
           }
         },
         {
+          "when":["Glass Katana", "iregex:.*glass.*katana.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/katanas/glass_katana"
+          }
+        },
+        {
           "when":["Golden Katana", "iregex:.*katana.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/katanas/katanag"
+          }
+        },
+        {
+          "when":["Glass Sword", "iregex:.*glass.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/glass_set/gold/glass_sword"
           }
         }
       ],
