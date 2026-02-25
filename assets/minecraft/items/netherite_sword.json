@@ -1281,6 +1281,27 @@
           }
         }
       },
+        {
+          "when": ["Flaming Glass Sword", "iregex:.*flaming.*glass.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/flaming_netherite_glass_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/glass_set/netherite/glass_sword"
+            }
+          }
+        },
       {
           "when": ["Flaming Rainbow Sword", "iregex:.*flaming.*rainbow.*"],
           "model": {

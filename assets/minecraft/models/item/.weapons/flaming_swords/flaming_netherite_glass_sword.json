@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/.weapons/flaming_swords/emissive_layered_tool",
+  "textures": {
+    "base": "minecraft:item/.weapons/glass_set/netherite/glass_sword",
+    "particle": "minecraft:item/.weapons/glass_set/netherite/glass_sword",
+    "glow":"minecraft:item/.weapons/flaming_swords/flames"
+  }
+}
