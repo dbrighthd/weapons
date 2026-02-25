@@ -12,7 +12,9 @@
 (ruby|amethyst|emerald|obsidian|rainbow|glass).*sword
 (?!(green|purple).)*flaming(?!(.ruby.|.amethyst.|.emerald.|.obsidian.|.rainbow.|.glass.)).*sword.*
 (?!(green|purple).)*flaming.(ruby|amethyst|emerald|obsidian|rainbow|glass).sword.*
-(.*(Green|Purple) Flaming.*|.*Soulfire.*)
+(.*Soulfire.*)
+(.*Green Flaming.*)
+(.*Purple Flaming.*)
 .*green.*lightsaber.*
 .*blue.*lightsaber.*
 .*yellow.*lightsaber.*
