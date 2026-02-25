@@ -107,6 +107,31 @@
         }
         },
         {
+          "when": ["Glass Scythe", "iregex:.*glass.*scythe.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/netherite/glass_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/sword/netherite/glass_scythe_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Rainbow Scythe", "iregex:.*rainbow.*scythe.*"],
           "model": {
     "type": "minecraft:select",
@@ -303,6 +328,13 @@
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/scimitars/netherite_scimitar"
+          }
+        },
+        {
+          "when":["Glass Comically Large Butter Knife", "iregex:.*Glass.*Large.*Butter.*Knife.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/netherite/glass_comically_large_butter_knife"
           }
         },
       {
@@ -1239,6 +1271,30 @@
         },
       {
         "when": [
+          "Soulfire Glass Sword",
+          "iregex:.*soulfire.*glass.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:enchantments",
+          "value": [
+            {
+              "enchantments": "minecraft:fire_aspect"
+            }
+          ],
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/flaming_swords/soulfire_glass_sword"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/glass_set/netherite/glass_sword"
+          }
+        }
+      },
+      {
+        "when": [
           "Soulfire Rainbow Sword",
           "iregex:.*soulfire.*rainbow.*"
         ],
@@ -1257,7 +1313,7 @@
           },
           "on_false": {
             "type": "minecraft:model",
-            "model": "minecraft:item/rainbow_sword"
+            "model": "minecraft:item/.weapons/rainbow_set/rainbow_sword"
           }
         }
       },

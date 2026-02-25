@@ -44,6 +44,31 @@
         }
         },
         {
+          "when": ["Glass Scythe", "iregex:.*glass.*scythe.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/glass_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/sword/glass_scythe_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Golden Scythe", "iregex:.*scythe.*"],
           "model": {
     "type": "minecraft:select",
@@ -80,6 +105,13 @@
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/scimitars/golden_scimitar"
+          }
+        },
+        {
+          "when":["Glass Comically Large Butter Knife", "iregex:.*Glass.*Large.*Butter.*Knife.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/glass_comically_large_butter_knife"
           }
         },
         {

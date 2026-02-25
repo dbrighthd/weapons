@@ -12,6 +12,31 @@
           }
         },
         {
+          "when": ["Glass Scythe", "iregex:.*glass.*scythe.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/glass_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/glass_scythe_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Golden Scythe", "iregex:.*scythe.*"],
           "model": {
     "type": "minecraft:select",
