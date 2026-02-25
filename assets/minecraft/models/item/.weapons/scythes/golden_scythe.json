@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "minecraft:item/.weapons/scythes/golden_scythe"
+    "layer0": "minecraft:item/.weapons/scythes/golden_scythe",
+    "particle": "minecraft:item/.weapons/scythes/golden_scythe"
   }
 }

@@ -36,6 +36,31 @@
           }
         },
         {
+          "when": ["Obsidian Halberd", "iregex:.*obsidian.*halberd.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/halberds/netherite/obsidian_halberd"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/halberds/netherite/obsidian_halberd_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Ruby Halberd", "iregex:.*ruby.*halberd.*"],
           "model": {
     "type": "minecraft:select",

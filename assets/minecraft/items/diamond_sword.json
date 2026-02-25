@@ -90,6 +90,31 @@
           }
         },
         {
+          "when": ["Obsidian Scythe", "iregex:.*obsidian.*scythe.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/obsidian_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/sword/obsidian_scythe_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Ruby Scythe", "iregex:.*ruby.*scythe.*"],
           "model": {
     "type": "minecraft:select",
