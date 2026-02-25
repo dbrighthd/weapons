@@ -267,6 +267,31 @@
           }
         },
         {
+          "when": ["Rainbow Spear", "Rainbow", "iregex:.*Rainbow.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/rainbow_set/rainbow_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/rainbow_set/rainbow_spear_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Obsidian Spear", "Obsidian", "iregex:.*Obsidian.*"],
           "model": {
     "type": "minecraft:select",

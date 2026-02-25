@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/spear_in_hand",
+  "textures": {
+    "layer0": "minecraft:item/.weapons/rainbow_set/rainbow_spear_in_hand"
+  }
+}
