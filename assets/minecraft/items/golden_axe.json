@@ -12,6 +12,31 @@
           }
         },
         {
+          "when": ["Glass Halberd", "iregex:.*glass.*halberd.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/halberds/glass_halberd"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/halberds/glass_halberd_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Golden Halberd", "iregex:.*halberd.*"],
           "model": {
     "type": "minecraft:select",
@@ -72,10 +97,24 @@
           }
         },
         {
+          "when":["Glass Double Axe", "iregex:.*glass.*double.*axe.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/double_axes/glass_double_axe"
+          }
+        },
+        {
           "when":["Golden Double Axe", "iregex:.*double.*axe.*"],
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/double_axes/double_axeg"
+          }
+        },
+        {
+          "when":["Glass Dungeons Axe", "iregex:.*glass.*dungeons.*axe.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_axes/glass_dungeons_axe"
           }
         },
         {

@@ -36,6 +36,56 @@
           }
         },
         {
+          "when": ["Glass Halberd", "iregex:.*glass.*halberd.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/halberds/netherite/glass_halberd"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/halberds/netherite/glass_halberd_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Rainbow Halberd", "iregex:.*rainbow.*halberd.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/halberds/rainbow_halberd"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/halberds/rainbow_halberd_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Obsidian Halberd", "iregex:.*obsidian.*halberd.*"],
           "model": {
     "type": "minecraft:select",
@@ -329,6 +379,20 @@
           }
         },
         {
+          "when":["Glass Double Axe", "iregex:.*glass.*double.*axe.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/double_axes/netherite/glass_double_axe"
+          }
+        },
+        {
+          "when":["Rainbow Double Axe", "iregex:.*rainbow.*double.*axe.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/double_axes/rainbow_double_axe"
+          }
+        },
+        {
           "when":["Obsidian Double Axe", "iregex:.*obsidian.*double.*axe.*"],
           "model": {
             "type":"minecraft:model",
@@ -361,6 +425,20 @@
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/double_axes/double_axen"
+          }
+        },
+        {
+          "when":["Glass Dungeons Axe", "iregex:.*glass.*dungeons.*axe.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_axes/netherite/glass_dungeons_axe"
+          }
+        },
+        {
+          "when":["Rainbow Dungeons Axe", "iregex:.*rainbow.*dungeons.*axe.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_axes/rainbow_dungeons_axe"
           }
         },
         {
