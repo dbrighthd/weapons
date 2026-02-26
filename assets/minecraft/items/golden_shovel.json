@@ -5,10 +5,10 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when":["Glass Shovel", "iregex:.*glass.*"],
+          "when":["Glass Comically Large Spoon", "iregex:.*glass.*Large.*Spoon.*"],
           "model": {
             "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/glass_set/gold/glass_shovel"
+            "model":"minecraft:item/.weapons/comically_large_utensils/glass_comically_large_spoon"
           }
         },
         {
@@ -16,6 +16,13 @@
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/comically_large_utensils/golden_comically_large_spoon"
+          }
+        },
+        {
+          "when":["Glass Shovel", "iregex:.*glass.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/glass_set/gold/glass_shovel"
           }
         }
       ],
