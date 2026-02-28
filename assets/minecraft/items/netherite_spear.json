@@ -155,6 +155,13 @@
           }
         },
         {
+          "when":["Glass Comically Large Fork", "iregex:.*Glass.*Large.*Butter.*Knife.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/netherite/glass_comically_large_fork"
+          }
+        },
+        {
           "when":["Rainbow Comically Large Fork", "iregex:.*Rainbow.*Large.*Butter.*Knife.*"],
           "model": {
             "type":"minecraft:model",
@@ -399,6 +406,31 @@
           }
         },
         {
+          "when": ["Glass Lance", "iregex:.*glass.*lance.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lances/netherite/glass_lance"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/lances/netherite/glass_lance_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Rainbow Lance", "iregex:.*rainbow.*lance.*"],
           "model": {
     "type": "minecraft:select",
@@ -545,6 +577,31 @@
     "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:item/.weapons/lances/netherite_lance_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Glass Trident", "iregex:.*glass.*trident.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/tridents/netherite/glass_trident"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/tridents/netherite/glass_trident_in_hand"
     }
           }
         },
