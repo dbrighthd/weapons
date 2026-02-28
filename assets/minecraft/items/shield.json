@@ -26,6 +26,60 @@
       },
       {
         "when": [
+          "Pointed Glass Shield",
+          "iregex:(.*glass.*pointed.*|.*pointed.*glass.*)"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/glassblock"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/glass"
+          }
+        }
+      },
+      {
+        "when": [
+          "Pointed Rainbow Shield",
+          "iregex:(.*rainbow.*pointed.*|.*pointed.*rainbow.*)"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/rainbowblock"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/rainbow"
+          }
+        }
+      },
+      {
+        "when": [
+          "Pointed Obsidian Shield",
+          "iregex:(.*obsidian.*pointed.*|.*pointed.*obsidian.*)"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/obsidianblock"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/obsidian"
+          }
+        }
+      },
+      {
+        "when": [
           "Pointed Ruby Shield",
           "iregex:(.*ruby.*pointed.*|.*pointed.*ruby.*)"
         ],
@@ -184,6 +238,60 @@
           "on_false": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/shield/pointed/wood"
+          }
+        }
+      },
+      {
+        "when": [
+          "Glass Shield",
+          "iregex:.*glass.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/glass_blocking"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/glass"
+          }
+        }
+      },
+      {
+        "when": [
+          "Rainbow Shield",
+          "iregex:.*rainbow.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/rainbow_blocking"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/rainbow"
+          }
+        }
+      },
+      {
+        "when": [
+          "Obsidian Shield",
+          "iregex:.*obsidian.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/obsidian_blocking"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/obsidian"
           }
         }
       },
