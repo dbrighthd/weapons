@@ -30,6 +30,31 @@
           }
         },
         {
+          "when": ["Glass Guan Dao", "iregex:.*glass.*guan.*dao.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/guan_daos/glass_guan_dao"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/guan_daos/glass_guan_dao_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Golden Guan Dao", "Guan Dao", "iregex:.*guan.*dao.*"],
           "model": {
     "type": "minecraft:select",
