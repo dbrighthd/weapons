@@ -1,5 +1,7 @@
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*scythe
+(?!(green|purple|rainbow).)*flaming(?!(.ruby.|.amethyst.|.emerald.|.obsidian.|.rainbow.|.glass.)).*sword.*
+(?!(green|purple).)*rainbow.*flaming(?!(.ruby.|.amethyst.|.emerald.|.obsidian.|.rainbow.|.glass.)).*sword.*
 (ruby|amethyst|emerald|obsidian|rainbow|glass).*truthseeker
+(ruby|amethyst|emerald|obsidian|rainbow|glass).*scythe
 (ruby|amethyst|emerald|obsidian|rainbow|glass).*scimitar
 (ruby|amethyst|emerald|obsidian|rainbow|glass).*butter.*knife
 (ruby|amethyst|emerald|obsidian|rainbow|glass).*dancer.*sword
@@ -10,6 +12,7 @@
 (ruby|amethyst|emerald|obsidian|rainbow|glass).*cutlass
 (ruby|amethyst|emerald|obsidian|rainbow|glass).*katana
 (ruby|amethyst|emerald|obsidian|rainbow|glass).(?!(flaming)).*sword
+
 (?!(green|purple|rainbow).)*flaming(?!(.ruby.|.amethyst.|.emerald.|.obsidian.|.rainbow.|.glass.)).*sword.*
 (?!(green|purple|rainbow).)*flaming.(ruby|amethyst|emerald|obsidian|rainbow|glass).sword.*
 
