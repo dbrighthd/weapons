@@ -12,10 +12,13 @@
 (ruby|amethyst|emerald|obsidian|rainbow|glass).(?!(flaming)).*sword
 (?!(green|purple|rainbow).)*flaming(?!(.ruby.|.amethyst.|.emerald.|.obsidian.|.rainbow.|.glass.)).*sword.*
 (?!(green|purple|rainbow).)*flaming.(ruby|amethyst|emerald|obsidian|rainbow|glass).sword.*
+
+(?!(green|purple).)*rainbow.*flaming(?!(.ruby.|.amethyst.|.emerald.|.obsidian.|.rainbow.|.glass.)).*sword.*
+(?!(green|purple).)*rainbow.*flaming.(ruby|amethyst|emerald|obsidian|rainbow|glass).sword.*
+
 (.*Soulfire.*)
 (.*Green Flaming.*)
 (.*Purple Flaming.*)
-(.*Rainbow Flaming.*)
 .*green.*lightsaber.*
 .*blue.*lightsaber.*
 .*yellow.*lightsaber.*
