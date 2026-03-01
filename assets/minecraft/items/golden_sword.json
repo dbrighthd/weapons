@@ -242,6 +242,48 @@
           }
         },
         {
+          "when": ["Rainbow Flaming Glass Sword", "iregex:.*rainbow.*flaming.*glass.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/rainbow_flaming_glass_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/glass_set/gold/glass_sword"
+            }
+          }
+        },
+        {
+          "when": ["Rainbow Flaming Golden Sword", "iregex:.*rainbow.*flaming.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/rainbow_flaming_golden_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/golden_sword"
+            }
+          }
+        },
+        {
           "when": ["Flaming Glass Sword", "iregex:.*flaming.*glass.*"],
           "model": {
             "type": "minecraft:condition",

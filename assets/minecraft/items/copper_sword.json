@@ -99,6 +99,27 @@
           }
         },
         {
+          "when": ["Rainbow Flaming Copper Sword", "iregex:.*rainbow.*flaming.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/rainbow_flaming_copper_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/copper_sword"
+            }
+          }
+        },
+        {
           "when": ["Flaming Copper Sword", "iregex:.*flaming.*"],
           "model": {
             "type": "minecraft:condition",

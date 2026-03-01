@@ -396,34 +396,6 @@
           }
         },
         {
-          "when":["Obsidian Sword", "iregex:.*obsidian.*"],
-          "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_sword"
-          }
-        },
-        {
-          "when":["Ruby Sword", "iregex:.*ruby.*"],
-          "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/ruby_set/items/diamond/ruby_sword"
-          }
-        },
-        {
-          "when":["Emerald Sword", "iregex:.*emerald.*"],
-          "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/emerald_set/items/diamond/emerald_sword"
-          }
-        },
-        {
-          "when":["Amethyst Sword", "iregex:.*amethyst.*"],
-          "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_sword"
-          }
-        },
-        {
           "when": ["Purple Flaming Obsidian Sword", "iregex:.*purple.*flaming.*obsidian.*"],
           "model": {
             "type": "minecraft:condition",
@@ -441,6 +413,111 @@
             "on_false": {
               "type": "minecraft:model",
               "model": "minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_sword"
+            }
+          }
+        },
+        {
+          "when": ["Rainbow Flaming Obsidian Sword", "iregex:.*rainbow.*flaming.*obsidian.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/rainbow_flaming_obsidian_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_sword"
+            }
+          }
+        },
+        {
+          "when": ["Rainbow Flaming Ruby Sword", "iregex:.*rainbow.*flaming.*ruby.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/rainbow_flaming_ruby_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/ruby_set/items/diamond/ruby_sword"
+            }
+          }
+        },
+        {
+          "when": ["Rainbow Flaming Emerald Sword", "iregex:.*rainbow.*flaming.*emerald.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/rainbow_flaming_emerald_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/emerald_set/items/diamond/emerald_sword"
+            }
+          }
+        },
+        {
+          "when": ["Rainbow Flaming Amethyst Sword", "iregex:.*rainbow.*flaming.*amethyst.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/rainbow_flaming_amethyst_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_sword"
+            }
+          }
+        },
+        {
+          "when": ["Rainbow Flaming Diamond Sword", "iregex:.*rainbow.*flaming.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/rainbow_flaming_diamond_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/diamond_sword"
             }
           }
         },
@@ -687,6 +764,34 @@
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/katanas/katanad"
+          }
+        },
+        {
+          "when":["Obsidian Sword", "iregex:.*obsidian.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_sword"
+          }
+        },
+        {
+          "when":["Ruby Sword", "iregex:.*ruby.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/ruby_set/items/diamond/ruby_sword"
+          }
+        },
+        {
+          "when":["Emerald Sword", "iregex:.*emerald.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/emerald_set/items/diamond/emerald_sword"
+          }
+        },
+        {
+          "when":["Amethyst Sword", "iregex:.*amethyst.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_sword"
           }
         }
       ],

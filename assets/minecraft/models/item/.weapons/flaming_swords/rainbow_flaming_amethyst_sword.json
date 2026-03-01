@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/.weapons/flaming_swords/emissive_layered_tool",
+  "textures": {
+    "base": "minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_sword",
+    "particle": "minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_sword",
+    "glow":"minecraft:item/.weapons/flaming_swords/rainbow_flames"
+  }
+}
