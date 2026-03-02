@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+          "when": ["Stamped Envelope", "Stamped Letter", "iregex:.*stamped.*"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/books/letter/stamped_envelope"
+          }
+      },
+      {
+          "when": ["Envelope", "Letter", "iregex:.*(letter,envelope).*"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/books/letter/closed_envelope"
+          }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/written_book"
+    }
+  }
+}
