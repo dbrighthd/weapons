@@ -40,10 +40,17 @@
           }
         },
         {
+          "when":["Sapphire Shovel", "iregex:.*sapphire.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/sapphire_set/diamond/sapphire_shovel"
+          }
+        },
+        {
           "when":["Obsidian Shovel", "iregex:.*obsidian.*"],
           "model": {
             "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_shovel"
+            "model":"minecraft:item/.weapons/obsidian_set/diamond/obsidian_shovel"
           }
         },
         {

@@ -281,6 +281,31 @@
           }
         },
         {
+          "when": ["Sapphire Spear", "Sapphire", "iregex:.*sapphire.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/sapphire_set/netherite/sapphire_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/sapphire_set/netherite/sapphire_spear_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Glass Spear", "Glass", "iregex:.*glass.*"],
           "model": {
     "type": "minecraft:select",
@@ -339,7 +364,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/obsidian_set/items/netherite/obsidian_spear"
+          "model": "minecraft:item/.weapons/obsidian_set/netherite/obsidian_spear"
         },
         "when": [
           "gui",
@@ -351,7 +376,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/obsidian_set/items/netherite/obsidian_spear_in_hand"
+      "model": "minecraft:item/.weapons/obsidian_set/netherite/obsidian_spear_in_hand"
     }
           }
         },

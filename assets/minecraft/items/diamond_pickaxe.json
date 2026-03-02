@@ -5,10 +5,17 @@
     "component": "minecraft:custom_name",
     "cases": [
         {
+          "when":["Sapphire Pickaxe", "iregex:.*sapphire.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/sapphire_set/diamond/sapphire_pickaxe"
+          }
+        },
+        {
           "when":["Obsidian Pickaxe", "iregex:.*obsidian.*"],
           "model": {
             "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_pickaxe"
+            "model":"minecraft:item/.weapons/obsidian_set/diamond/obsidian_pickaxe"
           }
         },
       {

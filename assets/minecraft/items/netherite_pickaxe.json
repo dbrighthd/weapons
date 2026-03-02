@@ -5,6 +5,13 @@
     "component": "minecraft:custom_name",
     "cases": [
         {
+          "when":["Sapphire Pickaxe", "iregex:.*sapphire.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/sapphire_set/netherite/sapphire_pickaxe"
+          }
+        },
+        {
           "when":["Glass Pickaxe", "iregex:.*glass.*"],
           "model": {
             "type":"minecraft:model",
@@ -22,7 +29,7 @@
           "when":["Obsidian Pickaxe", "iregex:.*obsidian.*"],
           "model": {
             "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/obsidian_set/items/netherite/obsidian_pickaxe"
+            "model":"minecraft:item/.weapons/obsidian_set/netherite/obsidian_pickaxe"
           }
         },
       {

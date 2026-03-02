@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Sapphire Hoe", "iregex:.*sapphire.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/sapphire_set/netherite/sapphire_hoe"
+          }
+        },
+        {
           "when":["Glass Hoe", "iregex:.*glass.*"],
           "model": {
             "type":"minecraft:model",
@@ -22,7 +29,7 @@
           "when":["Obsidian Hoe", "iregex:.*obsidian.*"],
           "model": {
             "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/obsidian_set/items/netherite/obsidian_hoe"
+            "model":"minecraft:item/.weapons/obsidian_set/netherite/obsidian_hoe"
           }
         },
         {

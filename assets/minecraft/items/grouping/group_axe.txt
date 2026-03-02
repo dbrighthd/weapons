@@ -1,9 +1,9 @@
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*halberd
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*double axe
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*dungeons axe
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*axe
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*guan.*dao
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*large.*fork
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*lance
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*trident
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*spear
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*halberd
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*double axe
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*dungeons axe
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*axe
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*guan.*dao
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*large.*fork
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*lance
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*trident
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*spear

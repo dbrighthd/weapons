@@ -1272,10 +1272,34 @@
             },
             "on_false": {
               "type": "minecraft:model",
-              "model": "minecraft:item/.weapons/obsidian_set/items/netherite/obsidian_sword"
+              "model": "minecraft:item/.weapons/obsidian_set/netherite/obsidian_sword"
             }
           }
         },
+      {
+        "when": [
+          "Soulfire Sapphire Sword",
+          "iregex:.*soulfire.*sapphire.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:enchantments",
+          "value": [
+            {
+              "enchantments": "minecraft:fire_aspect"
+            }
+          ],
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/flaming_swords/soulfire_sapphire_sword"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/sapphire_set/netherite/sapphire_sword"
+          }
+        }
+      },
       {
         "when": [
           "Soulfire Glass Sword",
@@ -1445,6 +1469,27 @@
         }
       },
         {
+          "when": ["Rainbow Flaming sapphire Sword", "iregex:.*rainbow.*flaming.*sapphire.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/rainbow_flaming_netherite_sapphire_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/sapphire_set/netherite/sapphire_sword"
+            }
+          }
+        },
+        {
           "when": ["Rainbow Flaming Glass Sword", "iregex:.*rainbow.*flaming.*glass.*"],
           "model": {
             "type": "minecraft:condition",
@@ -1503,7 +1548,7 @@
             },
             "on_false": {
               "type": "minecraft:model",
-              "model": "minecraft:item/.weapons/obsidian_set/items/netherite/obsidian_sword"
+              "model": "minecraft:item/.weapons/obsidian_set/netherite/obsidian_sword"
             }
           }
         },
@@ -1595,6 +1640,27 @@
         }
       },
         {
+          "when": ["Flaming Sapphire Sword", "iregex:.*flaming.*sapphire.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/flaming_netherite_sapphire_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/sapphire_set/netherite/sapphire_sword"
+            }
+          }
+        },
+        {
           "when": ["Flaming Glass Sword", "iregex:.*flaming.*glass.*"],
           "model": {
             "type": "minecraft:condition",
@@ -1653,7 +1719,7 @@
             },
             "on_false": {
               "type": "minecraft:model",
-              "model": "minecraft:item/.weapons/obsidian_set/items/netherite/obsidian_sword"
+              "model": "minecraft:item/.weapons/obsidian_set/netherite/obsidian_sword"
             }
           }
         },
@@ -1745,6 +1811,13 @@
         }
       },
         {
+          "when":["Sapphire Sword", "iregex:.*sapphire.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/sapphire_set/netherite/sapphire_sword"
+          }
+        },
+        {
           "when":["Glass Sword", "iregex:.*glass.*"],
           "model": {
             "type":"minecraft:model",
@@ -1762,7 +1835,7 @@
           "when":["Obsidian Sword", "iregex:.*obsidian.*"],
           "model": {
             "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/obsidian_set/items/netherite/obsidian_sword"
+            "model":"minecraft:item/.weapons/obsidian_set/netherite/obsidian_sword"
           }
         },
       {

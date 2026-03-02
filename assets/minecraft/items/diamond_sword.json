@@ -412,7 +412,28 @@
             },
             "on_false": {
               "type": "minecraft:model",
-              "model": "minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_sword"
+              "model": "minecraft:item/.weapons/obsidian_set/diamond/obsidian_sword"
+            }
+          }
+        },
+        {
+          "when": ["Rainbow Flaming Sapphire Sword", "iregex:.*rainbow.*flaming.*sapphire.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/rainbow_flaming_sapphire_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/sapphire_set/diamond/sapphire_sword"
             }
           }
         },
@@ -433,7 +454,7 @@
             },
             "on_false": {
               "type": "minecraft:model",
-              "model": "minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_sword"
+              "model": "minecraft:item/.weapons/obsidian_set/diamond/obsidian_sword"
             }
           }
         },
@@ -522,6 +543,27 @@
           }
         },
         {
+          "when": ["Flaming Sapphire Sword", "iregex:.*flaming.*sapphire.*"],
+          "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:enchantments",
+            "value": [
+              {
+                "enchantments": "minecraft:fire_aspect"
+              }
+            ],
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/flaming_swords/flaming_sapphire_sword"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/sapphire_set/diamond/sapphire_sword"
+            }
+          }
+        },
+        {
           "when": ["Flaming Obsidian Sword", "iregex:.*flaming.*obsidian.*"],
           "model": {
             "type": "minecraft:condition",
@@ -538,7 +580,7 @@
             },
             "on_false": {
               "type": "minecraft:model",
-              "model": "minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_sword"
+              "model": "minecraft:item/.weapons/obsidian_set/diamond/obsidian_sword"
             }
           }
         },
@@ -767,10 +809,17 @@
           }
         },
         {
+          "when":["Sapphire Sword", "iregex:.*sapphire.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/sapphire_set/diamond/sapphire_sword"
+          }
+        },
+        {
           "when":["Obsidian Sword", "iregex:.*obsidian.*"],
           "model": {
             "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_sword"
+            "model":"minecraft:item/.weapons/obsidian_set/diamond/obsidian_sword"
           }
         },
         {

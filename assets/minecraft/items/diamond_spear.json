@@ -165,7 +165,7 @@
           }
         },
         {
-          "when": ["Obsidian Spear", "Obsidian", "iregex:.*obsidian.*"],
+          "when": ["Sapphire Spear", "Sapphire", "iregex:.*sapphire.*"],
           "model": {
     "type": "minecraft:select",
     "property": "minecraft:display_context",
@@ -173,7 +173,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_spear"
+          "model": "minecraft:item/.weapons/sapphire_set/diamond/sapphire_spear"
         },
         "when": [
           "gui",
@@ -185,7 +185,32 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/obsidian_set/items/diamond/obsidian_spear_in_hand"
+      "model": "minecraft:item/.weapons/sapphire_set/diamond/sapphire_spear_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Obsidian Spear", "Obsidian", "iregex:.*obsidian.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/obsidian_set/diamond/obsidian_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/obsidian_set/diamond/obsidian_spear_in_hand"
     }
           }
         },

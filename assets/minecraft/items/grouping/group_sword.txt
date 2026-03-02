@@ -1,21 +1,21 @@
-(?!(green|purple|rainbow).)*flaming(?!(.ruby.|.amethyst.|.emerald.|.obsidian.|.rainbow.|.glass.)).*sword.*
-(?!(green|purple).)*rainbow.*flaming(?!(.ruby.|.amethyst.|.emerald.|.obsidian.|.rainbow.|.glass.)).*sword.*
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*truthseeker
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*scythe
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*scimitar
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*butter.*knife
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*dancer.*sword
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*soul.*knife
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*bfs
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*broadsword
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*claymore
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*cutlass
-(ruby|amethyst|emerald|obsidian|rainbow|glass).*katana
-(ruby|amethyst|emerald|obsidian|rainbow|glass).(?!(flaming)).*sword
+(?!(green|purple|rainbow).)*flaming(?!(.ruby.|.amethyst.|.emerald.|.obsidian.|.rainbow.|.glass.|.sapphire.)).*sword.*
+(?!(green|purple).)*rainbow.*flaming(?!(.ruby.|.amethyst.|.emerald.|.obsidian.|.rainbow.|.glass.|.sapphire.)).*sword.*
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*truthseeker
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*scythe
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*scimitar
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*butter.*knife
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*dancer.*sword
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*soul.*knife
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*bfs
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*broadsword
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*claymore
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*cutlass
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).*katana
+(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).(?!(flaming)).*sword
 
-(?!(green|purple|rainbow).)*flaming.(ruby|amethyst|emerald|obsidian|rainbow|glass).sword.*
+(?!(green|purple|rainbow).)*flaming.(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).sword.*
 
-(?!(green|purple).)*rainbow.*flaming.(ruby|amethyst|emerald|obsidian|rainbow|glass).sword.*
+(?!(green|purple).)*rainbow.*flaming.(ruby|amethyst|emerald|obsidian|rainbow|glass|sapphire).sword.*
 
 (.*Soulfire.*)
 (.*Green Flaming.*)
