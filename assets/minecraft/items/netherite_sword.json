@@ -5,6 +5,13 @@
     "component": "minecraft:custom_name",
     "cases": [
         {
+          "when":["Weapons+", "iregex:.*weapons.*((\\+)|(plus)).*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/weaponsplus/weaponsplus"
+          }
+        },
+        {
           "when":["Glass Truthseeker", "iregex:.*glass.*truthseeker.*"],
           "model": {
             "type":"minecraft:model",
