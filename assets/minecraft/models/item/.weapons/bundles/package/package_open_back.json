@@ -1,0 +1,63 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"texture_size": [64, 64],
+	"textures": {
+		"1": "item/.weapons/bundles/packages/package",
+		"particle": "item/.weapons/bundles/packages/package"
+	},
+	"elements": [
+		{
+			"from": [0, 16, 0],
+			"to": [16, 16, 8],
+			"rotation": {"x": -145, "y": 0, "z": 0, "origin": [8, 16, 0]},
+			"faces": {
+				"north": {"uv": [4, 4, 8, 4], "texture": "#1"},
+				"east": {"uv": [2, 4, 4, 4], "texture": "#1"},
+				"south": {"uv": [12, 4, 16, 4], "texture": "#1"},
+				"west": {"uv": [8, 4, 10, 4], "texture": "#1"},
+				"up": {"uv": [8, 4, 4, 2], "texture": "#1"},
+				"down": {"uv": [12, 2, 8, 4], "texture": "#1"}
+			}
+		},
+		{
+			"from": [0, 0, 16],
+			"to": [16, 16, 0],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, 16]},
+			"faces": {
+				"north": {"uv": [4, 12, 8, 16], "texture": "#1"},
+				"east": {"uv": [0, 12, 4, 16], "texture": "#1"},
+				"south": {"uv": [12, 12, 16, 16], "texture": "#1"},
+				"west": {"uv": [8, 12, 12, 16], "texture": "#1"},
+				"up": {"uv": [8, 12, 4, 8], "texture": "#1"},
+				"down": {"uv": [12, 8, 8, 12], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [24.13, 49.46, 15.86],
+			"translation": [-0.75, 2, 1],
+			"scale": [0.32, 0.32, 0.32]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 22, 0],
+			"translation": [-1.75, 3, 2.75],
+			"scale": [0.32, 0.32, 0.32]
+		},
+		"ground": {
+			"scale": [0.32, 0.32, 0.32]
+		},
+		"gui": {
+			"rotation": [16, -36, 0],
+			"translation": [0, -6, -80],
+			"scale": [0.72, 0.72, 0.72]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -14],
+			"scale": [2, 2, 2]
+		}
+	}
+}
