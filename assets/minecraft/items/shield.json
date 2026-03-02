@@ -26,6 +26,24 @@
       },
       {
         "when": [
+          "Pointed Sapphire Shield",
+          "iregex:(.*sapphire.*pointed.*|.*pointed.*sapphire.*)"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/sapphireblock"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/pointed/sapphire"
+          }
+        }
+      },
+      {
+        "when": [
           "Pointed Glass Shield",
           "iregex:(.*glass.*pointed.*|.*pointed.*glass.*)"
         ],
@@ -238,6 +256,24 @@
           "on_false": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/shield/pointed/wood"
+          }
+        }
+      },
+      {
+        "when": [
+          "Sapphire Shield",
+          "iregex:.*sapphire.*"
+        ],
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:using_item",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/sapphire_blocking"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/material/sapphire"
           }
         }
       },
