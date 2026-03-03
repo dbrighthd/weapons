@@ -1,0 +1,11 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/.weapons/cutlasses/cutlass",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/.weapons/cutlasses/netherite/sapphire_cutlass",
+		"particle": "item/.weapons/cutlasses/netherite/sapphire_cutlass"
+	}
+}

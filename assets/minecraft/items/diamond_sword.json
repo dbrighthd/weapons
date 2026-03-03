@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Sapphire Truthseeker", "iregex:.*sapphire.*truthseeker.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/truthseekers/sapphire_truthseeker"
+          }
+        },
+        {
           "when":["Obsidian Truthseeker", "iregex:.*obsidian.*truthseeker.*"],
           "model": {
             "type":"minecraft:model",
@@ -40,7 +47,7 @@
           }
         },
         {
-          "when": ["Amethyst Scythe", "iregex:.*amethyst.*scythe.*"],
+          "when": ["Sapphire Scythe", "iregex:.*sapphire.*scythe.*"],
           "model": {
     "type": "minecraft:select",
     "property": "minecraft:display_context",
@@ -48,7 +55,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/scythes/amethyst_scythe"
+          "model": "minecraft:item/.weapons/scythes/sapphire_scythe"
         },
         "when": [
           "gui",
@@ -60,32 +67,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/scythes/sword/amethyst_scythe_in_hand"
-    }
-          }
-        },
-        {
-          "when": ["Emerald Scythe", "iregex:.*emerald.*scythe.*"],
-          "model": {
-    "type": "minecraft:select",
-    "property": "minecraft:display_context",
-    "cases": [
-      {
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/scythes/emerald_scythe"
-        },
-        "when": [
-          "gui",
-          "ground",
-          "fixed",
-          "on_shelf"
-        ]
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/scythes/sword/emerald_scythe_in_hand"
+      "model": "minecraft:item/.weapons/scythes/sword/sapphire_scythe_in_hand"
     }
           }
         },
@@ -140,6 +122,56 @@
           }
         },
         {
+          "when": ["Emerald Scythe", "iregex:.*emerald.*scythe.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/emerald_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/sword/emerald_scythe_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Amethyst Scythe", "iregex:.*amethyst.*scythe.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/amethyst_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/sword/amethyst_scythe_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Diamond Scythe", "iregex:.*scythe.*"],
           "model": {
     "type": "minecraft:select",
@@ -162,6 +194,13 @@
       "type": "minecraft:model",
       "model": "minecraft:item/.weapons/scythes/sword/diamond_scythe_in_hand"
     }
+          }
+        },
+        {
+          "when":["Sapphire Scimitar", "iregex:.*sapphire.*scimitar.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/scimitars/sapphire_scimitar"
           }
         },
         {
@@ -200,6 +239,13 @@
           }
         },
       {
+        "when":["Sapphire Comically Large Butter Knife", "iregex:.*Sapphire.*Large.*Butter.*Knife.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/comically_large_utensils/sapphire_comically_large_butter_knife"
+        }
+      },
+      {
         "when":["Obsidian Comically Large Butter Knife", "iregex:.*Obsidian.*Large.*Butter.*Knife.*"],
         "model": {
           "type":"minecraft:model",
@@ -232,6 +278,16 @@
         "model": {
           "type":"minecraft:model",
           "model":"minecraft:item/.weapons/comically_large_utensils/diamond_comically_large_butter_knife"
+        }
+      },
+      {
+        "when": [
+          "Sapphire Dancer's Sword",
+          "iregex:.*Sapphire.*Dancer.*s.*Sword.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/dancers_swords/sapphire_dancers_sword"
         }
       },
       {
@@ -286,6 +342,16 @@
       },
       {
         "when": [
+          "Sapphire Soul Knife",
+          "iregex:.*sapphire.*Soul.*Knife.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/soul_knives/sapphire_soul_knife"
+        }
+      },
+      {
+        "when": [
           "Obsidian Soul Knife",
           "iregex:.*Obsidian.*Soul.*Knife.*"
         ],
@@ -335,7 +401,14 @@
         }
       },
       {
-        "when":["Obsidian BFS", "iregex:.*Obsidian.*BFS.*"],
+        "when":["Sapphire BFS", "iregex:.*sapphire.*BFS.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/buster_swords/sapphire_buster_sword"
+        }
+      },
+      {
+        "when":["Obsidian BFS", "iregex:.*obsidian.*BFS.*"],
         "model": {
           "type":"minecraft:model",
           "model":"minecraft:item/.weapons/buster_swords/busterswordo"
@@ -669,6 +742,13 @@
           }
         },
         {
+          "when":["Sapphire Broadsword", "iregex:.*sapphire.*broadsword.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/broadswords/sapphire_broadsword"
+          }
+        },
+        {
           "when":["Obsidian Broadsword", "iregex:.*obsidian.*broadsword.*"],
           "model": {
             "type":"minecraft:model",
@@ -701,6 +781,13 @@
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/broadswords/broadswordd"
+          }
+        },
+        {
+          "when":["Sapphire Claymore", "iregex:.*sapphire.*claymore.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/claymores/sapphire_claymore"
           }
         },
         {
@@ -739,6 +826,13 @@
           }
         },
         {
+          "when":["Sapphire Cutlass", "iregex:.*sapphire.*cutlass.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/cutlasses/sapphire_cutlass"
+          }
+        },
+        {
           "when":["Obsidian Cutlass", "iregex:.*obsidian.*cutlass.*"],
           "model": {
             "type":"minecraft:model",
@@ -771,6 +865,13 @@
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/cutlasses/cutlassd"
+          }
+        },
+        {
+          "when":["Sapphire Katana", "iregex:.*sapphire.*katana.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/katanas/sapphire_katana"
           }
         },
         {

@@ -1,0 +1,11 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/.weapons/katanas/katana",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/.weapons/katanas/netherite/sapphire_katana",
+		"particle": "item/.weapons/katanas/netherite/sapphire_katana"
+	}
+}

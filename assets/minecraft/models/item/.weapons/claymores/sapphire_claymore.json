@@ -1,0 +1,11 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/.weapons/claymores/claymore",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/.weapons/claymores/sapphire_claymore",
+		"particle": "item/.weapons/claymores/sapphire_claymore"
+	}
+}

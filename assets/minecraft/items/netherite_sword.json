@@ -12,6 +12,13 @@
           }
         },
         {
+          "when":["Sapphire Truthseeker", "iregex:.*sapphire.*truthseeker.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/truthseekers/netherite/sapphire_truthseeker"
+          }
+        },
+        {
           "when":["Glass Truthseeker", "iregex:.*glass.*truthseeker.*"],
           "model": {
             "type":"minecraft:model",
@@ -112,6 +119,31 @@
             "model": "minecraft:item/netherite_hoe"
           }
         }
+        },
+        {
+          "when": ["Sapphire Scythe", "iregex:.*sapphire.*scythe.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/scythes/netherite/sapphire_scythe"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/scythes/sword/netherite/sapphire_scythe_in_hand"
+    }
+          }
         },
         {
           "when": ["Glass Scythe", "iregex:.*glass.*scythe.*"],
@@ -289,6 +321,13 @@
           }
         },
         {
+          "when":["Sapphire Scimitar", "iregex:.*sapphire.*scimitar.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/scimitars/netherite/sapphire_scimitar"
+          }
+        },
+        {
           "when":["Glass Scimitar", "iregex:.*glass.*scimitar.*"],
           "model": {
             "type":"minecraft:model",
@@ -337,6 +376,13 @@
             "model":"minecraft:item/.weapons/scimitars/netherite_scimitar"
           }
         },
+      {
+        "when":["Sapphire Comically Large Butter Knife", "iregex:.*Sapphire.*Large.*Butter.*Knife.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/comically_large_utensils/netherite/sapphire_comically_large_butter_knife"
+        }
+      },
         {
           "when":["Glass Comically Large Butter Knife", "iregex:.*Glass.*Large.*Butter.*Knife.*"],
           "model": {
@@ -590,6 +636,16 @@
       },
       {
         "when": [
+          "Sapphire Dancer's Sword",
+          "iregex:.*Sapphire.*Dancer.*s.*Sword.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/dancers_swords/netherite/sapphire_dancers_sword"
+        }
+      },
+      {
+        "when": [
           "Glass Dancer's Sword",
           "iregex:.*glass.*Dancer.*s.*Sword.*"
         ],
@@ -656,6 +712,16 @@
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/dancers_swords/netherite_dancers_sword"
+        }
+      },
+      {
+        "when": [
+          "Sapphire Soul Knife",
+          "iregex:.*Sapphire.*Soul.*Knife.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/soul_knives/netherite/sapphire_soul_knife"
         }
       },
       {
@@ -851,6 +917,13 @@
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/buster_swords/bustersword"
+        }
+      },
+      {
+        "when":["Sapphire BFS", "iregex:.*Sapphire.*BFS.*"],
+        "model": {
+          "type":"minecraft:model",
+          "model":"minecraft:item/.weapons/buster_swords/netherite/sapphire_buster_sword"
         }
       },
       {
@@ -1953,6 +2026,13 @@
           }
         }
       },
+      {
+          "when":["Sapphire Broadsword", "iregex:.*Sapphire.*broadsword.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/broadswords/netherite/sapphire_broadsword"
+          }
+        },
         {
           "when":["Glass Broadsword", "iregex:.*glass.*broadsword.*"],
           "model": {
@@ -2005,6 +2085,13 @@
           "model": "minecraft:item/.weapons/broadswords/broadswordn"
         }
       },
+      {
+          "when":["Sapphire Claymore", "iregex:.*Sapphire.*claymore.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/claymores/netherite/sapphire_claymore"
+          }
+        },
         {
           "when":["Glass Claymore", "iregex:.*glass.*claymore.*"],
           "model": {
@@ -2057,6 +2144,13 @@
           "model": "minecraft:item/.weapons/claymores/claymoren"
         }
       },
+      {
+          "when":["Sapphire Cutlass", "iregex:.*Sapphire.*cutlass.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/cutlasses/netherite/sapphire_cutlass"
+          }
+        },
         {
           "when":["Glass Cutlass", "iregex:.*glass.*cutlass.*"],
           "model": {
@@ -2109,6 +2203,13 @@
           "model": "minecraft:item/.weapons/cutlasses/cutlassn"
         }
       },
+      {
+          "when":["Sapphire Katana", "iregex:.*Sapphire.*katana.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/katanas/netherite/sapphire_katana"
+          }
+        },
         {
           "when":["Glass Katana", "iregex:.*glass.*katana.*"],
           "model": {
