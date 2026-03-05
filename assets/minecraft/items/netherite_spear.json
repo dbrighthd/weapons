@@ -5,6 +5,31 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": ["Sapphire Guan Dao", "iregex:.*sapphire.*guan.*dao.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/guan_daos/netherite/sapphire_guan_dao"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/guan_daos/netherite/sapphire_guan_dao_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Glass Guan Dao", "iregex:.*glass.*guan.*dao.*"],
           "model": {
     "type": "minecraft:select",
@@ -177,6 +202,13 @@
       "type": "minecraft:model",
       "model": "minecraft:item/.weapons/guan_daos/netherite_guan_dao_in_hand"
     }
+          }
+        },
+        {
+          "when":["Sapphire Comically Large Fork", "iregex:.*sapphire.*Large.*Butter.*Knife.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/netherite/sapphire_comically_large_fork"
           }
         },
         {
@@ -456,6 +488,31 @@
           }
         },
         {
+          "when": ["Sapphire Lance", "iregex:.*sapphire.*lance.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lances/netherite/sapphire_lance"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/lances/netherite/sapphire_lance_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Glass Lance", "iregex:.*glass.*lance.*"],
           "model": {
     "type": "minecraft:select",
@@ -627,6 +684,31 @@
     "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:item/.weapons/lances/netherite_lance_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Sapphire Trident", "iregex:.*sapphire.*trident.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/tridents/netherite/sapphire_trident"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/tridents/netherite/sapphire_trident_in_hand"
     }
           }
         },

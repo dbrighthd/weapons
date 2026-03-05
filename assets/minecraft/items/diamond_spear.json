@@ -5,7 +5,7 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
-          "when": ["Amethyst Guan Dao", "iregex:.*amethyst.*guan.*dao.*"],
+          "when": ["Sapphire Guan Dao", "iregex:.*sapphire.*guan.*dao.*"],
           "model": {
     "type": "minecraft:select",
     "property": "minecraft:display_context",
@@ -13,7 +13,7 @@
       {
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/guan_daos/amethyst_guan_dao"
+          "model": "minecraft:item/.weapons/guan_daos/sapphire_guan_dao"
         },
         "when": [
           "gui",
@@ -25,32 +25,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/guan_daos/amethyst_guan_dao_in_hand"
-    }
-          }
-        },
-        {
-          "when": ["Emerald Guan Dao", "iregex:.*emerald.*guan.*dao.*"],
-          "model": {
-    "type": "minecraft:select",
-    "property": "minecraft:display_context",
-    "cases": [
-      {
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/guan_daos/emerald_guan_dao"
-        },
-        "when": [
-          "gui",
-          "ground",
-          "fixed",
-          "on_shelf"
-        ]
-      }
-    ],
-    "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/guan_daos/emerald_guan_dao_in_hand"
+      "model": "minecraft:item/.weapons/guan_daos/sapphire_guan_dao_in_hand"
     }
           }
         },
@@ -105,6 +80,56 @@
           }
         },
         {
+          "when": ["Emerald Guan Dao", "iregex:.*emerald.*guan.*dao.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/guan_daos/emerald_guan_dao"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/guan_daos/emerald_guan_dao_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Amethyst Guan Dao", "iregex:.*amethyst.*guan.*dao.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/guan_daos/amethyst_guan_dao"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/guan_daos/amethyst_guan_dao_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Diamond Guan Dao", "Guan Dao", "iregex:.*guan.*dao.*"],
           "model": {
     "type": "minecraft:select",
@@ -127,6 +152,13 @@
       "type": "minecraft:model",
       "model": "minecraft:item/.weapons/guan_daos/diamond_guan_dao_in_hand"
     }
+          }
+        },
+        {
+          "when":["Sapphire Comically Large Fork", "iregex:.*Sapphire.*Large.*Butter.*Knife.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/sapphire_comically_large_fork"
           }
         },
         {
@@ -290,6 +322,31 @@
           }
         },
         {
+          "when": ["Sapphire Lance", "iregex:.*sapphire.*lance.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/lances/sapphire_lance"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/lances/sapphire_lance_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Obsidian Lance", "iregex:.*obsidian.*lance.*"],
           "model": {
     "type": "minecraft:select",
@@ -411,6 +468,31 @@
     "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:item/.weapons/lances/diamond_lance_in_hand"
+    }
+          }
+        },
+        {
+          "when": ["Sapphire Trident", "iregex:.*sapphire.*trident.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/tridents/sapphire_trident"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/tridents/sapphire_trident_in_hand"
     }
           }
         },
