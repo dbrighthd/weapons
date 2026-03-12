@@ -5,6 +5,31 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": ["Sapphire Halberd", "iregex:.*sapphire.*halberd.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/halberds/sapphire_halberd"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/halberds/sapphire_halberd_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Obsidian Halberd", "iregex:.*obsidian.*halberd.*"],
           "model": {
     "type": "minecraft:select",
@@ -201,6 +226,13 @@
           }
         },
         {
+          "when":["Sapphire Double Axe", "iregex:.*sapphire.*double.*axe.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/double_axes/sapphire_double_axe"
+          }
+        },
+        {
           "when":["Obsidian Double Axe", "iregex:.*obsidian.*double.*axe.*"],
           "model": {
             "type":"minecraft:model",
@@ -234,6 +266,13 @@
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/double_axes/double_axed"
+          }
+        },
+        {
+          "when":["Sapphire Dungeons Axe", "iregex:.*sapphire.*dungeons.*axe.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_axes/sapphire_dungeons_axe"
           }
         },
         {

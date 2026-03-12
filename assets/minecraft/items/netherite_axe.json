@@ -36,6 +36,31 @@
           }
         },
         {
+          "when": ["Sapphire Halberd", "iregex:.*sapphire.*halberd.*"],
+          "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/halberds/netherite/sapphire_halberd"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/halberds/netherite/sapphire_halberd_in_hand"
+    }
+          }
+        },
+        {
           "when": ["Glass Halberd", "iregex:.*glass.*halberd.*"],
           "model": {
     "type": "minecraft:select",
@@ -379,6 +404,13 @@
           }
         },
         {
+          "when":["Sapphire Double Axe", "iregex:.*sapphire.*double.*axe.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/double_axes/netherite/sapphire_double_axe"
+          }
+        },
+        {
           "when":["Glass Double Axe", "iregex:.*glass.*double.*axe.*"],
           "model": {
             "type":"minecraft:model",
@@ -425,6 +457,13 @@
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/double_axes/double_axen"
+          }
+        },
+        {
+          "when":["Sapphire Dungeons Axe", "iregex:.*sapphire.*dungeons.*axe.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_axes/netherite/sapphire_dungeons_axe"
           }
         },
         {

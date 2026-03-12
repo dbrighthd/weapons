@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when":["Sapphire Comically Large Spoon", "iregex:.*sapphire.*Large.*Spoon.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/comically_large_utensils/netherite/sapphire_comically_large_spoon"
+          }
+        },
+        {
           "when":["Glass Comically Large Spoon", "iregex:.*glass.*Large.*Spoon.*"],
           "model": {
             "type":"minecraft:model",
