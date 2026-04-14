@@ -2,8 +2,14 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/.weapons/shield/true/true",
-		"particle": "item/.weapons/shield/true/true"
+		"0": {
+			"sprite" : "minecraft:item/.weapons/shield/true/true",
+			"force_translucent" : true
+		},
+		"particle": {
+			"sprite" : "minecraft:item/.weapons/shield/true/true",
+			"force_translucent" : true
+		}
 	},
 	"elements": [
 		{
