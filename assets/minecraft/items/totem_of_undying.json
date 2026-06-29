@@ -5,6 +5,13 @@
       "component": "minecraft:custom_name",
       "cases": [
         {
+          "when": ["bit"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/totems/entra/bit"
+          }
+        },
+        {
           "when": "MonochroMenace Plush (Ah! So Retro!)",
           "model": {
             "type": "minecraft:model",
