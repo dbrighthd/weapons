@@ -1245,6 +1245,30 @@
             "model": {
               "type": "minecraft:shield"
             },
+            "transformation": {
+              "left_rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "right_rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "scale": [
+                1.0,
+                -1.0,
+                -1.0
+              ],
+              "translation": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
             "base": "minecraft:item/shield"
           }
         }
@@ -1263,6 +1287,30 @@
             "model": {
               "type": "minecraft:shield"
             },
+            "transformation": {
+              "left_rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "right_rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "scale": [
+                1.0,
+                -1.0,
+                -1.0
+              ],
+              "translation": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
             "base": "minecraft:item/shield"
           }
         }
@@ -1280,6 +1328,30 @@
             "type": "minecraft:special",
             "model": {
               "type": "minecraft:shield"
+            },
+            "transformation": {
+              "left_rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "right_rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ],
+              "scale": [
+                1.0,
+                -1.0,
+                -1.0
+              ],
+              "translation": [
+                0.0,
+                0.0,
+                0.0
+              ]
             },
             "base": "minecraft:item/shield"
           }

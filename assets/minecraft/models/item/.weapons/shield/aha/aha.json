@@ -1,9 +1,16 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "minecraft:item/.weapons/shield/aha/aha",
-		"particle": "minecraft:item/.weapons/shield/aha/aha"
+		"0": {
+			"sprite" : "minecraft:item/.weapons/shield/aha/aha",
+			"force_translucent" : true
+		},
+		"particle": {
+			"sprite" : "minecraft:item/.weapons/shield/aha/aha",
+			"force_translucent" : true
+		}
 	},
+
 	"elements": [
 		{
 			"from": [1, 9, 0],
