@@ -5,6 +5,20 @@
     "component": "minecraft:custom_name",
     "cases": [
         {
+          "when":["The Lament", "iregex:.*the.*lament.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/destiny/the_lament"
+          }
+        },
+        {
+          "when":["Ergo Sum", "iregex:.*ergo.*sum.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/destiny/ergo_sum"
+          }
+        },
+        {
           "when":["Weapons+", "iregex:.*weapons.*((\\+)|(plus)).*"],
           "model": {
             "type":"minecraft:model",
