@@ -24,8 +24,16 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/guan_daos/netherite/sapphire_guan_dao_in_hand"
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/sapphire_guan_dao_in_hand_stabbing"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/sapphire_guan_dao_in_hand"
+      }
     }
           }
         },
@@ -49,8 +57,16 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/guan_daos/netherite/glass_guan_dao_in_hand"
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/glass_guan_dao_in_hand_stabbing"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/glass_guan_dao_in_hand"
+      }
     }
           }
         },
@@ -74,8 +90,16 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/guan_daos/rainbow_guan_dao_in_hand"
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/rainbow_guan_dao_in_hand_stabbing"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/rainbow_guan_dao_in_hand"
+      }
     }
           }
         },
@@ -99,8 +123,16 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/guan_daos/netherite/obsidian_guan_dao_in_hand"
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/obsidian_guan_dao_in_hand_stabbing"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/obsidian_guan_dao_in_hand"
+      }
     }
           }
         },
@@ -124,8 +156,16 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/guan_daos/netherite/ruby_guan_dao_in_hand"
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/ruby_guan_dao_in_hand_stabbing"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/ruby_guan_dao_in_hand"
+      }
     }
           }
         },
@@ -149,8 +189,16 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/guan_daos/netherite/emerald_guan_dao_in_hand"
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/emerald_guan_dao_in_hand_stabbing"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/emerald_guan_dao_in_hand"
+      }
     }
           }
         },
@@ -174,8 +222,16 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/guan_daos/netherite/amethyst_guan_dao_in_hand"
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/amethyst_guan_dao_in_hand_stabbing"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/amethyst_guan_dao_in_hand"
+      }
     }
           }
         },
@@ -199,8 +255,16 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/guan_daos/netherite_guan_dao_in_hand"
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/netherite_guan_dao_in_hand_stabbing"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/netherite_guan_dao_in_hand"
+      }
     }
           }
         },

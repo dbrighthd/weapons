@@ -24,8 +24,16 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/guan_daos/stone_guan_dao_in_hand"
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/stone_guan_dao_in_hand_stabbing"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/stone_guan_dao_in_hand"
+      }
     }
           }
         },

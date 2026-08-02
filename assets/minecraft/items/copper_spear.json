@@ -6,7 +6,7 @@
       "cases": [
         {
           "when": ["Copper Guan Dao", "Guan Dao", "iregex:.*guan.*dao.*"],
-          "model": {
+  "model": {
     "type": "minecraft:select",
     "property": "minecraft:display_context",
     "cases": [
@@ -24,10 +24,18 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/guan_daos/copper_guan_dao_in_hand"
+      "type": "minecraft:condition",
+      "property": "minecraft:using_item",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/copper_guan_dao_in_hand_stabbing"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/guan_daos/copper_guan_dao_in_hand"
+      }
     }
-          }
+  }
         },
         {
           "when":["Copper Comically Large Fork", "Comically Large Fork", "iregex:.*Large.*Butter.*Knife.*"],
