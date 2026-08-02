@@ -40,54 +40,88 @@
                 "left"
               ],
               "model": {
-                "type": "minecraft:condition",
-                "property": "minecraft:keybind_down",
-                "keybind": "key.use",
-                "on_true": {
-                  "type": "minecraft:composite",
-                  "models": [
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
-                      "tints": []
-                    },
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_big_bat_head"
-                    },
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_big_bat_handle"
-                    }
-                  ]
-                },
-                "on_false": {
-                  "type": "minecraft:condition",
-                  "property": "minecraft:keybind_down",
-                  "keybind": "key.attack",
-                  "on_true": {
-                  "type": "minecraft:composite",
-                  "models": [
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
-                      "tints": []
-                    },
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_big_bat_head"
-                    },
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_big_bat_handle"
-                    }
-                  ]
-                  },
-                  "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:selected",
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:keybind_down",
+            "keybind": "key.attack",
+            "on_true": {
+              "type": "minecraft:select",
+              "property": "minecraft:display_context",
+              "cases": [
+                {
+                  "when": "gui",
+                  "model": {
                     "type": "minecraft:model",
                     "model": "minecraft:item/.weapons/shield/gl/gl_ring"
                   }
                 }
+              ],
+              "fallback": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
+                      "tints": []
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_big_bat_handle"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_big_bat_head"
+                    }
+                  ]
+              }
+            },
+            "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:keybind_down",
+            "keybind": "key.use",
+            "on_true": {
+              "type": "minecraft:select",
+              "property": "minecraft:display_context",
+              "cases": [
+                {
+                  "when": "gui",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/.weapons/shield/gl/gl_ring"
+                  }
+                }
+              ],
+              "fallback": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
+                      "tints": []
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_big_bat_handle"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_big_bat_head"
+                    }
+                  ]
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/shield/gl/gl_ring"
+            }
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/gl/gl_ring"
+          }
               }
             }
           ],
@@ -130,54 +164,88 @@
                 "left"
               ],
               "model": {
-                "type": "minecraft:condition",
-                "property": "minecraft:keybind_down",
-                "keybind": "key.use",
-                "on_true": {
-                  "type": "minecraft:composite",
-                  "models": [
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
-                      "tints": []
-                    },
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_big_hammer_head"
-                    },
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_big_hammer_handle"
-                    }
-                  ]
-                },
-                "on_false": {
-                  "type": "minecraft:condition",
-                  "property": "minecraft:keybind_down",
-                  "keybind": "key.attack",
-                  "on_true": {
-                  "type": "minecraft:composite",
-                  "models": [
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
-                      "tints": []
-                    },
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_big_hammer_head"
-                    },
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_big_hammer_handle"
-                    }
-                  ]
-                  },
-                  "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:selected",
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:keybind_down",
+            "keybind": "key.attack",
+            "on_true": {
+              "type": "minecraft:select",
+              "property": "minecraft:display_context",
+              "cases": [
+                {
+                  "when": "gui",
+                  "model": {
                     "type": "minecraft:model",
                     "model": "minecraft:item/.weapons/shield/gl/gl_ring"
                   }
                 }
+              ],
+              "fallback": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
+                      "tints": []
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_big_hammer_handle"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_big_hammer_head"
+                    }
+                  ]
+              }
+            },
+            "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:keybind_down",
+            "keybind": "key.use",
+            "on_true": {
+              "type": "minecraft:select",
+              "property": "minecraft:display_context",
+              "cases": [
+                {
+                  "when": "gui",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/.weapons/shield/gl/gl_ring"
+                  }
+                }
+              ],
+              "fallback": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
+                      "tints": []
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_big_hammer_handle"
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_big_hammer_head"
+                    }
+                  ]
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/shield/gl/gl_ring"
+            }
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/gl/gl_ring"
+          }
               }
             }
           ],

@@ -488,46 +488,80 @@
                 "left"
               ],
               "model": {
-                "type": "minecraft:condition",
-                "property": "minecraft:keybind_down",
-                "keybind": "key.use",
-                "on_true": {
-                  "type": "minecraft:composite",
-                  "models": [
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
-                      "tints": []
-                    },
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_fist_right"
-                    }
-                  ]
-                },
-                "on_false": {
-                  "type": "minecraft:condition",
-                  "property": "minecraft:keybind_down",
-                  "keybind": "key.attack",
-                  "on_true": {
-                  "type": "minecraft:composite",
-                  "models": [
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
-                      "tints": []
-                    },
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_fist_right"
-                    }
-                  ]
-                  },
-                  "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:selected",
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:keybind_down",
+            "keybind": "key.attack",
+            "on_true": {
+              "type": "minecraft:select",
+              "property": "minecraft:display_context",
+              "cases": [
+                {
+                  "when": "gui",
+                  "model": {
                     "type": "minecraft:model",
                     "model": "minecraft:item/.weapons/shield/gl/gl_ring"
                   }
                 }
+              ],
+              "fallback": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
+                      "tints": []
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_fist_right"
+                    }
+                  ]
+              }
+            },
+            "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:keybind_down",
+            "keybind": "key.use",
+            "on_true": {
+              "type": "minecraft:select",
+              "property": "minecraft:display_context",
+              "cases": [
+                {
+                  "when": "gui",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/.weapons/shield/gl/gl_ring"
+                  }
+                }
+              ],
+              "fallback": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
+                      "tints": []
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_fist_right"
+                    }
+                  ]
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/shield/gl/gl_ring"
+            }
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/gl/gl_ring"
+          }
               }
             }
           ],
@@ -552,46 +586,80 @@
                 "left"
               ],
               "model": {
-                "type": "minecraft:condition",
-                "property": "minecraft:keybind_down",
-                "keybind": "key.use",
-                "on_true": {
-                  "type": "minecraft:composite",
-                  "models": [
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
-                      "tints": []
-                    },
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_fist_left"
-                    }
-                  ]
-                },
-                "on_false": {
-                  "type": "minecraft:condition",
-                  "property": "minecraft:keybind_down",
-                  "keybind": "key.attack",
-                  "on_true": {
-                  "type": "minecraft:composite",
-                  "models": [
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
-                      "tints": []
-                    },
-                    {
-                      "type": "minecraft:model",
-                      "model": "minecraft:item/.weapons/shield/gl/gl_fist_left"
-                    }
-                  ]
-                  },
-                  "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:selected",
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:keybind_down",
+            "keybind": "key.attack",
+            "on_true": {
+              "type": "minecraft:select",
+              "property": "minecraft:display_context",
+              "cases": [
+                {
+                  "when": "gui",
+                  "model": {
                     "type": "minecraft:model",
                     "model": "minecraft:item/.weapons/shield/gl/gl_ring"
                   }
                 }
+              ],
+              "fallback": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
+                      "tints": []
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_fist_left"
+                    }
+                  ]
+              }
+            },
+            "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:keybind_down",
+            "keybind": "key.use",
+            "on_true": {
+              "type": "minecraft:select",
+              "property": "minecraft:display_context",
+              "cases": [
+                {
+                  "when": "gui",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/.weapons/shield/gl/gl_ring"
+                  }
+                }
+              ],
+              "fallback": {
+                  "type": "minecraft:composite",
+                  "models": [
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_ring_glow",
+                      "tints": []
+                    },
+                    {
+                      "type": "minecraft:model",
+                      "model": "minecraft:item/.weapons/shield/gl/gl_fist_left"
+                    }
+                  ]
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/shield/gl/gl_ring"
+            }
+            }
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/shield/gl/gl_ring"
+          }
               }
             }
           ],
@@ -875,39 +943,57 @@
           "iregex:.*retractable wolverine.*"
         ],
         "model": {
-          "type": "minecraft:select",
-          "property": "minecraft:main_hand",
-          "cases": [
-            {
-              "when": [
-                "right",
-                "left"
-              ],
-              "model": {
-                "type": "minecraft:condition",
-                "property": "minecraft:keybind_down",
-                "keybind": "key.use",
-                "on_true": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/claws/wolverine"
-                },
-                "on_false": {
-                  "type": "minecraft:condition",
-                  "property": "minecraft:keybind_down",
-                  "keybind": "key.attack",
-                  "on_true": {
-                    "type": "minecraft:model",
-                    "model": "minecraft:item/.weapons/claws/wolverine"
-                  },
-                  "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:selected",
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:keybind_down",
+            "keybind": "key.attack",
+            "on_true": {
+              "type": "minecraft:select",
+              "property": "minecraft:display_context",
+              "cases": [
+                {
+                  "when": "gui",
+                  "model": {
                     "type": "minecraft:model",
                     "model": "minecraft:item/.weapons/claws/wolverine_sheathed"
                   }
                 }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/claws/wolverine"
               }
+            },
+            "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:keybind_down",
+            "keybind": "key.use",
+            "on_true": {
+              "type": "minecraft:select",
+              "property": "minecraft:display_context",
+              "cases": [
+                {
+                  "when": "gui",
+                  "model": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/.weapons/claws/wolverine_sheathed"
+                  }
+                }
+              ],
+              "fallback": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/.weapons/claws/wolverine"
+              }
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/.weapons/claws/wolverine_sheathed"
             }
-          ],
-          "fallback": {
+            }
+          },
+          "on_false": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/claws/wolverine_sheathed"
           }
