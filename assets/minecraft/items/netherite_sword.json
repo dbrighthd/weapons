@@ -1080,6 +1080,16 @@
       },
       {
         "when": [
+          "Poplar Sword",
+          "iregex:.*poplar.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/wooden_tool_variants/poplar/netherite_poplar_sword"
+        }
+      },
+      {
+        "when": [
           "Warped Sword",
           "iregex:.*warped.*"
         ],

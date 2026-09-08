@@ -78,6 +78,13 @@
         }
       },
         {
+          "when":["Poplar Sword", "iregex:.*poplar.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/wooden_tool_variants/poplar/poplar_sword"
+          }
+        },
+        {
           "when":["Warped Sword", "iregex:.*warped.*"],
           "model": {
             "type":"minecraft:model",
