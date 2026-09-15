@@ -257,7 +257,7 @@
           }
         },
         {
-          "when": [ "Potatos","GLADOS","iregex:(.*glados.*|.*potatos.*)"],
+          "when": [ "PotatOS","Potatos", "GLADOS","iregex:(.*glados.*|.*potatos.*)"],
           "model": {
             "type": "minecraft:model",
             "model": "minecraft:item/.weapons/totems/portal/potatos"
