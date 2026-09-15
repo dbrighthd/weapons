@@ -3,8 +3,8 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:item/handheld",
 	"textures": {
-		"1": "item/.weapons/misc/swordfish/swordfish",
-		"particle": "item/.weapons/misc/swordfish/swordfish"
+		"1": "item/.weapons/misc/swordfish/swordfish_netherite",
+		"particle": "item/.weapons/misc/swordfish/swordfish_netherite"
 	},
 	"elements": [
 		{

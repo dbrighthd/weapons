@@ -5,6 +5,13 @@
     "component": "minecraft:custom_name",
     "cases": [
         {
+          "when":["Swordfish", "iregex:.*swordfish.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/misc/swordfish/swordfish_netherite"
+          }
+        },
+        {
           "when":["The Lament", "iregex:.*the.*lament.*", "Breast Pump Sword", "iregex:.*breast.*pump.*sword.*"],
           "model": {
             "type":"minecraft:model",
