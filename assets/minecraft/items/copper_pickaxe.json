@@ -110,8 +110,22 @@
               }
             ],
             "fallback": {
-              "type": "minecraft:model",
-              "model": "minecraft:item/copper_pickaxe"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_copper_pickaxe"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/copper_pickaxe"
+      }
             }
       }
     }

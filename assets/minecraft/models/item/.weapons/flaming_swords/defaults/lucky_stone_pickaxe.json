@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/.weapons/flaming_swords/emissive_layered_tool",
+  "textures": {
+    "base": "minecraft:item/stone_pickaxe",
+    "glow":"minecraft:item/.weapons/flaming_swords/defaults/pickaxe_sparkles"
+  }
+}

@@ -7,14 +7,42 @@
         {
           "when":["Glass Pickaxe", "iregex:.*glass.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/glass_set/gold/glass_pickaxe"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_glass_pickaxe"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/glass_set/gold/glass_pickaxe"
+      }
           }
         }
       ],
       "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_golden_pickaxe"
+      },
+      "on_false": {
         "type": "minecraft:model",
         "model": "minecraft:item/golden_pickaxe"
+      }
       }
     }
   }

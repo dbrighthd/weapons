@@ -5,7 +5,7 @@
     conf: {
         visualEnchants: {
             fireAspect: ["on","off"],
-            looting: ["on","off"]
+            fortuneAndLooting: ["on","off"]
         }
     }
 }
