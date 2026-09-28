@@ -1,0 +1,6 @@
+{
+    condition: "WeaponsPlus.visualEnchants.fortuneAndLooting.on",
+    fallbacks:[
+        "assets/minecraft/textures/item/.weapons/flaming_swords/defaults/off.png"
+    ]
+}

@@ -158,36 +158,176 @@
         {
           "when":["Sapphire Axe", "iregex:.*sapphire.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/sapphire_set/diamond/sapphire_axe"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_sapphire_axe"
+      },
+      "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:looting"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_sapphire_axe"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/sapphire_set/diamond/sapphire_axe"
+      }
+      }
           }
         },
         {
           "when":["Obsidian Axe", "iregex:.*obsidian.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/obsidian_set/diamond/obsidian_axe"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_obsidian_axe"
+      },
+      "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:looting"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_obsidian_axe"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/obsidian_set/diamond/obsidian_axe"
+      }
+      }
           }
         },
         {
           "when":["Ruby Axe", "iregex:.*ruby.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/ruby_set/items/diamond/ruby_axe"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_ruby_axe"
+      },
+      "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:looting"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_ruby_axe"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/ruby_set/items/diamond/ruby_axe"
+      }
+      }
           }
         },
         {
           "when":["Emerald Axe", "iregex:.*emerald.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/emerald_set/items/diamond/emerald_axe"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_emerald_axe"
+      },
+      "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:looting"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_emerald_axe"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/emerald_set/items/diamond/emerald_axe"
+      }
+      }
           }
         },
         {
           "when":["Amethyst Axe", "iregex:.*amethyst.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_axe"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_amethyst_axe"
+      },
+      "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:looting"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_amethyst_axe"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_axe"
+      }
+      }
           }
         },
         {
@@ -313,8 +453,36 @@
         }
       ],
       "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_diamond_axe"
+      },
+      "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:looting"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_diamond_axe"
+      },
+      "on_false": {
         "type": "minecraft:model",
         "model": "minecraft:item/diamond_axe"
+      }
+      }
       }
     }
   }
