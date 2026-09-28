@@ -195,48 +195,6 @@
             "type":"minecraft:model",
             "model":"minecraft:item/copper_sword"
           }
-        },
-        {
-          "when": ["Copper Sword", "iregex:.*copper.*"],
-          "model": {
-            "type": "minecraft:range_dispatch",
-            "property": "minecraft:damage",
-            "scale": 5,
-            "entries": [
-              {
-                "threshold": 1,
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/copper_sword"
-                }
-              },
-              {
-                "threshold": 2,
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_sword"
-                }
-              },
-              {
-                "threshold": 3,
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_sword"
-                }
-              },
-              {
-                "threshold": 4,
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_sword"
-                }
-              }
-            ],
-            "fallback": {
-              "type": "minecraft:model",
-              "model": "minecraft:item/copper_sword"
-            }
-          }
         }
       ],
       "fallback": {
@@ -247,35 +205,245 @@
               {
                 "threshold": 1,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/copper_sword"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_copper_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_copper_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_copper_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/copper_sword"
+        }
+      }
                 }
               },
               {
                 "threshold": 2,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_sword"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_exposed_copper_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_exposed_copper_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_exposed_copper_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_sword"
+        }
+      }
                 }
               },
               {
                 "threshold": 3,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_sword"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_weathered_copper_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_weathered_copper_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_weathered_copper_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_sword"
+        }
+      }
                 }
               },
               {
                 "threshold": 4,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_sword"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_oxidized_copper_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_oxidized_copper_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_oxidized_copper_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_sword"
+        }
+      }
                 }
               }
             ],
             "fallback": {
-              "type": "minecraft:model",
-              "model": "minecraft:item/copper_sword"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_copper_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_copper_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_copper_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/copper_sword"
+        }
+      }
             }
       }
     }

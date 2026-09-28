@@ -2003,59 +2003,344 @@
         {
           "when":["Sapphire Sword", "iregex:.*sapphire.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/sapphire_set/netherite/sapphire_sword"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_netherite_sapphire_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_netherite_sapphire_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_netherite_sapphire_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/sapphire_set/netherite/sapphire_sword"
+        }
+      }
           }
         },
         {
           "when":["Glass Sword", "iregex:.*glass.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/glass_set/netherite/glass_sword"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_netherite_glass_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_netherite_glass_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_netherite_glass_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/glass_set/netherite/glass_sword"
+        }
+      }
           }
         },
         {
           "when":["Rainbow Sword", "iregex:.*rainbow.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/rainbow_set/rainbow_sword"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_rainbow_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_rainbow_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_rainbow_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/rainbow_set/rainbow_sword"
+        }
+      }
           }
         },
         {
           "when":["Obsidian Sword", "iregex:.*obsidian.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/obsidian_set/netherite/obsidian_sword"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_netherite_obsidian_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_netherite_obsidian_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_netherite_obsidian_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/obsidian_set/netherite/obsidian_sword"
+        }
+      }
           }
         },
       {
-        "when": [
-          "Ruby Sword",
-          "iregex:.*ruby.*"
-        ],
+        "when": ["Ruby Sword","iregex:.*ruby.*"],
         "model": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_netherite_ruby_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_netherite_ruby_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_netherite_ruby_sword"
+        },
+        "on_false": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/ruby_set/items/netherite/ruby_sword"
         }
-      },
-      {
-        "when": [
-          "Emerald Sword",
-          "iregex:.*emerald.*"
-        ],
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/.weapons/emerald_set/items/netherite/emerald_sword"
+      }
         }
       },
       {
-        "when": [
-          "Amethyst Sword",
-          "iregex:.*amethyst.*"
-        ],
+        "when": ["Emerald Sword","iregex:.*emerald.*"],
         "model": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_netherite_emerald_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_netherite_emerald_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_netherite_emerald_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/emerald_set/items/netherite/emerald_sword"
+        }
+      }
+        }
+      },
+      {
+        "when": ["Amethyst Sword","iregex:.*amethyst.*"],
+        "model": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_netherite_amethyst_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_netherite_amethyst_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_netherite_amethyst_sword"
+        },
+        "on_false": {
           "type": "minecraft:model",
           "model": "minecraft:item/.weapons/amethyst_set/items/netherite/amethyst_sword"
+        }
+      }
         }
       },
       {
@@ -2602,8 +2887,50 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/netherite_sword"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_netherite_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_netherite_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_netherite_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/netherite_sword"
+        }
+      }
     }
   }
 }

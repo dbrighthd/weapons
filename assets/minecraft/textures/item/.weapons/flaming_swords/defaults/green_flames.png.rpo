@@ -1,0 +1,6 @@
+{
+    condition: "WeaponsPlus.visualEnchants.fireAspect.on",
+    fallbacks:[
+        "assets/minecraft/textures/item/.weapons/flaming_swords/defaults/flames_off.png"
+    ]
+}

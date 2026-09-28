@@ -1,0 +1,6 @@
+{
+    condition: "WeaponsPlus.visualEnchants.looting.on",
+    fallbacks:[
+        "assets/minecraft/textures/item/.weapons/flaming_swords/defaults/sword_sparkles_off.png"
+    ]
+}

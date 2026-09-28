@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/.weapons/flaming_swords/emissive_double_layered_tool",
+  "textures": {
+    "base": "minecraft:item/stone_sword",
+    "glow":"minecraft:item/.weapons/flaming_swords/defaults/flames",
+    "glow1":"minecraft:item/.weapons/flaming_swords/defaults/sword_sparkles"
+  }
+}

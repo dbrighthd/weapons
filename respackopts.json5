@@ -1,0 +1,11 @@
+{
+    id: "WeaponsPlus",
+    version: 13,
+    capabilities: ["FileFilter", "DirFilter", "DirFilterAdditive"],
+    conf: {
+        visualEnchants: {
+            fireAspect: ["on","off"],
+            looting: ["on","off"]
+        }
+    }
+}

@@ -912,42 +912,294 @@
         {
           "when":["Sapphire Sword", "iregex:.*sapphire.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/sapphire_set/diamond/sapphire_sword"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_sapphire_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_sapphire_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_sapphire_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/sapphire_set/diamond/sapphire_sword"
+        }
+      }
           }
         },
         {
           "when":["Obsidian Sword", "iregex:.*obsidian.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/obsidian_set/diamond/obsidian_sword"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_obsidian_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_obsidian_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_obsidian_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/obsidian_set/diamond/obsidian_sword"
+        }
+      }
           }
         },
         {
           "when":["Ruby Sword", "iregex:.*ruby.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/ruby_set/items/diamond/ruby_sword"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_ruby_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_ruby_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_ruby_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/ruby_set/items/diamond/ruby_sword"
+        }
+      }
           }
         },
         {
           "when":["Emerald Sword", "iregex:.*emerald.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/emerald_set/items/diamond/emerald_sword"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_emerald_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_emerald_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_emerald_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/emerald_set/items/diamond/emerald_sword"
+        }
+      }
           }
         },
         {
           "when":["Amethyst Sword", "iregex:.*amethyst.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_sword"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_amethyst_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_amethyst_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_amethyst_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_sword"
+        }
+      }
           }
         }
       ],
       "fallback": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/diamond_sword"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_flaming_diamond_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/flaming_diamond_sword"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_diamond_sword"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/diamond_sword"
+        }
+      }
       }
     }
   }
