@@ -56,48 +56,6 @@
             "type":"minecraft:model",
             "model":"minecraft:item/copper_hoe"
           }
-        },
-        {
-          "when": ["Copper Hoe", "iregex:.*copper.*"],
-          "model": {
-            "type": "minecraft:range_dispatch",
-            "property": "minecraft:damage",
-            "scale": 5,
-            "entries": [
-              {
-                "threshold": 1,
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/copper_hoe"
-                }
-              },
-              {
-                "threshold": 2,
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_hoe"
-                }
-              },
-              {
-                "threshold": 3,
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_hoe"
-                }
-              },
-              {
-                "threshold": 4,
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_hoe"
-                }
-              }
-            ],
-            "fallback": {
-              "type": "minecraft:model",
-              "model": "minecraft:item/copper_hoe"
-            }
-          }
         }
       ],
       "fallback": {
@@ -108,35 +66,105 @@
               {
                 "threshold": 1,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/copper_hoe"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_copper_hoe"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/copper_hoe"
+      }
                 }
               },
               {
                 "threshold": 2,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_hoe"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_exposed_copper_hoe"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_hoe"
+      }
                 }
               },
               {
                 "threshold": 3,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_hoe"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_weathered_copper_hoe"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_hoe"
+      }
                 }
               },
               {
                 "threshold": 4,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_hoe"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_oxidized_copper_hoe"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_hoe"
+      }
                 }
               }
             ],
             "fallback": {
-              "type": "minecraft:model",
-              "model": "minecraft:item/copper_hoe"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_copper_hoe"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/copper_hoe"
+      }
             }
       }
     }

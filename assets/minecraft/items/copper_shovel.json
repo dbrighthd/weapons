@@ -38,48 +38,6 @@
             "type":"minecraft:model",
             "model":"minecraft:item/copper_shovel"
           }
-        },
-        {
-          "when": ["Copper Shovel", "iregex:.*copper.*"],
-          "model": {
-            "type": "minecraft:range_dispatch",
-            "property": "minecraft:damage",
-            "scale": 5,
-            "entries": [
-              {
-                "threshold": 1,
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/copper_shovel"
-                }
-              },
-              {
-                "threshold": 2,
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_shovel"
-                }
-              },
-              {
-                "threshold": 3,
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_shovel"
-                }
-              },
-              {
-                "threshold": 4,
-                "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_shovel"
-                }
-              }
-            ],
-            "fallback": {
-              "type": "minecraft:model",
-              "model": "minecraft:item/copper_shovel"
-            }
-          }
         }
       ],
       "fallback": {
@@ -90,35 +48,105 @@
               {
                 "threshold": 1,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/copper_shovel"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_copper_shovel"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/copper_shovel"
+      }
                 }
               },
               {
                 "threshold": 2,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_shovel"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_exposed_copper_shovel"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/copper_set/c/exposed/exposed_copper_shovel"
+      }
                 }
               },
               {
                 "threshold": 3,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_shovel"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_weathered_copper_shovel"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/copper_set/c/weathered/weathered_copper_shovel"
+      }
                 }
               },
               {
                 "threshold": 4,
                 "model": {
-                  "type": "minecraft:model",
-                  "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_shovel"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_oxidized_copper_shovel"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/copper_set/c/oxidized/oxidized_copper_shovel"
+      }
                 }
               }
             ],
             "fallback": {
-              "type": "minecraft:model",
-              "model": "minecraft:item/copper_shovel"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_copper_shovel"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/copper_shovel"
+      }
             }
       }
     }

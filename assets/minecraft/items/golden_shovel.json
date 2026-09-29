@@ -21,14 +21,42 @@
         {
           "when":["Glass Shovel", "iregex:.*glass.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/glass_set/gold/glass_shovel"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_glass_shovel"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/glass_set/gold/glass_shovel"
+      }
           }
         }
       ],
       "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_golden_shovel"
+      },
+      "on_false": {
         "type": "minecraft:model",
         "model": "minecraft:item/golden_shovel"
+      }
       }
     }
   }

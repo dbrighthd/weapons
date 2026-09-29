@@ -7,8 +7,22 @@
         {
           "when":["Glass Hoe", "iregex:.*glass.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/glass_set/gold/glass_hoe"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_glass_hoe"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/glass_set/gold/glass_hoe"
+      }
           }
         },
         {
@@ -63,8 +77,22 @@
         }
       ],
       "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_golden_hoe"
+      },
+      "on_false": {
         "type": "minecraft:model",
         "model": "minecraft:item/golden_hoe"
+      }
       }
     }
   }

@@ -7,36 +7,106 @@
         {
           "when":["Sapphire Hoe", "iregex:.*sapphire.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/sapphire_set/diamond/sapphire_hoe"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_sapphire_hoe"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/sapphire_set/diamond/sapphire_hoe"
+      }
           }
         },
         {
           "when":["Obsidian Hoe", "iregex:.*obsidian.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/obsidian_set/diamond/obsidian_hoe"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_obsidian_hoe"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/obsidian_set/diamond/obsidian_hoe"
+      }
           }
         },
         {
           "when":["Ruby Hoe", "iregex:.*ruby.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/ruby_set/items/diamond/ruby_hoe"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_ruby_hoe"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/ruby_set/items/diamond/ruby_hoe"
+      }
           }
         },
         {
           "when":["Emerald Hoe", "iregex:.*emerald.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/emerald_set/items/diamond/emerald_hoe"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_emerald_hoe"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/emerald_set/items/diamond/emerald_hoe"
+      }
           }
         },
         {
           "when":["Amethyst Hoe", "iregex:.*amethyst.*"],
           "model": {
-            "type":"minecraft:model",
-            "model":"minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_hoe"
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_amethyst_hoe"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_hoe"
+      }
           }
         },
         {
@@ -191,8 +261,22 @@
         }
       ],
       "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_diamond_hoe"
+      },
+      "on_false": {
         "type": "minecraft:model",
         "model": "minecraft:item/diamond_hoe"
+      }
       }
     }
   }

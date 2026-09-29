@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/.weapons/flaming_swords/emissive_layered_tool",
+  "textures": {
+    "base": "minecraft:item/.weapons/obsidian_set/items/netherite/obsidian_hoe",
+    "glow":"minecraft:item/.weapons/flaming_swords/defaults/hoe_sparkles"
+  }
+}

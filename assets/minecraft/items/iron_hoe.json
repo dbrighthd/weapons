@@ -31,8 +31,22 @@
         }
       ],
       "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fortune"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/.weapons/flaming_swords/defaults/lucky_iron_hoe"
+      },
+      "on_false": {
         "type": "minecraft:model",
         "model": "minecraft:item/iron_hoe"
+      }
       }
     }
   }
