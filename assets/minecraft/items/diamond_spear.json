@@ -247,8 +247,101 @@
         {
           "when": ["Sapphire Spear", "Sapphire", "iregex:.*sapphire.*"],
           "model": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
     "type": "minecraft:select",
-    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_flaming_sapphire_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_flaming_sapphire_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        },
+        "on_false": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/flaming_sapphire_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/flaming_sapphire_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_sapphire_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_sapphire_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        },
+        "on_false": {
+    "type": "minecraft:select",
     "cases": [
       {
         "model": {
@@ -266,14 +359,110 @@
     "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:item/.weapons/sapphire_set/diamond/sapphire_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        }
+      }
     }
-          }
         },
         {
           "when": ["Obsidian Spear", "Obsidian", "iregex:.*obsidian.*"],
           "model": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
     "type": "minecraft:select",
-    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_flaming_obsidian_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_flaming_obsidian_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        },
+        "on_false": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/flaming_obsidian_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/flaming_obsidian_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_obsidian_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_obsidian_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        },
+        "on_false": {
+    "type": "minecraft:select",
     "cases": [
       {
         "model": {
@@ -291,14 +480,110 @@
     "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:item/.weapons/obsidian_set/diamond/obsidian_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        }
+      }
     }
-          }
         },
         {
           "when": ["Ruby Spear", "Ruby", "iregex:.*Ruby.*"],
           "model": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
     "type": "minecraft:select",
-    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_flaming_ruby_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_flaming_ruby_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        },
+        "on_false": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/flaming_ruby_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/flaming_ruby_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_ruby_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/items/defaults/spears/lucky_ruby_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        },
+        "on_false": {
+    "type": "minecraft:select",
     "cases": [
       {
         "model": {
@@ -315,15 +600,111 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/ruby_set/items/diamond/ruby_spear_in_hand"
+      "model": "minecraft:item/.weapons/ruby_set/diamond/ruby_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        }
+      }
     }
-          }
         },
          {
           "when": ["Emerald Spear", "Emerald", "iregex:.*Emerald.*"],
           "model": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
     "type": "minecraft:select",
-    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_flaming_emerald_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_flaming_emerald_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        },
+        "on_false": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/flaming_emerald_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/flaming_emerald_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_emerald_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/items/defaults/spears/lucky_emerald_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        },
+        "on_false": {
+    "type": "minecraft:select",
     "cases": [
       {
         "model": {
@@ -340,15 +721,111 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/emerald_set/items/diamond/emerald_spear_in_hand"
+      "model": "minecraft:item/.weapons/emerald_set/diamond/emerald_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        }
+      }
     }
-          }
         },
         {
           "when": ["Amethyst Spear", "Amethyst", "iregex:.*Amethyst.*"],
           "model": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
     "type": "minecraft:select",
-    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_flaming_amethyst_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_flaming_amethyst_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        },
+        "on_false": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/flaming_amethyst_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/flaming_amethyst_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_amethyst_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/items/defaults/spears/lucky_amethyst_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        },
+        "on_false": {
+    "type": "minecraft:select",
     "cases": [
       {
         "model": {
@@ -365,9 +842,12 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_spear_in_hand"
+      "model": "minecraft:item/.weapons/amethyst_set/diamond/amethyst_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        }
+      }
     }
-          }
         },
         {
           "when": ["Sapphire Lance", "iregex:.*sapphire.*lance.*"],
@@ -671,6 +1151,100 @@
         }
       ],
       "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_flaming_diamond_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_flaming_diamond_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        },
+        "on_false": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/flaming_diamond_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/flaming_diamond_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_diamond_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_diamond_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        },
+        "on_false": {
     "type": "minecraft:select",
     "cases": [
       {
@@ -691,6 +1265,8 @@
       "model": "minecraft:item/diamond_spear_in_hand"
     },
     "property": "minecraft:display_context"
+        }
+      }
       }
     },
   "swap_animation_scale": 1.95

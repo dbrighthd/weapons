@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/.weapons/flaming_swords/emissive_double_layered_spear_in_hand",
+  "textures": {
+    "base": "minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_spear_in_hand",
+    "glow":"minecraft:item/.weapons/flaming_swords/defaults/spear_flames_in_hand",
+    "glow1":"minecraft:item/.weapons/flaming_swords/defaults/spear_sparkles_in_hand"
+  }
+}

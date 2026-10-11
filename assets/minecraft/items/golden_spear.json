@@ -7,8 +7,101 @@
         {
           "when": ["Glass Spear", "iregex:.*glass.*"],
           "model": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
     "type": "minecraft:select",
-    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_flaming_glass_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_flaming_glass_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        },
+        "on_false": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/flaming_glass_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/flaming_glass_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_glass_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_glass_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        },
+        "on_false": {
+    "type": "minecraft:select",
     "cases": [
       {
         "model": {
@@ -26,7 +119,10 @@
     "fallback": {
       "type": "minecraft:model",
       "model": "minecraft:item/.weapons/glass_set/gold/glass_spear_in_hand"
-    }
+    },
+    "property": "minecraft:display_context"
+        }
+      }
           }
         },
         {
@@ -211,6 +307,100 @@
         }
       ],
       "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:enchantments",
+      "value": [
+        {
+          "enchantments": "minecraft:fire_aspect"
+        }
+      ],
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_flaming_golden_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_flaming_golden_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        },
+        "on_false": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/flaming_golden_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/flaming_golden_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:enchantments",
+        "value": [
+          {
+            "enchantments": "minecraft:looting"
+          }
+        ],
+        "on_true": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_golden_spear"
+        },
+        "when": [
+          "gui",
+          "ground",
+          "fixed",
+          "on_shelf"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_golden_spear_in_hand"
+    },
+    "property": "minecraft:display_context"
+        },
+        "on_false": {
     "type": "minecraft:select",
     "cases": [
       {
@@ -231,6 +421,8 @@
       "model": "minecraft:item/golden_spear_in_hand"
     },
     "property": "minecraft:display_context"
+        }
+      }
       }
     },
   "swap_animation_scale": 1.95
