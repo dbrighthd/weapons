@@ -1,0 +1,48 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/.weapons/dungeons_misc/obsidian_claymore"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 38],
+			"translation": [0, 9, 0],
+			"scale": [1.5, 1.5, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, -38],
+			"translation": [0, 9, 0],
+			"scale": [1.5, 1.5, 0.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 55],
+			"translation": [2, 5.5, 2],
+			"scale": [1, 1, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, -55],
+			"translation": [2, 5.5, 2],
+			"scale": [1, 1, 0.5]
+		},
+		"ground": {
+			"translation": [1, 2, 0],
+			"scale": [1, 1, 0.5]
+		},
+		"gui": {
+			"translation": [1, 1, 0],
+			"scale": [1.125, 1.125, 1.125]
+		},
+		"fixed": {
+			"rotation": [0, 0, 90],
+			"translation": [-1, 1, 0],
+			"scale": [1.2, 1.2, 0.6]
+		},
+		"on_shelf": {
+			"translation": [1.5, -80, 0],
+			"scale": [2, 2, 1]
+		}
+	}
+}

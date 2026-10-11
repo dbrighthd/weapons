@@ -5,6 +5,69 @@
     "component": "minecraft:custom_name",
     "cases": [
         {
+          "when":["Frost Slayer", "iregex:.*frost.*slayer.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_misc/frost_slayer"
+          }
+        },
+        {
+          "when":["Sinister Sword", "iregex:.*sinister.*sword.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_misc/sinister_sword"
+          }
+        },
+        {
+          "when":["Master's Katana", "iregex:.*master.*s.*katana.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_misc/masters_katana"
+          }
+        },
+        {
+          "when":["Dark Katana", "iregex:.*dark.*katana.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_misc/dark_katana"
+          }
+        },
+        {
+          "when":["The Starless Night", "iregex:.*starless.*night.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_misc/starless_night"
+          }
+        },
+        {
+          "when":["Dungeons Obsidian Claymore", "iregex:.*dungeons.*obsidian.*claymore.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_misc/obsidian_claymore"
+          }
+        },
+        {
+          "when":["Nameless blade", "iregex:.*nameless.*blade.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_misc/nameless_blade"
+          }
+        },
+        {
+          "when":["Mechanized Sawblade", "iregex:.*mechanized.*sawblade.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_misc/mechanized_sawblade"
+          }
+        },
+        {
+          "when":["Broken Sawblade", "iregex:.*broken.*sawblade.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_misc/broken_sawblade"
+          }
+        },
+        {
           "when":["Swordfish", "iregex:.*swordfish.*"],
           "model": {
             "type":"minecraft:model",

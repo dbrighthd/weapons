@@ -1,0 +1,49 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/.weapons/dungeons_misc/nameless_blade"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 38],
+			"translation": [0, 17, -0.5],
+			"scale": [2, 2, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, -38],
+			"translation": [0, 17, -0.5],
+			"scale": [2, 2, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 45],
+			"translation": [2, 12, 1.5],
+			"scale": [1.4, 1.4, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, -45],
+			"translation": [2, 12, 1.5],
+			"scale": [1.4, 1.4, 0.7]
+		},
+		"ground": {
+			"translation": [9, 8, 0],
+			"scale": [2, 2, 1]
+		},
+		"gui": {
+			"rotation": [0, 180, 90],
+			"translation": [7, 7, 0],
+			"scale": [1.89, 1.89, 1.89]
+		},
+		"fixed": {
+			"rotation": [0, 0, 90],
+			"translation": [-8, 8, 0],
+			"scale": [2, 2, 1]
+		},
+		"on_shelf": {
+			"translation": [7.75, -80, 0],
+			"scale": [2, 2, 1]
+		}
+	}
+}
