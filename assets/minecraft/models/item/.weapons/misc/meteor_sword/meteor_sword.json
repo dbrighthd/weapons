@@ -1,6 +1,48 @@
 {
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "minecraft:item/.weapons/misc/meteor_sword/meteor_sword"
-  }
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/.weapons/misc/meteor_sword/meteor_sword"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 50],
+			"translation": [0, 11.75, 0.25],
+			"scale": [1.6, 1.6, 0.8]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -50],
+			"translation": [0, 11.75, 0.25],
+			"scale": [1.6, 1.6, 0.8]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 55],
+			"translation": [2, 8, 2],
+			"scale": [1, 1, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, -55],
+			"translation": [2, 8, 2],
+			"scale": [1, 1, 0.5]
+		},
+		"ground": {
+			"translation": [2.25, 3, 0],
+			"scale": [1, 1, 0.5]
+		},
+		"gui": {
+			"translation": [3.5, 3.5, 0],
+			"scale": [1.45, 1.45, 1.45]
+		},
+		"fixed": {
+			"rotation": [0, 0, 90],
+			"translation": [-4, 4, 0],
+			"scale": [1.6, 1.6, 0.8]
+		},
+		"on_shelf": {
+			"translation": [1.5, -80, 0],
+			"scale": [2, 2, 1]
+		}
+	}
 }
