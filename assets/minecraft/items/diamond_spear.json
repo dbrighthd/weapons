@@ -578,7 +578,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/flaming_swords/items/defaults/spears/lucky_ruby_spear_in_hand"
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_ruby_spear_in_hand"
     },
     "property": "minecraft:display_context"
         },
@@ -600,7 +600,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/ruby_set/diamond/ruby_spear_in_hand"
+      "model": "minecraft:item/.weapons/ruby_set/items/diamond/ruby_spear_in_hand"
     },
     "property": "minecraft:display_context"
         }
@@ -699,7 +699,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/flaming_swords/items/defaults/spears/lucky_emerald_spear_in_hand"
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_emerald_spear_in_hand"
     },
     "property": "minecraft:display_context"
         },
@@ -721,7 +721,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/emerald_set/diamond/emerald_spear_in_hand"
+      "model": "minecraft:item/.weapons/emerald_set/items/diamond/emerald_spear_in_hand"
     },
     "property": "minecraft:display_context"
         }
@@ -820,7 +820,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/flaming_swords/items/defaults/spears/lucky_amethyst_spear_in_hand"
+      "model": "minecraft:item/.weapons/flaming_swords/defaults/spears/lucky_amethyst_spear_in_hand"
     },
     "property": "minecraft:display_context"
         },
@@ -842,7 +842,7 @@
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/.weapons/amethyst_set/diamond/amethyst_spear_in_hand"
+      "model": "minecraft:item/.weapons/amethyst_set/items/diamond/amethyst_spear_in_hand"
     },
     "property": "minecraft:display_context"
         }
