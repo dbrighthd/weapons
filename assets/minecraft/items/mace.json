@@ -6,6 +6,26 @@
     "cases": [
       {
         "when": [
+          "Sun's Grace",
+          "iregex:.*sun.*s.*grace.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/dungeons_misc/suns_grace"
+        }
+      },
+      {
+        "when": [
+          "Dungeons Mace",
+          "iregex:.*dungeons.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/dungeons_misc/dungeons_mace"
+        }
+      },
+      {
+        "when": [
           "Frying Pan",
           "iregex:.*pan.*"
         ],
