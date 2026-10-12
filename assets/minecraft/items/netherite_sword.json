@@ -5,6 +5,55 @@
     "component": "minecraft:custom_name",
     "cases": [
         {
+          "when":["Lunar Sickle", "iregex:.*lunar.*sickle.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_misc/lunar_sickle"
+          }
+        },
+        {
+          "when":["Rascal's Razor", "iregex:.*rascal.*razor.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_misc/rascals_razor"
+          }
+        },
+        {
+          "when":["Pride of the Plains", "iregex:.*Pride.*Plains.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_misc/pride_of_the_plains"
+          }
+        },
+        {
+          "when":["Frostbiter", "iregex:.*frostbiter.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_misc/frostbiter"
+          }
+        },
+        {
+          "when":["The Darkshard", "iregex:.*darkshard.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_misc/darkshard"
+          }
+        },
+        {
+          "when":["Lullaby Blade", "iregex:.*lullaby.*blade.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_misc/lullaby_blade"
+          }
+        },
+        {
+          "when":["Slaymore", "iregex:.*slaymore.*"],
+          "model": {
+            "type":"minecraft:model",
+            "model":"minecraft:item/.weapons/dungeons_misc/slaymore"
+          }
+        },
+        {
           "when":["Frost Slayer", "iregex:.*frost.*slayer.*"],
           "model": {
             "type":"minecraft:model",
@@ -149,6 +198,13 @@
           "model": {
             "type":"minecraft:model",
             "model":"minecraft:item/.weapons/truthseekers/truthseekern"
+          }
+        },
+        {
+          "when": ["Soul Reaper", "iregex:.*soul.*reaper.*"],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/scythes/sword/_misc_scythes/soul_reaper"
           }
         },
         {

@@ -1,0 +1,48 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/.weapons/dungeons_misc/lunar_sickle"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 16, -1.5],
+			"scale": [2, 2, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 16, -1.5],
+			"scale": [2, 2, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [2, 9, 0.5],
+			"scale": [1, 1, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [2, 9, 0.5],
+			"scale": [1, 1, 0.5]
+		},
+		"ground": {
+			"translation": [4, 5, 0],
+			"scale": [1, 1, 0.5]
+		},
+		"gui": {
+			"translation": [6.25, 6.25, 0],
+			"scale": [1.75, 1.75, 1.45]
+		},
+		"fixed": {
+			"rotation": [1, 180, 0],
+			"translation": [-5, 5, 0],
+			"scale": [1.6, 1.6, 0.8]
+		},
+		"on_shelf": {
+			"translation": [6.25, -77.75, 0],
+			"scale": [2, 2, 1]
+		}
+	}
+}

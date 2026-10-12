@@ -6,6 +6,16 @@
     "cases": [
       {
         "when": [
+          "Carapace Mace",
+          "iregex:.*Carapace.*mace.*"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/.weapons/dungeons_misc/carapace_mace"
+        }
+      },
+      {
+        "when": [
           "Sun's Grace",
           "iregex:.*sun.*s.*grace.*"
         ],

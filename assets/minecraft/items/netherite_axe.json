@@ -6,6 +6,26 @@
       "cases": [
         {
         "when": [
+          "Awesomeaxe",
+          "iregex:.*awesome.*axe.*"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/dungeons_misc/awesomeaxe"
+          }
+        },
+        {
+        "when": [
+          "Hunter's Hatchet",
+          "iregex:.*hunter.*s.*hatchet.*"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/.weapons/dungeons_misc/hunters_hatchet"
+          }
+        },
+        {
+        "when": [
           "Pochita",
           "iregex:.*pochita.*",
           "iregex:.*chainsaw.*heart.*"

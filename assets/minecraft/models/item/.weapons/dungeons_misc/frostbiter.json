@@ -1,0 +1,48 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/.weapons/dungeons_misc/frostbiter"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 39],
+			"translation": [0, 16.25, -0.5],
+			"scale": [2, 2, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, -38],
+			"translation": [0, 16.25, -0.5],
+			"scale": [2, 2, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 55],
+			"translation": [2, 8.5, 2.5],
+			"scale": [1, 1, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, -55],
+			"translation": [2, 8.5, 2.5],
+			"scale": [1, 1, 0.5]
+		},
+		"ground": {
+			"translation": [4.5, 5.5, 0],
+			"scale": [1, 1, 0.5]
+		},
+		"gui": {
+			"translation": [4.75, 4.75, 0],
+			"scale": [1.6, 1.6, 1.2]
+		},
+		"fixed": {
+			"rotation": [1, 0, 90],
+			"translation": [-4.75, 4.75, 0],
+			"scale": [1.6, 1.6, 0.8]
+		},
+		"on_shelf": {
+			"translation": [6.25, -80, 0],
+			"scale": [2, 2, 1]
+		}
+	}
+}
